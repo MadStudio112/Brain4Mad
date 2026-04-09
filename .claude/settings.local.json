@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx clawhub@latest install obsidian --help)",
+      "Bash(npx clawhub@latest --help)",
+      "Bash(npx clawhub@latest install obsidian)",
+      "Bash(where obsidian-cli:*)",
+      "Bash(command -v obsidian-cli)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(npm list:*)",
+      "Bash(pip show:*)",
+      "Bash(npm search:*)",
+      "Bash(npm info:*)",
+      "WebSearch",
+      "Bash(where scoop:*)",
+      "Bash(command -v scoop)",
+      "Bash(powershell -Command \"Get-Command scoop -ErrorAction SilentlyContinue\")",
+      "Bash(powershell -Command \"Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force; Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression\" 2>&1)",
+      "Bash(powershell -Command \"scoop bucket add scoop-yakitrak https://github.com/yakitrak/scoop-yakitrak.git\" 2>&1)",
+      "Bash(export PATH=\"$HOME/scoop/shims:$PATH\")",
+      "Bash(scoop bucket:*)",
+      "Bash(scoop install:*)",
+      "Bash(obsidian-cli --version)",
+      "Bash(obsidian-cli --help)",
+      "Bash(obsidian-cli set-default:*)",
+      "Bash(obsidian-cli list:*)",
+      "Bash(obsidian-cli search-content:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
