@@ -24,6 +24,7 @@ Immolizer ist als klare, nutzerseitige Marke für einen standardisierten Immobil
 ## Spannungen im Material
 
 - `Immolizer` ist die Marke, `FlatRace` teils Projektname, teils Engine
+- zusätzliche Naming-Varianten wie `LandingPay` oder `Flatpress` tauchen auf, wirken aber weniger stabil
 - manche Dokumente wirken auf MVP fokussiert, andere gehen bereits stark in Plattformtiefe
 - Scope reicht von einfacher Bewertung bis zu Portfolio-, Export- und Bewertungsplattform-Logik
 
@@ -68,6 +69,7 @@ Open-Source Personal-Finance-Apps als Dashboard- und Widget-Vorbild: siehe [[ope
 ## Relevante Quellen
 
 - [[immolizer-source-migration]]
+- [[flatrace-brainstorming]]
 - [[immolizer-prd]]
 - [[immobilien-kategorien]]
 - [[immoscout-datenintegration-source]]

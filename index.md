@@ -33,6 +33,9 @@ Zentraler Katalog des Wikis.
 - [[workxs-brainstorming]] — Source Note zum WORKxs-Ideenpapier aus `raw/notes/`
 - [[immolizer-source-migration]] — Migration der früheren Immolizer-Projektdoku ins Brain
 - [[teamchef-source-migration]] — Migration des früheren TeamChef-Brainstormings ins Brain
+- [[teamchef-skiller-dialogs]] — späterer Dialog-Ingest zu SKILLER/TeamChef, inkl. Statistik- und Positionierungspräzisierungen
+- [[anwaltsliebling-legaltech-brainstorm]] — LegalTech-Ideencluster zu KI-Rechtsauskunft und RATG/AHK-Kostenrechner
+- [[flatrace-brainstorming]] — PropTech-Ideencluster zu FlatRace als Engine und Immolizer als Marke
 - [[eu-real-estate-platforms-research]] — Research-Ingest: führende RE-Portale in 27 EU-Ländern
 - [[aphantasie-dossier]] — Dossier zu Aphantasie (Neurowissenschaft, Alltag, Kreativität, Geschichte)
 - [[aprilia-rsv-tuono-1000-elektrik]] — Werkstatt-Referenz Kraftstoff- und Killkreis-Elektrik
@@ -67,6 +70,7 @@ Zentraler Katalog des Wikis.
 - [[immolizer]] — standardisierter, datenbasierter Immobilien-Check
 - [[immoskill]] — fotozentrierte, AI-gestützte Immobilien- und Inventarakte
 - [[teamchef]] — Community-basierte Fußballbewertung mit Gamification-Logik
+- [[anwaltsliebling]] — LegalTech-Plattform für juristische Ersteinschätzung und Fallstrukturierung
 - [[eu-real-estate-platform-landscape]] — Marktüberblick EU-weite Wohnimmobilien-Portale
 - [[aphantasie]] — fehlende mentale Bilder, Neurodiversität und kognitive Varianz
 - [[polymarket-trading-engine]] — Architekturplan für autonome Trading-Engine auf Polymarket

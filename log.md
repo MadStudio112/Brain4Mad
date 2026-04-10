@@ -162,3 +162,23 @@ Index aktualisiert.
   - Dedup-Check vor jedem Verschieben aus `raw/_inbox/`: Grep nach `source:`-URL und Titel-Slug, Behandlung für identisch / aktualisiert / Konflikt
   - `raw/` wird vollständig mit committet (Provenance + Multi-PC-Sync + Re-Processing); Binaries erst bei realem Repo-Bloat ausschließen
 - Grund: `raw/_inbox/`-Leerung darf nicht halb im Working Tree liegen bleiben, und Duplikate müssen beim Ingest erkannt werden statt sich im Vault anzusammeln
+
+## [2026-04-10] ingest | SKILLER/TeamChef-Dialoge aus raw/_inbox eingearbeitet
+
+- Acht Dateien in `raw/_inbox/` im TeamChef/SKILLER-Cluster gesichtet; sechs davon inhaltlich relevant
+- Neue Source Note `[[teamchef-skiller-dialogs]]` angelegt
+- `[[teamchef]]` erweitert um Fan-Spiel-Charakter, Trainer-Use-Case, digitale Spielerkarten, QCard-UX, nächtliche Auswertungslogik und Datenmodell-Richtung
+- `[[teamchef-open-questions]]` um Bewertungsmodell-, Naming-, Speicher- und Scouting-Fragen geschärft
+- `[[teamchef-raw-structure]]` auf spätere Dialog-Ingests erweitert
+- `SKILLER - Datenbanken in SKILLER.md` als schwache Rohquelle markiert
+- `SQL Generator - Box-Muller Normalverteilung SQL.md` nach späterer Befüllung neu bewertet und als technisch relevante Rohquelle eingestuft
+- Physisches Verschieben der Rohdateien aus `raw/_inbox/` nach `raw/notes/teamchef/skiller-dialogs/` steht noch aus
+
+## [2026-04-10] ingest | mixed inbox wave (LegalTech, FlatRace, TeamChef)
+
+- Neue Source Note `[[anwaltsliebling-legaltech-brainstorm]]` angelegt
+- Neues Topic `[[anwaltsliebling]]` angelegt
+- Neue Source Note `[[flatrace-brainstorming]]` angelegt
+- `[[immolizer]]` um Naming-Spannung (`Immolizer` / `FlatRace` / `LandingPay` / `Flatpress`) und neue Quelle ergänzt
+- Index um LegalTech- und FlatRace-Quellen sowie Topic `[[anwaltsliebling]]` erweitert
+- Noch offen: physisches Verschieben der neuen Rohdateien aus `raw/_inbox/` in passende `raw/notes/`-Ziele und anschließender Git-Commit/Push

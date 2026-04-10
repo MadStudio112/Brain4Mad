@@ -12,21 +12,32 @@ confidence: medium
 
 ## Summary
 
-TeamChef ist ein Konzept für eine Community-basierte Fußball-Bewertungsplattform, bei der Nutzer Teams oder Spieler bewerten und dafür belohnt werden, wenn ihre Einschätzungen nahe am kollektiven Durchschnitt liegen.
+TeamChef ist ein Konzept für eine Community-basierte Sportbewertungsplattform mit Fußball als wahrscheinlichem Startmarkt. Nutzer bewerten Teams oder Spieler nach wenigen Kriterien und werden dafür belohnt, wenn ihre Einschätzungen nahe am kollektiven Durchschnitt liegen.
 
 ## Produktkern
 
 - Community bewertet Spieler oder Teams nach wenigen Kriterien
 - System berechnet Durchschnitt und individuelle Abweichung
 - Punkte, Ranglisten und Belohnungen schaffen Wettbewerb
-- mittelfristig sind zusätzliche Rollen wie Trainer, Vereine oder weitere Sportarten denkbar
+- Trainer- und Teamfeedback könnte ein zweiter Nutzungsmodus werden
+- mittelfristig sind zusätzliche Rollen wie Vereine, Sponsoren oder weitere Sportarten denkbar
+
+## Präzisierungen aus späteren Dialogen
+
+Aus [[teamchef-skiller-dialogs]]:
+
+- Fans sollen die Nutzung teils als Spiel erleben, nicht nur als nüchternes Bewertungstool
+- Trainer könnten Rückmeldungen zu Spiel und Training erhalten, also deutlich näher an echter Teamsteuerung sein
+- Die Vision reicht bis zu digitalen Spielerkarten bzw. Leistungsprofilen
+- Crowd-Bewertung wird teils als möglicher Ersatz oder Vorfilter für klassisches Scouting gedacht
 
 ## Spannungen im Material
 
 - Fußballfokus vs. generische Multisport-Plattform
 - Feedback-Tool vs. Spiel/Gamification-Produkt
 - Community-Plattform vs. Scouting- oder Talentlogik
-- TeamChef als Name vs. Alternativen wie `Skillers.app`
+- TeamChef als Name vs. Alternativen wie `Skillers.app` oder `SKILLER`
+- öffentliches Fan-Ranking vs. ernsthaft nutzbare Trainerdaten
 
 ## Wahrscheinlicher MVP-Kern
 
@@ -35,6 +46,33 @@ TeamChef ist ein Konzept für eine Community-basierte Fußball-Bewertungsplattfo
 - Leaderboard und Punktelogik
 - Nutzerprofil und Erfolgsstatistik
 - einfache Web-App statt komplexe Plattform
+- Fan-Use-Case zuerst, Trainer-Use-Case erst nach Validierung
+
+## Bewertungslogik
+
+- Kernmetriken: Gesamtscore und Durchschnitt
+- Ranking über Nähe zur Community-Bewertung
+- später sinnvoll: Streuung/Standardabweichung als Signal für Konsistenz oder Uneinigkeit
+- perspektivisch möglich: Perzentile oder Z-Werte statt nur Rohranking
+- operative Idee: Bewertungen bis Tagesende sammeln, dann nächtliche Auswertung und Ranking-Update
+
+## Informationsarchitektur und UX
+
+- Wahrscheinlich mobiler, schrittweiser Bewertungsflow statt komplexer Seitenstruktur
+- QCard-/Modal-Flow: Spiel wählen → Team wählen → Rating abgeben → Statuskarte → weitere Bewertungen
+- Dashboard dient als Startpunkt und Rücksprungziel
+- Das spricht für sehr kurze Aufgabenpfade und gegen ein überladenes Social-Produkt im MVP
+
+## Datenmodell-Richtung
+
+- Frühe Kernentitäten bleiben plausibel: `Users`, `Teams`, `Players`, `Matches`, `Ratings`, `Ranking`, `Notifications`
+- Gleichzeitig gibt es eine starke Tendenz zu zweistufiger Speicherung:
+  - Detailbewertungen pro Match für Berechnung und Fairnesslogik
+  - aggregierte Verlaufsdaten für Saisonhistorie und schnelle Auswertung
+- Offene Implementationsfrage: feste Bewertungsspalten vs. flexiblere JSON-/Key-Value-Struktur
+- Aktuelles Testbild ist konkret: `tbl_rating` mit 5 Skill-Spalten plus `total` und `avg`
+- Fachlich wichtiger Punkt: Jeder Skill soll separat normalverteilt betrachtet werden, nicht nur die Gesamtsumme
+- Für Simulationen wurde ein Setup mit 5 Spielen, je 100 Usern und Ratingfenster 18:00 bis 23:59 Uhr über 5 Tage beschrieben
 
 ## MVP-Plan (Stand 2026-04)
 
@@ -53,6 +91,7 @@ Aus [[teamchef-mvp-dialog]]:
 ## Relevante Quellen
 
 - [[teamchef-source-migration]]
+- [[teamchef-skiller-dialogs]]
 - [[teamchef-mvp-dialog]]
 - [[eu-football-clubs-research]]
 
