@@ -46,6 +46,23 @@ Brain4Mad ist git-synchronisiert. **Niemals** in `agent-mad/` oder sonstwo in Br
 4. Nach relevanten neuen/geänderten Seiten: `index.md` aktualisieren (globaler Katalog).
 5. `log.md` ist **append-only** — jeder nennenswerte Change bekommt dort einen Eintrag mit Datum, Art (`init` / `ingest` / `restructure` / `openclaw` / …) und Kurzbegründung.
 6. Wikilinks (`[[seitenname]]`) konsistent pflegen, YAML-Frontmatter kurz halten.
+7. **Nach jedem Aufräumen von `raw/_inbox/` zwingend `git commit` + `git push`.** Inbox-Leerung ist ein atomarer Schritt und darf nicht halb im Working Tree liegen bleiben — sonst bricht der Multi-PC-Sync (siehe `C:\Users\Mad\CLAUDE.md`). Commit-Typ: `ingest`.
+8. **Dedup-Check beim Verarbeiten jeder Inbox-Datei** — bevor eine `raw/_inbox/*`-Datei in ihren Ziel-Unterordner verschoben wird, prüfen ob inhaltlich schon vorhanden:
+   - Match nach `source:`-URL im Frontmatter (Grep über `raw/`)
+   - Match nach Titel-Slug / ähnlichem Dateinamen in `raw/articles|notes|transcripts|documents/`
+   - Bei Treffer Inhalt vergleichen:
+     - **Identisch** → neue Datei löschen, `log.md`-Eintrag Typ `dedup` mit Pfad der behaltenen Version
+     - **Aktualisierte Version derselben Quelle** → alte zu `<slug>-v1.md` (oder `-YYYY-MM-DD`) umbenennen, neue als aktuelle Version ablegen, in der zugehörigen `sources/`-Note beide Versionen verlinken
+     - **Echter Konflikt** (gleiche Quelle, widersprüchlicher Inhalt) → beide behalten, Widerspruch in `sources/` explizit notieren
+
+## `raw/` und Git
+
+`raw/` wird **vollständig mit committet** — inklusive aller Unterordner (`articles/`, `documents/`, `transcripts/`, `notes/`, `images/`, `data/`). Begründung:
+
+- **Provenance:** `sources/`-Notes sind nur Verdichtungen. Rückprüfung von Aussagen im Wiki braucht die Originalquelle.
+- **Multi-PC-Sync:** Brain4Mad wird von mehreren Rechnern bearbeitet. Ohne `raw/` im Repo fehlt auf dem anderen PC der Kontext zum Weiterverarbeiten.
+- **Re-Processing:** Aus derselben Rohquelle können später neue Winkel destilliert werden — nur möglich, wenn das Original noch da ist.
+- **Größe:** Text/Markdown ist vernachlässigbar. Binaries (große PDFs, Bilder, Daten-Dumps) erst dann per `.gitignore` oder LFS rausziehen, **wenn** das Repo real aufgeht — nicht prophylaktisch.
 
 ## Frontmatter-Konvention
 

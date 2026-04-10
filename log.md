@@ -3,7 +3,7 @@ title: "Änderungsprotokoll"
 type: topic
 status: active
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-10
 tags: [meta, log]
 confidence: high
 ---
@@ -89,9 +89,76 @@ Append-only-Verlauf relevanter Wiki-Änderungen.
 - Konfidenz: mittel für Westeuropa, niedrig für Osteuropa; Traffic-Zahlen Schätzwerte; Ownership CEE oft unsicher
 - Index und Log aktualisiert
 
+## [2026-04-10] cleanup | Wiki-`inbox/` entfernt
+
+- `inbox/` auf Wiki-Ebene gelöscht — laut CLAUDE.md gibt es nur `raw/_inbox/`
+- `inbox/wc2026_matches_dewiki.json` nach `raw/data/wc2026_matches_dewiki.json` verschoben
+- Duplikat `wc2026_matches_dewiki 1.json` entfernt
+- `inbox/README.md` entfernt
+- Verweise in `index.md`, `overview.md` und `mocs/home.md` auf `raw/_inbox/` umgestellt
+
+## [2026-04-10] ingest | raw/_inbox abgearbeitet (Aphantasie, Aprilia, ImmoSkill, Polymarket)
+
+- `raw/_inbox/Polymarket vs Wettanbieter.md` → `raw/articles/polymarket-vs-wettanbieter.md`
+  - Source Note `[[polymarket-vs-wettanbieter]]` angelegt
+  - Konzept `[[prediction-markets]]` als erste Konzept-Seite des Wikis angelegt
+  - Topic `[[polymarket-trading-engine]]` (status: draft) für die Engine-Architektur angelegt
+
+## [2026-04-10] ingest | raw/_inbox abgearbeitet (Aphantasie, Aprilia, ImmoSkill)
+
+- `raw/_inbox/Aphantasie - Leben ohne Bilder im Kopf.md` → `raw/articles/aphantasie-dossier.md`
+  - Source Note `[[aphantasie-dossier]]`, Topic `[[aphantasie]]` neu angelegt
+- `raw/_inbox/Aprilia RSV 1000.md` → `raw/notes/aprilia-rsv-tuono-1000.md`
+  - Source Note `[[aprilia-rsv-tuono-1000-elektrik]]`, Entity `[[aprilia-rsv-tuono-1000]]` (Kraftstoff/Killkreis-Elektrik) angelegt
+- `raw/_inbox/Brainstorming - ImmoSkill.md` → `raw/notes/immoskill-brainstorming.md`
+  - Source Note `[[immoskill-brainstorming]]`, Topic `[[immoskill]]` (status: draft) angelegt
+  - Cross-Link von `[[immolizer]]` nach `[[immoskill]]` ergänzt — beide adressieren denselben Eigentümer, anderer Job-to-be-done
+- `raw/_inbox/` ist jetzt leer
+- Index aktualisiert
+
 ## [2026-04-09] prioritize | Webdev-Portfolio priorisiert
 
 - `comparisons/webdev-priority-map.md` angelegt
 - `mocs/webdev-overview.md` um Core, Secondary, Internal Infrastructure und Archive/Legacy erweitert
 - `agent-mad/project-radar.md` von Domain-Sicht auf Bucket-Sicht umgestellt
 - Core-Fokus aktuell auf Immolizer, TeamChef und WORKxs gesetzt
+
+## [2026-04-10] ingest | raw/_inbox (11 Dateien) abgearbeitet
+
+Zweite Ingest-Welle. `raw/_inbox/` ist jetzt wieder leer.
+
+Verteilt nach `raw/`:
+- `Fußballvereine in den EU.md` → `raw/articles/eu-football-clubs-research.md`
+- `Immobilien-Kategorien.md` → `raw/notes/immobilien-kategorien.md`
+- `Immolizer - ImmoScout Datenintegration.md` → `raw/articles/immoscout-datenintegration.md`
+- `Immolizer - Immobilienplattformen in EU.md` → `raw/articles/eu-immobilienplattformen-deep.md`
+- `Open-Source Personal-Finance- und Haushaltsbudget.md` → `raw/articles/open-source-finance-apps.md`
+- `PRD – Immolizer.md` → `raw/notes/immolizer-prd.md`
+- `SKILLER - ⚽ MVP Teamchef.md` → `raw/notes/teamchef-mvp-dialog.md`
+- `Technische Umsetzung von JMail.md` → `raw/notes/jmail-umsetzung-dialog.md`
+- `feature_entwicklung_grundgerust.md` → `raw/notes/feature-grundgerust-template.md`
+- `icon-generator-prompt.md` → `raw/notes/icon-generator-prompt.md`
+- `wc2026_matches_dewiki.json` → gelöscht (byte-identisches Duplikat von `raw/data/wc2026_matches_dewiki.json`)
+
+Neue Source Notes:
+- `[[immolizer-prd]]`, `[[immobilien-kategorien]]`, `[[immoscout-datenintegration-source]]`, `[[eu-immobilienplattformen-deep]]`, `[[open-source-finance-apps]]`, `[[eu-football-clubs-research]]`, `[[teamchef-mvp-dialog]]`, `[[jmail-umsetzung-dialog]]`
+
+Wiki-Seiten:
+- `[[immolizer]]` erweitert um PRD-Kern, Datenmodell-Referenz auf Feldkatalog, ImmoScout-Integration, Marktumfeld und UX-Referenzen
+- `[[teamchef]]` erweitert um MVP-Plan (WordPress + CFF), Datenmodell-Entitäten und EU-Vereinsgrößenordnung
+- Neu: Topic `[[open-source-finance-ux]]` als UX-Referenz-Bündel für Immolizer
+- Neu: Entity `[[jmail-world]]` als externe Architektur-Referenz (kein eigenes Projekt)
+
+Patterns (`agent-mad/patterns/`):
+- `feature-grundgeruest.md` — verbindliche 10-Abschnitt-Vorlage für Feature-Entwicklung
+- `icon-generator-prompt.md` — isometrischer 3D-Icon-Style als Prompt-Preset
+
+Index aktualisiert.
+
+## [2026-04-10] meta | Workflow-Regeln: Auto-Commit nach Inbox + Dedup-Check + raw/ in Git
+
+- `CLAUDE.md` und `AGENTS.md` ergänzt:
+  - Pflicht-Commit + Push nach jedem Aufräumen von `raw/_inbox/` (Commit-Typ `ingest`, atomarer Schritt wegen Multi-PC-Sync)
+  - Dedup-Check vor jedem Verschieben aus `raw/_inbox/`: Grep nach `source:`-URL und Titel-Slug, Behandlung für identisch / aktualisiert / Konflikt
+  - `raw/` wird vollständig mit committet (Provenance + Multi-PC-Sync + Re-Processing); Binaries erst bei realem Repo-Bloat ausschließen
+- Grund: `raw/_inbox/`-Leerung darf nicht halb im Working Tree liegen bleiben, und Duplikate müssen beim Ingest erkannt werden statt sich im Vault anzusammeln

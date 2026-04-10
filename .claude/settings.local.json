@@ -26,7 +26,14 @@
       "Bash(obsidian-cli list:*)",
       "Bash(obsidian-cli search-content:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo:*)",
+      "Bash(rm \"raw/_inbox/wc2026_matches_dewiki.json\")",
+      "Bash(mv \"raw/_inbox/Fußballvereine in den EU.md\" \"raw/articles/eu-football-clubs-research.md\")",
+      "Bash(mv \"raw/_inbox/Immobilien-Kategorien.md\" \"raw/notes/immobilien-kategorien.md\")",
+      "Bash(mv \"raw/_inbox/Immolizer - ImmoScout Datenintegration.md\" \"raw/articles/immoscout-datenintegration.md\")",
+      "Bash(mv \"raw/_inbox/Immolizer - Immobilienplattformen in EU.md\" \"raw/articles/eu-immobilienplattformen-deep.md\")"
     ]
   }
 }

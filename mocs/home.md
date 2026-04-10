@@ -18,7 +18,7 @@ Startpunkt für Brain4Mad.
 - [[log]]
 
 ## Arbeitsbereiche
-- `inbox/`
+- `raw/_inbox/`
 - `projects/`
 - `decisions/`
 - `questions/`

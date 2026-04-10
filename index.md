@@ -3,7 +3,7 @@ title: "Index"
 type: topic
 status: active
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-10
 tags: [meta, navigation]
 confidence: high
 ---
@@ -19,8 +19,7 @@ Zentraler Katalog des Wikis.
 
 ## Eingänge und Arbeit
 
-- `raw/` — Rohquellen und Imports
-- `inbox/` — Schnelle Captures und unsortierte Eingänge
+- `raw/` — Rohquellen und Imports (Eingang: `raw/_inbox/`)
 - `projects/` — Aktive Vorhaben
 - `decisions/` — Entscheidungen mit Begründung
 - `mocs/` — Navigationsseiten und Themen-Hubs
@@ -35,6 +34,18 @@ Zentraler Katalog des Wikis.
 - [[immolizer-source-migration]] — Migration der früheren Immolizer-Projektdoku ins Brain
 - [[teamchef-source-migration]] — Migration des früheren TeamChef-Brainstormings ins Brain
 - [[eu-real-estate-platforms-research]] — Research-Ingest: führende RE-Portale in 27 EU-Ländern
+- [[aphantasie-dossier]] — Dossier zu Aphantasie (Neurowissenschaft, Alltag, Kreativität, Geschichte)
+- [[aprilia-rsv-tuono-1000-elektrik]] — Werkstatt-Referenz Kraftstoff- und Killkreis-Elektrik
+- [[immoskill-brainstorming]] — Foto-First Immobilien- und Inventarakte, Brainstorming-Runde 1
+- [[polymarket-vs-wettanbieter]] — Dialog-Clipping zu Prediction Markets, Whale-Wallets und Trading-Engine-Architektur
+- [[immolizer-prd]] — kompakte Immolizer-Produktanforderungen (Onboarding, Dashboard, Widgets, Free/Paid)
+- [[immobilien-kategorien]] — Feldkatalog Wohnung / Haus / Grundstück inkl. Querschnittsfeldern
+- [[immoscout-datenintegration-source]] — ImmoScout24 API-Integration, Canonical Listing Schema, Mapping apartmentRent
+- [[eu-immobilienplattformen-deep]] — vertiefender Research-Dump EU-Portal-Landschaft
+- [[open-source-finance-apps]] — UX-Referenz-Research (Actual, Spliit, Firefly III u. a.) für Immolizer-Dashboard
+- [[eu-football-clubs-research]] — Größenordnungsschätzung Fußballvereine in der EU
+- [[teamchef-mvp-dialog]] — MVP-Plan WordPress + Calculated Fields Form inkl. Datenmodell
+- [[jmail-umsetzung-dialog]] — externe Architektur-Referenz (Next.js/Vercel/Cloudflare, PDF→JSON→Index)
 
 ### Entitäten
 
@@ -43,17 +54,23 @@ Zentraler Katalog des Wikis.
 - [[magnetme]] — Matching-Plattform ohne radikale Anonymität
 - [[switch-job-matching]] — anonymer Matching-Referenzfall
 - [[testgorilla]] — Skill-Assessment-Referenz
+- [[aprilia-rsv-tuono-1000]] — Naked-Bike, technische Referenz Kraftstoff- und Killkreis-Elektrik
+- [[jmail-world]] — externe Plattform, hier als Architektur-Referenz geführt
 
 ### Konzepte
 
-_Nocht keine Konzept-Seiten vorhanden._
+- [[prediction-markets]] — Outcome-Shares, Orderbook-Preisbildung, Abgrenzung zu Buchmachern
 
 ### Themen
 
 - [[workxs]] — anonymes, skill-basiertes Job-Matching-Konzept
 - [[immolizer]] — standardisierter, datenbasierter Immobilien-Check
+- [[immoskill]] — fotozentrierte, AI-gestützte Immobilien- und Inventarakte
 - [[teamchef]] — Community-basierte Fußballbewertung mit Gamification-Logik
 - [[eu-real-estate-platform-landscape]] — Marktüberblick EU-weite Wohnimmobilien-Portale
+- [[aphantasie]] — fehlende mentale Bilder, Neurodiversität und kognitive Varianz
+- [[polymarket-trading-engine]] — Architekturplan für autonome Trading-Engine auf Polymarket
+- [[open-source-finance-ux]] — Open-Source Finance Apps als UX-Referenz für Immolizer
 
 ### Vergleiche
 

@@ -31,8 +31,7 @@ Brain4Mad ist ein persistentes, von LLMs gepflegtes Wissenssystem.
 
 | Verzeichnis | Inhalt |
 |---|---|
-| `raw/` | Rohmaterial als Source of Truth |
-| `inbox/` | Schnelle Captures, rohe Gedanken, unsortierte Eingänge |
+| `raw/` | Rohmaterial als Source of Truth (Eingang: `raw/_inbox/`) |
 | `projects/` | Aktive Vorhaben und laufende Arbeit |
 | `decisions/` | Entscheidungen mit Kontext und Begründung |
 | `mocs/` | Maps of Content, Navigation, Themen-Hubs |

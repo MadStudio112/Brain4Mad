@@ -23,6 +23,9 @@ Brain4Mad ist ein persistent gepflegtes Markdown-Wiki.
 - Aussagekräftige Wikilinks pflegen
 - YAML-Frontmatter kurz und konsistent halten
 - Halbfertige Wiki-Seiten direkt am Zielort mit `status: draft` markieren, kein Staging-Ordner
+- **Nach jedem Aufräumen von `raw/_inbox/` zwingend committen und pushen** — Inbox-Leerung ist ein atomarer Schritt, der nicht halb im Working Tree liegen bleiben darf (Multi-PC-Sync)
+- **Dedup-Check vor jedem Verschieben aus `raw/_inbox/`:** per Grep nach `source:`-URL und Titel-Slug in bestehendem `raw/` prüfen. Bei inhaltlichem Treffer: identische Datei löschen (+ `log.md`-Eintrag `dedup`), aktualisierte Version als `<slug>-v1.md` archivieren, echte Konflikte in `sources/` notieren
+- `raw/` wird **vollständig mit committet** (inkl. Unterordner wie `articles/`, `notes/`, `transcripts/`): dient als Provenance-Layer für `sources/` und als Basis für späteres Re-Processing. Binaries (große PDFs, Bilder, Daten-Dumps) erst dann aus Git ausschließen, wenn das Repo dadurch real aufgeht
 
 ## Bevorzugte Struktur
 - `raw/` mit `raw/_inbox/`, `articles/`, `documents/`, `transcripts/`, `notes/`, `images/`, `data/`
