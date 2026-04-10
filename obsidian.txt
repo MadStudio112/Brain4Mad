@@ -1,0 +1,13 @@
+Brain4Mad = persistentes LLM-Wiki in Obsidian.
+
+Schichten:
+- raw/ = unveränderte Quellen
+- sources/ = Quellnotizen
+- Rest = kompilierte Wissensseiten
+
+Regeln:
+- Quellen zuerst lesen
+- Wiki inkrementell pflegen
+- Widersprüche explizit markieren
+- index.md aktuell halten
+- log.md append-only

@@ -1,46 +1,56 @@
 ---
-title: "Ueberblick"
+title: "Überblick"
 type: topic
-status: draft
+status: active
 created: 2026-04-09
 updated: 2026-04-09
 tags: [meta, overview]
-confidence: medium
+confidence: high
 ---
 
-# Ueberblick
+# Überblick
 
-Dieses Wiki dient als persistente, strukturierte Wissensbasis fuer das Projekt **Brain4Mad**.
+Brain4Mad ist ein persistentes, von LLMs gepflegtes Wissenssystem.
 
 ## Zweck
 
-- Wissen dauerhaft speichern statt es jedes Mal neu herzuleiten
-- Informationen systematisch strukturieren, verlinken und aktuell halten
-- Quellen nachvollziehbar dokumentieren
-- Widersprueche und Unsicherheiten explizit markieren
+- Wissen dauerhaft speichern statt es immer neu herzuleiten
+- Quellen in kompilierte, verlinkte Wissensseiten überführen
+- Widersprüche, Unsicherheiten und offene Fragen sichtbar machen
+- Recherchen, Entscheidungen und laufende Arbeit in einem gemeinsamen Gehirn bündeln
 
-## Struktur
+## Schichten
+
+| Ebene | Rolle |
+|---|---|
+| `raw/` | Unveränderte Rohquellen, Attachments, Imports |
+| `sources/` | Quellnotizen und strukturierte Zusammenfassungen |
+| Wiki-Ordner | Verdichtetes, verlinktes Wissen |
+
+## Kernstruktur
 
 | Verzeichnis | Inhalt |
 |---|---|
-| `sources/` | Dokumentation einzelner Rohquellen |
-| `entities/` | Personen, Organisationen, Produkte, Orte, Werke |
-| `concepts/` | Begriffe, Methoden, Theorien, Konzepte |
+| `raw/` | Rohmaterial als Source of Truth |
+| `inbox/` | Schnelle Captures, rohe Gedanken, unsortierte Eingänge |
+| `projects/` | Aktive Vorhaben und laufende Arbeit |
+| `decisions/` | Entscheidungen mit Kontext und Begründung |
+| `mocs/` | Maps of Content, Navigation, Themen-Hubs |
+| `sources/` | Dokumentation einzelner Quellen |
+| `entities/` | Personen, Firmen, Produkte, Orte, Systeme |
+| `concepts/` | Begriffe, Modelle, Methoden, Ideen |
 | `topics/` | Thematische Zusammenfassungen und Dossiers |
 | `comparisons/` | Strukturierte Vergleiche |
-| `synthesis/` | Uebergreifende Einordnungen und Meta-Analysen |
-| `open_questions/` | Offene Fragen, Luecken, Unsicherheiten |
-| `timelines/` | Zeitliche Ablaeufe und Chronologien |
+| `synthesis/` | Übergreifende Einordnungen und Meta-Analysen |
+| `questions/` | Offene Fragen, Lücken, Unsicherheiten |
+| `timelines/` | Chronologien und Ereignisketten |
 
-## Status
+## Arbeitsweise
 
-Das Wiki befindet sich im Aufbau. Die Grundstruktur steht, Inhalte muessen noch eingepflegt werden.
-
-## Naechste Schritte
-
-- Erste Quellen verarbeiten
-- Kernentitaeten und -konzepte identifizieren
-- Thematische Schwerpunkte festlegen
+- Rohquellen bleiben unverändert in `raw/`
+- Das Wiki wird inkrementell gepflegt und verdichtet
+- Antworten, Analysen und Vergleiche können als neue Seiten zurück ins Wiki fließen
+- `index.md` dient als globaler Katalog, `log.md` als Verlauf
 
 ---
 

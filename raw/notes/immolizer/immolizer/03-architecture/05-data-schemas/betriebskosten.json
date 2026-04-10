@@ -1,0 +1,52 @@
+{
+    "category": "betriebskosten",
+    "priority": 1,
+    "description": "Laufende Betriebskosten der Immobilie",
+    "fields": [
+      {
+        "key": "heizkosten",
+        "label": "Heizkosten",
+        "type": "currency",
+        "unit": "EUR",
+        "frequency": "monthly",
+        "required": true,
+        "validation": {
+          "min": 0,
+          "max": 10000,
+          "pattern": "^\\d+(\\.\\d{2})?$"
+        },
+        "i18n": {
+          "de": "Heizkosten",
+          "en": "Heating Costs"
+        }
+      },
+      {
+        "key": "strom",
+        "label": "Strom",
+        "type": "currency",
+        "unit": "EUR",
+        "frequency": "monthly",
+        "required": true,
+        "validation": {
+          "min": 0,
+          "max": 5000
+        },
+        "i18n": {
+          "de": "Strom",
+          "en": "Electricity"
+        }
+      }
+    ],
+    "relationships": [
+      {
+        "type": "depends_on",
+        "category": "energiebedarf",
+        "description": "Heizkosten hängen vom Energiebedarf ab"
+      }
+    ],
+    "community_analysis": {
+      "enabled": true,
+      "metrics": ["mean", "median", "std_dev", "percentiles"],
+      "grouping": ["region", "property_type", "size_category"]
+    }
+  }
