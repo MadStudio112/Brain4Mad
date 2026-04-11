@@ -201,6 +201,16 @@ Audit über alle Nicht-`raw/`-Seiten gelaufen:
 
 **Index:** `[[immoskill-open-questions]]` ergänzt; Source-Eintrag `[[wc2026-matches-dewiki]]` aus vorherigem Run ebenfalls drin.
 
+## [2026-04-11] restructure | Projekt-First-Migration gestartet — Commit 1: workxs
+
+- `projects/webdev/workxs/` angelegt als erster Pilot der Projekt-First-Struktur
+- `topics/workxs.md` + `mocs/.../workxs/overview.md` → `projects/webdev/workxs/overview.md` (merged, alias `workxs`)
+- `sources/workxs-brainstorming.md` → `projects/webdev/workxs/workxs-brainstorming.md` (basename stable)
+- `questions/workxs-open-questions.md` → `projects/webdev/workxs/questions.md` (alias `workxs-open-questions`)
+- `comparisons/workxs-competitor-landscape.md` → `projects/webdev/workxs/competitors/_overview.md` (alias `workxs-competitor-landscape`)
+- `entities/{gloat,eightfold-ai,testgorilla,magnetme,switch-job-matching}.md` → `projects/webdev/workxs/competitors/` (basename stable)
+- Top-Level-Ordner `projects/`, `reference/` angelegt; `projects/research/`, `projects/personal/` als Platzhalter
+
 ## [2026-04-11] restructure | Wiki-Dateinamen-Audit — eu-re-platforms umbenannt
 
 - `comparisons/eu-re-platforms-{eastern,northern,southern,western}.md` → `eu-real-estate-platforms-{...}.md`

@@ -6,6 +6,7 @@ created: 2026-04-09
 updated: 2026-04-09
 tags: [workxs, comparison, competitors]
 confidence: medium
+aliases: [workxs-competitor-landscape]
 ---
 
 # WORKxs Wettbewerbslandschaft
