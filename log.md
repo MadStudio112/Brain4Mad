@@ -245,3 +245,14 @@ Audit über alle Nicht-`raw/`-Seiten gelaufen:
 - `raw/data/wc2026_matches_dewiki.json` (104 Spiele, neues 48-Team-Format, dewiki-Scrape) hatte bisher nur eine beiläufige Erwähnung in `[[eu-football-clubs-research]]` und keine eigene Source Note
 - Neue Source Note `[[wc2026-matches-dewiki]]` angelegt: Turnierstruktur (12 Gruppen + Sechzehntelfinale), Zeitraum, Feldschema, Einschränkungen (Platzhalter-Matches, leere Scores, kein Master), Verwendung als Mock-Datensatz für `[[teamchef]]`-UI/Bewertungs-Prototypen
 - Index um neuen Source-Eintrag erweitert
+
+## [2026-04-11] restructure | Commit 3/9 — TeamChef + Skiller-Familie migriert
+
+- `projects/webdev/_teamchef-skiller.md` neu (Bewertungsmodell, QCard-Flow, Normalverteilungs-Logik, Naming-Instabilität)
+- `projects/webdev/teamchef/overview.md` neu (merge aus `topics/teamchef.md` + `mocs/projects/webdev/teamchef/overview.md`)
+- `projects/webdev/teamchef-v0/overview.md` per git mv aus `mocs/projects/webdev/teamchef-v0/overview.md`
+- Sources teamchef-mvp-dialog, teamchef-skiller-dialogs, eu-football-clubs-research, wc2026-matches-dewiki nach `projects/webdev/teamchef/` verschoben
+- `sources/teamchef-source-migration.md` → `projects/webdev/teamchef/_source-migration.md` (alias)
+- `questions/teamchef-open-questions.md` → `projects/webdev/teamchef/questions.md` (alias)
+- `mocs/teamchef-raw-structure.md` → `projects/webdev/teamchef/_raw-structure.md` (alias)
+- `topics/teamchef.md`, `mocs/projects/webdev/teamchef/{overview,notes,tasks}.md` entfernt
