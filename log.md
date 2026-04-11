@@ -201,6 +201,14 @@ Audit über alle Nicht-`raw/`-Seiten gelaufen:
 
 **Index:** `[[immoskill-open-questions]]` ergänzt; Source-Eintrag `[[wc2026-matches-dewiki]]` aus vorherigem Run ebenfalls drin.
 
+## [2026-04-11] meta | Dateinamen-Konvention für Wiki-Ebene in CLAUDE.md + AGENTS.md verankert
+
+- Bisher war nur `<slug>-v1.md` für Dedup-Versionen dokumentiert — keine allgemeine Naming-Regel
+- Neue Regel in CLAUDE.md (Abschnitt "Dateinamen-Konvention (Wiki-Ebene)") und AGENTS.md gespiegelt
+- Kernpunkte: kebab-case/lowercase/ASCII, Basename ohne Pfad eindeutig, kein Nummern-Prefix (`01-` ist `raw/notes/`-Stil), Projekt-Prefix bei Kollisionsgefahr, Typ-Suffix nur zur Disambiguierung, Umbenennung nur mit Wikilink-Migration
+- Scope: `sources/`, `topics/`, `entities/`, `concepts/`, `comparisons/`, `synthesis/`, `questions/`, `timelines/`, `decisions/`, `mocs/`, `projects/` — explizit **nicht** `raw/`
+- Anlass: Graph-Ansicht zeigt nur Basename — bei zukünftigen Inbox-Durchgängen muss garantiert sein, dass aus Rohquellen erzeugte Wiki-Seiten ohne Pfad lesbar sind
+
 ## [2026-04-11] ingest | raw/_inbox geleert — Bau, Immo, Teamchef, Kostenkalkulation
 
 - 48 Dateien aus `raw/_inbox/` in Zielordner verschoben:

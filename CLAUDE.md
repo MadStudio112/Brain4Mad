@@ -82,6 +82,18 @@ confidence: high | medium | low
 
 `status: draft` = halbfertig, noch nicht verdichtet. Gehört an den **Zielort**, nicht in einen Staging-Ordner.
 
+## Dateinamen-Konvention (Wiki-Ebene)
+
+Gilt für alle `.md` in `sources/`, `topics/`, `entities/`, `concepts/`, `comparisons/`, `synthesis/`, `questions/`, `timelines/`, `decisions/`, `mocs/` und für Projektseiten unter `projects/<domain>/<projekt>/`. **Nicht** für `raw/` — dort ist die Benennung egal, der Ordnerpfad liefert den Kontext.
+
+- **kebab-case, lowercase, ASCII:** `eu-real-estate-platform-landscape.md`. Umlaute transliterieren (`ä/ö/ü` → `ae/oe/ue`, `ß` → `ss`), keine Leerzeichen, keine Sonderzeichen außer `-`.
+- **Basename muss ohne Pfad eindeutig sein.** Obsidian zeigt im Graph und in Wikilinks nur den Basename — der Dateiname muss allein lesbar machen, worum es geht.
+- **Kein Nummern-Prefix** (`01-`, `02-`). Das ist `raw/notes/`-Stil und gehört nicht ins Wiki.
+- **Projekt-Prefix bei Kollisionsgefahr.** Generische Begriffe (`open-questions`, `overview`, `notes`, `tasks`) werden mit Projektname qualifiziert: `immolizer-open-questions.md`, nicht `open-questions.md`. Ausnahme: innerhalb eines Projektordners (`projects/webdev/immolizer/overview.md`) ist der Ordner bereits der Namespace — dort bleiben `overview.md`/`notes.md`/`tasks.md`/`decisions.md` ohne Prefix.
+- **Typ-Suffix nur zur Disambiguierung, wenn mehrere Seiten denselben Gegenstand aus verschiedenen Winkeln beschreiben.** Beispiel: `teamchef.md` (topic) vs. `teamchef-source-migration.md` (source) vs. `teamchef-open-questions.md` (question). Ohne Kollision kein Suffix.
+- **Versionierung:** archivierte Vorversionen als `<slug>-v1.md`, datumsgebundene Snapshots als `<slug>-YYYY-MM-DD.md`. Siehe auch Dedup-Regel oben.
+- **Nicht umbenennen ohne Wikilink-Migration.** Jede Umbenennung erfordert Grep über alle `[[...]]`-Referenzen und Update in `index.md`. Bei Zweifel: neuen Namen als zusätzliche Datei anlegen und alte per Redirect-Stub (`Siehe [[neuer-name]]`) ersetzen, erst dann migrieren.
+
 ## .pen-Dateien
 
 Falls `.pen`-Dateien auftauchen: **nur** über die `pencil` MCP-Tools lesen/schreiben (`batch_get`, `batch_design`, …) — **nie** mit `Read`/`Grep`, der Inhalt ist verschlüsselt.

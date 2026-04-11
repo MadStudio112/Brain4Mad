@@ -33,6 +33,17 @@ Brain4Mad ist ein persistent gepflegtes Markdown-Wiki.
 - `decisions/`, `mocs/`, `agent-mad/`
 - `sources/`, `entities/`, `concepts/`, `topics/`, `comparisons/`, `synthesis/`, `questions/`, `timelines/`
 
+## Dateinamen-Konvention (Wiki-Ebene)
+Gilt für alle `.md` in `sources/`, `topics/`, `entities/`, `concepts/`, `comparisons/`, `synthesis/`, `questions/`, `timelines/`, `decisions/`, `mocs/` und für Projektseiten unter `projects/<domain>/<projekt>/`. **Nicht** für `raw/` — dort ist die Benennung egal, der Ordnerpfad liefert den Kontext.
+
+- **kebab-case, lowercase, ASCII** (`ä/ö/ü` → `ae/oe/ue`, `ß` → `ss`, keine Leerzeichen/Sonderzeichen außer `-`)
+- **Basename muss ohne Pfad eindeutig sein** — Obsidian-Graph und Wikilinks zeigen nur den Basename
+- **Kein Nummern-Prefix** (`01-`, `02-`) — das ist `raw/notes/`-Stil, nicht Wiki
+- **Projekt-Prefix bei Kollisionsgefahr** für generische Begriffe: `immolizer-open-questions.md` statt `open-questions.md`. Ausnahme: innerhalb eines Projektordners (`projects/webdev/immolizer/`) liefert der Ordner den Namespace, dort bleiben `overview.md`/`notes.md`/`tasks.md`/`decisions.md` ohne Prefix
+- **Typ-Suffix nur bei echter Disambiguierung**: `teamchef.md` (topic) vs. `teamchef-source-migration.md` (source) vs. `teamchef-open-questions.md` (question)
+- **Versionierung**: `<slug>-v1.md` für archivierte Vorversionen, `<slug>-YYYY-MM-DD.md` für datumsgebundene Snapshots
+- **Nicht umbenennen ohne Wikilink-Migration** — jede Umbenennung verlangt Grep über alle `[[...]]`-Referenzen und Update in `index.md`
+
 ## Projekte
 - Projekte standardmäßig als Ordner anlegen, nicht als Einzeldatei
 - Empfohlene Form: `projects/<domain>/<projekt>/`
