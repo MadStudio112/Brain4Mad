@@ -3,9 +3,10 @@ title: "Repo Dashboard"
 type: project
 status: active
 created: 2026-04-09
-updated: 2026-04-09
-tags: [repo-dashboard, project, webdev, internal]
+updated: 2026-04-11
+tags: [repo-dashboard, internal, tooling, webdev]
 confidence: medium
+aliases: [repo-dashboard-project]
 ---
 
 # Repo Dashboard

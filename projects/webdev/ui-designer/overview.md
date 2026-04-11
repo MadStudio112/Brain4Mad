@@ -1,18 +1,19 @@
 ---
-title: "ui_designer"
+title: "MAD UI Designer"
 type: project
 status: active
 created: 2026-04-09
-updated: 2026-04-09
-tags: [ui-designer, project, design]
+updated: 2026-04-11
+tags: [ui-designer, design, internal, webdev]
 confidence: low
+aliases: [ui-designer-project]
 ---
 
-# ui_designer
+# MAD UI Designer
 
 ## Kurzbild
 
-Design- und UI-nahes Projekt, vermutlich Tooling oder Prototyp.
+Design- und UI-nahes Projekt; Tooling oder Prototyp für UI-/Design-to-Code-Flows.
 
 ## Repo
 

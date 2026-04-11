@@ -1,18 +1,19 @@
 ---
 title: "Anwaltsliebling"
-type: topic
+type: project
 status: draft
 created: 2026-04-10
-updated: 2026-04-10
-tags: [legaltech, ai, austria, product]
+updated: 2026-04-11
+tags: [legaltech, ai, austria, product, webdev]
 confidence: medium
+aliases: [anwaltsliebling]
 ---
 
 # Anwaltsliebling
 
 ## Summary
 
-Anwaltsliebling ist als LegalTech-Produkt für juristische Laien gedacht: schneller Zugang zu strukturierter Ersteinschätzung, Fallaufbereitung und Dokumentenverständnis, bevor teure menschliche Beratung ins Spiel kommt.
+LegalTech-Produkt für juristische Laien: schneller Zugang zu strukturierter Ersteinschätzung, Fallaufbereitung und Dokumentenverständnis, bevor teure menschliche Beratung ins Spiel kommt.
 
 ## Wahrscheinlicher MVP
 
@@ -27,7 +28,7 @@ Anwaltsliebling ist als LegalTech-Produkt für juristische Laien gedacht: schnel
 - schneller als klassische Anwaltssuche und Terminlogik
 - günstiger und strukturierter als klassische Erstberatung
 - besser verständliche Aufbereitung für Nichtjuristen
-- vorbereitetes Material für einen späteren Übergang an reale Anwälte
+- vorbereitetes Material für späteren Übergang an reale Anwälte
 
 ## Architektur-Richtung
 
@@ -42,9 +43,7 @@ Anwaltsliebling ist als LegalTech-Produkt für juristische Laien gedacht: schnel
 - KI-Auskunft versus echte Rechtsberatung ist rechtlich heikel
 - Internationalisierung ist logisch, aber für den MVP gefährlich zu breit
 - Qualität hängt stark an sauberen Rollen, Workflows, Quellen und Orchestrierung
-- Vertrauen wird nur mit sehr klarer UX und hoher Antwortqualität entstehen
 
-## Verwandte Richtungen
+## Quellen
 
 - [[anwaltsliebling-legaltech-brainstorm]]
-- RATG/AHK-Kostenrechner als mögliches Satellitenprodukt oder Lead-Magnet

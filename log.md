@@ -246,6 +246,14 @@ Audit über alle Nicht-`raw/`-Seiten gelaufen:
 - Neue Source Note `[[wc2026-matches-dewiki]]` angelegt: Turnierstruktur (12 Gruppen + Sechzehntelfinale), Zeitraum, Feldschema, Einschränkungen (Platzhalter-Matches, leere Scores, kein Master), Verwendung als Mock-Datensatz für `[[teamchef]]`-UI/Bewertungs-Prototypen
 - Index um neuen Source-Eintrag erweitert
 
+## [2026-04-11] restructure | Commit 6/9 — restliche webdev-Projekte migriert
+
+- immoskill, anwaltsliebling, lawrank, mad-agent, repo-dashboard, saas-360, teamradar, ui-designer, ai-hub → je `projects/webdev/<name>/overview.md` (merge aus topics/ + mocs/, aliases gesetzt)
+- `sources/immoskill-brainstorming.md`, `sources/anwaltsliebling-legaltech-brainstorm.md` → in Projektordner verschoben
+- `questions/immoskill-open-questions.md` → `projects/webdev/immoskill/questions.md` (alias)
+- `comparisons/webdev-priority-map.md`, `comparisons/webdev-project-families.md` → `projects/webdev/`
+- 9 topics/, 7 mocs/projects/webdev/-Overviews entfernt
+
 ## [2026-04-11] restructure | Commit 5/9 — jmail migriert
 
 - `projects/webdev/jmail/overview.md` neu (aus `entities/jmail-world.md`, alias `jmail-world`)

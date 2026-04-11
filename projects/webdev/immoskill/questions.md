@@ -6,6 +6,7 @@ created: 2026-04-11
 updated: 2026-04-11
 tags: [immoskill, questions, proptech, ai]
 confidence: low
+aliases: [immoskill-open-questions]
 ---
 
 # ImmoSkill offene Fragen

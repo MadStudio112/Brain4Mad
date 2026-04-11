@@ -3,16 +3,17 @@ title: "Lawrank"
 type: project
 status: active
 created: 2026-04-09
-updated: 2026-04-09
-tags: [lawrank, project, webdev, legal]
+updated: 2026-04-11
+tags: [lawrank, legal, product, webdev]
 confidence: medium
+aliases: [lawrank-project]
 ---
 
 # Lawrank
 
 ## Kurzbild
 
-KI-gestütztes Rechtsportal für Österreich mit Tarifrechner, Legal-Assistent und Anwaltsvermittlung.
+KI-gestütztes Rechtsportal für Österreich mit Tarifrechner, Legal-Assistent und Anwaltsvermittlung. Eigenständiges Legal-Produkt mit MVP-naher Produktbasis.
 
 ## Repo
 

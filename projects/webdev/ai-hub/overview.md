@@ -3,16 +3,17 @@ title: "AI-HUB"
 type: project
 status: active
 created: 2026-04-09
-updated: 2026-04-09
-tags: [ai-hub, project, internal, ai]
+updated: 2026-04-11
+tags: [ai-hub, ai, internal, infrastructure, webdev]
 confidence: low
+aliases: [ai-hub-project]
 ---
 
 # AI-HUB
 
 ## Kurzbild
 
-Interner Hub oder Integrationsknoten für AI-bezogene Arbeit im MadStudio-Kontext.
+Interner Hub oder Integrationsknoten für AI-bezogene Arbeit im MadStudio-Kontext. Zentrale AI-SSoT und Sync-Infrastruktur für MadStudio-Repositories.
 
 ## Repo
 

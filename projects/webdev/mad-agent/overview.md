@@ -3,9 +3,10 @@ title: "mad-agent"
 type: project
 status: active
 created: 2026-04-09
-updated: 2026-04-09
-tags: [mad-agent, project, internal, ai]
+updated: 2026-04-11
+tags: [mad-agent, ai, internal, webdev]
 confidence: low
+aliases: [mad-agent-project]
 ---
 
 # mad-agent

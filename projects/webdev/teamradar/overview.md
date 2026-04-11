@@ -3,9 +3,10 @@ title: "teamradar"
 type: project
 status: active
 created: 2026-04-09
-updated: 2026-04-09
-tags: [teamradar, project, webdev, internal]
+updated: 2026-04-11
+tags: [teamradar, internal, ops, webdev]
 confidence: medium
+aliases: [teamradar-project]
 ---
 
 # teamradar
