@@ -1,11 +1,12 @@
 ---
 title: "jmail.world"
-type: entity
+type: project
 status: draft
 created: 2026-04-10
-updated: 2026-04-10
-tags: [reference, architecture, nextjs, vercel, cloudflare, data-pipeline]
+updated: 2026-04-11
+tags: [reference, architecture, nextjs, vercel, cloudflare, data-pipeline, webdev]
 confidence: medium
+aliases: [jmail-world]
 ---
 
 # jmail.world

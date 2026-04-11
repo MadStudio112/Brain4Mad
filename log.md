@@ -246,6 +246,12 @@ Audit über alle Nicht-`raw/`-Seiten gelaufen:
 - Neue Source Note `[[wc2026-matches-dewiki]]` angelegt: Turnierstruktur (12 Gruppen + Sechzehntelfinale), Zeitraum, Feldschema, Einschränkungen (Platzhalter-Matches, leere Scores, kein Master), Verwendung als Mock-Datensatz für `[[teamchef]]`-UI/Bewertungs-Prototypen
 - Index um neuen Source-Eintrag erweitert
 
+## [2026-04-11] restructure | Commit 5/9 — jmail migriert
+
+- `projects/webdev/jmail/overview.md` neu (aus `entities/jmail-world.md`, alias `jmail-world`)
+- `sources/jmail-umsetzung-dialog.md` → `projects/webdev/jmail/jmail-umsetzung-dialog.md`
+- `entities/jmail-world.md` entfernt
+
 ## [2026-04-11] restructure | Commit 4/9 — warren + prediction-markets migriert
 
 - `projects/webdev/warren/overview.md` neu (merge aus `topics/warren-project.md` + `mocs/projects/webdev/warren/overview.md`)
