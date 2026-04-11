@@ -201,6 +201,20 @@ Audit über alle Nicht-`raw/`-Seiten gelaufen:
 
 **Index:** `[[immoskill-open-questions]]` ergänzt; Source-Eintrag `[[wc2026-matches-dewiki]]` aus vorherigem Run ebenfalls drin.
 
+## [2026-04-11] ingest | raw/_inbox geleert — Bau, Immo, Teamchef, Kostenkalkulation
+
+- 48 Dateien aus `raw/_inbox/` in Zielordner verschoben:
+  - `raw/documents/bau/` (PDFs + DOC: Bauphysik, Normen, Leitfäden, Regenwasser, OIB, Plandarstellung …)
+  - `raw/data/bau/` (XLS/XLSM: Bauphysik-Nachweis, Oberflächen-Berechnung, Versickerung, Berechnung_09)
+  - `raw/images/bau/` (JPG: Plandarstellungs-Scans)
+  - `raw/documents/bau/einreichung-muster/` (DOC/DOCX: Baubewilligung, Baubeschreibung, Bauanzeige, Ausnahmebewilligung)
+  - `raw/images/bau/einreichung-muster/` (JPG/PNG: Ansicht, Schnitt, Grundriss, Aufbauten)
+  - `raw/documents/immo/` (PDF: Immo-Energie, Instandhaltung)
+  - `raw/images/immo/` (PNG: immowelt_contact_sheet)
+  - `raw/data/kostenkalkulation/` (XLSX: Gesamtkosten HTH, K72_uh 2.0)
+  - `raw/documents/teamchef/` (PDF: Betradar)
+- Leere Inbox-Unterordner entfernt
+
 ## [2026-04-11] ingest | Source Note für WM-2026-Spielplan nachgezogen
 
 - `raw/data/wc2026_matches_dewiki.json` (104 Spiele, neues 48-Team-Format, dewiki-Scrape) hatte bisher nur eine beiläufige Erwähnung in `[[eu-football-clubs-research]]` und keine eigene Source Note

@@ -1,0 +1,1574 @@
+---
+type: raw-mmap
+map_id: "FLATrace_at_X"
+source: "01_input/FLATrace/Archiv/FLATrace_at_X.mmap"
+imported_at: 2026-04-11
+node_count: 1379
+max_depth: 10
+has_custom_props: true
+has_links: true
+has_notes: false
+has_icons: true
+icons:
+  - BrokenConnection
+  - Cellphone
+  - Emergency
+  - Euro
+  - FlagGreen
+  - FlagYellow
+  - Hourglass
+  - PadlockLocked
+custom_property_names:
+  - "API Key"
+  - "Anmerkung"
+  - "Anz."
+  - "Anzahl"
+  - "Aufwand"
+  - "BN"
+  - "Benutzername"
+  - "Beschreibung"
+  - "CFF_id"
+  - "CFF_name"
+  - "Color Hex"
+  - "Cornerstone-Inhalt"
+  - "DB_CHARSET"
+  - "DB_COLLATE"
+  - "DB_HOST"
+  - "DB_IN"
+  - "DB_NAME"
+  - "DB_OUT"
+  - "DB_PASSWORD"
+  - "DB_USER"
+  - "Dauer"
+  - "Domain"
+  - "DynDNS"
+  - "EH-Preis"
+  - "Eingang"
+  - "Einheit"
+  - "Email"
+  - "Faktor"
+  - "Farbnummer"
+  - "Fokus-Keyword"
+  - "Funktion"
+  - "Gesamt"
+  - "Hauptfarbe"
+  - "Headline 1"
+  - "Headline 2"
+  - "Hintergrund 1"
+  - "Hintergrundfarbe"
+  - "Initialpasswort"
+  - "Keyword 1"
+  - "Keyword 2"
+  - "Kosten"
+  - "Kosten Idee"
+  - "Kurztext"
+  - "Langtext"
+  - "Lesbarkeit"
+  - "Main Content Heading color"
+  - "Main Content Hintergrundfarbe"
+  - "Main Content Schriftfarbe"
+  - "Main Style Farbe"
+  - "Markt"
+  - "Menü"
+  - "Meta-Beschr. 1"
+  - "Meta-Beschr. 2"
+  - "Meta-Beschr. 3"
+  - "Netto"
+  - "PW"
+  - "Permalink"
+  - "Postausgangsserver"
+  - "Posteingangsserver"
+  - "Primary color"
+  - "Rahmen Farben"
+  - "SEO"
+  - "SEO-Ranking"
+  - "Schriftfarbe"
+  - "Server Hostname"
+  - "Server IP-Adresse"
+  - "Setting"
+  - "Status"
+  - "Steuer"
+  - "Sub Style Farbe"
+  - "Titel"
+  - "Titelform (URL)"
+  - "URL"
+  - "User Name"
+  - "Ust."
+  - "Version"
+  - "Yoast SEO"
+  - "netto"
+  - "∑ Gesamt"
+  - "∑ Netto"
+  - "∑ Steuern"
+tags:
+  - mmap/raw
+  - mmap/FLATrace
+---
+
+# FLAT_dashboard
+
+- **FLAT_dashboard** ^oid-cgzvalcM
+  - **Projektinformationen** ^oid-AuHfnePo
+    - **Technische Grundlagen** ^oid-gpS7ByMh
+      - **Aktuelle Situation** ^oid-N0Z866jU
+        - **Ist-Zustands** ^oid-ltrpSQZg
+        - **Tools** ^oid-yRerpdnw
+          - **Invision** ^oid-uLHjn1MX
+          - **Balsamiq Mockup** ^oid-qmWbHGmO
+          - **InDesign** ^oid-uOjQx1cc
+          - **Photoshop** ^oid-T2EFWPNe
+          - **Access Datenbank** ^oid-8xPlA01w
+          - **Excel** ^oid-WXsvgs6C
+        - **1.1.1 Beschreibung des Soll-Konzepts** ^oid-Jm1ZOS9K
+        - **Beschreibung von Schnittstellen und Techniken** ^oid-n8IpmBOO
+        - **Abkürzungen, Nomenklatur, fachliche Zusammenhänge, Datenhierarchie** ^oid-LsLndxIO
+      - **Technische Ziele** ^oid-A9hDfaIL
+        - **Erstellung einer Smartphone Applikation, inklusive Anbindung an eine AWS Datenbank** ^oid-WJouZfQs
+      - **Operating System** ^oid-CNe7cs0i
+        - **GOOGLE  ANDROID** ^oid-MSHTTmSS
+        - **APPLE  iOS** ^oid-zp3bvqhb
+        - **Web** ^oid-J298I4Rd
+      - **Datenbank** ^oid-54xgz6Ap
+        - **AWS** ^oid-7b8KeNJ8
+      - **Accounts** ^oid-KkO7OFa5
+        - **Apple** ^oid-5XCrmB40
+        - **Google** ^oid-XH9c65xq
+        - **AWS** ^oid-aUR1yeGp
+      - **Betrieb** ^oid-NwO9iTdX
+        - **Betrieb der Datenbank erfolgt bei AMAZON Web Services.** ^oid-Yi72uGFS
+        - **Wartung der Smartphone Applikation ist Gegenstand eines gesonderten Angebots und Projekts** ^oid-AgqC31X1
+        - **Erweiterung Neuprogrammierung sind Gegenstand eines gesonderten Angebots und Projekts** ^oid-bnUtwh4M
+      - **Projektorganisation** ^oid-ucrI6pp4
+        - **Mitwirkungsleistungen AG** ^oid-J09msrtX
+        - **Verantwortlichkeiten** ^oid-vfNp70xz
+        - **Abnahmekonzepte** ^oid-94pHgxpT
+        - **Lieferumfang** ^oid-vbwnekrN
+        - **Dokumentation** ^oid-oaCuQdAz
+        - **Zahlungskonditionen** ^oid-594CnTZ1
+      - **Zeitliche Vorgaben und Deadlines** ^oid-shfSBuhz
+        - **Start** ^oid-Zo1Q5gER
+        - **Ende** ^oid-rYfqTSCP
+        - **Release** ^oid-7GAhJ2hy
+      - **Datenhierarchie** ^oid-lTzF4IlU
+      - **Versionen** ^oid-fwdYbSDF
+      - **Benutzeroberfläche** ^oid-v3abJJ4v
+      - **Rechte** ^oid-mPQ4QP6U
+        - **liegen exklusiv bei AG** ^oid-3F4Y2jZ7
+      - **Nichtfunktionale Anforderungen (Leistungen, Daten)** ^oid-dfYZVDh0
+    - **Ablaufplan** ^oid-d6QjqM3I
+      - **Analyse und Definition der Zielgruppe(n)** ^oid-epoEvePV
+        - *(empty)* ^oid-ibFgizMP
+      - **App-Idee und Zieldefinition** ^oid-PkiDHs8s
+      - **Planung des Projekts** ^oid-Bv09e02G
+        - **Analyse und Definition der Zielgruppe(n)** ^oid-AOjSbEN0
+          - **Technologieauswahl** ^oid-q8l4nmXr
+          - **Analyse der Wettbewerber** ^oid-glRZprS7
+          - **Abstecken des Funktionsumfangs der App** ^oid-tsDDjXbB
+          - **Aufwandsabschätzung** ^oid-fA17Zbno
+        - **Marketing- und Vertriebsstrategie** ^oid-xUMQjnQl
+          - **Marketingziele** ^oid-zIu5Gm7U
+          - **Erlösmodelle** ^oid-qh8DRo6n
+          - **Werbung- und Marketing-Kommunikation** ^oid-M4ege4Fu
+        - **Auswahl des passenden Projektpartners** ^oid-dXP2J3Uc
+          - **Auswahlkriterien** ^oid-5EAFFInE
+          - **Partnerauswahl** ^oid-MJYARfpZ
+        - **Ressourcenplanung** ^oid-FINIDnFH
+        - **Umsetzungsstrategie** ^oid-mXiBinex
+      - **Umsetzung des Projekts** ^oid-VdJpr8mu
+        - **Methoden zur Unterstützung der Kommunikation** ^oid-RjPoizmN
+          - **Agile Programming** ^oid-i7i8Nnaa
+          - **Mockups** ^oid-oTtTdXcr
+          - **Wireframes** ^oid-BgZLKECs
+            - *(empty)* ^oid-SiP0UbwM
+          - **User Stories** ^oid-s163Jbd1
+            - *(empty)* ^oid-d0WAYQHy
+          - **Use Case-Diagramme** ^oid-Iwrk74yx
+            - *(empty)* ^oid-wYFfQQW4
+        - **Festlegung des App-Designs** ^oid-nonYKROw
+          - **Berücksichtigung der Daumenregel** ^oid-Uk4VmUel
+          - **Interaktionskonzepts** ^oid-0xbVDMLx
+        - **Implementierung der Funktionen** ^oid-3SJ9FmI7
+        - **Fachliche Prüfung und Tests** ^oid-2mwNhbRL
+      - **Bereitstellung der App** ^oid-cfyDKOfa
+        - **Plattform Zugang** ^oid-wHRzdUGc
+          - **Zugang zur Plattform eingerichtet** ^oid-o0pVtkuv
+        - **Transfer auf die Plattform** ^oid-o0i1CyMW
+          - **Zertifikat** ^oid-lqEtSpd3
+          - **Plattform übertragen** ^oid-2s8eiiPn
+        - **Umsetzung der Werbe- und Vertriebsstrategie** ^oid-GHfLn2F1
+          - **Zielgruppengerechte Darstellung im Store** ^oid-JXwhMM3t
+          - **Zusatzpromotion neben den Stores** ^oid-19wUozL6
+      - **Projektabschluss** ^oid-APE5rXdM
+    - **Lastenheft** ^oid-XwxTDYsX
+      - **Name des Softwareprodukts** ^oid-eZU5By49
+      - **Name des Herstellers** ^oid-AQ52LhvO
+      - **Versionsdatum des Dokuments und / oder der Software** ^oid-IJ4mR3UI
+      - **Einleitung** ^oid-gy6B99Fm
+        - **Zweck (des Dokuments)** ^oid-rxwkrFW6
+        - **Umfang (des Softwareprodukts)** ^oid-HDGZyrn2
+        - **Erläuterungen zu Begriffen und / oder Abkürzungen** ^oid-QDrEFJGS
+        - **Verweise auf sonstige Ressourcen oder Quellen** ^oid-RssZpyqB
+        - **Übersicht (Wie ist das Dokument aufgebaut?)** ^oid-YFh72nSp
+      - **Allgemeine Beschreibung (des Softwareprodukts)** ^oid-V7w1OJXh
+        - **Produktperspektive (zu anderen Softwareprodukten)** ^oid-E2kVGuP2
+        - **Produktfunktionen (eine Zusammenfassung und Übersicht)** ^oid-71bg1bZj
+        - **Benutzermerkmale (Informationen zu erwarteten Nutzern, z. B. Bildung, Erfahrung, Sachkenntnis)** ^oid-pbPgrhzQ
+        - **Einschränkungen (für den Entwickler)** ^oid-hrX0spd2
+        - **Annahmen und Abhängigkeiten (Faktoren, die die Entwicklung beeinflussen, aber nicht behindern z. B. Wahl des Betriebssystems)** ^oid-dgGnNtHt
+        - **Aufteilung der Anforderungen (nicht Realisierbares und auf spätere Versionen verschobene Eigenschaften)** ^oid-z24vF5xh
+      - **Spezifische Anforderungen (im Gegensatz zu 2.)** ^oid-m25nCI9E
+        - **funktionale Anforderungen (stark abhängig von der Art des Softwareprodukts)** ^oid-Zs0QBMqa
+        - **nicht-funktionale Anforderungen** ^oid-0tDVf5Z3
+        - **externe Schnittstellen** ^oid-U96wF9Iu
+        - **Design Constraints** ^oid-DgnIDsTQ
+        - **Anforderungen an Performance** ^oid-iGoQOzcI
+        - **Qualitätsanforderungen** ^oid-34VQw1xb
+        - **Sonstige Anforderungen** ^oid-SVQ6NtJW
+    - **SRSuh** ^oid-Efi4JRHK
+      - **Name des Softwareprodukts** ^oid-cUDmzBpg
+        - **Allgemeine Beschreibung** ^oid-Hjdm6ren
+          - **Produktperspektive** ^oid-b9B623KP
+          - **Produktfunktionen** ^oid-cEemahlO
+          - **Benutzermerkmale** ^oid-8aZkMybf
+          - **Einschränkungen** ^oid-HGXAdZpK
+          - **Annahmen und Abhängigkeiten** ^oid-SA6qohOo
+          - **Aufteilung der Anforderungen** ^oid-8kAZ2OZ6
+        - **Benutzerbeschreibungen** ^oid-EY1PuKCJ
+          - **Überblick** ^oid-2oYNVFCG
+            - **Name** ^oid-sVqCsx3X
+            - **Rolle/Funktion** ^oid-qqGCudod
+            - **interessiert an** ^oid-Jx62GCVl
+          - **Benutzerumgebung** ^oid-Jxsq3d70
+        - **Allgemeine Beschreibung** ^oid-WiD9ssxB
+          - **Produktperspektive** ^oid-rF84eULM
+          - **Produktfunktionen** ^oid-EbjYZH0J
+          - **Benutzermerkmale** ^oid-gUc4gv7t
+          - **Einschränkungen** ^oid-Z8wuTLkq
+          - **Annahmen und Abhängigkeiten** ^oid-oFQFpZt8
+          - **Aufteilung der Anforderungen** ^oid-w95xI174
+        - **Benutzerbeschreibungen** ^oid-SnFB5Qo6
+          - **Überblick** ^oid-FWarcTjk
+            - **Name** ^oid-Iae6o0dm
+            - **Rolle/Funktion** ^oid-hVRwdGjV
+            - **interessiert an** ^oid-ge4TohLX
+          - **Benutzerumgebung** ^oid-0KqxMfZI
+        - **Allgemeine Beschreibung** ^oid-oF2SssWz
+          - **Produktperspektive** ^oid-3pFyAmgC
+          - **Produktfunktionen** ^oid-oJBsEwjE
+          - **Benutzermerkmale** ^oid-1zoXcoMi
+          - **Einschränkungen** ^oid-AqrPY8wN
+          - **Annahmen und Abhängigkeiten** ^oid-OXfbdgqG
+          - **Aufteilung der Anforderungen** ^oid-n1eh3KqA
+        - **Benutzerbeschreibungen** ^oid-XPxm9wk3
+          - **Überblick** ^oid-cAArSYv0
+            - **Name** ^oid-i52OzFe6
+            - **Rolle/Funktion** ^oid-tujMBvm6
+            - **interessiert an** ^oid-DyNSr6xg
+          - **Benutzerumgebung** ^oid-ZTSaCoaU
+      - **Name des Herstellers** ^oid-lKjos4sz
+        - **Allgemeine Beschreibung** ^oid-4gUdn1uY
+          - **Produktperspektive** ^oid-nPWTt1JF
+          - **Produktfunktionen** ^oid-BqxJUUhI
+          - **Benutzermerkmale** ^oid-UJpmN2Wi
+          - **Einschränkungen** ^oid-3TRJ6p33
+          - **Annahmen und Abhängigkeiten** ^oid-syWHTsiJ
+          - **Aufteilung der Anforderungen** ^oid-6yewIfVC
+        - **Benutzerbeschreibungen** ^oid-ZDEKF9yE
+          - **Überblick** ^oid-4Jk7X9JN
+            - **Name** ^oid-3DvJjxTe
+            - **Rolle/Funktion** ^oid-VfzQSRt2
+            - **interessiert an** ^oid-T6q7tITX
+          - **Benutzerumgebung** ^oid-iOwYRGnv
+        - **Allgemeine Beschreibung** ^oid-xwiSiu18
+          - **Produktperspektive** ^oid-9E8rH7Ib
+          - **Produktfunktionen** ^oid-3MSsI9Hf
+          - **Benutzermerkmale** ^oid-Er0AtEoy
+          - **Einschränkungen** ^oid-jnvlh2YU
+          - **Annahmen und Abhängigkeiten** ^oid-g5zTYW19
+          - **Aufteilung der Anforderungen** ^oid-gCJg61sN
+        - **Benutzerbeschreibungen** ^oid-kkqGy5No
+          - **Überblick** ^oid-eIpv2lKR
+            - **Name** ^oid-f9Vjb61A
+            - **Rolle/Funktion** ^oid-dwEYkmww
+            - **interessiert an** ^oid-VQdD3BsU
+          - **Benutzerumgebung** ^oid-kElDfwQD
+        - **Allgemeine Beschreibung** ^oid-gQJ2CZDs
+          - **Produktperspektive** ^oid-VWyqLlRF
+          - **Produktfunktionen** ^oid-1IalLpSe
+          - **Benutzermerkmale** ^oid-E0PJJugC
+          - **Einschränkungen** ^oid-RwjgDC2f
+          - **Annahmen und Abhängigkeiten** ^oid-AAQr5KaI
+          - **Aufteilung der Anforderungen** ^oid-pKi9NZTS
+        - **Benutzerbeschreibungen** ^oid-iX8PdfGV
+          - **Überblick** ^oid-PFWYku9u
+            - **Name** ^oid-NJZxRH18
+            - **Rolle/Funktion** ^oid-9Lms8orp
+            - **interessiert an** ^oid-i3lIl3MD
+          - **Benutzerumgebung** ^oid-HhFbE6xA
+      - **Revisionsverlauf** ^oid-VFn6hNJ5
+        - **Datum** ^oid-UjHH9N3g
+        - **Version** ^oid-GuMLiolx
+        - **Beschreibung** ^oid-k12DVOZH
+        - **Autor** ^oid-6X1VwW9c
+        - **Allgemeine Beschreibung** ^oid-uAFK619b
+          - **Produktperspektive** ^oid-n0QWEsky
+          - **Produktfunktionen** ^oid-kl1UxnW4
+          - **Benutzermerkmale** ^oid-OKbgMjbq
+          - **Einschränkungen** ^oid-5NJJTYva
+          - **Annahmen und Abhängigkeiten** ^oid-YA7CUHVX
+          - **Aufteilung der Anforderungen** ^oid-3pIvN56G
+        - **Benutzerbeschreibungen** ^oid-Vyg39RHd
+          - **Überblick** ^oid-ehsW0CIe
+            - **Name** ^oid-mihwYWpZ
+            - **Rolle/Funktion** ^oid-v89nC4Rq
+            - **interessiert an** ^oid-PPwlHpW8
+          - **Benutzerumgebung** ^oid-GrySbukg
+        - **Allgemeine Beschreibung** ^oid-Gh5WyXu3
+          - **Produktperspektive** ^oid-FpyXBvrQ
+          - **Produktfunktionen** ^oid-sT5IgxiQ
+          - **Benutzermerkmale** ^oid-BS0myMA3
+          - **Einschränkungen** ^oid-qBGOExjk
+          - **Annahmen und Abhängigkeiten** ^oid-BwI73yhc
+          - **Aufteilung der Anforderungen** ^oid-7Tm0zKSk
+        - **Benutzerbeschreibungen** ^oid-ETRLK0Zw
+          - **Überblick** ^oid-hUNaHiBH
+            - **Name** ^oid-nSl5TtD2
+            - **Rolle/Funktion** ^oid-cwh6JmsO
+            - **interessiert an** ^oid-wZKj7CGA
+          - **Benutzerumgebung** ^oid-5zhvFL2L
+        - **Allgemeine Beschreibung** ^oid-EKH7iAF9
+          - **Produktperspektive** ^oid-l8lpong6
+          - **Produktfunktionen** ^oid-UxjrCIeX
+          - **Benutzermerkmale** ^oid-X0yFxOBZ
+          - **Einschränkungen** ^oid-nXy72rPa
+          - **Annahmen und Abhängigkeiten** ^oid-dCwKhaSC
+          - **Aufteilung der Anforderungen** ^oid-L0QR8y1A
+        - **Benutzerbeschreibungen** ^oid-zbOeJcNG
+          - **Überblick** ^oid-puCa5kG3
+            - **Name** ^oid-idpLtjqC
+            - **Rolle/Funktion** ^oid-1GmvNYY5
+            - **interessiert an** ^oid-sXmpkBk3
+          - **Benutzerumgebung** ^oid-G6kx9EDP
+      - **Allgemeine Beschreibung** ^oid-QADPSKUk
+        - **Produktperspektive** ^oid-r2tccJzE
+        - **Produktfunktionen** ^oid-k91qmkXf
+        - **Benutzermerkmale** ^oid-6NAC71c3
+        - **Einschränkungen** ^oid-GQgqHjGA
+        - **Annahmen und Abhängigkeiten** ^oid-GWcAbzJI
+        - **Aufteilung der Anforderungen** ^oid-f5X47jxz
+        - **Allgemeine Beschreibung** ^oid-VMVxEYBo
+          - **Produktperspektive** ^oid-Z1EMKaWQ
+          - **Produktfunktionen** ^oid-kyMAtPOZ
+          - **Benutzermerkmale** ^oid-TvdloDBc
+          - **Einschränkungen** ^oid-7KJr56ns
+          - **Annahmen und Abhängigkeiten** ^oid-5scvlIYK
+          - **Aufteilung der Anforderungen** ^oid-80Oe2cTd
+        - **Benutzerbeschreibungen** ^oid-i4eWgRNR
+          - **Überblick** ^oid-Yx3gpKHA
+            - **Name** ^oid-M5UgDZLL
+            - **Rolle/Funktion** ^oid-gdOQAnh8
+            - **interessiert an** ^oid-hzso1AFi
+          - **Benutzerumgebung** ^oid-GiXTfsjx
+        - **Allgemeine Beschreibung** ^oid-q3r4Fcd3
+          - **Produktperspektive** ^oid-WEN0la6W
+          - **Produktfunktionen** ^oid-Ka3zUnQ2
+          - **Benutzermerkmale** ^oid-2W435ii1
+          - **Einschränkungen** ^oid-h7IxhX5m
+          - **Annahmen und Abhängigkeiten** ^oid-GbzJRJGg
+          - **Aufteilung der Anforderungen** ^oid-W9oYmwlq
+        - **Benutzerbeschreibungen** ^oid-W81fGa6E
+          - **Überblick** ^oid-cD969WRV
+            - **Name** ^oid-hraL4216
+            - **Rolle/Funktion** ^oid-O6EpTh9m
+            - **interessiert an** ^oid-jeAN0UxR
+          - **Benutzerumgebung** ^oid-dfQoJH2J
+        - **Allgemeine Beschreibung** ^oid-wT50NHmz
+          - **Produktperspektive** ^oid-0hpBXLx5
+          - **Produktfunktionen** ^oid-RsmWzGHt
+          - **Benutzermerkmale** ^oid-OoTxaHNq
+          - **Einschränkungen** ^oid-1vffm2iH
+          - **Annahmen und Abhängigkeiten** ^oid-KoXOUEtZ
+          - **Aufteilung der Anforderungen** ^oid-VLCq1nEr
+        - **Benutzerbeschreibungen** ^oid-HFBHQ09i
+          - **Überblick** ^oid-H8ki12EY
+            - **Name** ^oid-KPdk5U4Y
+            - **Rolle/Funktion** ^oid-XGdjQvtg
+            - **interessiert an** ^oid-7i837sXP
+          - **Benutzerumgebung** ^oid-gp4aEIGk
+      - **Einleitung** ^oid-UBKHL0lU
+        - **System** ^oid-7eNuFl6V
+        - **Zweck** ^oid-U0Ygd0ts
+        - **Umfang** ^oid-VTTlZ6sb
+        - **Erläuterungen zu Begriffen und / oder Abkürzungen** ^oid-wkpeI7Xy
+          - **Status** ^oid-nlZLPsI6
+            - **geplant** ^oid-iDrkFqvP
+            - **in Bearbeitung** ^oid-VC6B7Zxs
+            - **vorgelegt** ^oid-GtL8MKjm
+            - **akzeptiert** ^oid-NAm2FOl0
+        - **Verweise auf sonstige Ressourcen oder Quellen** ^oid-KqWPS9sK
+        - **Referenzen** ^oid-7kNGf89A
+        - **Überblick** ^oid-qbls9E3n
+        - **Allgemeine Beschreibung** ^oid-Gs27uevN
+          - **Produktperspektive** ^oid-8IKY4P2J
+          - **Produktfunktionen** ^oid-UcoFeYvo
+          - **Benutzermerkmale** ^oid-7BfC20Xf
+          - **Einschränkungen** ^oid-HjueY5Vg
+          - **Annahmen und Abhängigkeiten** ^oid-9bUMsAe4
+          - **Aufteilung der Anforderungen** ^oid-f788HtvO
+        - **Benutzerbeschreibungen** ^oid-Gv9QX4pf
+          - **Überblick** ^oid-8inzCLF2
+            - **Name** ^oid-K4ijZkel
+            - **Rolle/Funktion** ^oid-gQgVXVHy
+            - **interessiert an** ^oid-v9l8DrKO
+          - **Benutzerumgebung** ^oid-PHwJcp3i
+        - **Allgemeine Beschreibung** ^oid-wwD6gLCo
+          - **Produktperspektive** ^oid-25OYzVg6
+          - **Produktfunktionen** ^oid-vMLvYb9k
+          - **Benutzermerkmale** ^oid-XuCkOBiW
+          - **Einschränkungen** ^oid-dNxKImxY
+          - **Annahmen und Abhängigkeiten** ^oid-O9w9jYM6
+          - **Aufteilung der Anforderungen** ^oid-AQ1GR3J6
+        - **Benutzerbeschreibungen** ^oid-gHCP33s0
+          - **Überblick** ^oid-hingnAWJ
+            - **Name** ^oid-C39tZU7E
+            - **Rolle/Funktion** ^oid-p3uG1aWr
+            - **interessiert an** ^oid-cIEbuBWj
+          - **Benutzerumgebung** ^oid-KbGxKB2C
+        - **Allgemeine Beschreibung** ^oid-rIjh2cjD
+          - **Produktperspektive** ^oid-vFl302GP
+          - **Produktfunktionen** ^oid-1LZb5Zku
+          - **Benutzermerkmale** ^oid-wgdmkkdD
+          - **Einschränkungen** ^oid-6at5Ii77
+          - **Annahmen und Abhängigkeiten** ^oid-eQOjDrdw
+          - **Aufteilung der Anforderungen** ^oid-ML1wbxuh
+        - **Benutzerbeschreibungen** ^oid-y2x2vpO9
+          - **Überblick** ^oid-7NSto31J
+            - **Name** ^oid-ApyUpmzZ
+            - **Rolle/Funktion** ^oid-CnNKlC61
+            - **interessiert an** ^oid-MyX1wo76
+          - **Benutzerumgebung** ^oid-AewdqPjo
+      - **Benutzerbeschreibungen** ^oid-Bled2v85
+        - **Überblick** ^oid-jbXshsER
+          - **Name** ^oid-fDZQJVMK
+          - **Rolle/Funktion** ^oid-pnXCcRQo
+          - **interessiert an** ^oid-Ql6rfOhN
+        - **Benutzerumgebung** ^oid-c4HfbqiM
+        - **Allgemeine Beschreibung** ^oid-SxBdcgIW
+          - **Produktperspektive** ^oid-k1rvEpwB
+          - **Produktfunktionen** ^oid-DWEBQDgi
+          - **Benutzermerkmale** ^oid-Gx7DE2Lg
+          - **Einschränkungen** ^oid-7w3d7vGt
+          - **Annahmen und Abhängigkeiten** ^oid-nb8jJPT1
+          - **Aufteilung der Anforderungen** ^oid-bLu9m9Ms
+        - **Benutzerbeschreibungen** ^oid-Y6ewnjeX
+          - **Überblick** ^oid-FOvjXuZL
+            - **Name** ^oid-0IUxpWO6
+            - **Rolle/Funktion** ^oid-vpv7N5Pb
+            - **interessiert an** ^oid-zm9EMCvo
+          - **Benutzerumgebung** ^oid-rVgmUZ05
+        - **Allgemeine Beschreibung** ^oid-dEweyyCp
+          - **Produktperspektive** ^oid-CPWBHHJ0
+          - **Produktfunktionen** ^oid-kXHRgf9P
+          - **Benutzermerkmale** ^oid-AMzSnA3t
+          - **Einschränkungen** ^oid-PNj6HraW
+          - **Annahmen und Abhängigkeiten** ^oid-r9o0tkO3
+          - **Aufteilung der Anforderungen** ^oid-c1hc2WsD
+        - **Benutzerbeschreibungen** ^oid-WMONisWp
+          - **Überblick** ^oid-9KjrtbPW
+            - **Name** ^oid-YxKuDR6T
+            - **Rolle/Funktion** ^oid-QODrNz1y
+            - **interessiert an** ^oid-PPKfhAyj
+          - **Benutzerumgebung** ^oid-TkKJKREu
+        - **Allgemeine Beschreibung** ^oid-9ohPDtaa
+          - **Produktperspektive** ^oid-i9IUL7Nb
+          - **Produktfunktionen** ^oid-GERaMPbF
+          - **Benutzermerkmale** ^oid-WBq5lD75
+          - **Einschränkungen** ^oid-ei5XY4a8
+          - **Annahmen und Abhängigkeiten** ^oid-Kic7LlXF
+          - **Aufteilung der Anforderungen** ^oid-SVWOzq0k
+        - **Benutzerbeschreibungen** ^oid-eibmnwFu
+          - **Überblick** ^oid-Iz5PPiKx
+            - **Name** ^oid-9FrnoRJ4
+            - **Rolle/Funktion** ^oid-u7zvZ3as
+            - **interessiert an** ^oid-aiKJMmed
+          - **Benutzerumgebung** ^oid-Z3e70eC0
+      - **Produkt Überblick** ^oid-CWHGxbxb
+        - **Zusammenfassung der Produktfähigkeiten/Eigenschaften** ^oid-exR1gUwU
+          - **Produktfähigkeit/-eigenschaft** ^oid-PK40VsgD
+          - **Nutzen/Gewinn** ^oid-7tzWfLhv
+        - **Produkt Fähigkeiten/Eigenschaften** ^oid-Xu5eODai
+        - **Annahmen und Abhängigkeiten** ^oid-IGNiSlPy
+        - **Allgemeine Beschreibung** ^oid-mB0WZnFz
+          - **Produktperspektive** ^oid-vYBUSmWl
+          - **Produktfunktionen** ^oid-GnGckISR
+          - **Benutzermerkmale** ^oid-tw6a9d3p
+          - **Einschränkungen** ^oid-TSQPrzYE
+          - **Annahmen und Abhängigkeiten** ^oid-DVKbDEA8
+          - **Aufteilung der Anforderungen** ^oid-7NC1BmZ7
+        - **Benutzerbeschreibungen** ^oid-OLeunb79
+          - **Überblick** ^oid-VOQdnBzj
+            - **Name** ^oid-PhPsvRhx
+            - **Rolle/Funktion** ^oid-DiWaTQ9a
+            - **interessiert an** ^oid-0U4KAA43
+          - **Benutzerumgebung** ^oid-8FNn6w25
+        - **Allgemeine Beschreibung** ^oid-OuaiMHWO
+          - **Produktperspektive** ^oid-F5YTcTTL
+          - **Produktfunktionen** ^oid-6dtqggif
+          - **Benutzermerkmale** ^oid-5b8QQYXl
+          - **Einschränkungen** ^oid-B4ILuThX
+          - **Annahmen und Abhängigkeiten** ^oid-cloYqqBI
+          - **Aufteilung der Anforderungen** ^oid-vDywfKOO
+        - **Benutzerbeschreibungen** ^oid-UmGj8GWa
+          - **Überblick** ^oid-m3FqoGkg
+            - **Name** ^oid-QHZJl6hV
+            - **Rolle/Funktion** ^oid-GFgRVOrN
+            - **interessiert an** ^oid-Rko7BM2I
+          - **Benutzerumgebung** ^oid-I1PSxyuz
+        - **Allgemeine Beschreibung** ^oid-y9H9aSRV
+          - **Produktperspektive** ^oid-dlZxG5ys
+          - **Produktfunktionen** ^oid-RkkJtVFP
+          - **Benutzermerkmale** ^oid-WnLHgRSt
+          - **Einschränkungen** ^oid-pF9QWzbb
+          - **Annahmen und Abhängigkeiten** ^oid-vuZV7aZZ
+          - **Aufteilung der Anforderungen** ^oid-fnmDeO3w
+        - **Benutzerbeschreibungen** ^oid-5ZBmYi1L
+          - **Überblick** ^oid-pOrnCdXw
+            - **Name** ^oid-dDrWaReQ
+            - **Rolle/Funktion** ^oid-n5qIeoZs
+            - **interessiert an** ^oid-ZmVry6SU
+          - **Benutzerumgebung** ^oid-OkQhgh0c
+      - **Domänenmodell** ^oid-k7v2EDME
+        - **Überblick** ^oid-wJprGsgk
+        - **Detailliertes Modell** ^oid-O7xaZNcK
+        - **Einschränkungen** ^oid-lxilJzuz
+        - **Allgemeine Beschreibung** ^oid-VHcxF0eo
+          - **Produktperspektive** ^oid-LxiF7Abx
+          - **Produktfunktionen** ^oid-xxRHlIjs
+          - **Benutzermerkmale** ^oid-J0c4Ibsv
+          - **Einschränkungen** ^oid-SuBUr6Bx
+          - **Annahmen und Abhängigkeiten** ^oid-Nxr7E7ND
+          - **Aufteilung der Anforderungen** ^oid-ll6kDriH
+        - **Benutzerbeschreibungen** ^oid-bkw0eAMa
+          - **Überblick** ^oid-aHE9yNrw
+            - **Name** ^oid-DCVpFtqb
+            - **Rolle/Funktion** ^oid-46TgKOEt
+            - **interessiert an** ^oid-39hR5bfk
+          - **Benutzerumgebung** ^oid-5CEi4CHZ
+        - **Allgemeine Beschreibung** ^oid-nsLHGxjY
+          - **Produktperspektive** ^oid-rTU6rU3x
+          - **Produktfunktionen** ^oid-pYdppWap
+          - **Benutzermerkmale** ^oid-TOejSxlO
+          - **Einschränkungen** ^oid-5Kt1iNv7
+          - **Annahmen und Abhängigkeiten** ^oid-nor5MNZK
+          - **Aufteilung der Anforderungen** ^oid-PiOK37Mw
+        - **Benutzerbeschreibungen** ^oid-FmxiHIaR
+          - **Überblick** ^oid-sI1S4juQ
+            - **Name** ^oid-D5VmCrmh
+            - **Rolle/Funktion** ^oid-QYy7Xb5r
+            - **interessiert an** ^oid-lzySI6WS
+          - **Benutzerumgebung** ^oid-5Ak5PIyI
+        - **Allgemeine Beschreibung** ^oid-XE6x4PSX
+          - **Produktperspektive** ^oid-rlKyk3ic
+          - **Produktfunktionen** ^oid-96kcgJr6
+          - **Benutzermerkmale** ^oid-Q6h648bA
+          - **Einschränkungen** ^oid-tgPJ8xmY
+          - **Annahmen und Abhängigkeiten** ^oid-lOXpLYQj
+          - **Aufteilung der Anforderungen** ^oid-1Q3scCxn
+        - **Benutzerbeschreibungen** ^oid-zumRqA9b
+          - **Überblick** ^oid-HAylrPIo
+            - **Name** ^oid-rgCFXA4O
+            - **Rolle/Funktion** ^oid-fbSkpy1G
+            - **interessiert an** ^oid-9VdUaPxP
+          - **Benutzerumgebung** ^oid-28uVJS9r
+      - **Dynamisches Modell** ^oid-XXbT3ZsA
+        - **Usecases** ^oid-fqVSlOBx
+          - **Benutzungsfallbeschreibungen** ^oid-17qb5Wep
+          - **Sequenz Diagramsme** ^oid-fspkQ3lJ
+          - **Kontrakte** ^oid-RmmW4Csy
+        - **Objekt Lifecycles** ^oid-RFR8XgdL
+        - **Allgemeine Beschreibung** ^oid-7fnWCRGX
+          - **Produktperspektive** ^oid-ji2TnJZC
+          - **Produktfunktionen** ^oid-dNn3JDGW
+          - **Benutzermerkmale** ^oid-1bdKW93a
+          - **Einschränkungen** ^oid-LEicWhqz
+          - **Annahmen und Abhängigkeiten** ^oid-1j1S7XZP
+          - **Aufteilung der Anforderungen** ^oid-riYQ2GQX
+        - **Benutzerbeschreibungen** ^oid-OzhRIZua
+          - **Überblick** ^oid-Jv3DY1KV
+            - **Name** ^oid-anhwM3W0
+            - **Rolle/Funktion** ^oid-ArtPtSaL
+            - **interessiert an** ^oid-Nggi4qas
+          - **Benutzerumgebung** ^oid-LHoFsEid
+        - **Allgemeine Beschreibung** ^oid-fC3UvR88
+          - **Produktperspektive** ^oid-i9ZLRT2N
+          - **Produktfunktionen** ^oid-K47xlLms
+          - **Benutzermerkmale** ^oid-APDdCre1
+          - **Einschränkungen** ^oid-YOyZwJuD
+          - **Annahmen und Abhängigkeiten** ^oid-xRFIyJuR
+          - **Aufteilung der Anforderungen** ^oid-k3RaqmxD
+        - **Benutzerbeschreibungen** ^oid-vCe8Ol4g
+          - **Überblick** ^oid-iXNjYWqS
+            - **Name** ^oid-AyCb2vTZ
+            - **Rolle/Funktion** ^oid-wRO7VFnf
+            - **interessiert an** ^oid-oK1SSEQb
+          - **Benutzerumgebung** ^oid-UIkBKNls
+        - **Allgemeine Beschreibung** ^oid-lNfqHT69
+          - **Produktperspektive** ^oid-Ekf84sJ3
+          - **Produktfunktionen** ^oid-7WNazNYm
+          - **Benutzermerkmale** ^oid-4IoRTXGS
+          - **Einschränkungen** ^oid-jzAaLFAj
+          - **Annahmen und Abhängigkeiten** ^oid-JlAqxV1h
+          - **Aufteilung der Anforderungen** ^oid-2NI7uH1Z
+        - **Benutzerbeschreibungen** ^oid-wRUB0nKz
+          - **Überblick** ^oid-ZM9Aym17
+            - **Name** ^oid-YOr5okTK
+            - **Rolle/Funktion** ^oid-QsnJ6ZsB
+            - **interessiert an** ^oid-xRv8eQEK
+          - **Benutzerumgebung** ^oid-J6lFNheg
+      - **Nonfunktionale Anforderungen** ^oid-eVlO3qvU
+        - **Regeln** ^oid-rJtTl9ro
+        - **Usability** ^oid-ARie3GaH
+        - **Zuverlässigkeit** ^oid-R8eOg2Ux
+        - **Performanz** ^oid-uEpmuiFJ
+        - **Unterstützbarkeit** ^oid-wL9UJ453
+        - **Online Benutzerdokumentation und Help System** ^oid-HmmTIxKY
+        - **zugekaufte Komponenten** ^oid-aiwTqQ5k
+        - **Schnittstellen** ^oid-dn4wnqNU
+          - **Benutzerschnittstellen** ^oid-n6kTij4C
+          - **Software Schnittstellen** ^oid-2pzZESO2
+          - **Kommunikationsschnittstellen** ^oid-bqzbtXlV
+        - **zusätzliche Lizenzierungen** ^oid-F6DFJkzq
+        - **Copyright und andere rechtliche Anforderungen** ^oid-f7dtl8OK
+        - **Anzuwendende Standards** ^oid-0gmYCAlx
+        - **Allgemeine Beschreibung** ^oid-MmG57o25
+          - **Produktperspektive** ^oid-UgW0W2Rf
+          - **Produktfunktionen** ^oid-A8BAkv1Y
+          - **Benutzermerkmale** ^oid-NsJ7vCkJ
+          - **Einschränkungen** ^oid-69TZGWA1
+          - **Annahmen und Abhängigkeiten** ^oid-qDfgohYt
+          - **Aufteilung der Anforderungen** ^oid-Ll4FHq2d
+        - **Benutzerbeschreibungen** ^oid-9wJwwu91
+          - **Überblick** ^oid-WykGQVJE
+            - **Name** ^oid-nqIvCvlL
+            - **Rolle/Funktion** ^oid-4QxS7QvJ
+            - **interessiert an** ^oid-nAdRFlt3
+          - **Benutzerumgebung** ^oid-hocrYcEP
+        - **Allgemeine Beschreibung** ^oid-zdshbpMN
+          - **Produktperspektive** ^oid-7iv3fYXv
+          - **Produktfunktionen** ^oid-ViAEXFym
+          - **Benutzermerkmale** ^oid-iwxaCXzJ
+          - **Einschränkungen** ^oid-1ypMw6qC
+          - **Annahmen und Abhängigkeiten** ^oid-eojjWnSy
+          - **Aufteilung der Anforderungen** ^oid-ZE0njOmI
+        - **Benutzerbeschreibungen** ^oid-XSQmpoeT
+          - **Überblick** ^oid-NYm5RLDU
+            - **Name** ^oid-WGehLtkq
+            - **Rolle/Funktion** ^oid-QXUqOKbj
+            - **interessiert an** ^oid-cgIOoVCl
+          - **Benutzerumgebung** ^oid-xffB5nRW
+        - **Allgemeine Beschreibung** ^oid-VJb9dUtr
+          - **Produktperspektive** ^oid-bjR2AZgH
+          - **Produktfunktionen** ^oid-VLoPS1Vj
+          - **Benutzermerkmale** ^oid-2k6CAac8
+          - **Einschränkungen** ^oid-BlRKbs1n
+          - **Annahmen und Abhängigkeiten** ^oid-fi06XKG6
+          - **Aufteilung der Anforderungen** ^oid-D9t0JnRU
+        - **Benutzerbeschreibungen** ^oid-S2c5VcLl
+          - **Überblick** ^oid-PUk4Bt6t
+            - **Name** ^oid-7RiID9nL
+            - **Rolle/Funktion** ^oid-cPduISk1
+            - **interessiert an** ^oid-8wu4pSDh
+          - **Benutzerumgebung** ^oid-k8FXt5BT
+      - **Spezifische Anforderungen** ^oid-kbm4O7fI
+        - **funktionale Anforderungen** ^oid-ZYmGtXQq
+        - **nicht-funktionale Anforderungen** ^oid-c2CZnFuj
+        - **externe Schnittstellen** ^oid-jshnyyG2
+        - **Design Constraints** ^oid-zcXFD8Fk
+        - **Anforderungen an Performance** ^oid-qJMSC4cd
+        - **Qualitätsanforderungen** ^oid-P37xpShr
+        - **Sonstige Anforderungen** ^oid-dOPfaV91
+        - **Allgemeine Beschreibung** ^oid-CcnAnNbI
+          - **Produktperspektive** ^oid-kvGwpevJ
+          - **Produktfunktionen** ^oid-W6j7F3J5
+          - **Benutzermerkmale** ^oid-k9Da886j
+          - **Einschränkungen** ^oid-g18JpZ05
+          - **Annahmen und Abhängigkeiten** ^oid-DyLP95BL
+          - **Aufteilung der Anforderungen** ^oid-e46Iigz5
+        - **Benutzerbeschreibungen** ^oid-byPkOoGN
+          - **Überblick** ^oid-YKXNSbaW
+            - **Name** ^oid-38Zojvjz
+            - **Rolle/Funktion** ^oid-oEZy294j
+            - **interessiert an** ^oid-3gL3nZOY
+          - **Benutzerumgebung** ^oid-6jLXDmHR
+        - **Allgemeine Beschreibung** ^oid-O5rStoP0
+          - **Produktperspektive** ^oid-9HgZzVuB
+          - **Produktfunktionen** ^oid-737xEuC5
+          - **Benutzermerkmale** ^oid-RLFIjS9F
+          - **Einschränkungen** ^oid-qdD8oAUN
+          - **Annahmen und Abhängigkeiten** ^oid-e21x9uX4
+          - **Aufteilung der Anforderungen** ^oid-iG8Ji1FS
+        - **Benutzerbeschreibungen** ^oid-yosn0opH
+          - **Überblick** ^oid-qUjtd2sv
+            - **Name** ^oid-7VrRFhMr
+            - **Rolle/Funktion** ^oid-M8Yjk0He
+            - **interessiert an** ^oid-iH1FjKXO
+          - **Benutzerumgebung** ^oid-wdZnCo7e
+        - **Allgemeine Beschreibung** ^oid-RqVWHfnl
+          - **Produktperspektive** ^oid-yV3o3nDB
+          - **Produktfunktionen** ^oid-clOKGOFg
+          - **Benutzermerkmale** ^oid-VdWmlnfT
+          - **Einschränkungen** ^oid-cDvWD2Tf
+          - **Annahmen und Abhängigkeiten** ^oid-2Ha2jZM0
+          - **Aufteilung der Anforderungen** ^oid-1yNvRtbT
+        - **Benutzerbeschreibungen** ^oid-nTgnwgX0
+          - **Überblick** ^oid-CiPTaqN7
+            - **Name** ^oid-LIW5pO4t
+            - **Rolle/Funktion** ^oid-t1DsYi6J
+            - **interessiert an** ^oid-gHPgnbwL
+          - **Benutzerumgebung** ^oid-qRyTO52S
+      - **Iterationenplan (Timeboxes)** ^oid-F9YKrwCb
+        - **Timebox** ^oid-BJ72oVTP
+          - **Benutzungsfall/fälle (UseCase(s))** ^oid-7tTEaWH5
+          - **Architektur** ^oid-uKCZfEem
+          - **Deliverables** ^oid-Aag8Z4xH
+          - **Abhängigkeiten** ^oid-J61dCMxb
+        - **Allgemeine Beschreibung** ^oid-SvI3OWOD
+          - **Produktperspektive** ^oid-LglHYXXR
+          - **Produktfunktionen** ^oid-QlvLxglr
+          - **Benutzermerkmale** ^oid-D6uoiKEq
+          - **Einschränkungen** ^oid-OazVp6bE
+          - **Annahmen und Abhängigkeiten** ^oid-aT4pe234
+          - **Aufteilung der Anforderungen** ^oid-EEwgYR0c
+        - **Benutzerbeschreibungen** ^oid-w0BrD7yB
+          - **Überblick** ^oid-9yPYTAwD
+            - **Name** ^oid-X4p8GhML
+            - **Rolle/Funktion** ^oid-sYofFE5k
+            - **interessiert an** ^oid-rJhKAGfJ
+          - **Benutzerumgebung** ^oid-qcJvGO7P
+        - **Allgemeine Beschreibung** ^oid-zeUdXyE5
+          - **Produktperspektive** ^oid-Q4ajArS1
+          - **Produktfunktionen** ^oid-IhEFwLJX
+          - **Benutzermerkmale** ^oid-pXCSKkgA
+          - **Einschränkungen** ^oid-ZzzTqdWM
+          - **Annahmen und Abhängigkeiten** ^oid-MgTuLpe4
+          - **Aufteilung der Anforderungen** ^oid-cFiimG4T
+        - **Benutzerbeschreibungen** ^oid-2fZ63mJm
+          - **Überblick** ^oid-55EP1N0K
+            - **Name** ^oid-bCgcdedV
+            - **Rolle/Funktion** ^oid-h0cDRaTK
+            - **interessiert an** ^oid-sX9RH0sv
+          - **Benutzerumgebung** ^oid-aEtS6kqW
+        - **Allgemeine Beschreibung** ^oid-AWZRhc3K
+          - **Produktperspektive** ^oid-IyTmqTCB
+          - **Produktfunktionen** ^oid-1dY8rPoq
+          - **Benutzermerkmale** ^oid-4baa9fw7
+          - **Einschränkungen** ^oid-1nbpGkTW
+          - **Annahmen und Abhängigkeiten** ^oid-fVvlIs45
+          - **Aufteilung der Anforderungen** ^oid-vOc9x4JD
+        - **Benutzerbeschreibungen** ^oid-nd29ZHot
+          - **Überblick** ^oid-Um3PK1IG
+            - **Name** ^oid-gYjkAuk1
+            - **Rolle/Funktion** ^oid-bghudeDF
+            - **interessiert an** ^oid-SfjQPJLJ
+          - **Benutzerumgebung** ^oid-uDN0RAyg
+      - **Glossar** ^oid-HSAb0Qkp
+        - **Allgemeine Beschreibung** ^oid-BgLRIg6U
+          - **Produktperspektive** ^oid-5Oqginbr
+          - **Produktfunktionen** ^oid-7k0P7rAw
+          - **Benutzermerkmale** ^oid-9CbjHsuD
+          - **Einschränkungen** ^oid-t0oSyjBK
+          - **Annahmen und Abhängigkeiten** ^oid-MhSkmox5
+          - **Aufteilung der Anforderungen** ^oid-ddVjng7l
+        - **Benutzerbeschreibungen** ^oid-UN1AtBBC
+          - **Überblick** ^oid-a8bLt4Ua
+            - **Name** ^oid-JYijjXsc
+            - **Rolle/Funktion** ^oid-IoGoKbup
+            - **interessiert an** ^oid-ba1FRvvd
+          - **Benutzerumgebung** ^oid-Zfg3Icay
+        - **Allgemeine Beschreibung** ^oid-HWOzJe0C
+          - **Produktperspektive** ^oid-ARBc06xs
+          - **Produktfunktionen** ^oid-jsG8nGlI
+          - **Benutzermerkmale** ^oid-0I7s5qgI
+          - **Einschränkungen** ^oid-eFjWCjga
+          - **Annahmen und Abhängigkeiten** ^oid-JcvnDTVz
+          - **Aufteilung der Anforderungen** ^oid-g6Haf3zf
+        - **Benutzerbeschreibungen** ^oid-R15GvnlR
+          - **Überblick** ^oid-7zPhomUA
+            - **Name** ^oid-RUD2VbQC
+            - **Rolle/Funktion** ^oid-Br3vPfug
+            - **interessiert an** ^oid-xl1dzMgU
+          - **Benutzerumgebung** ^oid-JHjoRHfe
+        - **Allgemeine Beschreibung** ^oid-z8pULe3r
+          - **Produktperspektive** ^oid-ngTQFwRq
+          - **Produktfunktionen** ^oid-8xTENVtj
+          - **Benutzermerkmale** ^oid-eRyzNWDA
+          - **Einschränkungen** ^oid-6QbkLD5B
+          - **Annahmen und Abhängigkeiten** ^oid-uTzpfs1D
+          - **Aufteilung der Anforderungen** ^oid-F3aLwV8C
+        - **Benutzerbeschreibungen** ^oid-2FPQUb0P
+          - **Überblick** ^oid-EqlowsD8
+            - **Name** ^oid-AsfsUsuk
+            - **Rolle/Funktion** ^oid-HBJADPTI
+            - **interessiert an** ^oid-U4sFJOhd
+          - **Benutzerumgebung** ^oid-Y08VKQ5v
+    - **Milestone** `Kosten=8500` ^oid-dN6B3ZkM
+      - **Ideen** `Kosten Idee=0` ^oid-ORSIHjNp
+        - **Recherche** `Kosten=0` ^oid-pI6rCzzI
+          - **Suchen** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-dhT2bY2C
+            - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-TtbpnJfk
+          - **Sammeln** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-DyHqJalh
+            - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-CxKCeLEU
+          - **Sortieren** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-GkRB2Vex
+            - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-YY6czhPT
+        - **Daten** `Kosten=0` ^oid-Pr6KQfd0
+          - **Suchen** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-dCSxl5Ru
+            - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-4J8tktH0
+          - **Sammeln** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-MEDiszNT
+            - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-Jpco6aED
+          - **Sortieren** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-wlZGb36U
+            - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-DofAld7s
+        - **Übersetzungen** `Kosten=0` `Markt=1319` ^oid-645TXDQ8
+          - **Deutsch** `Anmerkung=105 Mio.` `Anzahl=105` `Einheit=Mio` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-w0pmSiCb
+            - **xx** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-bSCvruKz
+          - **Englisch** `Anmerkung=375 Mio.` `Anzahl=375` `Einheit=Mio` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-QLSPlKK2
+            - **xx** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-sNZihnc1
+          - **Französisch** `Anmerkung=79 Mio.` `Anzahl=79` `Einheit=Mio` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-6H6HKObf
+            - **xx** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-DpoTnwxR
+          - **Spanisch** `Anmerkung=330 Mio.` `Anzahl=330` `Einheit=Mio` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-XGlGZ22m
+            - **xx** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-4vMnPhf8
+          - **Portugiesisch** `Anmerkung=265 Mio.` `Anzahl=265` `Einheit=Mio` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-ID2mKR6Q
+            - **xx** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-qaF9SK47
+          - **Russisch** `Anmerkung=165 Mio.` `Anzahl=165` `Einheit=Mio` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-y5Rob5wy
+            - **xx** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-DHxOhnU7
+          - **Chinesisch** `Anmerkung=982 Mio.` `Anzahl=0` `Einheit=Mio` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` [icon:BrokenConnection] ^oid-iS19fyzl
+            - **xx** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-lpgF1q4b
+      - **Projektsteuerung** `Kosten=0` ^oid-i5hy4wBE
+        - **Organisation** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-d5nvf2yj
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-I6DEV24P
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-bLCIUjlt
+        - **Dokumentation** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-bG01eMtN
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-gi83gfDK
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-8byqOobd
+        - **Soll-Ist-Vergleich** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-knUe4PPZ
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-LgS2ViPY
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-6VXT6daq
+        - **Kosten und Finanzmittel** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-6ru38guR
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-HUsdPwhE
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-AREeQvWf
+        - **Termine und Kapazitäten** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-N4UEtlyT
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-6ChkQi1D
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-hnFrJvHe
+        - **Domain** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-R3Au38KQ
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-moJlcl8c
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-rZNrTN2f
+        - **AGBs** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-AVrJFUyP
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-UGneBr8i
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-ypU2vl8G
+      - **User Interface** `Kosten=0` ^oid-T0keDtpe
+        - **Mock Ups** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-ddKrS2J8
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-tHUtdHmE
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-a3xeOdKJ
+        - **Application Design** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-ZF9BI80Y
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-QMLWjNS9
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-2xISIgDQ
+      - **Usability** `Kosten=0` ^oid-wPUBfRIQ
+        - **psychologische Funktionen** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-261C5vVR
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-R6TtaUSc
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-1iRUFPQl
+        - **Strukturierende Funktion** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-HU2bnSF5
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-QGh1SlLX
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-kMT4dwT3
+        - **Didaktische Funktionen** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-tZhW1UPo
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-pqDNbJCC
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-v3WlAakh
+      - **Design** `Kosten=0` ^oid-zb0iNqgn
+        - **Gebrauchsfördernde Funktionen** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-SH3z25aj
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-uEYCVDbF
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-SLtDMCyU
+        - **Informative Funktionen** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-73lUwesp
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-xSPiUv12
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-DzNKyHBi
+        - **Symbolische Funktion** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-wdfEksGm
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-eikeaDai
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-NGPQYLTt
+        - **Logo** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-dCM0YISj
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-BSFHgGXR
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-QlWobDjJ
+      - **Grafik** `Kosten=0` ^oid-rMMeBEGc
+        - **Layout** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-x2O1h9Uy
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-qwIvdvDY
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-AGyxtCbV
+        - **Drucksatz** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-H2HBs5tu
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-VEYZeGOy
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-F4ttijME
+        - **Typographie** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-6rSsq9xp
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-Fo3IckIL
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-SCu2tTCB
+        - **Bildbearbeitung** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-yqFvtbvh
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-X0D26flw
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-4qLum8Ox
+        - **Screendesign** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-a5KUrFHb
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-RRDwGgim
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-AeP47BLA
+      - **Programmierung** `Kosten=8500` ^oid-61JcYBav
+        - **Datenbank Design** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-tNBtUULN
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-7RhEaqG8
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-3JAtlpSI
+        - **Datenbank Programmierung** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=1000` `Netto=1000` `Ust.=0` `Gesamt=1000` ^oid-HbTtg9IX
+          - **Entwurf** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=500` `Faktor=1` `Netto=500` `Ust.=0` `Gesamt=500` ^oid-0FshktBg
+          - **Set** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=500` `Faktor=1` `Netto=500` `Ust.=0` `Gesamt=500` ^oid-iCkWv9XS
+        - **Software Programmierung** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=7500` `Netto=7500` `Ust.=0` `Gesamt=7500` ^oid-QOnNLJuU
+          - **KINDgeek** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=7500` `Faktor=1` `Netto=7500` `Ust.=0` `Gesamt=7500` ^oid-BLpgONZ5
+      - **Marketing** `Kosten=0` ^oid-mgiK0ani
+        - **Firmenname** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-7uU7akf3
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-XQihaAT8
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-k10Orruz
+        - **Pressetexte** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-ipvNG6WJ
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-HlHmMvcc
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-XooP6r0r
+        - **Pitch Decks** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-Tt4b3pHp
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-JjsK7Irj
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-ECyPgzRD
+        - **Folder** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-OVWzuaOa
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-rKDx4iBa
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-9kxeQaO6
+        - **Homepage** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-kS5SJwYu
+          - **Erstellen** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-PVHA3Nwg
+          - **Search Engine Optimization** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-zKM9fg39
+            - **google** ^oid-OkURaEU9
+            - **bing** ^oid-napcGAxH
+            - **safari** ^oid-yEZ8jlpb
+        - **Mailing** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-FLsPm9rf
+          - **Liste erstellen** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-EbgYOW8r
+          - **einrichten** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-ORTYyE3Z
+          - **versenden** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-MYlKB6qE
+        - **Sozial Media Profile** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-uGlx2UzQ
+          - **Facebook** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-rZgulGo3
+            - **Einrichten** ^oid-RJsAjUST
+              - **Username** ^oid-5pgyAETq
+              - **Passwort** ^oid-tH3A3Wqq
+            - **Inhalte befüllen** ^oid-jN8lz2j0
+          - **Twitter** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-8UOSIfmh
+            - **Einrichten** ^oid-sH4MfxOz
+              - **Username** ^oid-v0866L7c
+              - **Passwort** ^oid-pkrJGsSw
+            - **Inhalte befüllen** ^oid-chx21r8S
+          - **google+** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-Dqmh7G8J
+            - **Einrichten** ^oid-ol6TZMO9
+              - **Username** ^oid-XrZrmS4k
+              - **Passwort** ^oid-XKINGA6U
+            - **Inhalte befüllen** ^oid-9zkt55WN
+          - **youtube** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-NKZeYIXz
+            - **Einrichten** ^oid-pTtZknmk
+              - **Username** ^oid-EO270lw7
+              - **Passwort** ^oid-Jjy6MG8b
+            - **Inhalte befüllen** ^oid-vxLQT4AX
+          - **Instagram** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-X1tttOTu
+            - **Einrichten** ^oid-rfkSfAPU
+              - **Username** ^oid-3hxtDOcB
+              - **Passwort** ^oid-XsXRzCMD
+            - **Inhalte befüllen** ^oid-dVPKHpPZ
+          - **Pinteres** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-h9rOYxKM
+            - **Einrichten** ^oid-ZILLjSRG
+              - **Username** ^oid-OHOILGKZ
+              - **Passwort** ^oid-DMW43sAD
+            - **Inhalte befüllen** ^oid-bKfuLoOS
+        - **APPLE STORE** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-Knmyh8Vl
+          - **Texte** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-JBHmHh7s
+            - **App Name** ^oid-4IuFp0Ka
+              - **255 Zeichen** ^oid-ZBbbIeyG
+            - **Beschreibung** ^oid-Z7bOwUmA
+              - **4000 Zeichen** ^oid-5BaDDLy4
+            - **Schlüsselwörter** ^oid-4OXTL5qx
+              - **100 Zeichen** ^oid-6V6WCNMB
+            - **Kategorie** ^oid-rTz4RiJH
+              - **primär (verpflichtend)** ^oid-9DSdzzoy
+              - **sekundär (optional)** ^oid-5bhxYgR7
+            - **Support-URL** [icon:BrokenConnection] ^oid-40SQh6VW
+              - **keine** ^oid-n0GxDeXq
+            - **Marketing-URL** [icon:BrokenConnection] ^oid-NeckoS5w
+              - **keine** ^oid-KuHaG3cd
+            - **Datenschutz-URL** [icon:BrokenConnection] ^oid-2z9zH8OY
+              - **keine** ^oid-MPK9GwqA
+            - **Support E-Mail-Adresse** [icon:BrokenConnection] ^oid-qpTjGqAy
+              - **keine** ^oid-BZK3Aeyx
+            - **Copyright bzw. Firmenname** [icon:BrokenConnection] ^oid-Mbj0OcIa
+              - **keine** ^oid-ulHaXUjZ
+            - **Update Beschreibung** ^oid-gOTlPhAw
+              - **4000 Zeichen** ^oid-i2ZlsZLC
+          - **Grafik** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-omabPQXK
+            - **App Icon** ^oid-aPtmpM15
+              - **1024×1024** ^oid-a2bu8tqm
+              - **png oder jpg** ^oid-XuOhnWnm
+              - **keine Transparenz** ^oid-shRv983v
+              - **keine abgerundeten Ecken** ^oid-cevRNI7H
+            - **Funktionsgrafik** [icon:BrokenConnection] ^oid-0FPF04I5
+              - **(nicht verfügbar)** ^oid-cSu0ZjOR
+            - **Werbegrafik (optional)** [icon:BrokenConnection] ^oid-N3iMwJ44
+              - **(nicht verfügbar)** ^oid-ZS84kjVz
+            - **TV-Banner (optional)** [icon:BrokenConnection] ^oid-CLEf4DqN
+              - **(nicht verfügbar)** ^oid-iBAZKAkf
+            - **Werbevideo (optional)** ^oid-oGs8ih5r
+              - **M4V-, MP4- oder MOV-Format max. 500 MB** ^oid-wP6TW4T9
+        - **GOOGLE STORE** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-vEuXTWtJ
+          - **Texte** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-pvP6Mmax
+            - **App Name** ^oid-muqQhYE3
+              - **30 Zeichen** ^oid-LRXi3EXT
+            - **Beschreibung** ^oid-kvSIAFCG
+              - **4000 Zeichen** ^oid-vP6nJmys
+            - **Schlüsselwörter** ^oid-zOM04B3A
+              - **keine** ^oid-z5VQudJ1
+            - **Kategorie** ^oid-l5x2xR8S
+              - **Typ** ^oid-cvguMMWp
+              - **Kategorie** ^oid-TGvBQl6z
+            - **Support-URL** ^oid-ZThdEj81
+              - **keine** ^oid-jChaFjIj
+            - **Marketing-URL** ^oid-M4nSFI8X
+              - **keine** ^oid-j28FQDMm
+            - **Datenschutz-URL** ^oid-RJKd1D7g
+              - **keine** ^oid-qXcM73ZR
+            - **Support E-Mail-Adresse** ^oid-wULcxoKA
+              - **keine** ^oid-KeqmXb7S
+            - **Copyright bzw. Firmenname** ^oid-lAJQRpsQ
+              - **keine** ^oid-L1y1aXQY
+            - **Update Beschreibung** ^oid-WbOZf2IW
+              - **500 Zeichen** ^oid-L6MHCDpF
+          - **Grafik** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-4XWzoP5o
+            - **App Icon** ^oid-lsfHTumD
+              - **512×512** ^oid-q8mf29nO
+              - **png** ^oid-t0aQ1M3S
+              - **optional mit Transparenz** ^oid-aSJ8Vgxh
+            - **Funktionsgrafik** ^oid-I0as1ZTi
+              - **1024×500** ^oid-aT69q2Gu
+              - **png oder jpg** ^oid-krDu7BwU
+              - **keine Transparenz** ^oid-GWKxkDGE
+            - **Werbegrafik (optional)** ^oid-1UeWtWg4
+              - **180×120** ^oid-IkmIM2W3
+              - **png oder jpg** ^oid-f8GWHtxg
+              - **keine Transparenz** ^oid-z2BOce1U
+            - **TV-Banner (optional)** ^oid-Cfg6ZaJ6
+              - **320×180** ^oid-pX8GWk6b
+              - **png oder jpg** ^oid-FxO7z0Ee
+              - **keine Transparenz** ^oid-PnEeucSu
+            - **Werbevideo (optional)** ^oid-hpvF1bXO
+              - **YouTube-Videos** ^oid-odWKKKlU
+        - **WINDOWS STORE** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-c8KMr7u0
+          - **Texte** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-lyK1TfK2
+            - **App Name** ^oid-SodwW3A4
+              - **255 Zeichen** ^oid-fbSyLvPn
+            - **Beschreibung** ^oid-YuoqnnJ7
+              - **5000 Zeichen** ^oid-EkfBxUwa
+            - **Schlüsselwörter** ^oid-7bfehsyC
+              - **bis zu5 Wörter** ^oid-D8QKG6gl
+            - **Kategorie** ^oid-n6MA5NGn
+              - **primär (verpflichtend)** ^oid-TxAU5vcd
+              - **sekundär (optional)** ^oid-Psi28aQC
+            - **Support-URL** ^oid-mGkRVrjV
+              - **keine** ^oid-BNxXy7qC
+            - **Marketing-URL** ^oid-94EUyTaT
+              - **keine** ^oid-gyEv0eWc
+            - **Datenschutz-URL** ^oid-YOffjBQ7
+              - **keine** ^oid-MWSTPKHD
+            - **Support E-Mail-Adresse** ^oid-AwBSQ1ib
+              - **keine** ^oid-6xnA7aX4
+            - **Copyright bzw. Firmenname** ^oid-Lsw02kVM
+              - **keine** ^oid-SFHqLu1v
+            - **Update Beschreibung** ^oid-lQBXURkM
+              - **2000 Zeichen** ^oid-8vtX0cuB
+          - **Grafik** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-3XDpcJ0B
+        - **App Awards** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-SxOunE9x
+          - **bestmobileappawards.com** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-B2fjgjxm
+          - **app-art-award.org** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-8PauKd4a
+          - **developer.apple.com** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-Z5ZFTpaZ
+          - **bestappever.com** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-qOmcMeMN
+        - **Maßnahmen** ^oid-6elDZkbF
+          - **ZIELE** ^oid-HGtXuTvl
+          - **USABILITY** ^oid-eKtJRRui
+          - **KOSTENFREIE VERSION** ^oid-qqDOClN5
+          - **RICHTIGEN PREIS** ^oid-iT7gQVv8
+          - **BESCHREIBUNG** ^oid-J9kVygpj
+          - **SCREENSHOTS** ^oid-P6Fa8hXz
+          - **TOPLISTEN** ^oid-1i0ODLlf
+          - **TAGGING** ^oid-VgG2SIsK
+          - **APP NAME** ^oid-XdIPhIAP
+          - **BEWERTUNGEN** ^oid-XttyPOxb
+          - **PRESSEMITTEILUNGEN** ^oid-2mku8jUD
+          - **ZEITVERSETZT - iOS + Android** ^oid-UqjDfE6s
+          - **FEEDBACK** ^oid-oaPxwXth
+          - **KEYWORDS** ^oid-rFEDcp2Z
+          - **YOUTUBE** ^oid-eojO3uMc
+          - **UPDATES** ^oid-MOlNSP2y
+          - **BETA VERSION** ^oid-aq2zQsSg
+          - **MONITORING** ^oid-4QpvYRiD
+          - **THEMENWEBSITES** ^oid-X20apYPW
+          - **ANALYSE TOOLS** ^oid-pNjqAxve
+      - **Verkauf** `Kosten=0` ^oid-y0OOf7HE
+        - **Präsentation** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-LYsfnRPG
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-49uU5JwU
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-J4ajr1BA
+        - **Termine** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-toIgNzR9
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-GKOPCIAS
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-HHl85MJt
+        - **Verhandlungen** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-UWKJB0px
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-juxnZPyh
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-yQTdl8Hk
+        - **Kundenbetreuung** `Anmerkung=` `Anzahl=1` `Einheit=Pa.` `EH-Preis=0` `Netto=0` `Ust.=0` `Gesamt=0` ^oid-qGSjF4Ri
+          - **Entwurf** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-hPOZ5qBJ
+          - **Set** `Anmerkung=` `Anzahl=0` `Einheit=h` `EH-Preis=30` `Faktor=1` `Netto=0` `Ust.=0.2` `Gesamt=0` ^oid-IwIU5WHT
+    - **Pressetext** ^oid-YI4xo7Wn
+      - **1.0** ^oid-Bs97GokE
+  - **Settings** `Kosten=249` `Aufwand=0` [icon:Emergency] ^oid-pj8rzOx0
+    - **Hosting** ^oid-wDVhO2zC
+      - **SERVERPROFIS** `Domain=www.://flat-race.eu` `BN=mad.studio.gmbh@gmail.com` `PW=30MadStudio65` [https://service.serverprofis.net/clientarea.php?action=productdetails&id=12095](https://service.serverprofis.net/clientarea.php?action=productdetails&id=12095) [icon:PadlockLocked] ^oid-LHFz7kpg
+      - **flat-race.eu** `Benutzername=flatrace` `Initialpasswort=4EpfsP903i` `DynDNS=https://cp233.sp-server.net/spdyndns.php?hostname=dyndns.flat-race.eu&cUser=flatrace&cPass=4EpfsP903i` `Server IP-Adresse=195.30.108.233` `Server Hostname=cp233.sp-server.net` ^oid-Dar8Jxr5
+      - **mail.flat-race.eu** `Posteingangsserver=IMAP Port: 993` `Postausgangsserver=SMTP Port: 465` ^oid-i4TW1ZCp
+        - **FLATad** `Email=admin@flat-race.eu` `PW=07MadStudio05` `Gesamt=` `Dauer=` ^oid-xWdwFRDv
+        - **UWE** `Email=uh@flat-race.eu` `PW=07FLAT@uwe05` `Gesamt=` `Dauer=` ^oid-OkLTECcI
+        - **Feedback** `Email=feedback@flat-race.eu` `PW=07FLATfeedback05` `Gesamt=` `Dauer=` ^oid-xxowN4DO
+        - **Newsletter** `Email=newsletter@flat-race.eu` `PW=07FLATnewsletter05` `Gesamt=` `Dauer=` ^oid-cj0FplNG
+        - **Info** `Email=info@flat-race.eu` `PW=07FLATinfo05` `Gesamt=` `Dauer=` ^oid-fsqTEwbw
+        - **Office** `Email=office@flat-race.eu` `PW=07FLAToffice05` `Gesamt=` `Dauer=` ^oid-0qhwPil7
+        - **Ticket** `Email=ticket@flat-race.eu` `PW=07FLATticket05` `Gesamt=` `Dauer=` ^oid-Ianxn3gv
+        - **Manager** `Email=manager@flat-race.eu` `PW=07FLATmanager05` `Gesamt=` `Dauer=` ^oid-8bEsKs14
+      - **Social Media** ^oid-ArdIVsGE
+        - **FACEBOOK** ^oid-iKiQ4wKQ
+    - **Wordpress** [icon:Emergency] ^oid-yXQ0Ze2o
+      - **Admin** `Email=admin@flat-race.eu` `BN=FLATad` `PW=07MadStudio05` ^oid-JHtvRWKT
+      - **Theme ENFOLD** `Main Style Farbe=#fd4f10` `Sub Style Farbe=#2a7986` `Main Content Hintergrundfarbe=#ffffff` `Main Content Heading color=000000` `Main Content Schriftfarbe=000000` `Primary color=c05f5f` `Rahmen Farben=e1e1e1` ^oid-RCqqtnap
+        - **ENFOLD** `Gesamt=` `Dauer=` ^oid-wK66dEWm
+          - **Themeforest** `User Name=MadStudioApps` `API Key=enddarv9qmz1qgir2yi1ly2jyz472tz3` `Gesamt=` `Dauer=` [icon:PadlockLocked] ^oid-c1EsLeH0
+        - **Updates installieren** `Status=Nicht begonnen` ^oid-jpWA2jSY
+        - **CSS Style** `Gesamt=` `Dauer=` ^oid-v3HpqEIR
+          - **enfold** `Gesamt=` `Dauer=` ^oid-m7cMQ8JA
+            - **fd4f10** `Gesamt=` `Dauer=` ^oid-u28wKJdV
+            - **9e9e9e** `Gesamt=` `Dauer=` ^oid-JN5HeKMH
+          - **fd4d11** `Gesamt=` `Dauer=` ^oid-OMEfU19F
+          - **cw** `Gesamt=` `Dauer=` ^oid-MHsylt8s
+            - **445356** `Gesamt=` `Dauer=` ^oid-4K8KWzKZ
+            - **2A7986** `Gesamt=` `Dauer=` ^oid-AZIGi5P9
+            - **579CAB** `Gesamt=` `Dauer=` ^oid-cIERAcCD
+            - **85a9aa** `Gesamt=` `Dauer=` ^oid-NEP6o2M5
+          - **DH** `Gesamt=` `Dauer=` ^oid-GZbpW66V
+            - **F44336** `Gesamt=` `Dauer=` ^oid-t3B5u4nK
+            - **dbd9d9** `Gesamt=` `Dauer=` ^oid-j7kTcd6d
+      - **PLUGINS** `∑ Netto=249` `∑ Steuern=0` `∑ Gesamt=249` `Gesamt=` `Dauer=` [icon:Emergency] ^oid-EN4M1u7c
+        - **Calculaded Fields Form** `Funktion=Formular Builder` [https://cff.dwbooster.com/](https://cff.dwbooster.com/) ^oid-1gkHDu0F
+          - **Platinum** `Anmerkung=` `Anzahl=1` `Einheit=Pauschale` `EH-Preis=150` `netto=150` `Steuer=0` `Gesamt=150` `Dauer=` [icon:Euro] ^oid-3780ftXh
+          - **Insert in Database** ^oid-nMeZcyPw
+          - **CSS Style** [Anmelden &lsaquo; FLATrace &#8212; WordPress](https://flat-race.eu/wp-admin/plugin-editor.php?file=calculated-fields-form%2Fcss%2Fstylepublic.css&plugin=calculated-fields-form%2Fcp_calculatedfieldsf_platinum.php) ^oid-kAi8NGKn
+            - **enfold** `Gesamt=` `Dauer=` ^oid-00kHrmJL
+              - **Main Content** `Gesamt=` `Dauer=` ^oid-3AJ6FHd3
+                - **Main Content Hintergrundfarbe** `Gesamt=` `Dauer=` ^oid-3zk4Zw6n
+                  - **ffffff** `Gesamt=` `Dauer=` ^oid-hTigv1Xi
+                - **Primary color** `Gesamt=` `Dauer=` ^oid-z0c2km1R
+                  - **c05f5f** `Gesamt=` `Dauer=` ^oid-yz8C1ikN
+                    - **Buttons** `Gesamt=` `Dauer=` ^oid-ba3Uhrf2
+                - **Main Content Schriftfarbe** `Gesamt=` `Dauer=` ^oid-Uuy8k1uE
+                  - **000000** `Gesamt=` `Dauer=` ^oid-XzBh2jV0
+                - **Main Content secondary font color** `Gesamt=` `Dauer=` ^oid-dOEy3J1r
+                  - **000000** `Gesamt=` `Dauer=` ^oid-AA2GRwry
+                - **Main Content Heading color** `Gesamt=` `Dauer=` ^oid-TJlud4SS
+                  - **000000** `Gesamt=` `Dauer=` ^oid-2kBnoxmk
+                - **Rahmen Farben** `Gesamt=` `Dauer=` ^oid-pbI36P5q
+                  - **e1e1e1** `Gesamt=` `Dauer=` ^oid-BD3Ha3Sk
+              - **fd4f10** `Gesamt=` `Dauer=` ^oid-V3gXSSpS
+              - **9e9e9e** `Gesamt=` `Dauer=` ^oid-ACyTmFmo
+            - **fd4d11** `Gesamt=` `Dauer=` ^oid-zOqxKn5m
+            - **cw** `Gesamt=` `Dauer=` ^oid-ESBpl0nu
+              - **445356** `Gesamt=` `Dauer=` ^oid-iITKkDVC
+              - **2A7986** `Gesamt=` `Dauer=` ^oid-2rdhurpa
+              - **579CAB** `Gesamt=` `Dauer=` ^oid-atYPru80
+              - **85a9aa** `Gesamt=` `Dauer=` ^oid-ZjUsQO6W
+            - **DH** `Gesamt=` `Dauer=` ^oid-Rp8xbjz1
+              - **F44336** `Gesamt=` `Dauer=` ^oid-Mg03EZ9a
+              - **dbd9d9** `Gesamt=` `Dauer=` ^oid-cQgceSpk
+          - **Insert in Database** [Anmelden &lsaquo; FLATrace &#8212; WordPress](https://flat-race.eu/wp-admin/plugin-editor.php?file=calculated-fields-form%2Fcp_calculatedfieldsf_insert_in_database.php&plugin=calculated-fields-form%2Fcp_calculatedfieldsf_platinum.php) ^oid-qo21bIRl
+          - **weitere Formulare** ^oid-hdNIeOO0
+            - **BETRAG** `URL=http://flat-race.eu/finanzieren/betrag/` `CFF_name=FIN_3_Betrag` `CFF_id=271` `Gesamt=` `Dauer=` [http://flat-race.eu/finanzieren/betrag/](http://flat-race.eu/finanzieren/betrag/) [icon:Cellphone] ^oid-CeYhOBG1
+            - **RATE PRO MONAT** `URL=https://flat-race.eu/finanzieren/rate-pro-monat/` `CFF_name=FIN_4_Rate pm` `CFF_id=304` `Gesamt=` `Dauer=` [https://flat-race.eu/finanzieren/rate-pro-monat/](https://flat-race.eu/finanzieren/rate-pro-monat/) [icon:Cellphone] ^oid-hFcjo21a
+            - **ZINSSATZ** `URL=https://flat-race.eu/finanzieren/zinssatz/` `CFF_name=FIN_5_Zinssatz` `CFF_id=305` `Gesamt=` `Dauer=` [https://flat-race.eu/finanzieren/zinssatz/](https://flat-race.eu/finanzieren/zinssatz/) [icon:Cellphone] ^oid-Gfd0Iagh
+        - **WP Real Media Library** `Funktion=` `Version=` `Kosten=0` `Gesamt=` `Dauer=` ^oid-uVwP31Pl
+          - **Advanced Custom Fields: Real Media Library Field** `Funktion=` `Version=` `Kosten=0` `Gesamt=` `Dauer=` [https://cff.dwbooster.com/](https://cff.dwbooster.com/) ^oid-KtfoL629
+        - **Advanced Page Manager** `Funktion=` `Version=` `Kosten=0` `Gesamt=` `Dauer=` ^oid-KMr04lTQ
+        - **All In One WP Security** `Funktion=` `Version=` `Kosten=0` `Gesamt=` `Dauer=` ^oid-4ZJFbiQG
+          - **Automatische Sicherung: wöchentlich** ^oid-cT43tQd1
+        - **CP Blocks** `Funktion=` `Version=` `Gesamt=` `Dauer=` ^oid-LYH0Rqr0
+          - **CP Blocks  Lizenz** `Status=In Wartestellung` ^oid-1eFn5KOn
+          - **CP Blocks** `Anz.=1` `Einheit=Jahr` `Kosten=54` `Gesamt=` `Dauer=` ^oid-7Sj1KXkR
+        - **EU Cookie Law** `Funktion=` `Version=` `Kosten=0` `Gesamt=` `Dauer=` ^oid-nOpwV8KX
+        - **MonsterInsights** `Funktion=` `Version=` `Kosten=0` `Gesamt=` `Dauer=` [https://www.monsterinsights.com/lite/?utm_source=wpdashboard&utm_campaign=reportupselllite](https://www.monsterinsights.com/lite/?utm_source=wpdashboard&utm_campaign=reportupselllite) ^oid-4I4NGOoD
+          - **Plus** `Anmerkung=` `Anzahl=1` `Einheit=pro Jahr` `EH-Preis=99` `netto=99` `Steuer=0` `Gesamt=99` `Dauer=` [icon:Euro] ^oid-QFyiZ9NR
+          - **Pro** `Anmerkung=` `Anzahl=0` `Einheit=pro Jahr` `EH-Preis=199` `netto=0` `Steuer=0` `Gesamt=0` `Dauer=` [icon:Euro] ^oid-Jy6auvAb
+        - **WP-Optimize** `Funktion=` `Version=` `Kosten=0` `Gesamt=` `Dauer=` ^oid-Y51YTVQ7
+        - **Yoast SEO** `Funktion=` `Version=` `Kosten=0` `Gesamt=` `Dauer=` ^oid-qKzYMzse
+        - **MailPOET** `Funktion=` `Version=` `Gesamt=` `Dauer=` ^oid-buOhurgM
+        - **UpdraftPlus - Backup/Restore** `Funktion=` `Version=` `Kosten=0` `Gesamt=` `Dauer=` ^oid-EDxY74dQ
+        - **WP DSGVO Tools** `Funktion=` `Version=` `Kosten=0` `Gesamt=` `Dauer=` ^oid-YuAzN6EK
+          - **DSGVO einrichten** `Status=Nicht begonnen` [icon:FlagYellow] ^oid-x8fYN4Hq
+        - **Archive** ^oid-sAj61UZj
+          - **diverse** `Gesamt=` `Dauer=` ^oid-y9Ec5PeP
+            - **OneSignal** `Gesamt=` `Dauer=` [https://flat-race.eu/wp-admin/plugin-install.php?tab=plugin-information&plugin=onesignal-free-web-push-notifications&TB_iframe=true&width=600&height=550](https://flat-race.eu/wp-admin/plugin-install.php?tab=plugin-information&plugin=onesignal-free-web-push-notifications&TB_iframe=true&width=600&height=550) ^oid-GbAIvTnI
+            - **Icegram** `Gesamt=` `Dauer=` [https://flat-race.eu/wp-admin/plugin-install.php?tab=plugin-information&plugin=icegram&TB_iframe=true&width=600&height=550](https://flat-race.eu/wp-admin/plugin-install.php?tab=plugin-information&plugin=icegram&TB_iframe=true&width=600&height=550) ^oid-brzWPVnp
+            - **AllinOne WP Imegration** `Gesamt=` `Dauer=` ^oid-3bwRSDCK
+            - **Really Simple SSL** `Gesamt=` `Dauer=` [https://flat-race.eu/wp-admin/plugin-install.php?tab=plugin-information&plugin=really-simple-ssl&TB_iframe=true&width=600&height=550](https://flat-race.eu/wp-admin/plugin-install.php?tab=plugin-information&plugin=really-simple-ssl&TB_iframe=true&width=600&height=550) ^oid-hKEmTI8b
+            - **WP Fastest Cache** `Gesamt=` `Dauer=` [https://flat-race.eu/wp-admin/plugin-install.php?tab=plugin-information&plugin=wp-fastest-cache&TB_iframe=true&width=600&height=550](https://flat-race.eu/wp-admin/plugin-install.php?tab=plugin-information&plugin=wp-fastest-cache&TB_iframe=true&width=600&height=550) ^oid-dd3FlyEM
+            - **Divi** `Gesamt=` `Dauer=` ^oid-ge4JnsM3
+            - **Smush Image Compression and Optimization** `Gesamt=` `Dauer=` [https://flat-race.eu/wp-admin/plugin-install.php?tab=plugin-information&plugin=wp-smushit&TB_iframe=true&width=600&height=550](https://flat-race.eu/wp-admin/plugin-install.php?tab=plugin-information&plugin=wp-smushit&TB_iframe=true&width=600&height=550) ^oid-SaGmQlXs
+            - **Tidio Live Chat** `Gesamt=` `Dauer=` ^oid-YUCnVukN
+            - **Wordfense** `Gesamt=` `Dauer=` ^oid-VRNIHESU
+          - **ABASE for Accessing MySQL Databases** `Gesamt=` `Dauer=` ^oid-wpO21vXY
+          - **amCharts: Charts and Maps** `Gesamt=` `Dauer=` ^oid-AIX6FHmM
+          - **PDF Embedder** `Gesamt=` `Dauer=` ^oid-zWcVXDAM
+          - **Polldaddy Polls & Ratings** `Gesamt=` `Dauer=` ^oid-v6rREcYl
+          - **Post Snippets** `Gesamt=` `Dauer=` ^oid-UCnEZOJD
+          - **Typing Effec** `Gesamt=` `Dauer=` ^oid-fvnTJI9k
+    - **Datenbank** ^oid-IwSzIC2N
+      - **DB_settings** `DB_NAME=flatrace_flat` `DB_USER=flatrace_flat` `DB_PASSWORD=j28S@!pYU2` `DB_HOST=localhost` `DB_CHARSET=utf8mb4` `DB_COLLATE=` `Gesamt=` `Dauer=` [https://cp233.sp-server.net:2083/cpsess7432792802/3rdparty/phpMyAdmin/tbl_export.php?db=flatrace_flat&table=B_PS_GEMat&token=26df89fb617ceb8703e5aaa13eca8766&single_table=true](https://cp233.sp-server.net:2083/cpsess7432792802/3rdparty/phpMyAdmin/tbl_export.php?db=flatrace_flat&table=B_PS_GEMat&token=26df89fb617ceb8703e5aaa13eca8766&single_table=true) ^oid-TlThfspk
+    - **Styleguide** [http://www.color-hex.com](http://www.color-hex.com) ^oid-XZyzAtCt
+      - **Minttürkis** `Farbnummer=rgb 22 150 141` `Color Hex=#16968D` `Setting=Main Style` [icon:FlagGreen] ^oid-ipga1Y4R
+      - **Pastelltürkis** `Farbnummer=rgb 110 179 166` `Color Hex=#16968D` `Setting=Sub Style` [icon:FlagGreen] ^oid-AhdRBXbb
+      - **Reinorange** `Farbnummer=rgb 236 102 8` `Color Hex=#EC6608` `Setting=Mail Content Heading` [icon:FlagGreen] ^oid-SYY9Lq6P
+      - **Stylesheet** `Schriftfarbe=#000000` `Hintergrundfarbe=#ffffff` `Hintergrund 1=#eeeeee` `Hauptfarbe=#2a7986` `Gesamt=` `Dauer=` ^oid-pV2iamQB
+    - **GOOGLE Ads** [Google AdWords](https://adwords.google.com/aw/overview?ocid=238368628&__c=6742505172&__u=6052755668&authuser=0&__o=cues) ^oid-MbPe0P1D
+    - **archiv** ^oid-XGCk4XJJ
+      - **Datenbank** `Gesamt=` `Dauer=` ^oid-5uuBWBBj
+        - **Spaltennamen** `Gesamt=` `Dauer=` ^oid-1GBt9Weq
+          - **Basic** `Gesamt=` `Dauer=` ^oid-3il0EQ9V
+            - **idGEM** `Gesamt=` `Dauer=` ^oid-QQvLS03L
+            - **name** `Gesamt=` `Dauer=` ^oid-qBkaMhun
+            - **pid** `Gesamt=` `Dauer=` ^oid-mU9O5mIx
+            - **PLZ** `Gesamt=` `Dauer=` ^oid-ZGQLVyeR
+            - **Fak** `Gesamt=` `Dauer=` ^oid-0o4CkXW0
+          - **Grundstück** `Gesamt=` `Dauer=` ^oid-tC8o2HQu
+            - **GSTfl** `Gesamt=` `Dauer=` ^oid-jeR0htPk
+            - **GST** `Gesamt=` `Dauer=` ^oid-KBBUUqFj
+            - **GSTmin** `Gesamt=` `Dauer=` ^oid-Itofb0zb
+            - **GSTmax** `Gesamt=` `Dauer=` ^oid-0jwkNm2B
+          - **Einfamilienhaus** `Gesamt=` `Dauer=` ^oid-lOgQco2M
+            - **EFHfl** `Gesamt=` `Dauer=` ^oid-iGPwbIPq
+            - **EFH** `Gesamt=` `Dauer=` ^oid-n1BqRCvz
+            - **EFHmin** `Gesamt=` `Dauer=` ^oid-a9alMJt2
+            - **EFHmax** `Gesamt=` `Dauer=` ^oid-rejSLtvH
+          - **Reihenhaus** `Gesamt=` `Dauer=` ^oid-B4GYBR6y
+            - **RHfl** `Gesamt=` `Dauer=` ^oid-fwOXLFXn
+            - **RHgst** `Gesamt=` `Dauer=` ^oid-xebtOH1E
+            - **RH** `Gesamt=` `Dauer=` ^oid-8jw6mTG9
+            - **RHmin** `Gesamt=` `Dauer=` ^oid-APGm1fDy
+            - **RHmax** `Gesamt=` `Dauer=` ^oid-205di09U
+          - **Wohnung** `Gesamt=` `Dauer=` ^oid-CrnVODTE
+            - **WHGfl** `Gesamt=` `Dauer=` ^oid-iEfFYD5D
+            - **WHG** `Gesamt=` `Dauer=` ^oid-T43HAp1R
+            - **WHGmin** `Gesamt=` `Dauer=` ^oid-vnyREg9A
+            - **WHGmax** `Gesamt=` `Dauer=` ^oid-5DxtEAaE
+          - **Betriebskosten** `Gesamt=` `Dauer=` ^oid-WZcyGrO6
+            - **BK** `Gesamt=` `Dauer=` ^oid-YJujTQAr
+            - **BKmin** `Gesamt=` `Dauer=` ^oid-ojOnos4b
+            - **BKmax** `Gesamt=` `Dauer=` ^oid-GipCG8Zl
+          - **Unterhalt** `Gesamt=` `Dauer=` ^oid-IbrFtvaT
+            - **UNTER** `Gesamt=` `Dauer=` ^oid-H5DxkTze
+            - **UNTERmin** `Gesamt=` `Dauer=` ^oid-PNYxrLL8
+            - **UNTERmax** `Gesamt=` `Dauer=` ^oid-11e6fp5X
+          - **Betriebskosten allgemein** `Gesamt=` `Dauer=` ^oid-kO21tBAq
+            - **Steuer** `Gesamt=` `Dauer=` ^oid-mk7AWMuW
+            - **Mull** `Gesamt=` `Dauer=` ^oid-eYSj5Rnb
+            - **Kanal** `Gesamt=` `Dauer=` ^oid-i2mMH7Hw
+            - **Wasser** `Gesamt=` `Dauer=` ^oid-6WKdotA6
+            - **HausVers** `Gesamt=` `Dauer=` ^oid-GltGBMyW
+            - **StromAll** `Gesamt=` `Dauer=` ^oid-v5Ku5QCi
+            - **Verwalt** `Gesamt=` `Dauer=` ^oid-5CmGJpo1
+            - **Rein** `Gesamt=` `Dauer=` ^oid-6bvS19ng
+            - **Betreu** `Gesamt=` `Dauer=` ^oid-GJAz4iRN
+            - **Aussen** `Gesamt=` `Dauer=` ^oid-VrQiPaq1
+            - **Kampf** `Gesamt=` `Dauer=` ^oid-Eut6ngBi
+            - **RFK** `Gesamt=` `Dauer=` ^oid-S7OTN9F2
+            - **Repa** `Gesamt=` `Dauer=` ^oid-z8YVsoXq
+            - **Winter** `Gesamt=` `Dauer=` ^oid-vrDEFPSw
+            - **Extern** `Gesamt=` `Dauer=` ^oid-vz63WbL6
+          - **Betriebskosten gesondert** `Gesamt=` `Dauer=` ^oid-Pl9i2lPf
+            - **Aufwand** `Gesamt=` `Dauer=` ^oid-32K2IOe7
+            - **Spesen** `Gesamt=` `Dauer=` ^oid-xn7nDZQc
+            - **Zinsen** `Gesamt=` `Dauer=` ^oid-GNvSaOXP
+            - **Rück** `Gesamt=` `Dauer=` ^oid-1qM1fmlx
+            - **Gefördert** `Gesamt=` `Dauer=` ^oid-eHs8bDV1
+            - **Darlehen** `Gesamt=` `Dauer=` ^oid-Eqo42bZx
+            - **Beratung** `Gesamt=` `Dauer=` ^oid-arXVPjSu
+            - **Reise** `Gesamt=` `Dauer=` ^oid-0nmPvMnU
+            - **GESsonst** `Gesamt=` `Dauer=` ^oid-rxIeaWDc
+          - **Betriebskosten Aufzug** `Gesamt=` `Dauer=` ^oid-czdNNuiz
+            - **Tel** `Gesamt=` `Dauer=` ^oid-bT00JR59
+            - **Wartung** `Gesamt=` `Dauer=` ^oid-mO9Id8qb
+            - **LIFTstrom** `Gesamt=` `Dauer=` ^oid-jsmRAPNr
+            - **Störung** `Gesamt=` `Dauer=` ^oid-GWzG5MPy
+            - **LIFTversich** `Gesamt=` `Dauer=` ^oid-DHcJb6Rx
+            - **LIFTrepa** `Gesamt=` `Dauer=` ^oid-nv310WNa
+            - **LIFTaufwand** `Gesamt=` `Dauer=` ^oid-Gc55KYe8
+            - **LIFTsonst** `Gesamt=` `Dauer=` ^oid-D3B5mMYv
+          - **Unterhalt** `Gesamt=` `Dauer=` ^oid-6mmt4FMm
+            - **Versicherung** `Gesamt=` `Dauer=` ^oid-g1YJcN2V
+            - **Heizung** `Gesamt=` `Dauer=` ^oid-Q1WEZDYO
+            - **Strom** `Gesamt=` `Dauer=` ^oid-jnb3ty2o
+            - **Warmwasser** `Gesamt=` `Dauer=` ^oid-fSba9ZeF
+            - **Rundfunk** `Gesamt=` `Dauer=` ^oid-SVakLCBV
+            - **Internet** `Gesamt=` `Dauer=` ^oid-GoqXh5sN
+            - **Television** `Gesamt=` `Dauer=` ^oid-CQLSQ7Af
+            - **Telefon** `Gesamt=` `Dauer=` ^oid-Rlq4Sv1Z
+            - **Reserven** `Gesamt=` `Dauer=` ^oid-pnwBvUA6
+        - **Richtwert an Objekt** `Gesamt=` `Dauer=` ^oid-mw6YPFKb
+          - **id** `Gesamt=` `Dauer=` ^oid-d63xHNlA
+          - **sesID** `Gesamt=` `Dauer=` ^oid-jIHmPlMs
+            - **fieldname191** `Gesamt=` `Dauer=` ^oid-Pa9EUAXO
+          - **userID** `Gesamt=` `Dauer=` ^oid-rti3tHku
+            - **fieldname130** `Gesamt=` `Dauer=` ^oid-wmXcgJJy
+          - **bundID** `Gesamt=` `Dauer=` ^oid-hpDpIsyT
+            - **fieldname61** `Gesamt=` `Dauer=` ^oid-0FMaoezE
+              - **fieldname403** `Gesamt=` `Dauer=` ^oid-fNTgQ5FD
+          - **bezirkID** `Gesamt=` `Dauer=` ^oid-ykHgDVeU
+            - **fieldname62** `Gesamt=` `Dauer=` ^oid-kPZQYTFA
+              - **fieldname404** `Gesamt=` `Dauer=` ^oid-EG0Isn8p
+          - **gemID** `Gesamt=` `Dauer=` ^oid-MBbhHK3Q
+            - **fieldname63** `Gesamt=` `Dauer=` ^oid-wcMs9gO0
+              - **fieldname83** `Gesamt=` `Dauer=` ^oid-dvZ653UE
+          - **PLZ** `Gesamt=` `Dauer=` ^oid-KFBLkYqc
+            - **fieldname126** `Gesamt=` `Dauer=` ^oid-YiYzdOyP
+              - **fieldname312** `Gesamt=` `Dauer=` ^oid-9YIBzvXk
+          - **besitzID** `Gesamt=` `Dauer=` ^oid-CFTerieu
+            - **fieldname71** `Gesamt=` `Dauer=` ^oid-Wi11pIig
+              - **fieldname373** `Gesamt=` `Dauer=` ^oid-qX1XDHgA
+          - **nutzID** `Gesamt=` `Dauer=` ^oid-JDxlwAg5
+            - **fieldname72** `Gesamt=` `Dauer=` ^oid-SCVUwoky
+              - **fieldname410** `Gesamt=` `Dauer=` ^oid-BtPHJwxQ
+          - **columID** `Gesamt=` `Dauer=` ^oid-tCe1c4yl
+            - **fieldname208** `Gesamt=` `Dauer=` ^oid-hJxOm9Q1
+              - **fieldname85** `Gesamt=` `Dauer=` ^oid-Q82hhmOz
+          - **katID** `Gesamt=` `Dauer=` ^oid-PztBPaB8
+            - **fieldname73** `Gesamt=` `Dauer=` ^oid-cm8kDh68
+              - **fieldname319** `Gesamt=` `Dauer=` ^oid-p6AklJab
+          - **m2** `Gesamt=` `Dauer=` ^oid-wqcbcPHX
+            - **fieldname129** `Gesamt=` `Dauer=` ^oid-yonO6Cg8
+              - **fieldname290** `Gesamt=` `Dauer=` ^oid-XaCwKq16
+              - **fieldname405** `Gesamt=` `Dauer=` ^oid-fxzfrYRS
+          - **BUND** `Gesamt=` `Dauer=` ^oid-vp6Pm14U
+            - **fieldname123** `Gesamt=` `Dauer=` ^oid-aVZLiF7S
+              - **fieldname280** `Gesamt=` `Dauer=` ^oid-AB6x33xk
+          - **BEZIRK** `Gesamt=` `Dauer=` ^oid-5NU7NBoE
+            - **fieldname124** `Gesamt=` `Dauer=` ^oid-gF58Fbva
+              - **fieldname311** `Gesamt=` `Dauer=` ^oid-MHciwkHE
+          - **GEMEINDE** `Gesamt=` `Dauer=` ^oid-HCvozhDz
+            - **fieldname125** `Gesamt=` `Dauer=` ^oid-mBjE0Vg9
+              - **fieldname313** `Gesamt=` `Dauer=` ^oid-ZVFx9dZT
+          - **BESITZ** `Gesamt=` `Dauer=` ^oid-c5WqkVTA
+            - **fieldname199** `Gesamt=` `Dauer=` ^oid-PhkeOwWF
+              - **fieldname66** `Gesamt=` `Dauer=` ^oid-EdmVWVE7
+          - **NUTZUNG** `Gesamt=` `Dauer=` ^oid-ckcEUkeT
+            - **fieldname163** `Gesamt=` `Dauer=` ^oid-4qQXYlQ6
+              - **fieldname409** `Gesamt=` `Dauer=` ^oid-iMWP0Z4x
+          - **KATEGORIE** `Gesamt=` `Dauer=` ^oid-ilMEQ33q
+            - **fieldname166** `Gesamt=` `Dauer=` ^oid-T277ZwKs
+              - **fieldname363** `Gesamt=` `Dauer=` ^oid-adjVx4ws
+          - **Fak** `Gesamt=` `Dauer=` ^oid-zgiwEhxg
+            - **fieldname131** `Gesamt=` `Dauer=` ^oid-kmVd9uv2
+              - **fieldname86** `Gesamt=` `Dauer=` ^oid-7ZyYO0Uc
+          - **basicID** `Gesamt=` `Dauer=` ^oid-lLsMwJGW
+            - **fieldname202** `Gesamt=` `Dauer=` ^oid-zAL8swDM
+              - **fieldname406** `Gesamt=` `Dauer=` ^oid-teEdOZNU
+          - **basicMin** `Gesamt=` `Dauer=` ^oid-b4x6gaiW
+            - **fieldname205** `Gesamt=` `Dauer=` ^oid-Bq0IYYQs
+              - **fieldname407** `Gesamt=` `Dauer=` ^oid-EZha6rks
+          - **basicMax** `Gesamt=` `Dauer=` ^oid-L71C3ad0
+            - **fieldname206** `Gesamt=` `Dauer=` ^oid-THbZA5yg
+              - **fieldname408** `Gesamt=` `Dauer=` ^oid-A5ugILqQ
+          - **RW** `Gesamt=` `Dauer=` ^oid-7urBTldA
+            - **fieldname134** `Gesamt=` `Dauer=` ^oid-2Dgzti6V
+              - **fieldname291** `Gesamt=` `Dauer=` ^oid-HTBMtbLO
+          - **RWmin** `Gesamt=` `Dauer=` ^oid-34DxGo8q
+            - **fieldname180** `Gesamt=` `Dauer=` ^oid-ZOIltK1k
+              - **fieldname294** `Gesamt=` `Dauer=` ^oid-VgEWcqfc
+          - **RWmax** `Gesamt=` `Dauer=` ^oid-RDMQrHU0
+            - **fieldname181** `Gesamt=` `Dauer=` ^oid-7tfgSOWJ
+              - **fieldname295** `Gesamt=` `Dauer=` ^oid-eCMP0xaE
+        - **Check** `Gesamt=` `Dauer=` ^oid-N1Gwx37A
+          - **GST** `Gesamt=` `Dauer=` ^oid-xC6Julc8
+            - **Burgenland** `Gesamt=` `Dauer=` ^oid-krsbPYIH
+            - **Kärnten** `Gesamt=` `Dauer=` ^oid-GmNwL2yr
+            - **NÖ** `Gesamt=` `Dauer=` ^oid-wfaB3KZJ
+              - **Wien-Umgebung** `Gesamt=` `Dauer=` ^oid-N8LYZ2ae
+              - **Gänserndorf** `Gesamt=` `Dauer=` ^oid-JTgreFhV
+              - **Gablitz** `Gesamt=` `Dauer=` ^oid-FbseSV6g
+              - **Mauerbach** `Gesamt=` `Dauer=` ^oid-nfUAhfzC
+            - **OÖ** `Gesamt=` `Dauer=` ^oid-sm8XBwyn
+            - **Tirol** `Gesamt=` `Dauer=` ^oid-gc3avFAn
+            - **Vorarlberg** `Gesamt=` `Dauer=` ^oid-DEk7G3mP
+            - **Wien** `Gesamt=` `Dauer=` ^oid-ZaneVzL0
+        - **AB_Werte** `Gesamt=` `Dauer=` ^oid-cFPh7KBr
+      - **Q-Card-Style** `Gesamt=` `Dauer=` ^oid-9cWA7nr1
+        - **Form** `Gesamt=` `Dauer=` ^oid-i6HV51eR
+          - **HTML & Export** `Gesamt=` `Dauer=` ^oid-7yKObMrX
+        - **SesID** `Gesamt=` `Dauer=` ^oid-jNceOIQo
+      - **EXPORT TABLE** `Gesamt=` `Dauer=` ^oid-xTcFgz4j
+        - **HTML** `Gesamt=` `Dauer=` ^oid-P9wWEgT7
+        - **printForm();** `Gesamt=` `Dauer=` ^oid-9GJZKs0B
+          - **HTML Styles für Print 2** `Gesamt=` `Dauer=` ^oid-y97E5Q2S
+            - **display:none** `Gesamt=` `Dauer=` ^oid-OAvMcIfD
+              - **html += '<style>input[type="button"]{display:none !important;}</style>'** `Gesamt=` `Dauer=` ^oid-nztcxXaP
+          - **CSS in Table** `Gesamt=` `Dauer=` ^oid-YSrthGu5
+        - **button** `Gesamt=` `Dauer=` ^oid-B4uwnSVS
+  - **Timeline** [icon:Emergency] ^oid-pZOTaqDW
+    - **Testphase** ^oid-5C0b368S
+      - **Online** ^oid-GvakJV9d
+      - **Google ADWORDS** ^oid-8HRaJMns
+      - **Under Construktion** ^oid-8ziwT4WZ
+    - **Beta** [icon:Emergency] ^oid-pHP2EFhQ
+      - **Online** ^oid-BVDYWgVC
+      - **Beta - Tester** [icon:Emergency] ^oid-AVx4STS4
+        - **Claudia** [icon:Emergency] ^oid-ipcgtTW3
+        - **Manuel** [icon:Emergency] ^oid-9CxmwDuo
+        - **Mark Love** [icon:Emergency] ^oid-3K6HXhSN
+        - **Andreas Mauerhofer** [icon:Emergency] ^oid-5eCabxgJ
+        - **Johann** [icon:Emergency] ^oid-Mb34d99N
+    - **Visitenkarte** ^oid-ZSS9Qdrw
+      - **Entwurf - Manuel** `Anmerkung=` `Eingang=` `Dauer=1` `EH-Preis=50` `netto=50` `Steuer=0` `Gesamt=50` ^oid-BPbKsblv
+    - **MG Vertrag 2018/19** ^oid-vxqAS4Bu
+      - **Vereinbarung M.Golda_2017.docx** ["..\..\..\..\OneDrive\1_Applikationen\01_FLATrace\Vereinbarung M.Golda_2017.docx"]("..\..\..\..\OneDrive\1_Applikationen\01_FLATrace\Vereinbarung M.Golda_2017.docx") ^oid-PPlkK2jx
+      - **Vereinbarung M.Golda_2018.docx** ["..\..\..\..\OneDrive\1_Applikationen\01_FLATrace\Vereinbarung M.Golda_2018.docx"]("..\..\..\..\OneDrive\1_Applikationen\01_FLATrace\Vereinbarung M.Golda_2018.docx") ^oid-7aB4nyXO
+    - **MG Konto** ^oid-s3kmPYDG
+    - **Email an Andi Amour** ^oid-ZWaWLguq
+  - **Web** ^oid-EIO4QFUW
+    - **HOME** [icon:Emergency] ^oid-7dp8LUNv
+      - **HOME** [FLAT-race.eu | Einfach Immobilien kalkulieren | Webplattform](https://flat-race.eu/) ^oid-EQK3YK3s
+        - **WEBPAGE** `Menü=HOME` `Permalink=https://flat-race.eu/` ^oid-Su5BKSAV
+          - **DER ÜBERBLICK ZÄHLT** ^oid-ZrJNqxDZ
+          - **CLEVERE HILFE** ^oid-hd8wNvrY
+          - **ERGEBNISSE** ^oid-hvyqtwnU
+          - **DAS SAGEN ANDERE** ^oid-rfoyKYzZ
+          - **WAS KANN FLATRACE?** ^oid-q1dZLMtK
+          - **FUNKTIONEN** ^oid-cXFGsc1m
+            - **KAUF** ^oid-JNPpUEbk
+            - **BAU** ^oid-K7nwQSEc
+            - **BETRIEB** ^oid-PzEbB12o
+            - **KREDIT** ^oid-JGDC1HjA
+            - **MIETE** ^oid-nKHQca1n
+            - **VERKAUF** ^oid-HERqyYLY
+            - **FLATcheck** ^oid-xpYjBZmP
+            - **PREISE** ^oid-IyJW6lLk
+            - **BLOG** ^oid-w3hZLzNA
+          - **ZUSAMMENFASSUNG** ^oid-0mlw7EGE
+            - **BASISVERSION** ^oid-QzS9GmLe
+            - **PREMIUMVERSION** ^oid-Iy4g29BU
+          - **MindMap** `Aufwand=2` [icon:Hourglass] ^oid-F0Y1kwQp
+        - **SEO** `Titel=FLAT-race.eu | Einfach Immobilien kalkulieren | Webplattform` `Titelform (URL)=https://flat-race.eu` `Meta-Beschr. 1=☆Transparenz ☆Überblick ☆Geld sparen ☐Grundstück ☐Einfamilienhaus ☐Wohnung ` `Meta-Beschr. 2=✓Kaufen ✓Bauen ✓Betrieb ✓Finanzieren ✓Mieten ✓Verkaufen ✓Preise ✓FLATcheck ✓Blog` `Meta-Beschr. 3=` `Fokus-Keyword=Immobilien` `Cornerstone-Inhalt=Ja` `Lesbarkeit=Ok` `SEO-Ranking=Gut` ^oid-blf2rDXH
+          - **MindMap** `Aufwand=2` [icon:Hourglass] ^oid-lo362m2P
+        - **###HOME##########** `CFF_id=293` [Anmelden &lsaquo; FLATrace &#8212; WordPress](https://flat-race.eu/wp-admin/admin.php?page=cp_calculated_fields_form&cal=293&r=0.02468428173358217&_cpcff_nonce=482c77dfd5) ^oid-F19nvRpL
+          - **MindMap** `Aufwand=2` [icon:Hourglass] ^oid-B4rXnx5F
+      - **ALLGEMEINE GESCHÄFTSBEDINGUNGEN** `Menü=AGBs` `Permalink=https://flat-race.eu/allgemeine-geschaeftsbedingungen/` `CFF_name=ANKORDEON` `CFF_id=0` `Yoast SEO=` `Titel=Allgemeine Geschäftsbedingungen | FLATrace - einfach Immobilien kalkulieren` `Titelform (URL)=https://flat-race.eu/allgemeine-geschaeftsbedingungen/` `Meta-Beschr. 1=Kurzbeschreibung, Zweck, Domain, Haftung, Kalkulationsbasis,` `Meta-Beschr. 2=Nutzung der Webseite, Kontakt, Feedback, Copyright, powerd by,` `Meta-Beschr. 3=Spezial Thanks To, Pressetext` `Fokus-Keyword=Allgemeine Geschäftsbedingungen` `Cornerstone-Inhalt=Nein` `Lesbarkeit=` `SEO=` [https://flat-race.eu/allgemeine-geschaeftsbedingungen/](https://flat-race.eu/allgemeine-geschaeftsbedingungen/) ^oid-ynZJniwV
+        - **WEBPAGE** `Menü=AGBs` `Permalink=https://flat-race.eu/allgemeine-geschaeftsbedingungen/` ^oid-556HurMT
+          - **MindMap** `Aufwand=2` [icon:Hourglass] ^oid-239G6vZp
+      - **FREQUENTLY ASKED QUESTIONS** ^oid-x85EMq7t
+        - **BASIC** `Menü=FAQs` `Permalink=https://flat-race.eu/frequently-asked-questions/` [https://flat-race.eu/frequently-asked-questions/](https://flat-race.eu/frequently-asked-questions/) ^oid-8uYtrMoI
+        - **SEO** `Titel=Frequently Asked Questions | FLATrace - einfach Immobilien kalkulieren` `Titelform (URL)=https://flat-race.eu/allgemeine-geschaeftsbedingungen/` `Meta-Beschr. 1=Was ist FLATrace? | Wie benutzt man FLATrace? | ` `Meta-Beschr. 2=Was ist die Berechnungsgrundlage? | Warum gibt es FLATrace? |` `Meta-Beschr. 3=Was ist FLAT-CHECK?` `Fokus-Keyword=Frequently Asked Questions` `Cornerstone-Inhalt=Nein` `Lesbarkeit=` `SEO-Ranking=` [https://flat-race.eu/frequently-asked-questions/](https://flat-race.eu/frequently-asked-questions/) ^oid-36RvaGr1
+        - **FREQUENTLY ASKED QUESTIONS** `CFF_name=ANKORDEON` `CFF_id=0` [https://flat-race.eu/frequently-asked-questions/](https://flat-race.eu/frequently-asked-questions/) ^oid-BPHoqocA
+        - **Qcard** `Dauer=0.5` `EH-Preis=50` `netto=25` `Steuer=0` `Gesamt=25` ^oid-W1FBesii
+      - **KONTAKT** `Menü=Kontakt` `Permalink=https://flat-race.eu/kontakt/` `CFF_name=###KONTAKT########` `CFF_id=176` `Yoast SEO=` `Titel=Kontakt | FLATrace - einfach Immobilien kalkulieren` `Titelform (URL)=https://flat-race.eu/kontakt/` `Meta-Beschr. 1=Kontakt - Formular zu FLAT-race.eu` `Meta-Beschr. 2=` `Meta-Beschr. 3=` `Fokus-Keyword=Kontakt` `Cornerstone-Inhalt=Nein` `Lesbarkeit=` `SEO=` [https://flat-race.eu/kontakt/](https://flat-race.eu/kontakt/) ^oid-o6xl1hDi
+        - **Qcard** `Dauer=0.5` `EH-Preis=50` `netto=25` `Steuer=0` `Gesamt=25` ^oid-OIHARMCD
+      - **FEEDBACK** `Menü=Feedback` `Permalink=https://flat-race.eu/feedback/` `CFF_name=###FEEDBACK###` `CFF_id=226` `DB_IN=db_a` `DB_OUT=` `Yoast SEO=` `Titel=Feedback | FLATrace - einfach Immobilien kalkulieren` `Titelform (URL)=https://flat-race.eu/feedback/` `Meta-Beschr. 1=Fehler, Anregung, Wunsch, Beschwerden, Lob` `Meta-Beschr. 2=anonym` `Meta-Beschr. 3=` `Fokus-Keyword=Feedback` `Cornerstone-Inhalt=Nein` `Lesbarkeit=` `SEO=` [https://flat-race.eu/feedback/](https://flat-race.eu/feedback/) ^oid-qP2uukoN
+        - **Qcard** `Dauer=0.5` `EH-Preis=50` `netto=25` `Steuer=0` `Gesamt=25` ^oid-ipNqbtCr
+      - **DATENSCHUTZERKLÄRUNG** `Menü=AGBs` `Permalink=https://flat-race.eu/allgemeine-geschaeftsbedingungen/` `CFF_name=ANKORDEON` `CFF_id=0` `Yoast SEO=` `Titel=Allgemeine Geschäftsbedingungen | FLATrace - einfach Immobilien kalkulieren` `Titelform (URL)=https://flat-race.eu/allgemeine-geschaeftsbedingungen/` `Meta-Beschr. 1=Kurzbeschreibung, Zweck, Domain, Haftung, Kalkulationsbasis,` `Meta-Beschr. 2=Nutzung der Webseite, Kontakt, Feedback, Copyright, powerd by,` `Meta-Beschr. 3=Spezial Thanks To, Pressetext` `Fokus-Keyword=Allgemeine Geschäftsbedingungen` `Cornerstone-Inhalt=Nein` `Lesbarkeit=` `SEO=` [https://flat-race.eu/allgemeine-geschaeftsbedingungen/](https://flat-race.eu/allgemeine-geschaeftsbedingungen/) ^oid-5MFwNX6Z
+        - **LÖSCHANFRAGE** `Menü=Feedback` `Permalink=https://flat-race.eu/feedback/` `CFF_name=###FEEDBACK###` `CFF_id=226` `DB_IN=db_a` `DB_OUT=` `Yoast SEO=` `Titel=Feedback | FLATrace - einfach Immobilien kalkulieren` `Titelform (URL)=https://flat-race.eu/feedback/` `Meta-Beschr. 1=Fehler, Anregung, Wunsch, Beschwerden, Lob` `Meta-Beschr. 2=anonym` `Meta-Beschr. 3=` `Fokus-Keyword=Feedback` `Cornerstone-Inhalt=Nein` `Lesbarkeit=` `SEO=` [https://flat-race.eu/feedback/](https://flat-race.eu/feedback/) ^oid-j9iybzDu
+          - **Qcard** `Dauer=0.5` `EH-Preis=50` `netto=25` `Steuer=0` `Gesamt=25` ^oid-UKDVCeTG
+        - **DATENAUSZUG** `Menü=Feedback` `Permalink=https://flat-race.eu/feedback/` `CFF_name=###FEEDBACK###` `CFF_id=226` `DB_IN=db_a` `DB_OUT=` `Yoast SEO=` `Titel=Feedback | FLATrace - einfach Immobilien kalkulieren` `Titelform (URL)=https://flat-race.eu/feedback/` `Meta-Beschr. 1=Fehler, Anregung, Wunsch, Beschwerden, Lob` `Meta-Beschr. 2=anonym` `Meta-Beschr. 3=` `Fokus-Keyword=Feedback` `Cornerstone-Inhalt=Nein` `Lesbarkeit=` `SEO=` [https://flat-race.eu/feedback/](https://flat-race.eu/feedback/) ^oid-1bLq7tiE
+          - **Qcard** `Dauer=0.5` `EH-Preis=50` `netto=25` `Steuer=0` `Gesamt=25` ^oid-Wi6wthn6
+      - **CAFÉ** `Menü=Café` `Permalink=https://flat-race.eu/cafe/` `CFF_name=###Cafe###` `CFF_id=214` `Yoast SEO=` `Titel=Café | FLATrace - einfach Immobilien kalkulieren` `Titelform (URL)=https://flat-race.eu/cafe/` `Meta-Beschr. 1=Unterstützung für unser Team` `Meta-Beschr. 2=Sämtliche Einnahmen werden gut investiert.` `Meta-Beschr. 3=` `Fokus-Keyword=Cafe` `Cornerstone-Inhalt=Nein` `Lesbarkeit=` `SEO=` [https://flat-race.eu/cafe/](https://flat-race.eu/cafe/) ^oid-HUoBUIUx
+        - **Qcard - Design** `Dauer=0.5` `EH-Preis=50` `netto=25` `Steuer=0` `Gesamt=25` ^oid-iEJf3QhZ
+      - **TICKET** `Menü=Ticket` `Permalink=https://flat-race.eu/ticket/` `CFF_name=###TICKET###` `CFF_id=177` `DB_IN=` `DB_OUT=Paypal` `Yoast SEO=` `Titel=Ticket | FLATrace - einfach Immobilien kalkulieren` `Titelform (URL)=https://flat-race.eu/ticket/` `Meta-Beschr. 1=Kostenpflichtige Anfrage stellen.` `Meta-Beschr. 2=25 € Bearbeitungsgebühr pro Frage` `Meta-Beschr. 3=Stellungnahme innerhalb 24 h` `Fokus-Keyword=Ticket` `Cornerstone-Inhalt=Nein` `Lesbarkeit=` `SEO=` [https://flat-race.eu/feedback/](https://flat-race.eu/feedback/) ^oid-shQQyPx3
+        - **Qcard - Design** `Dauer=0.5` `EH-Preis=50` `netto=25` `Steuer=0` `Gesamt=25` ^oid-cdjDY4RS
+    - **KAUFEN** `URL=https://flat-race.eu/kaufen/` `CFF_name=###HOMESCREEN###` `CFF_id=293` [https://flat-race.eu/kaufen/](https://flat-race.eu/kaufen/) [icon:FlagGreen] ^oid-iXgyFo6S
+      - **GRUNDSTÜCK** `URL=http://flat-race.eu/kaufen/grundstueck-kauf-nebenkosten/` `CFF_name=KAUFEN_1-GST` `CFF_id=149` [https://flat-race.eu/kaufen/grundstueck-kauf-nebenkosten/](https://flat-race.eu/kaufen/grundstueck-kauf-nebenkosten/) [icon:Cellphone] ^oid-CkCNGoYQ
+      - **HAUS** `URL=https://flat-race.eu/kaufen/haus-kauf-nebenkosten/` `CFF_name=KAUFEN_2-EFH` `CFF_id=150` [https://flat-race.eu/kaufen/haus-kauf-nebenkosten/](https://flat-race.eu/kaufen/haus-kauf-nebenkosten/) [icon:Cellphone] ^oid-RzjkxuGs
+        - **Haus Kauf-Nebenkosten** `Headline 1=Haus Kauf-Nebenkosten` `Headline 2=Kalkulator` `URL=https://flat-race.eu/kaufen/haus-kauf-nebenkosten/` `Keyword 1=nebenkosten` `Keyword 2=kauf` `Kurztext=☐Vertrag ☐Grunderwerb ☐Eintragung ☐Notar/Gericht ☐Makler` `Langtext=☐Lage Haus ☐Wohnfläche  ☐Kaufpreis ☐Kaufvertrag ☐Grunderwerbssteuer ☐Eintragungsgebühr ☐Notariats- / Gerichtskosten ☐Makler ☐Reserven = ✓Haus Kauf-Nebenkosten` `Beschreibung=-` ^oid-JtvcAmEG
+      - **WOHNUNG** `URL=https://flat-race.eu/kaufen/wohnung-kauf-nebenkosten/` `CFF_name=KAUFEN_3-WHG` `CFF_id=155` [https://flat-race.eu/kaufen/wohnung-kauf-nebenkosten/](https://flat-race.eu/kaufen/wohnung-kauf-nebenkosten/) [icon:Cellphone] ^oid-Mgc5bhYQ
+        - **Wohnung Kauf-Nebenkosten** `Headline 1=Wohnung Kauf-Nebenkosten` `Headline 2=Kalkulator` `URL=https://flat-race.eu/kaufen/wohnung-kauf-nebenkosten/` `Keyword 1=nebenkosten` `Keyword 2=kauf` `Kurztext=☐Vertrag ☐Grunderwerb ☐Eintragung ☐Notar/Gericht ☐Makler` `Langtext=☐Lage Wohnung ☐Wohnfläche  ☐Kaufpreis ☐Kaufvertrag ☐Grunderwerbssteuer ☐Eintragungsgebühr ☐Notariats- / Gerichtskosten ☐Makler ☐Reserven = ✓Wohnung Kauf-Nebenkosten` `Beschreibung=-` ^oid-efxbJ5k3
+
+## Custom Property Index
+
+| Property | Topic count |
+|---|---|
+| Gesamt | 425 |
+| Dauer | 276 |
+| EH-Preis | 160 |
+| Anmerkung | 153 |
+| Einheit | 153 |
+| Anzahl | 152 |
+| Netto | 149 |
+| Ust. | 149 |
+| Faktor | 97 |
+| Kosten | 24 |
+| CFF_id | 17 |
+| CFF_name | 16 |
+| Funktion | 13 |
+| Version | 12 |
+| netto | 11 |
+| Steuer | 11 |
+| Menü | 11 |
+| Permalink | 11 |
+| PW | 10 |
+| Titel | 10 |
+| Titelform (URL) | 10 |
+| Meta-Beschr. 1 | 10 |
+| Meta-Beschr. 2 | 10 |
+| Meta-Beschr. 3 | 10 |
+| Fokus-Keyword | 10 |
+| Cornerstone-Inhalt | 10 |
+| Lesbarkeit | 10 |
+| Email | 9 |
+| URL | 9 |
+| Yoast SEO | 8 |
+| SEO | 8 |
+| Aufwand | 5 |
+| DB_IN | 4 |
+| DB_OUT | 4 |
+| Status | 3 |
+| Farbnummer | 3 |
+| Color Hex | 3 |
+| Setting | 3 |
+| BN | 2 |
+| SEO-Ranking | 2 |
+| Headline 1 | 2 |
+| Headline 2 | 2 |
+| Keyword 1 | 2 |
+| Keyword 2 | 2 |
+| Kurztext | 2 |
+| Langtext | 2 |
+| Beschreibung | 2 |
+| Kosten Idee | 1 |
+| Markt | 1 |
+| Domain | 1 |
+| Benutzername | 1 |
+| Initialpasswort | 1 |
+| DynDNS | 1 |
+| Server IP-Adresse | 1 |
+| Server Hostname | 1 |
+| Posteingangsserver | 1 |
+| Postausgangsserver | 1 |
+| Main Style Farbe | 1 |
+| Sub Style Farbe | 1 |
+| Main Content Hintergrundfarbe | 1 |
+| Main Content Heading color | 1 |
+| Main Content Schriftfarbe | 1 |
+| Primary color | 1 |
+| Rahmen Farben | 1 |
+| User Name | 1 |
+| API Key | 1 |
+| ∑ Netto | 1 |
+| ∑ Steuern | 1 |
+| ∑ Gesamt | 1 |
+| Anz. | 1 |
+| DB_NAME | 1 |
+| DB_USER | 1 |
+| DB_PASSWORD | 1 |
+| DB_HOST | 1 |
+| DB_CHARSET | 1 |
+| DB_COLLATE | 1 |
+| Schriftfarbe | 1 |
+| Hintergrundfarbe | 1 |
+| Hintergrund 1 | 1 |
+| Hauptfarbe | 1 |
+| Eingang | 1 |

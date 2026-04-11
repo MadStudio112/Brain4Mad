@@ -1,0 +1,1788 @@
+---
+type: raw-mmap
+map_id: "FLATrace_Basic_1.0"
+source: "01_input/FLATrace/Archiv/FLATrace_Basic_1.0.mmap"
+imported_at: 2026-04-11
+node_count: 1765
+max_depth: 11
+has_custom_props: false
+has_links: true
+has_notes: false
+has_icons: true
+icons:
+  - Cellphone
+  - FlagGreen
+  - FlagOrange
+  - FlagYellow
+tags:
+  - mmap/raw
+  - mmap/FLATrace
+---
+
+# FLATrace Basic
+
+- **FLATrace Basic** [https://flat-race.eu/](https://flat-race.eu/) ^oid-fOPqKPUv
+  - **GENERAL SETTINGS** ^oid-xPudxLt5
+    - **Benutzer** ^oid-KMhzaHpD
+    - **CSS Style** ^oid-c43BZsyl
+      - **enfold** ^oid-k8EHH0R1
+        - **Main Content** ^oid-W4D6sHVh
+          - **Main Content Hintergrundfarbe** ^oid-OcCAQZyE
+            - **ffffff** ^oid-Zmdw60Rj
+          - **Primary color** ^oid-RJTgrWVp
+            - **c05f5f** ^oid-Smp44SBe
+              - **Buttons** ^oid-lPqYqqX4
+          - **Main Content Schriftfarbe** ^oid-N3XM0qZi
+            - **000000** ^oid-Bnnwbd5F
+          - **Main Content secondary font color** ^oid-A4qun90V
+            - **000000** ^oid-R4HVK3XA
+          - **Main Content Heading color** ^oid-VUxfCnfY
+            - **000000** ^oid-0JgQArZQ
+          - **Rahmen Farben** ^oid-P3mSntwu
+            - **e1e1e1** ^oid-zzLp4PkG
+        - **fd4f10** ^oid-GKLYgJ53
+        - **9e9e9e** ^oid-oATjFA47
+      - **.timeline_back div.timeline.blog-wrap.odd_class {     clear: left;     float: left;     padding-right: 50px;     padding-left: 30px; }** ^oid-OJbOqAAz
+      - **fd4d11** ^oid-PnYIpEGK
+      - **cw** ^oid-9ZK4cpj2
+        - **445356** ^oid-ldOuiLvZ
+        - **2A7986** ^oid-V3hXOLHW
+        - **579CAB** ^oid-j7IShuR3
+        - **85a9aa** ^oid-nPx5Wypw
+      - **DH** ^oid-FWRva1ru
+        - **F44336** ^oid-iNVgEzRV
+        - **dbd9d9** ^oid-eVDBJjuZ
+    - **Insert in Database** ^oid-FtSDM0Dp
+    - **Q-Card-Style** ^oid-cIGI8UlK
+      - **Form** ^oid-Ep5QkXj5
+        - **HTML & Export** ^oid-XhnugLMJ
+      - **SesID** ^oid-8HCnYltw
+    - **Main - Table Style** ^oid-FbZLLDsl
+    - **Export Table Style** ^oid-LbSoU5os
+    - **HTML Table Style** ^oid-kFpl0vNH
+    - **EXPORT TABLE** ^oid-2HgEpAFM
+      - **HTML** ^oid-x9ITOve6
+      - **printForm();** ^oid-CDaeCQpb
+        - **HTML Styles für Print 2** ^oid-Eo3nM4kx
+          - **display:none** ^oid-dQgEi7v3
+            - **html += '<style>input[type="button"]{display:none !important;}</style>'** ^oid-5x6RcQ3s
+        - **CSS in Table** ^oid-rofOgPuG
+      - **button** ^oid-3cVOjTJw
+    - **Email** ^oid-859kvqfx
+      - **From** ^oid-vKKxo4kC
+        - **ace@flat-race.eu** ^oid-Fsbbc6CV
+      - **Ziel der E-Mails** ^oid-u5qhJrVZ
+        - **submit@flat-race.eu** ^oid-6lDkbd2d
+    - **flat-race.eu/wiki** [https://flat-race.eu/wiki/wp-admin/](https://flat-race.eu/wiki/wp-admin/) ^oid-NrLULwzA
+      - **Base** ^oid-YLShexjM
+        - **uwe 07ugh05** ^oid-qqBHk76O
+      - **FLATrace–Kalkulator** ^oid-vN7M5VsS
+      - **Hypotheken- & Zins-Rechner** ^oid-PuzHlpxg
+        - **Der Hypotheken-Rechner** ^oid-I82I3m20
+        - **Der Zins-Rechner** ^oid-oAPLvvOJ
+      - **Datenbank** ^oid-iSgczxyM
+        - **STATISTIK AUSTRIA** ^oid-8XFLCGUB
+        - **GEWINN** ^oid-VUPaJPRX
+        - **IMMOunited & WILLHABEN** ^oid-xFEjslbk
+  - **Kalkulator** [https://flat-race.eu/kalkulator/](https://flat-race.eu/kalkulator/) ^oid-bCZebeyk
+    - **Preise** ^oid-aGGIHNc2
+      - **FLATrace** ^oid-jN8Miqqk
+        - **QIII_FLATpreise_148** [icon:Cellphone] ^oid-Hf7QZLyD
+          - **gst** ^oid-m7TN1Hdg
+            - **Fläche** ^oid-gbiEJr6f
+              - **fieldname461** ^oid-MGaelToc
+              - **fieldname724** ^oid-8pI9FsAI
+            - **Wert** ^oid-LL1aszlY
+              - **fieldname522** ^oid-fc84kvqt
+              - **EFHfak x m²** ^oid-ZSBrd6F0
+              - **fieldname721** ^oid-dYWqmcDx
+            - **Summe** ^oid-gW35jR43
+              - **fieldname352** ^oid-BhvgSuOO
+              - **fieldname500** ^oid-SV2FXxYr
+          - **efh** ^oid-NI7jkqvl
+            - **Fläche** ^oid-HY7H5Ygf
+              - **fieldname52** ^oid-uEul9WUB
+              - **fieldname725** ^oid-7P26YXMc
+              - **fieldname733** ^oid-hI1dJuNr
+            - **Wert** ^oid-tA6QNC9O
+              - **fieldname48** ^oid-8EhfInNP
+              - **EFHfak x m²** ^oid-HQtnB2NQ
+              - **fieldname722** ^oid-BmhjlAT3
+            - **Summe** ^oid-WlXNE24M
+              - **fieldname593** ^oid-JWbZY9nz
+              - **fieldname385** ^oid-nnzRofOy
+              - **fieldname626** ^oid-wvoZ0Y8f
+          - **whg** ^oid-3y5AEMUn
+            - **Fläche** ^oid-L1vyXllA
+              - **fieldname510** ^oid-5R1a2zgS
+              - **fieldname726** ^oid-JXypwmSW
+              - **fieldname734** ^oid-w5krHHZ7
+            - **Wert** ^oid-kaxRJM3e
+              - **fieldname532** ^oid-TLhVgj1H
+              - **WHGfak x m²** ^oid-uW7r4JHS
+              - **fieldname723** ^oid-YOrkl0K3
+            - **Summe** ^oid-XN979Jda
+              - **fieldname359** ^oid-XqHtMuNf
+              - **fieldname626** ^oid-1afYaoH0
+    - **Ankauf** ^oid-gIEeP4zp
+      - **Grundstück** [icon:Cellphone] ^oid-Kt4jisWl
+      - **Einfamilienhaus** [icon:Cellphone] ^oid-IZ1E9PZM
+      - **Wohnung** [icon:Cellphone] ^oid-xxOoxGC1
+    - **Finanzierung** ^oid-zQ1U1jjx
+      - **Baukosten** [icon:Cellphone] ^oid-CnSIsPmN
+    - **Betrieb** ^oid-G5GBc1cr
+      - **Betriebskosten** [icon:Cellphone] ^oid-sAVlm3gi
+      - **Unterhalt** [icon:Cellphone] ^oid-NKpibwUx
+      - **Haushalt** [icon:Cellphone] ^oid-3E7hS8SQ
+    - **Verkauf** ^oid-20mM5pMG
+      - **Einfamilienhaus** [icon:Cellphone] ^oid-WyujJiZo
+      - **Wohnung** [icon:Cellphone] ^oid-zDN6axrS
+    - **Miete** ^oid-vwCGrAXe
+      - **Mieten** [icon:Cellphone] ^oid-8bYBhSB2
+      - **Vermieten** [icon:Cellphone] ^oid-15zfft75
+      - **Richtwert** [icon:Cellphone] ^oid-CwkUGFT9
+      - **Mietzinsminderung** [icon:Cellphone] ^oid-XiYYXgIs
+    - **Finanzierung** ^oid-76E7wRZ2
+      - **Finanzierung** [icon:Cellphone] ^oid-xRIRAZya
+      - **Hypothek** [icon:Cellphone] ^oid-vpnfU6vL
+      - **Zinsrechner** [icon:Cellphone] ^oid-1HWMv6x7
+      - **Nur-Zins-Rechner** [icon:Cellphone] ^oid-itgJyf0r
+    - **Gesamt** ^oid-J44jatJv
+  - **flat-race** [https://flat-race.eu/](https://flat-race.eu/) ^oid-33coNckO
+    - **Beschreibung** ^oid-f7LTBpjm
+      - **Angebotpreis vs. Kaufpreis** ^oid-nrfMgJuF
+    - **Kalkularoren** ^oid-5Xi97Xai
+      - **Richtwert** [https://flat-race.eu/basic/ankauf/](https://flat-race.eu/basic/ankauf/) [icon:Cellphone] ^oid-xpjYYZ6U
+        - **Back End** ^oid-NvNjspSg
+          - **Q00_RICHTWERT** ^oid-aMbLyYOT
+            - **90** ^oid-O63N6cmH
+            - **Responsive** ^oid-lG4ADHQe
+            - **Style** ^oid-JP0saOGr
+            - **Insert in Database** ^oid-DK6Y3p1j
+              - **b_Richt_Werte** ^oid-3Yr6N9Qw
+            - **Database in Main Table** ^oid-sCrhY8tE
+        - **Lage** ^oid-IaleA3Di
+          - **Bundesland** ^oid-PCan5kMe
+          - **Bezirk** ^oid-piL3E8ga
+          - **Gemeinde** ^oid-tz4Rd966
+          - **PLZ** ^oid-rGuK6Xzk
+          - **Info** ^oid-AKVJRYUQ
+            - **Alle rot geschriebene Feldtitel sind für die Kalkulation notwendig. Die Schwarzen für eine (eventuelles) Exposé.** ^oid-wp1uP2rC
+        - **Objektdaten** ^oid-VrWkVtD2
+          - **Besitzverhältnis** ^oid-kJe3yMu6
+            - **Eigentum** ^oid-Vdqh1Jt3
+            - **Miete** ^oid-5uitG2tS
+          - **Art** ^oid-lo9zkCnK
+            - **Privat** ^oid-o12jSqL1
+            - **Gewerbe** ^oid-JzwdcWcm
+          - **Kategorie** ^oid-YASL79ed
+            - **Grundstück Einfamilienhaus** ^oid-HzU5obK5
+            - **Einfamilienhaus** ^oid-puYU3Mu4
+            - **Reihenhaus** ^oid-hKz1UMv8
+            - **Wohnung** ^oid-ImBhdZYY
+            - **Betriebsgrundstück** ^oid-2nkmji1x
+            - **Büro** ^oid-5SZe47eT
+            - **Geschäftslokal** ^oid-CCNSepO0
+          - **Fläche** ^oid-kBMuaqiG
+        - **Richtwerte** ^oid-JG1aE47f
+          - **gesamt** ^oid-mCEBsajN
+            - **Untere Schranke** ^oid-xLrmOSGW
+            - **Obere Schranke** ^oid-llFrLSPE
+            - **Richtwert** ^oid-U5GF4GfD
+          - **pro m²** ^oid-8yV31BU3
+            - **Untere Schranke** ^oid-N7aHMp2M
+            - **Obere Schranke** ^oid-n1hHFagL
+            - **Richtwert** ^oid-R0elWBCj
+      - **Objekt** [icon:Cellphone] ^oid-NIZr48l9
+        - **Back End** ^oid-8R9r8ssw
+          - **Q01_OBJEKT** ^oid-Tf5TRbOv
+            - **75** ^oid-J5BQnUmI
+            - **Style** ^oid-n0HlTinF
+            - **Responsive** ^oid-EqBl9yZ8
+            - **Insert in Database** ^oid-K7Lrn9OM
+              - **b_Richt_Werte_Objekt** ^oid-V90ap8tL
+            - **Database in Main Table** ^oid-8YoG3JtU
+              - **Fläche** ^oid-YREnOtqb
+              - **Kategorie** ^oid-50n6RDd0
+              - **Besitzverhältnis** ^oid-s8gnEZmR
+              - **Nutzung** ^oid-VqLk3J2R
+              - **Bezirk** ^oid-Zeidc1nu
+              - **Bundesland** ^oid-AqTcqGRZ
+            - **Export Table** ^oid-jaH4tm4e
+              - **EX_000_OBJEKT** ^oid-4UzMGVHi
+            - **Vorschau HTML** ^oid-FJ0SNVv2
+            - **Export** ^oid-iCC02FLP
+              - **Vorschau HTML** ^oid-1SF5Xv5C
+              - **Export** ^oid-gPYKGxPN
+        - **Stammdaten** ^oid-c8qEdSmy
+          - **Objektname** ^oid-2rjRErAf
+          - **Strasse** ^oid-ZwezR9Sl
+          - **Hausnummer** ^oid-KkiepjWZ
+          - **Fläche** ^oid-GXlSClYi
+          - **Info** ^oid-NuqwQ8U3
+            - **Alle rot geschriebene Feldtitel sind für die Kalkulation notwendig. Die Schwarzen für eine (eventuelles) Exposé.** ^oid-7EsttLNl
+        - **Objektdaten** ^oid-rTsj2nzR
+          - **Lage** ^oid-QTYlbnLy
+            - **-** ^oid-l1NUr1Hv
+            - ***** ^oid-dLgYV2qp
+            - ****** ^oid-toVrAE5I
+            - ******* ^oid-76sOWRzk
+          - **Aufschliessungsgrad** ^oid-CjR6XtQu
+            - **-** ^oid-ur8MnGRw
+            - **voll aufgeschlossen** ^oid-PhaY9enF
+            - **teil aufgeschlossen** ^oid-E2CvuXit
+            - **nicht aufgeschlossen** ^oid-mg20Uv9p
+          - **Zustand** ^oid-Z8zoDvgX
+            - **-** ^oid-AxeVSwK9
+            - ***** ^oid-D7XuO5FH
+            - ****** ^oid-rshhM3uu
+            - ******* ^oid-bDJIuXQZ
+            - **Sanierungsbedürftig** ^oid-0iO0t4Hr
+            - **Unbrauchbar** ^oid-hp4Rvs2b
+          - **Grundstücksform** ^oid-ETAeUEhT
+            - **-** ^oid-DRtguLmB
+            - **Rechteckig** ^oid-CKNE6uoY
+            - **Unregelmäßige** ^oid-k8krA16k
+            - **dreickig** ^oid-Jg9XeIhT
+            - **trapezförmig** ^oid-b6J2xTRu
+            - **sonstige** ^oid-6W0wiejg
+          - **Gebäudealter** ^oid-5iXqWh0t
+            - **-** ^oid-d8MFBWDs
+            - **0-5 Jahr** ^oid-BOcvuUbi
+            - **6-10 Jahre** ^oid-OQ5WLIdw
+            - **11-20 Jahre** ^oid-NadXNGPA
+            - **20-40 Jahre** ^oid-oH90RZSP
+            - **über 41 Jahre** ^oid-nCF1Q1x0
+          - **Energiebedarfkategorie** ^oid-2bV1CgHg
+            - **-** ^oid-0gsdXp1L
+            - **A++** ^oid-vSnghbiH
+            - **A+** ^oid-Zr7lvXcM
+            - **A** ^oid-l4TAufg5
+            - **B** ^oid-1oQp0w5j
+            - **C** ^oid-Q75hEffE
+            - **D** ^oid-4DUJZ1kM
+            - **E** ^oid-LeQJl7o0
+            - **F** ^oid-LGL2y99i
+            - **G** ^oid-ouRJi6Yz
+            - **-** ^oid-MTEupZtU
+          - **Ausrichtung** ^oid-qmRjSmiv
+            - **-** ^oid-Kmyd8mv8
+            - **Norden** ^oid-w8a6sW2F
+            - **Süden** ^oid-eoxS4Rvy
+            - **Osten** ^oid-LsQ40xJJ
+            - **Westen** ^oid-fZdxt7e5
+          - **Heizungssystem** ^oid-nrb79OUb
+            - **-** ^oid-msTEkwVY
+            - **Fernwärme** ^oid-HBYwZ2Bm
+            - **Gasheizung** ^oid-o35J4MUE
+            - **Ö–lbrenner** ^oid-gNZolb0b
+            - **Scheitholz** ^oid-vXqsyXfg
+            - **Pellets** ^oid-YWXkIYDZ
+            - **Infrarotheizung** ^oid-ClqxrVXd
+            - **Solarthermie** ^oid-7GQMCers
+            - **Luft** ^oid-9AhSpQVP
+            - **Erdkollektor** ^oid-k7Dw5Mwn
+            - **Erdsonde** ^oid-TTlZPMsK
+            - **Grundwasser** ^oid-uk3Rfzaa
+            - **Luftungsanlage** ^oid-rRm8MOTE
+            - **Klimaanlage** ^oid-y20X3vON
+            - **Nachtspeicheröfen** ^oid-WUdfhPUU
+            - **Sonstiges** ^oid-KujuPiDv
+          - **Heizung** ^oid-C7wr8TP4
+            - **-** ^oid-jEDtCjLh
+            - **Bodenheizung** ^oid-df4FdSMt
+            - **Wandheizung** ^oid-HebyS3NT
+            - **Konvektionsheizkörper** ^oid-9OD1G1AR
+            - **Nachtspeicher** ^oid-0R12UI8A
+            - **Infrarot-Heizung** ^oid-X7laGQas
+            - **Holzofen** ^oid-t9ltRtPp
+            - **Kachelofen** ^oid-wlW7eIIm
+            - **Kohleofen** ^oid-4qrBR0hU
+            - **Öfen** ^oid-g6DoVe4Q
+            - **Pelletsofen** ^oid-9JnMaNha
+            - **Tischherd** ^oid-h3gn5aig
+          - **Energieträger** ^oid-fIPohk6a
+            - **-** ^oid-QGjmZ3Vh
+            - **Sonne** ^oid-mLPcRIiF
+            - **Erdwärme** ^oid-neJoik49
+            - **Holz** ^oid-W0k62wsN
+            - **Erdgas** ^oid-BNsNsxXj
+            - **Fernwärme** ^oid-4Gjepd00
+            - **Strom** ^oid-i2iEdIyJ
+            - **Luft** ^oid-AvWccmov
+            - **Heizöll** ^oid-srpkXUnR
+            - **Sonstige** ^oid-Pn1dZqYl
+          - **Widmung** ^oid-z5fQ8oqy
+            - **-** ^oid-7XkeObCi
+            - **Wohngebiete (BW)** ^oid-BYJH7xAi
+            - **Kerngebiete (BK)** ^oid-Hsut59qt
+            - **Betriebsgebiete (BB)** ^oid-As2oG57H
+            - **Industriegebiete (BI)** ^oid-0LfbsrKd
+            - **Agrargebiete (BA)** ^oid-xri2gVHW
+            - **Sondergebiete (BS)** ^oid-xAAyBdXx
+            - **erhaltenswerte Ortsstrukturen (BO)** ^oid-JGVv9iFL
+          - **Bebauungsgrad** ^oid-6aoTzsH6
+            - **-** ^oid-F1tWp2yG
+            - **geschlossene Bebauungsweise (g)** ^oid-if4MfLYI
+            - **gekuppelte Bebauungsweise (k)** ^oid-kyipoMig
+            - **einseitig offene Bebauungsweise (eo)** ^oid-kFsQ1teJ
+            - **offene Bebauungsweise (o)** ^oid-Awf0ruch
+            - **freie Anordnung der GebAEude (f)** ^oid-EYuEcZdj
+            - **Sonderbebauungsweise (xxx)** ^oid-3jt4jZuY
+          - **Zubehör** ^oid-YVdXe9e3
+            - **-** ^oid-ZwDbHsDN
+            - **Servitut** ^oid-BdYJaZWU
+            - **Abstellkeller** ^oid-MwnNpRPM
+            - **Abstellflächen** ^oid-c4fbspYf
+            - **Gartenfläche** ^oid-awV2xUzN
+            - **Dachbodenanteil** ^oid-IP0gYrRk
+            - **Lagerraum** ^oid-qwllXMN0
+            - **Terrassenanteil** ^oid-qABOBQFN
+            - **Lift** ^oid-9ERJ0kec
+            - **PKW-Abstellplätze** ^oid-7xPW7UqV
+            - **Garten** ^oid-zdcgJNcr
+            - **Hof** ^oid-El6BDeWq
+            - **Plätze** ^oid-H3e7rdOv
+            - **Wege** ^oid-chn2OKvO
+            - **Garage** ^oid-WU5DTfLi
+            - **Carport** ^oid-f0Xwmm3t
+            - **Autoabstellplatz** ^oid-NXxkHmzC
+            - **Fahrradraum** ^oid-1u6k5RcT
+            - **Müllraum** ^oid-y1LAX2Rk
+            - **Waschküche** ^oid-zfYTA6xK
+          - **Lift** ^oid-nlNm8Gfx
+            - **-** ^oid-osbUgW4b
+            - **ja** ^oid-AZ0B1HJI
+            - **nein** ^oid-bwRp927V
+          - **Kühlung** ^oid-3BUvl2Dx
+            - **-** ^oid-csQUuWj4
+            - **Klimaanlage** ^oid-35kjMZLe
+            - **Deckenkühlung** ^oid-OzgDY5Eu
+          - **Zustand** ^oid-ZuwTR8ga
+            - **-** ^oid-AWORHG5k
+            - ***** ^oid-g7cGkrzO
+            - ****** ^oid-TVKagFbY
+            - ******* ^oid-0XhUvEzd
+            - **schlecht** ^oid-XxiOs5q0
+            - **Unbrauchbar** ^oid-dTnpPgFE
+          - **Infrastruktur** ^oid-tCrepJfM
+            - **-** ^oid-lEb3R6Ww
+            - **Freizeit** ^oid-ot71Rs4O
+              - **Erholungsgebiete** ^oid-IlofGK9i
+              - **Swimming Pool** ^oid-HlDpURdY
+              - **Sauna** ^oid-Wdmwzgkl
+              - **See** ^oid-qusxHgvV
+              - **Meer** ^oid-LDXJVGQn
+              - **Fitness Center** ^oid-mGUk879y
+            - **Verkehr** ^oid-YsiK7uWf
+              - **Oeffentlicher Verkehr** ^oid-EaWdpQz7
+              - **StraÃŸenbahn** ^oid-bD15dHwZ
+              - **Bus** ^oid-YLO6cF5x
+              - **Zug** ^oid-JnbsikJO
+              - **Flughafen** ^oid-1rH2s5as
+              - **Autobahn** ^oid-tNfTm2cL
+            - **Gesundheit** ^oid-4TZu5UQx
+              - **Praktischer Arzt** ^oid-3wgfKR1k
+              - **Zahnarzt** ^oid-Nl12jroW
+              - **Tierarzt** ^oid-Ixq1EEbT
+              - **Apotheke** ^oid-Er55bDcy
+              - **Drogerie** ^oid-eVkaITNl
+            - **Bildung** ^oid-oEN38Iiq
+              - **Kindergarten** ^oid-wFlG8G7o
+              - **Volksschule** ^oid-xgqZtVUB
+              - **UniversitÃ¤t** ^oid-KUWwZqD3
+              - **Fachhochschulen** ^oid-StaE8F1u
+              - **College** ^oid-qTV8593h
+              - **Trade School** ^oid-PWKkPvkU
+              - **Bibliothek** ^oid-BlTiUGWA
+            - **Kultur** ^oid-UXLb7H99
+              - **Kultur** ^oid-QKjHXWSv
+              - **Museum** ^oid-J3cMPt31
+              - **Gallerie** ^oid-Rr0ErSpp
+              - **Theater** ^oid-pJxfWRA1
+              - **Oper** ^oid-HAjzSbC3
+            - **Einkauf** ^oid-Oz5FYpFR
+              - **Shopping Center** ^oid-7vrqnaGS
+              - **Nahversorger** ^oid-OvoF7NnD
+              - **Sonstige** ^oid-UcA67i6o
+          - **Haus** ^oid-W5hho4ED
+            - **-** ^oid-q45RvpQU
+            - **dem Alter entsprechend** ^oid-ocLO7exf
+              - **0** ^oid-NHUIsau8
+            - **Zustand überdurchschnittlich** ^oid-TP5vQvsU
+              - **0.1** ^oid-WJr3H1Cf
+            - **Zustand unterdurchschnittlich** ^oid-iRgQQif5
+              - **-0.2** ^oid-5Yo4zqYV
+            - **hohe Lärm- oder Geruchsbelastung** ^oid-weSISMXd
+              - **-0.2** ^oid-YAuwdjvV
+            - **Ruhelage, Grünlage** ^oid-Ss3BYwTb
+              - **0.20** ^oid-FkZK7gP6
+          - **LIFT** ^oid-Y7ITt9SG
+            - **-** ^oid-f4E5GSQA
+            - **Ja** ^oid-T4tqdsaD
+              - **0** ^oid-qQCt2N5n
+            - **Nein** ^oid-YVTcDwKs
+              - **-0.04** ^oid-j2ufB5TE
+            - **kein Lift ab 2. Stock pro Stock** ^oid-7OAAlxAq
+              - **-0.025** ^oid-fbddFo2c
+          - **Stockwerkslage** ^oid-F7OFtYl0
+            - **-** ^oid-0du8LEIJ
+            - **unter Niveau** ^oid-Vfl8e0Ik
+              - **0.15** ^oid-PZJUkKPc
+            - **Erdgeschoss** ^oid-jtSXw6Eu
+              - **0.1** ^oid-8JrvJqiw
+            - **ab dem 2.Stock pro Stock** ^oid-LB56DCVY
+              - **0.015** ^oid-ECErDIfB
+            - **unmittelbar an der Straße** ^oid-XKgPA6kB
+              - **-0.07** ^oid-AETGsCd1
+            - **nicht unmittelbar an der Straße** ^oid-sfm4fyks
+              - **-0.07** ^oid-xPvSYhI0
+            - **Mezzanin** ^oid-y35ap1aJ
+              - **-0.05** ^oid-Hwmb2WKG
+            - **Mezzanin neben Durchfahrt** ^oid-jemVZTpD
+              - **-0.07** ^oid-wjrV3ApS
+          - **Wohneinheit** ^oid-K0oJCSSe
+            - **WC** ^oid-GNuUAphb
+              - **WC nur über Schlafzimmer erreichbar** ^oid-i2l5JpTi
+                - **-0.05** ^oid-f1FRKHuz
+              - **WC am Gang** ^oid-Jur0gJ40
+                - **-0.35** ^oid-gHURw1tA
+            - **WC / Bad getrennt** ^oid-SOaMx9fp
+              - **Ja** ^oid-GtB6qXFu
+                - **-0.025** ^oid-xDQIBM2i
+              - **Nein** ^oid-CUpFozRw
+            - **zusätzliches Bad** ^oid-BarNTxQo
+              - **Ja** ^oid-dhKuvsAg
+                - **0.1** ^oid-n9NBzXVn
+              - **Nein** ^oid-zD2DRzkN
+            - **zusätzliches WC** ^oid-qt3V7jsN
+              - **Ja** ^oid-xjOyjWyz
+                - **0.05** ^oid-zehzXv2p
+              - **Nein** ^oid-tKi0aXV8
+            - **Gegensprechanlage** ^oid-yRbNQgQ7
+              - **Ja** ^oid-5dftfWgc
+                - **0.04** ^oid-wPj57pt1
+              - **Nein** ^oid-cHsSSDjf
+            - **Waschmaschinenanschluss** ^oid-tMubLjT7
+              - **Ja** ^oid-XVgjpPZZ
+                - **0.01** ^oid-QWg9W1t9
+              - **Nein** ^oid-xM1Q8nQz
+                - **0** ^oid-yxMuqyyo
+            - **Freiflächen** ^oid-NMxSOCNk
+              - **-** ^oid-FGhLVWDo
+              - **Terrasse** ^oid-ACVaCjpO
+                - **0.1** ^oid-gPrn1WPP
+              - **Balkon** ^oid-O3Ybdthf
+                - **0.1** ^oid-ncvZ8bdQ
+              - **keine** ^oid-6Dkly1Ga
+                - **0** ^oid-ov5fNxcV
+            - **Küche** ^oid-tUiz0vHT
+              - **-** ^oid-VlgLdrpg
+              - **keine** ^oid-s0UeFSnY
+              - **Einbauküche** ^oid-B5vpF1M0
+              - **Gangküche** ^oid-Yc5xlhAD
+                - **-0.05** ^oid-UTT2VNZi
+            - **Medien** ^oid-lctFQhyp
+              - **Kabel Anschluss** ^oid-k2qjpD7o
+                - **0.01** ^oid-mM0q86DZ
+              - **Kabel Anschluss** ^oid-Q0uEsyK9
+                - **0.01** ^oid-hMzGw4vJ
+              - **Internet Anschluss** ^oid-nSkQngf5
+                - **0.01** ^oid-QE9K3Lgr
+              - **Gegensprechanlage** ^oid-hAoBeFgq
+                - **0.04** ^oid-6ks4IaU3
+              - **Telefonanlage** ^oid-UIaJLBMq
+                - **0.01** ^oid-kYsUmIc2
+          - **Mobilität** ^oid-Nbk9FmWd
+            - **Garage** ^oid-eCJ2CX1l
+              - **0.21** ^oid-a6YHO4XO
+            - **PKW-Stellplatz** ^oid-QKk8bqeO
+              - **0.03** ^oid-2Vnkc8tp
+            - **Fahrradraum** ^oid-TBTPDDvb
+              - **0.01** ^oid-mb93WfSE
+          - **Grundriss** ^oid-MLpSjFFC
+            - **schlechter Grundriss** ^oid-9xoJntsY
+              - **-0.10** ^oid-p7nmu4ux
+            - **Vorraum nicht abgetrennt** ^oid-NBxAT9Qf
+              - **0.01** ^oid-jZcOoZdj
+            - **Fläche größer als 130 m²** ^oid-T9mnsJS6
+              - **0.05** ^oid-ZNCDUyTV
+            - **mehr als zwei Durchgangszimmer** ^oid-A2XBdK0M
+              - **0.05** ^oid-wO6Bcbqm
+            - **Fläche kleiner als 30 m²** ^oid-PUELoboK
+              - **0.1** ^oid-hneUtp7f
+            - **Dachschräge, Dachflächenfenster und Dachgaube** ^oid-6s6Di1Mr
+              - **0.1** ^oid-maKekJy1
+          - **Belichtung** ^oid-imxYXUMU
+            - **Nordlage, schlechte Belichtung** ^oid-tRWpjJBa
+              - **-0.05** ^oid-cFnIbRfG
+            - **Belichtung ab 2.OG je Geschoss** ^oid-q7mZfuoN
+              - **0.05** ^oid-9wohi5Jc
+            - **Südlage, Fernblick** ^oid-GXFZSZjA
+              - **0.05** ^oid-t1T8tp2Q
+          - **Zustand** ^oid-PVAZ5RqF
+            - **Zustand Wohnung sehr gut, Erstbezug** ^oid-1Cn5CTCk
+              - **0.05** ^oid-lkOE4om9
+            - **Zustand Wohnung mäßig** ^oid-gpXhN9Zm
+              - **0.04** ^oid-4I8ERXBz
+            - **Zustand Wohnung sehr schlecht** ^oid-J8E4FCvw
+              - **0.3** ^oid-R9VEMkvd
+          - **Zubehör** ^oid-cSXzJMLh
+            - **Waschküche** ^oid-lkajbSOQ
+              - **0.02** ^oid-K0qHH4Yn
+            - **Dachbodenabteil** ^oid-TN2ajuEg
+              - **0.03** ^oid-pBK7gfVM
+            - **Kellerabteil** ^oid-c2VU9toE
+              - **ohne Kellerabteil** ^oid-Zqe9q40M
+                - **0.025** ^oid-F7NwROq9
+              - **zusätzliches Kellerabteil** ^oid-x8iSvBZs
+                - **0.03** ^oid-NJzQcxzw
+          - **Böden** ^oid-iwLJq1ly
+            - **hochwertiger Parkettboden** ^oid-JCCMiiAT
+              - **0.03** ^oid-LD80AreA
+          - **Zentralheizung** ^oid-pVH4ESd1
+            - **0.04** ^oid-L26bTw4R
+          - **Isolierglasfenster** ^oid-a1aeZD3Z
+            - **0.05** ^oid-ovoE2gVT
+          - **befristeter Mietvertrag** ^oid-l8LYOhVE
+            - **0.25** ^oid-AsiDt6bl
+        - **Gesamt** ^oid-4D95rF58
+          - **Richtwert inkl. Zu-/Abschläge** ^oid-zSQ1GYps
+            - **pro m²** ^oid-IOMhPdx7
+          - **Abweichung zum Richtwert** ^oid-FLOuJNtM
+      - **Ankauf** [https://flat-race.eu/basic/ankauf/](https://flat-race.eu/basic/ankauf/) [icon:Cellphone] ^oid-rhZ7Tkn7
+        - **Back End** ^oid-4To0tJFR
+          - **Q02_III_Ankauf** ^oid-KIiWwQoN
+            - **sfjdjdgfj** ^oid-oxUy42BW
+            - **Style** ^oid-OOXDkNNI
+            - **Responsive** ^oid-kBHVaBgs
+            - **Insert in Database** ^oid-GWhRn8ct
+            - **Database in Main Table** ^oid-mooI17k9
+              - **Fläche** ^oid-topmucLM
+              - **Kategorie** ^oid-oU4gi4y7
+              - **Besitzverhältnis** ^oid-QvQTnY1T
+              - **Nutzung** ^oid-li5LnI8p
+              - **Bezirk** ^oid-PhqVl6NP
+              - **Bundesland** ^oid-1xt5pOPa
+            - **Export Table** ^oid-x31VURgf
+            - **Vorschau HTML** ^oid-xiHMjZNo
+            - **EX_101_BAUKOSTEN** ^oid-UqvJHitU
+              - **Vorschau HTML** ^oid-RQeoeIR3
+              - **Export** ^oid-gE1O85NW
+        - **Stammdaten** ^oid-QpjC7zFh
+          - **Objekt** ^oid-Jyf9SkGR
+          - **Kaufpreis** ^oid-AO9B0krm
+            - **m²** ^oid-ilQkCjbt
+          - **Abweichung vom Rchtwert** ^oid-8rqzJQf8
+          - **Richtwert** ^oid-j5n787QT
+          - **Fläche** ^oid-F7BpOxYm
+          - **Info** ^oid-2NyRG2Jo
+            - **Kaufpreis eingeben - Nebenkosten werden automatisch berechnet - Zahlen überarbeiten = Ankaufnebenkosten** ^oid-SkGZ4UTi
+        - **Nebenkosten** ^oid-ZwwB7bBn
+          - **Vertragerrichtung** ^oid-hGuTiMdj
+            - **gesamt** ^oid-d530fMqT
+            - **anteilig (%)** ^oid-4qYmrqc5
+          - **Grunderwerbssteuer** ^oid-A4y5dFla
+            - **gesamt** ^oid-oBNNWGz5
+            - **anteilig (%)** ^oid-b4oxR0qc
+          - **Eintragungsgebühr** ^oid-MN8fIOvk
+            - **gesamt** ^oid-Lfjcv6z1
+            - **anteilig (%)** ^oid-DKbQUPps
+          - **Notariats- / Gerichtskosten** ^oid-5ryb19Rm
+            - **gesamt** ^oid-RJDUiFSr
+            - **anteilig (%)** ^oid-UEkSENzW
+          - **Makler** ^oid-E0DpqJ8a
+            - **gesamt** ^oid-t2OcwLoj
+            - **anteilig (%)** ^oid-teVtLwzM
+          - **Sonstige Spesen** ^oid-Yj5nhCtC
+            - **gesamt** ^oid-9CpCSA1K
+            - **anteilig (%)** ^oid-Fi2bwtQC
+        - **Gesamt** ^oid-Eao6U0KX
+          - **Ankaufkosten** ^oid-FUSfZzvB
+            - **pro m²** ^oid-J89MRKbn
+            - **gesamt** ^oid-mkwxdU04
+          - **Nebenkosten** ^oid-j0Hmha08
+            - **pro m²** ^oid-ps9kV9xE
+            - **gesamt** ^oid-poD9xK4w
+          - **Nebenkostenanteil** ^oid-ai3byhTT
+      - **Baukosten** [https://flat-race.eu/basic/baukosten/](https://flat-race.eu/basic/baukosten/) [icon:Cellphone] ^oid-dRc7D79V
+        - **Back End** ^oid-z52590EU
+          - **Q03_X_Baukosten** ^oid-sxPNK4tz
+            - **sfjdjdgfj** ^oid-3wEkHOpf
+            - **Style** ^oid-h3VOYnZw
+            - **Responsive** ^oid-1dF4Z8Gv
+            - **Insert in Database** ^oid-ert7fjzg
+            - **Database in Main Table** ^oid-o666WRK1
+              - **Fläche** ^oid-naiASCNK
+              - **Kategorie** ^oid-A6Q3maXx
+              - **Besitzverhältnis** ^oid-WuvVVKdR
+              - **Nutzung** ^oid-aA2vLL9K
+              - **Bezirk** ^oid-Cidj1qvO
+              - **Bundesland** ^oid-59btWplr
+            - **Export Table** ^oid-4HAWIJx6
+            - **Vorschau HTML** ^oid-qFGg3YDq
+            - **EX_101_BAUKOSTEN** ^oid-ZMVMQ2Oq
+              - **Vorschau HTML** ^oid-vrfZo1ed
+              - **Export** ^oid-aHuLQCsv
+        - **Stammdaten** ^oid-bM0Tuln8
+          - **Objektname** ^oid-s3XxcW8Y
+          - **Fläche** ^oid-oOhPDBjf
+          - **Info** ^oid-dCvUPUuM
+            - **Kostengruppe auswählen - Untergruppe(n) auswählen** ^oid-rw9azZZ6
+        - **Kostenpositionen** ^oid-tIouWaqx
+          - **Allgemein** ^oid-mMJItkoG
+          - **Aufschließung** ^oid-2VPgao2y
+            - **Baustelle einrichten** ^oid-LgfDdUOp
+              - **3** ^oid-aZ7qdvom
+            - **Baustrom** ^oid-F2aRqKoG
+              - **4** ^oid-VO5grtdy
+            - **Gemeinde** ^oid-gT24xKXw
+              - **110** ^oid-vy8lQcFg
+            - **Wasser, Kanal, Strom** ^oid-YEbslNyI
+              - **83** ^oid-tCLPFPCE
+            - **Baustelle frei machen** ^oid-kEhzhoHq
+              - **0** ^oid-meSn11bn
+            - **Baustelle sichern** ^oid-2iJMSjw7
+              - **0** ^oid-pQ8eCOsm
+            - **Baustelle reinigen** ^oid-DFLZdDpp
+              - **0** ^oid-DptsfhuO
+            - **Bauherrleistungen** ^oid-yKMSRYRS
+              - **0** ^oid-O62YSLDT
+            - **Baufläche herrichten** ^oid-ByCfByYt
+              - **0** ^oid-7NGLOcUY
+            - **Zufahrt herrichten** ^oid-3YTs3ioX
+              - **0** ^oid-cjdfBTJs
+            - **Bauhütte** ^oid-73ztgUpu
+              - **0** ^oid-CBf3hzS2
+            - **Kanal** ^oid-e27EFMN1
+              - **0** ^oid-TCHfKwCo
+            - **Strom** ^oid-zBajiI4T
+              - **0** ^oid-udMWH3H0
+            - **Bauherrleistungen** ^oid-HRlrXcNW
+              - **0** ^oid-Ky5JNwbv
+          - **Rohbau** ^oid-pMdtwGZS
+            - **Keller** ^oid-IK7ph8Xk
+              - **395** ^oid-jfxaVvxs
+            - **Bodenplatte** ^oid-QhHvowyk
+              - **205** ^oid-IncqxuWz
+            - **Rohbau - Bauwerk** ^oid-m9YuJmcU
+              - **780** ^oid-RWxHFHkE
+            - **Fenster** ^oid-Moqze8Us
+              - **168** ^oid-eFdUcuTC
+            - **Eingangstür** ^oid-YPpYTma4
+              - **34** ^oid-1WPPa7JR
+            - **Fassade** ^oid-hiAp32Ws
+              - **195** ^oid-6ajVvqYq
+            - **Dachstuhl** ^oid-DtYTJmxX
+              - **180** ^oid-2dgX4Ji0
+            - **Dachdecker** ^oid-xxusJL6x
+              - **195** ^oid-hec8Jjvq
+            - **Estrich** ^oid-elQcnLbc
+              - **55** ^oid-LB95kDgr
+            - **Sonstiges** ^oid-tWZ5HTgh
+              - **0** ^oid-uQtIv1B3
+          - **Ausbau** ^oid-qgDmrfWI
+            - **Innenausbau** ^oid-sY9sJ4XB
+              - **173** ^oid-TNfN8dNz
+            - **Elektro** ^oid-UMY0DR5f
+              - **75** ^oid-dSm4Vboh
+            - **Heizung / Kühlung** ^oid-mvsBGAFj
+              - **160** ^oid-0gDfhSvf
+            - **Sanitärinstallationen** ^oid-93pjLLIQ
+              - **45** ^oid-LAbJ12h7
+            - **Sanitärausstattung** ^oid-G7uOTAGe
+              - **46** ^oid-AVTb2TxK
+            - **Böden** ^oid-OcASBzwY
+              - **54** ^oid-T0uNbVHE
+            - **Fliesen** ^oid-CdG1mSXy
+              - **45** ^oid-XNQD9wxg
+            - **Innentüren** ^oid-a9AtwBz1
+              - **51** ^oid-giYc2WPb
+            - **Malerei** ^oid-pLnce9lr
+              - **25** ^oid-pUyQ2H62
+            - **Schlosser** ^oid-ozzM4RxT
+              - **8** ^oid-uVFxxHai
+            - **Sonstiges** ^oid-xHEOjInl
+              - **0** ^oid-jQX51nxu
+          - **Einrichtung** ^oid-JKRtrpsv
+            - **Küche** ^oid-NOvXudGM
+              - **36** ^oid-WPgkoZMZ
+            - **Möbel** ^oid-Dw09bX8U
+              - **55** ^oid-LFqxnAqY
+            - **Geräte** ^oid-DgnKZKem
+              - **14** ^oid-4KGGpGfU
+            - **Hardware/Software** ^oid-z0hKPSlr
+              - **50** ^oid-tnpuZ2Aq
+            - **Büroausstattung** ^oid-dXXWucdf
+              - **55** ^oid-t6N5S08K
+            - **Sonstiges** ^oid-UmCSkyQS
+          - **Aussenanlagen** ^oid-kXiyNR47
+            - **Geländemodelierung** ^oid-nALBQIH4
+              - **45** ^oid-qOz2Segs
+            - **Garten** ^oid-3bso2TJk
+              - **25** ^oid-tThboEwd
+            - **Garage** ^oid-7Qhy19Yp
+              - **125** ^oid-l8kwd700
+            - **Carport** ^oid-lmGAfA8y
+              - **31** ^oid-tcsvp7ZF
+            - **Teichanlage** ^oid-0tRVrHjP
+              - **34** ^oid-M1h5xt9B
+            - **Sonstiges** ^oid-cupsjh5U
+              - **0** ^oid-wrDFZKnk
+          - **Technische Honorare** ^oid-dH8I2XlU
+            - **Grundlagenermittlung** ^oid-D0aCNSay
+              - **1.500.-** ^oid-0iXJScDk
+            - **Vorentwurf** ^oid-XGVHIyjp
+              - **300.-** ^oid-j81SyVfN
+            - **Entwurf** ^oid-ZnDDofbd
+              - **2.200.-** ^oid-wnkHVz8x
+            - **Einreichung** ^oid-ukyJ2XeP
+              - **2.500.-** ^oid-pK58YsS2
+            - **Projektleitung** ^oid-qFE0A0iN
+              - **7.100.-** ^oid-48h8UXaR
+            - **Sonstiges** ^oid-G9Mxl8N0
+              - **0** ^oid-z4jCczqI
+          - **Nebenkosten** ^oid-8dQSyQtL
+          - **Reserven** ^oid-w8Ayv9UF
+        - **Gesamt** ^oid-QNm3HATg
+          - **Ankaufkosten** ^oid-TYAh4wOD
+            - **pro m²** ^oid-eduqxnGC
+            - **gesamt** ^oid-emXj4yc7
+      - **Betriebskosten** [icon:Cellphone] ^oid-BvH7FwwY
+        - **Back End** ^oid-Fw0W1aNx
+          - **Q04_III_BKallgemein** ^oid-I9Xbcyqg
+            - **121** ^oid-Hitj0jeJ
+            - **Style** ^oid-oq6ZYylV
+            - **Responsive** ^oid-4rVYTDRX
+            - **Insert in Database** ^oid-zvPJbbTc
+            - **Database in Main Table** ^oid-zN3O5ym2
+            - **Export Table** ^oid-GHp9XepR
+            - **Vorschau HTML** ^oid-ljpdiDyC
+            - **Export** ^oid-42iFuRgw
+              - **Vorschau HTML** ^oid-MPAQyxFc
+              - **Export** ^oid-5PVvOKWP
+        - **Stammdaten** ^oid-fhExUYdb
+          - **Objektname** ^oid-EO5Hla01
+          - **Fläche** ^oid-j3EEn6Eo
+          - **Nutzung** ^oid-RS5ik2jt
+          - **Richtwert** ^oid-1URqMca9
+          - **Info** ^oid-HZxMQei3
+            - **Vergeschlagene Betriebskosten - Richtwerte überschreiben und die Abweichung vom Durchschnitt kalkulieren** ^oid-cxHyRuzB
+        - **Positonen** ^oid-HCJELxOm
+          - **Allgemein** ^oid-nNViHz49
+            - **Grundsteuer** ^oid-ac6m5BtX
+              - **0,07** ^oid-71RaHIyn
+            - **Müllabfuhr** ^oid-qLsB3hB0
+              - **0,04** ^oid-y5YQvFW7
+            - **Kanalbenützung** ^oid-UDZn4G5i
+              - **0,13** ^oid-KSYoQYLT
+            - **Wassergebühren** ^oid-bKDZNe26
+              - **0,09** ^oid-NnylsL6c
+            - **Hausversicherung** ^oid-O0xk5g5Z
+              - **0,15** ^oid-MwI5SV8t
+            - **Strom allgemein** ^oid-7jVz1SrZ
+              - **0,03** ^oid-mltZaVx8
+            - **Hausverwaltung** ^oid-Pe6IWbFW
+              - **0,26** ^oid-YHHFBclu
+            - **Hausreinigung** ^oid-NF0BZikp
+              - **0,18** ^oid-STmCVF9p
+            - **Hausbetreuung** ^oid-vHweHd6q
+              - **0,03** ^oid-xsLcjsX6
+            - **Aussenanlagen** ^oid-eWakX93y
+              - **0,06** ^oid-DBX4oSmv
+            - **Schädlingsbekämpfung** ^oid-mSDhlbWr
+              - **0,01** ^oid-VJmEzGl0
+            - **Rauchfangkehrer** ^oid-qS1LK8f2
+              - **0,04** ^oid-zXyGpGpG
+            - **Kleinreparaturen laufend** ^oid-oeACCva1
+              - **0,11** ^oid-GuL7S23H
+            - **Winterdienst** ^oid-HTTNlZhU
+              - **0,04** ^oid-SmeNIrlu
+            - **externe Dienstleistungen** ^oid-DpHfqF9X
+              - **0,03** ^oid-CKxNQxp0
+          - **Gesondert** ^oid-BKRtrqUJ
+            - **Aufwand Eigentümer** ^oid-Z5pTfvE2
+            - **Bankspesen** ^oid-mLca7wNs
+            - **Zinsen** ^oid-CIhOWbEZ
+            - **Rücklagen** ^oid-wzMhKaZP
+            - **Darlehen gefördert** ^oid-UVehfcps
+            - **Darlehen ungefördert** ^oid-sXL2DsGL
+            - **Beratungskosten** ^oid-YBbJplAQ
+            - **Reisespesen** ^oid-R5fXWrYE
+            - **Sonstiges** ^oid-FEsofgXl
+          - **Aufzug** ^oid-X4lDq8D0
+            - **Telefon** ^oid-r9oQ40m3
+            - **Wartung** ^oid-mnddr55J
+            - **Strom** ^oid-bawVln7E
+            - **Behebung Störung** ^oid-5uNOkDdL
+            - **Versicherung** ^oid-zQ5pck4h
+            - **Reparaturen** ^oid-GoqOE2iU
+            - **Aufwand Eigentümer** ^oid-Nl6ZVKU6
+            - **Sonstiges** ^oid-f9gV4lIo
+        - **Gesamt** ^oid-bGvGGlrS
+          - **Betriebskosten** ^oid-MBnA4reb
+            - **pro m²** ^oid-mDxJBilj
+          - **Steuer** ^oid-4mYZx8fy
+          - **Nebenkostenanteil** ^oid-ywn0z566
+          - **Abweichung vom Richtwert** ^oid-LlMkCjTx
+      - **Unterhalt** [icon:Cellphone] ^oid-2FHHWM92
+        - **Back End** ^oid-SP0Nsuwt
+          - **Q05_III_Unterhalt** ^oid-nFS3NidA
+            - **102** ^oid-deVjJlKB
+            - **Style** ^oid-JRDfPAxu
+            - **Responsive** ^oid-Q6Sbk6ql
+            - **Insert in Database** ^oid-AkicPOQ1
+              - **g_Unterhalt_Werte** ^oid-8ak80j7y
+            - **Database in Main Table** ^oid-ut83BHlo
+            - **Vorschau HTML** ^oid-JULbiD1y
+            - **EX_104_UNTERHALT** ^oid-qIBQN1Fk
+              - **EX_000_OBJEKT** ^oid-wjk382JI
+              - **Vorschau HTML** ^oid-4G56fZYM
+              - **Export** ^oid-HKubMP8V
+        - **Stammdaten** ^oid-Cnm0iFMS
+          - **Objektname** ^oid-Ih8QfTOX
+          - **Richtwert** ^oid-LMlQOFZI
+          - **Fläche** ^oid-Uwao1ihJ
+          - **Info** ^oid-4QWl6QSm
+            - **diehnt für die Kalkulation des freie verfügbaren Kapitals.** ^oid-L5p9lG9f
+        - **Nebenkosten** ^oid-wqbNtlk9
+          - **Versicherung** ^oid-61hCyKXV
+            - **3,2%** ^oid-mrA9QvvV
+          - **Heizung** ^oid-msp74lSq
+            - **25,5%** ^oid-ipDMAUqZ
+            - **Systeme** ^oid-bEKk3BX0
+            - **Energiebilanz** ^oid-LI6UnamD
+          - **Strom** ^oid-8VXvdofA
+            - **18,1%** ^oid-DRVBPJmK
+          - **Warmwasser** ^oid-tozjGcQb
+            - **12,8%** ^oid-B8ptUa8E
+          - **Rundfunkgebühren** ^oid-PUqWYzld
+            - **5,3%** ^oid-117MJvLs
+          - **Internet** ^oid-ksr0YSMW
+            - **4,3%** ^oid-hAeLFseA
+          - **Television** ^oid-sWjAW1Jp
+            - **3,2%** ^oid-NHVBlK2S
+          - **Telefon** ^oid-vcDhd7gY
+            - **2,1%** ^oid-xWgqjic1
+          - **Reserven Unerwartetes** ^oid-zSF7qcRv
+            - **3,2%** ^oid-9AL9goVs
+        - **Gesamt** ^oid-UuCgSj6d
+          - **pro Monat** ^oid-0CfzFKBZ
+            - **pro m²** ^oid-G1K4MlCt
+          - **pro Jahr** ^oid-0vjzWWs7
+            - **pro m²** ^oid-RV8ZVfbC
+      - **Haushalt** [icon:Cellphone] ^oid-yipjfkCJ
+        - **Back End** ^oid-GTuf51hT
+          - **Q06_III_Haushalt** ^oid-4sOjoCsw
+            - **106** ^oid-piJ8sBL2
+            - **Style** ^oid-t7PVBBLu
+            - **Responsive** ^oid-2qJK837c
+            - **Insert in Database** ^oid-dR1cJxn9
+            - **Database in Main Table** ^oid-9agMbxki
+            - **Vorschau HTML** ^oid-hwKdgiph
+            - **EX_000_OBJEKT** ^oid-uyheVLMK
+              - **Vorschau HTML** ^oid-w0RGPGCF
+              - **Export** ^oid-zoy471DP
+        - **Stammdaten** ^oid-l41TQuKv
+        - **Nebenkosten** ^oid-46t5elbg
+          - **Wohn-Kosten** ^oid-wApYvqh2
+            - **Mietkosten** ^oid-RYt5cifZ
+            - **Betriebskosten** ^oid-939pA4Ys
+            - **Heizung** ^oid-uyWlLoXI
+            - **Strom** ^oid-6wJ7gSuN
+            - **Sonstiges** ^oid-yCfBdPND
+          - **Haushalts-Kosten** ^oid-2NUvZiJm
+            - **Nahrung** ^oid-QF6oANXS
+            - **Bekleidung** ^oid-65WXbB3U
+            - **Versicherung** ^oid-O5Sk9ght
+            - **Instandhaltung** ^oid-fWYnyRQk
+            - **Unvorhergesehenes** ^oid-Fd7RQr8F
+          - **KFZ-Kosten** ^oid-Nd1vKK6z
+            - **Versicherung** ^oid-1G5MLI08
+            - **Treibstoff** ^oid-zlYDUBZr
+            - **Wartung** ^oid-3PXYhOqa
+            - **Überprüfung** ^oid-FEE7EONf
+            - **Reparaturen** ^oid-p0S3yY5t
+          - **Versicherungs-Kosten** ^oid-43h642wl
+            - **Haushalts-Vers.** ^oid-mB0CTvW5
+            - **Lebens-Vers.** ^oid-GZxVatZl
+            - **Kranken-Vers.** ^oid-lWgHbje0
+            - **Unfall-Vers.** ^oid-L3dSVXdG
+            - **Berufsunfähigkeit-Vers.** ^oid-Og7ZCUIR
+          - **Tel-Internet-Medien Kosten** ^oid-wAsqHmqb
+            - **Fernsehen** ^oid-u9SahM3L
+            - **Mobil** ^oid-ovmWhst6
+            - **Internet** ^oid-ClSXqPwB
+            - **PayTV** ^oid-uyyUtuvQ
+            - **Festnetz** ^oid-RyC4jRlM
+          - **Bildung - Kultur** ^oid-Q4rpXOEs
+            - **Ausbildung** ^oid-xmfUmrQb
+            - **Literatur** ^oid-Iwgqzh6B
+            - **Schule** ^oid-Gas2nLhS
+            - **Kultur** ^oid-TK4v610y
+            - **Reise** ^oid-9NURXMFa
+          - **Freizeit** ^oid-evJQ819g
+            - **Veranstaltungen** ^oid-1C2a6AMI
+            - **Sport** ^oid-eIIRjsMy
+            - **Hobby** ^oid-k66YXGCz
+            - **Reise** ^oid-0W96kWAT
+            - **Urlaub** ^oid-pxO8pV0A
+          - **Kredit-Raten** ^oid-eyW40SH8
+            - **Kredit 1** ^oid-fCLCOcpq
+            - **Kredit 2** ^oid-sYiWUgc0
+          - **Leasing-Raten** ^oid-4GNHffuB
+            - **Leasing 1** ^oid-gSQoOiNu
+            - **Leasing 2** ^oid-yj2WNHnh
+            - **sonstige** ^oid-FkJpLLrR
+          - **Unterhalt** ^oid-9aH7zvyM
+            - **Kind 1** ^oid-iCG9C7Nf
+            - **Kind 2** ^oid-wej35zFO
+            - **Kind 3** ^oid-PipnknDg
+            - **Frau 1** ^oid-kH9PKzPG
+            - **Frau 2** ^oid-7DCFNk1R
+          - **Sparen** ^oid-JeE7hLqn
+            - **Bausparen** ^oid-SMynoa8e
+            - **Verein** ^oid-dSdKXL4z
+            - **Fonds** ^oid-wRHlo0gS
+            - **sonstige** ^oid-X6OCpu1G
+          - **Reserven** ^oid-HNyURN7X
+            - **Bargeld** ^oid-3fFXuHDd
+            - **Sparbuch** ^oid-LYOKCwPZ
+            - **Aktien** ^oid-bhfq3PFM
+            - **Fonds** ^oid-OGwgXUqA
+            - **Beteiligungen** ^oid-u2S8b4ri
+            - **Sonstiges** ^oid-VsRpmaYx
+        - **Gesamt** ^oid-9iv7OhXH
+      - **Miete** [https://flat-race.eu/basic/miete/](https://flat-race.eu/basic/miete/) [icon:Cellphone] ^oid-PCbC7x50
+        - **Back End** ^oid-VfODP0ln
+          - **Q07_III_Miete** ^oid-bZmkHHWR
+            - **120** ^oid-G8yg1Ikt
+            - **Style** ^oid-2z2rLWx6
+            - **Responsive** ^oid-VowSs5Ob
+            - **Insert in Database** ^oid-RXO11xr3
+            - **Database in Main Table** ^oid-mGmw0B9N
+            - **Vorschau HTML** ^oid-UTZnAajb
+            - **Export** ^oid-zNI2BZJl
+              - **Vorschau HTML** ^oid-cAlZ342n
+              - **Export** ^oid-IfaZl9Yx
+        - **Stammdaten** ^oid-VIiGAjHJ
+          - **Objektname** ^oid-zvd60Ad0
+          - **Fläche** ^oid-CxWjZeeq
+          - **Nutzung** ^oid-DnzMM8cT
+          - **Info** ^oid-kbgLk6pU
+            - **diehnt für die Kalkulation des freie verfügbaren Kapitals.** ^oid-05fk1TC2
+        - **Nebenkosten** ^oid-oY9HV7AS
+          - **Nettomietzins** ^oid-OSzWm8tV
+          - **Abschläge** [https://www.data.gv.at/anwendungen/wiener-mietenrechner-app/](https://www.data.gv.at/anwendungen/wiener-mietenrechner-app/) ^oid-vEYZtouz
+            - **HAUS** ^oid-aBRBZnz4
+              - **Lageabschlag** ^oid-ZC9rcQOF
+              - **hohe Lärm- oder Geruchsbelastung** ^oid-drlxvXkr
+              - **Zustand Haus unterdurchschnittlich** ^oid-YOQxXDh8
+            - **STOCKWERKSLAGE** ^oid-i9O8DORS
+              - **unter Niveau** ^oid-Dj5lxHqO
+              - **niveaugleich** ^oid-N3LDyzM4
+              - **Erdgeschoss** ^oid-NfPbMoZ4
+              - **unmittelbar an der Straße** ^oid-sxgQ6uv9
+              - **nicht unmittelbar an der Straße** ^oid-O5reisiy
+              - **Mezzanin** ^oid-gJ4p5i79
+              - **Mezzanin neben Durchfahrt** ^oid-EdgyZR8T
+            - **LIFT** ^oid-1V6f80or
+              - **Abstrich für nicht vorhandenen Lift (ab 2.OG)** ^oid-fWQZfacS
+              - **kein Lift ab 2. Stock pro Stock** ^oid-mQxqhqgW
+            - **WOHNEINHEIT** ^oid-ms6JY4Qm
+              - **Zustand Wohnung mäßig / sehr schlecht** ^oid-DJFsWIqT
+              - **schlechter Grundriss** ^oid-NW7PM0QP
+              - **Vorraum nicht abgetrennt** ^oid-6qdwGZhw
+              - **Gangküche** ^oid-cccRxgEq
+              - **WC nur über Schlafzimmer erreichbar** ^oid-f0Sj2hS6
+              - **WC am Gang** ^oid-k7vEAajm
+              - **Bad und WC in einem Raum** ^oid-VtwCRBl5
+              - **Fläche größer als 130 m²** ^oid-Nz3LBrNr
+              - **mehr als zwei Durchgangszimmer** ^oid-miLaNfgc
+              - **Dachschräge, Dachflächenfenster und Dachgaube** ^oid-Cnf6Qbss
+            - **ZUBEHÖR** ^oid-jmDdtDiV
+              - **ohne Kellerabteil** ^oid-kZvq9hJk
+              - **Nordlage, schlechte Belichtung** ^oid-xrlPlyAX
+              - **befristeter Mietvertrag** ^oid-rGlOs7De
+              - **sonstiges** ^oid-HEUXlEsk
+          - **Zuschläge** ^oid-bzzj1uG1
+            - **HAUS** ^oid-MoyBgcn4
+              - **Lagezuschlag** ^oid-ktoDssq5
+              - **Zustand Haus überdurchschnittlich** ^oid-bw7DIllk
+            - **STOCKWERKSLAGE** ^oid-JT2YD8vn
+              - **ab dem 2.Stock pro Stock** ^oid-Amcmxq3Q
+              - **Garten** ^oid-FBLm6RYE
+            - **WOHNEINHEIT** ^oid-WYNaYzx4
+              - **Zustand Wohnung sehr gut, Erstbezug** ^oid-WjlKPsVV
+              - **Fläche kleiner als 30 m²** ^oid-xjH6LMhW
+              - **WC / Bad getrennt** ^oid-IbdmYVzf
+              - **zusätzliches Bad** ^oid-S6pVAU2e
+              - **zusätzliches WC** ^oid-Pnoy05xu
+              - **Waschmaschinenanschluss** ^oid-5hhC2If9
+              - **hochwertiger Parkettboden** ^oid-UpgX8zV7
+              - **Balkon, Terrasse** ^oid-Lvf9IKtY
+              - **Zentralheizung** ^oid-G0KXbhGR
+              - **Infrarot Heizung** ^oid-BmEIPJWc
+              - **Gegensprechanlage** ^oid-RcZjltqZ
+              - **Telefonanlage** ^oid-1A40x8FE
+              - **Kabel/Sat/Internet Anschluss** ^oid-UIXPJ9mf
+              - **Isolierglasfenster** ^oid-0uybwJMg
+              - **Garage** ^oid-GVSTOo9y
+              - **PKW-Stellplatz** ^oid-1NS3JaYP
+              - **Fahrradraum** ^oid-QMSeTQPy
+              - **Dachbodenabteil** ^oid-HFR5uCZB
+              - **zusätzliches Kellerabteil** ^oid-9sYBC6eF
+              - **Waschküche** ^oid-orYdk2I1
+              - **Belichtung ab 2.OG je Geschoss** ^oid-WiNOMqDu
+              - **Südlage, Fernblick** ^oid-41LB7L6v
+              - **Ruhelage, Grünlage** ^oid-6teV5pBA
+              - **sonstiges** ^oid-pzx7EP6x
+          - **Ausstattung** ^oid-ordE6KbO
+            - **Küchenblock** ^oid-NBnSG14p
+            - **Geschirrspüler** ^oid-xRvlVHlj
+            - **Mikrowellenherd** ^oid-LC1kWXL4
+            - **Waschmaschine** ^oid-csUMbiTz
+            - **Sicherheitstür** ^oid-LGNiRpWA
+            - **Sicherheitsschloss** ^oid-mbRhTeqI
+            - **Digitaler Türspion** ^oid-nyWK35nL
+            - **Wandtresor** ^oid-oVGZPnNl
+            - **Schrank** ^oid-yNCmRa0k
+            - **Bett** ^oid-0ccwoWBN
+            - **Schreibtisch** ^oid-C6GetYuG
+            - **Sofa** ^oid-DGPCgPcK
+            - **Regalsystem** ^oid-m6nCUnnP
+            - **Lampen** ^oid-ga1wYrcW
+          - **Nebenkosten** ^oid-9p6ajsZd
+        - **Gesamt** ^oid-5AzTXR4t
+          - **Nettomietzins inkl. Zu- / Abschläge** ^oid-jcxJ3JGJ
+          - **Ausstattung und Einrichtung** ^oid-ClnQP9yW
+          - **SteuerXXXXXXXXX** ^oid-gqsjFSXq
+            - **privat** ^oid-qdlrBbJz
+            - **gewerblich** ^oid-nB4dzMrp
+          - **Bruttomietzins** ^oid-wsgmFjEk
+      - **Finanzierung** [icon:Cellphone] ^oid-42Luxtjm
+        - **Back End** ^oid-nomCREIH
+          - **Q08_III_Finanzierung** ^oid-jc8Xzltv
+            - **54** ^oid-OWRLFroH
+            - **Style** ^oid-VbUjI2dg
+            - **Database in Main Table** ^oid-PzXIL27Y
+            - **Insert in Database** ^oid-PS3iVOOv
+            - **Responsive** ^oid-MIg9m6e1
+            - **Export Table** ^oid-wO4vXuf9
+              - **Vorschau HTML** ^oid-waNB4sA3
+              - **Export** ^oid-hKGCPGpG
+          - **rate** ^oid-Pe3DQFg5
+            - **fieldname460** ^oid-x7wQ0WLt
+          - **betrag** ^oid-ljPXNNaX
+            - **fieldname407** ^oid-XChh45v1
+          - **zeit** ^oid-QprWDxtZ
+            - **fieldname110** ^oid-liGoRSbG
+        - **Stammdaten** ^oid-pa7V7DIp
+          - **Objektname** ^oid-kSv7e5nx
+          - **Projektkosten** ^oid-5HgijvSI
+            - **Ankaufkosten** ^oid-oLareL2k
+            - **Baukosten** ^oid-e5uHHjjc
+            - **Gesamt** ^oid-BuSbbD5d
+          - **Darlehensanteil** ^oid-Dav3isEU
+          - **Darlehensnennbetrag** ^oid-vgjQBGiq
+          - **Laufzeit in Jahren** ^oid-d3PzQ2mv
+        - **Positionen** ^oid-9NglCpHe
+          - **Zinssatz** ^oid-WkqdiJ1s
+            - **Basiszinssatz** ^oid-tv5qSkvJ
+            - **Zinssatz Darlehensgeber** ^oid-7LJeuDgh
+          - **Pfandrechtsgebühr** ^oid-dZFqOL06
+            - **Pfandrechtsgebühr** ^oid-JdxHqCdG
+            - **Pfandrechtsbetrag** ^oid-FPiwyCSj
+          - **Bearbeitungsgebühr** ^oid-VySi0iwU
+          - **Kredit-Kontogebühr p.a.** ^oid-1B4sJQLM
+          - **Gutachter** ^oid-CuHoesXB
+          - **Sonstiges** ^oid-N23bCgtU
+        - **Gesamt** ^oid-G6IhOF9U
+          - **verfügbarer Betrag** ^oid-K2X96Ype
+            - **Darlehensnennbetrag** ^oid-GtoonWuQ
+            - **Pfandrechtsgebühr** ^oid-Ss7hjS83
+            - **Bearbeitungsgebühr** ^oid-jD03LPZE
+            - **Gutachter** ^oid-MOPjBh60
+            - **Sonstiges** ^oid-o3bjRMo8
+          - **Monatliche Zahlung** ^oid-8YObZSDe
+            - **Tilgung + Zinsen p.m.** ^oid-cdFK6SXW
+            - **Kontogebühr p.m.** ^oid-1U0R4QcT
+          - **Rate** ^oid-uKAJFROS
+            - **Zinsen p.m.** ^oid-BIup041Y
+            - **Tilgung p.m.** ^oid-SUMcPIbq
+          - **Kreditkosten** ^oid-oWTVLikl
+          - **Rückzahlung** ^oid-R0nLzW6X
+          - **Jahreszins** ^oid-qvAMLD7g
+      - **Verkauf** [icon:Cellphone] ^oid-VclrDa8a
+        - **Back End** ^oid-qzJnTrvQ
+          - **Q10_III_Verkauf** ^oid-TO103xis
+            - **HEAD** ^oid-9TddV7NS
+              - **VERKAUFSKOSTEN** ^oid-ub5JuhGP
+              - **KATEGORIE** ^oid-Sx42T6s9
+            - **Style** ^oid-5iVrJv7J
+            - **Wording** ^oid-8CTbK0x2
+            - **Insert in Database** ^oid-fSD1C2Zw
+            - **Database in Main Table** ^oid-8sRzNZiI
+            - **Responsive** ^oid-4ys4RLts
+            - **Export Table** ^oid-wR975jeX
+              - **Vorschau HTML** ^oid-suU24ofO
+              - **EX_120_VERKAUF** ^oid-XTAzs13U
+                - **134** ^oid-IUGZ85ap
+        - **Stammdaten** ^oid-UOLsRzMV
+          - **Objekt** ^oid-x0dmZGqo
+            - **name** ^oid-v6zf0z3r
+          - **Verkaufspreis** ^oid-OPtvybPS
+            - **pro m²** ^oid-KY3RbOmK
+            - **gesamt** ^oid-t62dZmZB
+          - **Abweichung vom Durchschnitt** ^oid-WcZ98lGn
+            - **anteilig (%)** ^oid-RhDdhhC8
+          - **Durchschnitt** ^oid-Vm8CQ5vv
+            - **min** ^oid-TxU7fzUf
+            - **max** ^oid-9B8NMvJB
+            - **ds** ^oid-jBjjSSVV
+          - **Fläche** ^oid-U0duhpZq
+            - **pro m²** ^oid-Q9Zt7c5U
+        - **Nebenkosten** ^oid-Ye35sfJd
+          - **Energieausweis** ^oid-x7DpEsoH
+            - **anteilig (%)** ^oid-KBBtj4gS
+              - **0.2** ^oid-HiZ8PvJf
+            - **gesamt** ^oid-Ttg51kaa
+          - **Vermarktung** ^oid-BNnQ4oF9
+            - **anteilig (%)** ^oid-EPymJoT5
+              - **3.6** ^oid-lQypsqC6
+            - **gesamt** ^oid-VV47hffp
+          - **Rechtsberatung** ^oid-Ux7m6laR
+            - **anteilig (%)** ^oid-IQPfTbyP
+              - **0.1** ^oid-ER8w4ADg
+            - **gesamt** ^oid-jM2TURCN
+          - **Gutachten** ^oid-7qv1Pxg8
+            - **anteilig (%)** ^oid-fOU9MEuu
+              - **0.5** ^oid-dpt5Q8tX
+            - **gesamt** ^oid-tBT1UF4A
+          - **Berechnung ImmoEst** ^oid-6jJ0KXez
+            - **anteilig (%)** ^oid-WkqHM9ZN
+              - **0.1** ^oid-PeGQV6Q4
+            - **gesamt** ^oid-Equvs2gM
+          - **Reserven** ^oid-XRbXtUr4
+            - **anteilig (%)** ^oid-LEhNPFP3
+              - **0.2** ^oid-S1U9PG7b
+            - **gesamt** ^oid-CMrlxh4q
+        - **Gesamt** ^oid-JI4WEqdr
+          - **Verkaufspreis** ^oid-ZRgu2eHa
+            - **pro m²** ^oid-EPC4tsCF
+            - **gesamt** ^oid-rRs0ezIZ
+          - **Nebenkosten  gesamt** ^oid-gSNpAHgA
+            - **pro m²** ^oid-yoH4y2dG
+            - **gesamt** ^oid-6tvE4mpE
+          - **Nebenkostenanteil** ^oid-mEX8hUoR
+            - **anteilig (%)** ^oid-2yblUhum
+      - **AUFSTELLUNG** [icon:Cellphone] ^oid-qdrmNlBo
+        - **Objektdaten** ^oid-wrkraLxe
+        - **Ankauf** ^oid-F67QnRqa
+        - **Baukosten** ^oid-8dF8qruL
+        - **Betriebskosten** ^oid-j7OIQnhC
+        - **Unterhalt** ^oid-DF0cMagL
+        - **Haushalt** ^oid-CNrkWT0i
+        - **Miete** ^oid-VBqq1Cus
+        - **Finanzierung** ^oid-zFoVIVgm
+        - **Verkauf** ^oid-JWSzBFxN
+        - **Back End** ^oid-KAeHY8US
+          - **Q_MT_AUSWERTUNG** ^oid-VSFMd9Jc
+            - **137** ^oid-GQseYZHk
+            - **Style** ^oid-5PJaYIb3
+            - **Responsive** ^oid-twdOPK4k
+            - **Insert in Database** ^oid-tuZpmF1N
+            - **Database in Main Table** ^oid-gI2QwKuT
+            - **Vorschau HTML** ^oid-4sp3s2Pb
+            - **Export** ^oid-qMVfJrws
+              - **EX_000_OBJEKT** ^oid-GI95yFOE
+              - **Vorschau HTML** ^oid-lbZkCzx3
+              - **Export** ^oid-kxMDlCpA
+      - **AUSWERTUNG** [icon:Cellphone] ^oid-CuTruPKe
+        - **Back End** ^oid-W1eX3kMA
+          - **Q_MT_AUSWERTUNG** ^oid-ZqjvG7Y8
+            - **137** ^oid-GZ4ZodTh
+            - **Style** ^oid-LDQNy97S
+            - **Responsive** ^oid-hnMQdcHg
+            - **Insert in Database** ^oid-cnb3ET4D
+            - **Database in Main Table** ^oid-Ef1ZTAJ9
+            - **Vorschau HTML** ^oid-ZozSaPoq
+            - **Export** ^oid-7OjAHcPw
+              - **EX_000_OBJEKT** ^oid-VxFTy1lU
+              - **Vorschau HTML** ^oid-K9dEsACt
+              - **Export** ^oid-ie5stG9H
+        - **Objektdaten** ^oid-wAglb7tK
+        - **Stammdaten** ^oid-zOtM2LKh
+        - **Gesamt** ^oid-98b4gS4U
+    - **Rechner** [https://flat-race.eu/basic/finanzierung/rechner/](https://flat-race.eu/basic/finanzierung/rechner/) ^oid-ne1tdET7
+      - **Der Scheren Rechner** [https://flat-race.eu/basic/finanzierung/rechner/ansparen-vs-ausleihen/](https://flat-race.eu/basic/finanzierung/rechner/ansparen-vs-ausleihen/) [icon:FlagGreen] [icon:Cellphone] ^oid-HHfWHp1f
+        - **Back End** ^oid-MsoIPhDj
+          - **Q_Der Scheren-Rechner** [https://flat-race.eu/wp-admin/options-general.php?page=cp_calculated_fields_form&cal=132&r=0.17790561844176322&_cpcff_nonce=f70f944b8b](https://flat-race.eu/wp-admin/options-general.php?page=cp_calculated_fields_form&cal=132&r=0.17790561844176322&_cpcff_nonce=f70f944b8b) ^oid-y4zrgRqH
+            - **132** ^oid-JSisT7Em
+            - **Style** ^oid-SYwnznhH
+            - **Responsive** ^oid-nUW6qcrl
+        - **AUSLEIHUNG** ^oid-IqbKn239
+        - **DIFFERENZ** ^oid-HcDlrNhe
+        - **ERTRAG** ^oid-604pJ4pi
+      - **Der Zinsrechner** [https://flat-race.eu/basic/finanzierung/rechner/zinsrechner/](https://flat-race.eu/basic/finanzierung/rechner/zinsrechner/) [icon:FlagGreen] [icon:Cellphone] ^oid-yCjjo1ZY
+        - **Back End** ^oid-G1wGTrO7
+          - **Q_Der Zinsrechner** [https://flat-race.eu/wp-admin/options-general.php?page=cp_calculated_fields_form&cal=124&r=0.9897241757465342&_cpcff_nonce=f70f944b8b](https://flat-race.eu/wp-admin/options-general.php?page=cp_calculated_fields_form&cal=124&r=0.9897241757465342&_cpcff_nonce=f70f944b8b) ^oid-7Dd7bMvt
+            - **124** ^oid-rOmB4R42
+            - **Style** ^oid-TsM3Pjwe
+            - **Responsive** ^oid-ItPlUDek
+        - **AUSLEIHUNG** ^oid-NICoNUqx
+          - **Betrag** ^oid-pnxZCNkH
+          - **Zinssatz** ^oid-q8JJXtGn
+          - **Laufzeit in Monaten** ^oid-k0NzA5lw
+          - **Gesamt** ^oid-L7qyiajz
+          - **Zinsen gesamt** ^oid-YQHjyQ6f
+          - **Rate p.m.** ^oid-y1RCgFT1
+        - **BETRAG** ^oid-gRvxrAWY
+          - **Rate** ^oid-3YMGVTHt
+          - **Zinssatz** ^oid-4wCMTLzr
+          - **Laufzeit in Monaten** ^oid-rcUVUTVz
+          - **Darlehensbetrag** ^oid-P6u51KHX
+        - **DAUER** ^oid-3elm7fpB
+          - **Betrag** ^oid-joBQA535
+          - **Zinssatz** ^oid-0TJGEN73
+          - **Rate** ^oid-wdK2Tbi7
+          - **Laufzeit** ^oid-pIL5KG3j
+        - **ZINSSATZ** ^oid-rxsHwfFO
+          - **Betrag** ^oid-NmVdajLA
+          - **Zeitraum in Monaten** ^oid-SbhDgWuG
+          - **Rate** ^oid-v0ort0KA
+          - **Zinssatz** ^oid-4rDNYcD2
+      - **Das Kapital** [https://flat-race.eu/basic/finanzierung/rechner/hypothek-p-a/](https://flat-race.eu/basic/finanzierung/rechner/hypothek-p-a/) [icon:FlagOrange] [icon:Cellphone] ^oid-HdaROg0c
+        - **Back End** ^oid-xU9Sj94F
+          - **Q_Das Kapital** [https://flat-race.eu/wp-admin/options-general.php?page=cp_calculated_fields_form&cal=125&r=0.13817647995375015&_cpcff_nonce=f70f944b8b](https://flat-race.eu/wp-admin/options-general.php?page=cp_calculated_fields_form&cal=125&r=0.13817647995375015&_cpcff_nonce=f70f944b8b) ^oid-qVOxBZXc
+            - **125** ^oid-8oo8gxX7
+            - **Style** ^oid-Blxvyyi2
+            - **Responsive** ^oid-VjJloayz
+            - **Print** ^oid-KhaKUIEg
+              - **CALC** ^oid-KCxcqyGB
+              - **Button** ^oid-mRrFs0CW
+              - **HTML** ^oid-dQOCKz3M
+        - **Stammdaten** ^oid-6UBmEPES
+          - **Betrag** ^oid-iXcvNAM8
+          - **Zinssatz** ^oid-QAEQBdNy
+          - **Zeitraum** ^oid-S9GlqNJd
+        - **Gesamt** ^oid-GD5VMUY1
+          - **Gesamtbetrag** ^oid-SszFeENP
+          - **Zins** ^oid-dkC6wbrO
+      - **Die Hypothek** [https://flat-race.eu/basic/finanzierung/rechner/hypothek-p-a/](https://flat-race.eu/basic/finanzierung/rechner/hypothek-p-a/) [icon:FlagYellow] [icon:Cellphone] ^oid-b6jwsLXR
+        - **Back End** ^oid-QZapIlBH
+          - **T_Die Hypothek** ^oid-Ccbitw0L
+            - **127** ^oid-xr071aDL
+            - **Style** ^oid-LO4XeekN
+            - **Export** ^oid-8yLJbex7
+              - **Table CFF** ^oid-lNxXGhir
+            - **Responsive** ^oid-LiFcBfCZ
+        - **Stammdaten** ^oid-N7UOj6A1
+          - **Betrag** ^oid-wmEM2cE6
+          - **Zinssatz** ^oid-fJMoWcN3
+          - **Datum** ^oid-Rf3BkjdM
+          - **Zeitraum** ^oid-NdXguOeu
+        - **Gesamt** ^oid-lgSnOs16
+          - **Gesamtbetrag** ^oid-dpFjazro
+          - **Zins** ^oid-usVbi7dS
+          - **Datum** ^oid-5IgUOALb
+          - **Zeitraum** ^oid-clEUhoTV
+      - **Nur-Zins-Rechner** [https://flat-race.eu/basic/finanzierung/rechner/nur-zins-rechner/](https://flat-race.eu/basic/finanzierung/rechner/nur-zins-rechner/) [icon:FlagYellow] [icon:Cellphone] ^oid-FboeIXJI
+        - **Back End** ^oid-kvkApywQ
+          - **T_Der Nur-Zins-Rechner** [https://flat-race.eu/wp-admin/options-general.php?page=cp_calculated_fields_form&cal=139&r=0.600809265695113&_cpcff_nonce=c410f8ac2f](https://flat-race.eu/wp-admin/options-general.php?page=cp_calculated_fields_form&cal=139&r=0.600809265695113&_cpcff_nonce=c410f8ac2f) ^oid-CvgVQDxj
+            - **139** ^oid-rhsfVyML
+            - **Style** ^oid-OrEUYKGQ
+            - **Export** ^oid-6ll2sOmD
+              - **Table CFF** ^oid-ovQNOuW8
+            - **Responsive** ^oid-qm62hI4K
+        - **Stammdaten** ^oid-eZrEzVVC
+          - **Betrag** ^oid-FH25VMY7
+          - **Zinssatz** ^oid-2gpyNO8z
+          - **Datum** ^oid-6tDqyFnC
+          - **Zeitraum** ^oid-3QaskE1b
+        - **Gesamt** ^oid-51zi0aFP
+          - **Gesamtbetrag** ^oid-9vHfEspd
+          - **Zins** ^oid-DigCrFAT
+          - **Datum** ^oid-cItx5Bm8
+          - **Zeitraum** ^oid-24elqmXS
+        - **Stammdaten** ^oid-qMoI8I2u
+          - **Betrag** ^oid-LhpdCz0m
+          - **Zinssatz** ^oid-XLQb7KPG
+          - **Datum** ^oid-PCtjKK9R
+          - **Zeitraum** ^oid-V4NUgo3C
+    - **Berichte** ^oid-Djt5cc9e
+      - **Objekttypen** ^oid-GQCjFsY0
+      - **Bundesländer** ^oid-i4KiLNUp
+        - **Eigentum** ^oid-SJJr5M6k
+          - **BDL_Eigentum** [icon:FlagGreen] ^oid-g9fABHhO
+            - **53** ^oid-R05Q9nkZ
+              - **Grundstück** ^oid-b4kb4ggZ
+                - **BDL_GST** ^oid-3aMq7dDM
+                  - **41** ^oid-rAQqKeM5
+                    - **GST_W** ^oid-zj6hdotM
+                      - **23** ^oid-yMaVr8Cg
+                    - **Gst_Bgl** ^oid-fKD5aTMa
+                      - **11** ^oid-BiYFIMWr
+                    - **GST_K** ^oid-2SDL5xEG
+                      - **20** ^oid-KiAGLcYy
+                    - **GST_NÖ** ^oid-gdyzXMdM
+                      - **13** ^oid-KCzPKaXu
+                    - **GST_OÖ** ^oid-o7gU1F2q
+                      - **14** ^oid-L36RxYeN
+                    - **GST_Stmk** ^oid-nb848wAi
+                      - **19** ^oid-InmQzLYN
+                    - **GST_S** ^oid-KJqBftKc
+                      - **16** ^oid-J8OfOUYz
+                    - **GST_T** ^oid-tYpMsUmU
+                      - **21** ^oid-hTF9C1GT
+                    - **GST_V** ^oid-fzXBO0YC
+                      - **22** ^oid-3y2rMU3V
+              - **Einfamilienhaus** ^oid-HNsulsHg
+                - **BDL_EFH** ^oid-Qzr5oA8v
+                  - **37** ^oid-wXWHmITc
+                    - **EFH_W** ^oid-cw1FEEAh
+                      - **32** ^oid-nDwE6vNx
+                    - **EFH_Bgl** ^oid-KFuFoOSt
+                      - **24** ^oid-XBGHF0ML
+                    - **EFH_K** ^oid-WXjBZUXC
+                      - **25** ^oid-gtBYDRkN
+                    - **EFH_NÖ** ^oid-sodMLL98
+                      - **26** ^oid-gjWGiIph
+                    - **EFH_O** ^oid-DViESXEb
+                      - **27** ^oid-MkK3HtPI
+                    - **EFH_Stmk** ^oid-83ljj594
+                      - **29** ^oid-hHVKmA2U
+                    - **EFH_S** ^oid-yZNzgrG9
+                      - **28** ^oid-ymQZkLbG
+                    - **EFH_T** ^oid-YdsvHrEK
+                      - **30** ^oid-t4WXLWHT
+                    - **EFH_V** ^oid-FWZOvNaI
+                      - **31** ^oid-A4YFiuHV
+              - **Reihenhaus** ^oid-EfYUjFTW
+                - **BDL_RH** ^oid-wgOpk97c
+                  - **35** ^oid-ueOfvs9m
+                    - **GST_W** ^oid-GXttuhXE
+                    - **Gst_Bgl** ^oid-Tkq6ZBjE
+                    - **GST_K** ^oid-9DZoSYaV
+                    - **GST_NÖ** ^oid-hTrkrdaF
+                    - **GST_OÖ** ^oid-PVN0ZVQp
+                    - **GST_Stmk** ^oid-lpuCd3DY
+                    - **GST_S** ^oid-YNs4vX3O
+                    - **GST_T** ^oid-25E42Xe1
+                    - **GST_V** ^oid-YPhbTeZk
+              - **Wohnung neu** ^oid-IDYuczb2
+                - **BDL_WHG** ^oid-7YrEBLqM
+                  - **39** ^oid-QkvQe80P
+                    - **GST_W** ^oid-Dr7M5ecW
+                    - **Gst_Bgl** ^oid-MRzWjSoU
+                    - **GST_K** ^oid-VihVuF8s
+                    - **GST_NÖ** ^oid-FYSuXtmg
+                    - **GST_OÖ** ^oid-JEADKMip
+                    - **GST_Stmk** ^oid-7fqy9OzE
+                    - **GST_S** ^oid-vacVUWnt
+                    - **GST_T** ^oid-mWbs0iIP
+                    - **GST_V** ^oid-sfvxDukE
+              - **Wohnung alt** ^oid-HK4EGYhk
+                - **GST_W** ^oid-macBhxRN
+                - **Gst_Bgl** ^oid-0mvLg0XO
+                - **GST_K** ^oid-FaATIrxV
+                - **GST_NÖ** ^oid-TOzcQAAY
+                - **GST_OÖ** ^oid-0f646sNr
+                - **GST_Stmk** ^oid-j0ftlELF
+                - **GST_S** ^oid-Yrh9h4Sf
+                - **GST_T** ^oid-FNHKud5d
+                - **GST_V** ^oid-GcjjYcxH
+              - **Index** ^oid-shJk9biD
+                - **RW_BDL** ^oid-hOOGZnFB
+                  - **40** ^oid-8HigDMAv
+        - **Miete** ^oid-8r61FSTo
+          - **BDL_Miete** ^oid-5o1JIyeD
+            - **54** ^oid-mrtW9I2U
+        - **Gewerbe** ^oid-0tVkhBZ4
+          - **BDL_Gewerbe Miete** ^oid-Io1PMN02
+            - **56** ^oid-nPEVRHyq
+          - **BDL_Gewerbe Eigentum** ^oid-IKNzOaLz
+            - **55** ^oid-jZ2pGAFt
+        - **Ankauf Nebenkosten** ^oid-z7XLnjSB
+          - **BDL_Ankauf** ^oid-DMdW9H2S
+            - **57** ^oid-jpsilKv0
+        - **Baukosten** ^oid-klazwnVf
+          - **BDL_Baukosten** ^oid-jEc6cMHZ
+            - **58** ^oid-FAWc9YUk
+        - **Betriebskosten** ^oid-49X0igIS
+          - **BDL_BKall** ^oid-UBJjLRDp
+            - **50** ^oid-vj2yGjNs
+        - **Unterhalts Kosten** ^oid-eVQe7sIK
+          - **BDL_RW_Unterhalt** ^oid-eJhx6j9o
+            - **52** ^oid-pVNILC0x
+        - **Haushalts Kosten** ^oid-Ld3l6Cbt
+          - **BDL_Haushalt** ^oid-vBOz4MEU
+            - **61** ^oid-wrhkx25E
+        - **Mietnebenkosten** ^oid-vqHKNDEo
+          - **BDL_Mietnebenkosten** ^oid-th58Bthq
+            - **62** ^oid-c8BEI83M
+        - **Finanzierungnebenkosten** ^oid-haEmyhbM
+          - **BDL_Finanzierungnebenkosten** ^oid-1rMgWMcL
+            - **63** ^oid-XCb5UIQc
+        - **Verkaufsnebenkosten** ^oid-8mEEbq3n
+          - **BDL_Verkaufsnebenkosten** ^oid-EWM2IzZk
+            - **64** ^oid-PgGVvLMg
+    - **Blog** ^oid-dMIquXeE
+      - **Allgemein** ^oid-rYR8NhVF
+        - **Einleitung** ^oid-4mm1nfUb
+      - **Ankauf** ^oid-2PvxkrvH
+        - **01.01.2000** ^oid-a2M5eUCe
+        - **1. Die Suche** ^oid-E8W9V9IK
+        - **2. Die Besichtigung** ^oid-jzDab6Ji
+        - **3. Die Überlegungen** ^oid-nfmmNYn9
+        - **4. Der 2te Besichtungstermin** ^oid-YLuLsK9C
+        - **5. Die Kaufabsicht** ^oid-A1ar47wQ
+        - **6. Das Angebot** ^oid-Fm9kmV9m
+        - **7. Der Kaufvertrag** ^oid-sm2T6ZED
+        - **8. Die Übergabe** ^oid-c1LbVU3Q
+        - **9. Die Rechnungslegung** ^oid-y04VXzB9
+        - **10. Die Gewährleistung** ^oid-bnyeyLmD
+      - **Objekt** ^oid-Vg2bq2vp
+        - **Allgemein** ^oid-1lMw235t
+      - **Verkauf** ^oid-lpJQoelM
+        - **Allgemein** ^oid-JFp28FLY
+      - **Miete** ^oid-3RizZBtb
+        - **Allgemein** ^oid-016Qq0tA
+      - **Betriebskosten** ^oid-fgVz5p7Q
+        - **Allgemein** ^oid-yUhswFvu
+      - **Unterhalt** ^oid-439xcHyi
+        - **Allgemein** ^oid-XotmKEEj
+    - **Begriffe** ^oid-5DdyUMKR
+      - **Allgemein** [https://flat-race.eu/archiv/](https://flat-race.eu/archiv/) ^oid-vAfGKhkC
+        - **FLATrace** ^oid-uqiaHSsT
+          - **Applikation zur Kalkulation von Immobilienkosten auf Basis von Richtwerten.** ^oid-b6ppOrAE
+        - **Richtwert** ^oid-kQB2qPcg
+          - **erhebt keinen Anspruch auf Vollständigkeit** ^oid-6d8nk4Gb
+          - **dient als Grundlage für die Kalkulatoren** ^oid-M18c9Fay
+          - **Grundlage** ^oid-l2eQhG0V
+            - **Marktanalysen** ^oid-bH7094JU
+            - **Erfahrungen** ^oid-n7VOjNx1
+            - **Mietrecht Zu- / Abschläge** ^oid-Qb4YVbnd
+            - **Parifizierungs Zu- / Abschläge** ^oid-GAHJc4VE
+            - **Userdaten** ^oid-zvkq4FCg
+          - **Berechnung** ^oid-Qlo0fAWp
+            - **Normalverteilungsmethode** ^oid-xU2gna4N
+          - **Datenstand** ^oid-sMlZjDAw
+            - **vorab 1/4 jährliche Anpassungen** ^oid-JsQ7IwbE
+        - **Besitzverhältnis** ^oid-uuGt7JS6
+        - **Nutzung** ^oid-iiIGe5wk
+        - **Kategorie** ^oid-2ZKWGPA8
+        - **Fläche** ^oid-KbLM5k5w
+        - **Grundstücksfläche** ^oid-bGnFcSyz
+        - **Objekt** ^oid-PQoFrPH5
+        - **Richtwertmietzins** ^oid-MaM3NSZP
+          - **Kategorie A-Wohnung** ^oid-GaOq6kgx
+            - **Mindestens 30m², es muss ein Zimmer, einen Vorraum, eine Küche oder eine Kochnische, ein WC innen und eine zeitgemäße Badegelegenheit und außerdem eine Zentralheizung und Warmwasser geben** ^oid-ZKPl0btY
+          - **Kategorie B-Wohnung** ^oid-HihRZ9vN
+            - **Es muss ein Zimmer, eine Küche oder Kochnische, Vorraum, WC innen und zeitgemäße Badegelegenheit geben.** ^oid-TRdYRKA3
+          - **Kategorie C-Wohnung** ^oid-4b80TQav
+            - **Eine Wohnung im brauchbaren Zustand, eine Wasserentnahmestelle und ein WC innen. Wenn z.B. das Bad in der Küche ist, wird dies als C-Kategorie gewertet.** ^oid-aaTglDMf
+          - **Kategorie D-Wohnung** ^oid-UzjUqv33
+            - **Eine Wohnung die entweder über keine Wasserentnahmestelle oder kein Klo im Inneren verfügt. Dies gilt auch, wenn eine dieser Einrichtungen unbrauchbar ist.** ^oid-Cuz6N2Qr
+          - **Kategorie D unbrauchbar -Wohnung** ^oid-cNC9TTtb
+            - **Unzeitgemäße elektrische Leitungen. Ob die Elektrik unzeitgemäß und daher gefährlich sind, kannst du zB. leicht daran erkennen, dass noch die alten Sicherungen montiert sind und kein FI-Schalter installiert ist.** ^oid-QGZ4PD8d
+        - **ERTRAG / Verlust** ^oid-vCTF6mPT
+          - **Sachwert** ^oid-hLSek70u
+            - **Wird ermittelt aus dem Boden-, Gebäude- und Außenanlagenwert. Er ist die Basis für die Ermittlung des Beleihungswerts.** ^oid-WX0AEYtY
+          - **Verkehrswert/Marktwert** ^oid-IW39GG9q
+            - **Der Preis, der im Augenblick tatsächlich erzielt werden kann (objektiver Tauschwert, errechnet aus Sachwert und Marktlage).** ^oid-HtcRxgiS
+          - **Beleihungswert** ^oid-f3l7hS0S
+            - **Er gibt an, welcher Preis längerfristig sicher erzielt werden kann. In der Regel höchstens 80 Prozent des Verkehrswertes. Wird von Banken bei Finanzierungen herangezogen.** ^oid-8kanx2CL
+          - **Ertragswert** ^oid-tuYAzO6h
+            - **Verfahren für die Wertermittlung von Renditeimmobilien. Setzt sich zusammen aus dem Bodenwert und den langfristig erzielbaren Mieteinnahmen.** ^oid-DjFC9fWc
+      - **Ankauf** [https://flat-race.eu/archiv/#toggle-id-6](https://flat-race.eu/archiv/#toggle-id-6) ^oid-oLik9fTg
+        - **Kaufanbot** ^oid-oMshJPo2
+        - **Makler** ^oid-blBKHJQq
+        - **Besichtigungsnachweis** ^oid-cQ2U4Gd1
+        - **Vertragserrichtung** ^oid-FHFTgxOm
+        - **Beglaubigung der Unterschriften** ^oid-MlIEmyKw
+        - **Grundbuch** ^oid-suwRbXws
+        - **Vorkaufsrecht** ^oid-GNygmGt1
+        - **Belastungs- und Veräußerungsverbot** ^oid-BwRKUA72
+        - **Dienstbarkeit (Servitut)** ^oid-KQY5oYM4
+        - **Wohnungseigentum** ^oid-pllQ6QVY
+        - **Eigentümerpartnerschaft** ^oid-3tlbOEWs
+        - **Grundbuchsgebühr** ^oid-HHmfPEiV
+        - **Grunderwerbsteuer** ^oid-2ACVtGLt
+        - **Schlichtes Miteigentum** ^oid-8cwSNDDK
+        - **Treuhandschaft** ^oid-Hz0KyiTX
+        - **Wohnungsrecht/Wohnungsgebrauchsrecht** ^oid-0VWsf7Vi
+      - **Bau** [https://flat-race.eu/archiv/#toggle-id-22](https://flat-race.eu/archiv/#toggle-id-22) ^oid-D5aqJg2q
+        - **Planung** ^oid-t3ysHaUx
+        - **Kosten** ^oid-GX7xx3CB
+          - **Bei der Kostenschätzung (englisch cost estimate) nach DIN 276 – Kosten im Bauwesen – werden die „Kosten auf der Grundlage der Vorplanung“ ermittelt. Die Kostenschätzung stellt somit eine Grundlage bei der Entscheidung über die Weiterführung der Vorplanung zur Entwurfsplanung (siehe Leistungsphasen nach HOAI) dar.  Sie basiert insbesondere auf den zeichnerischen Darstellungen und sonstigen Planunterlagen der Vorplanung. Daraus lassen sich zu "bauende Mengen" ermitteln. Von besonderer Bedeutung ist dabei der Brutto-Rauminhalt [m³ BRI]. Unter Verwendung von Kostenkennzahlen [€/m³ BRI] von vergleichbaren Projekten können dann die Kosten für das neue Projekt geschätzt werden. Selbstverständlich sind bei den in Ansatz gebrachten Kostenkennzahlen spezifische Besonderheiten (z. B. Lage, Erschließung, Qualitätsstandard) zu berücksichtigen.** ^oid-yyuxeq1l
+        - **Ausschreibung** ^oid-lUUr1JFM
+        - **Ausführung** ^oid-azjeNiQm
+      - **Betrieb** [https://flat-race.eu/archiv/#toggle-id-27](https://flat-race.eu/archiv/#toggle-id-27) ^oid-PxKQUNoQ
+        - **Allgemein** ^oid-5BSCvRYA
+        - **Gesondert** ^oid-bUrg6GsG
+        - **Aufzug** ^oid-AJgZHgYj
+      - **Unterhalt** [https://flat-race.eu/archiv/#toggle-id-31](https://flat-race.eu/archiv/#toggle-id-31) ^oid-4aO8y5UV
+        - **Versicherung** ^oid-bdoITwHZ
+        - **Heizung** ^oid-RzFkLfZF
+        - **Strom** ^oid-5D1LVg9w
+        - **Warmwasser** ^oid-3IppF6U5
+        - **Internet** ^oid-hAql3BTS
+        - **Rundfunkgebühren** ^oid-GHL4OX1E
+        - **Television** ^oid-99X7cyTK
+        - **Telefon** ^oid-vj5ChHfW
+        - **Reserven Unerwartetes** ^oid-mNShYPBj
+      - **Haushalt** [https://flat-race.eu/archiv/#toggle-id-41](https://flat-race.eu/archiv/#toggle-id-41) ^oid-mUbHEgXB
+      - **Miete** [https://flat-race.eu/archiv/#toggle-id-59](https://flat-race.eu/archiv/#toggle-id-59) ^oid-RvYiK8kL
+        - **Mietzins** ^oid-oiAqjpgc
+        - **Zu- / Abschläge** ^oid-62j8bbc9
+        - **Ausstattungsmiete** ^oid-QWiu0SPq
+        - **Mietzinsminderung** ^oid-GDnwMWxP
+      - **Finanzierung** [https://flat-race.eu/archiv/#toggle-id-63](https://flat-race.eu/archiv/#toggle-id-63) ^oid-sIL6MGnn
+        - **Hypothek** ^oid-1hpdTaHw
+        - **Gutachter Bank** ^oid-nf0M0mir
+        - **Pfandrecht** ^oid-Mvm85Gbt
+        - **Bearbeitungsgebühr** ^oid-Cn3PprSr
+        - **Kontogebühren** ^oid-oUwC4sFC
+      - **Verkauf** [https://flat-race.eu/archiv/#toggle-id-69](https://flat-race.eu/archiv/#toggle-id-69) ^oid-qVpxRmOO
+        - **Energieausweis** ^oid-7QtsgDv4
+        - **Berechnung ImmoEst** ^oid-ty7ZCrG5
+        - **Makler** ^oid-SPOdaYa1
+      - **Immo Est** [https://flat-race.eu/archiv/#toggle-id-73](https://flat-race.eu/archiv/#toggle-id-73) ^oid-BoqmT7Vq
+        - **Einheitswert** ^oid-k8ZSAKgE
+        - **Immobilienertragsteuer (ImmoESt)** ^oid-QVasq3IN
+    - **Übersicht** ^oid-PrLw9zvl
+      - **Mitbewerber** ^oid-8sqXNdDn
+        - **s-bausparkasse.at** [https://www.s-bausparkasse.at/rechner/liegenschafts-rechner/?page=calc.ls](https://www.s-bausparkasse.at/rechner/liegenschafts-rechner/?page=calc.ls) ^oid-9wpI4dGX
+        - **immowert123.at** [https://www.immowert123.at/](https://www.immowert123.at/) ^oid-pdclLb8O
+        - **immoverkauf24.at** [https://www.immoverkauf24.at/individuelle-bewertung/?utm_source=bing&utm_medium=cpc](https://www.immoverkauf24.at/individuelle-bewertung/?utm_source=bing&utm_medium=cpc) ^oid-OknGqYVZ
+        - **hausblick.de** [https://www.hausblick.de/wertermittlung](https://www.hausblick.de/wertermittlung) ^oid-ZWpegnVB
+        - **immobilienscout24.de** [https://www.immobilienscout24.de/immobilienbewertung/immobilienwertberechnen.html#/](https://www.immobilienscout24.de/immobilienbewertung/immobilienwertberechnen.html#/) ^oid-7ESk3pcE
+        - **welt.de** [https://www.welt.de/finanzen/immobilien/article116531883/So-finden-Sie-heraus-was-Ihr-Haus-wert-ist.html](https://www.welt.de/finanzen/immobilien/article116531883/So-finden-Sie-heraus-was-Ihr-Haus-wert-ist.html) ^oid-Seh0EWHh
+        - **IMMOunited.com** [https://www.immounited.com/](https://www.immounited.com/) ^oid-ghAxm58x
+        - **STATISTIK AUSTRIA** [http://www.statistik.at/web_de/statistiken/wirtschaft/preise/immobilien_durchschnittspreise/index.html](http://www.statistik.at/web_de/statistiken/wirtschaft/preise/immobilien_durchschnittspreise/index.html) ^oid-b0qqVzX2
+        - **GEWINN** [http://www.gewinn.com/immobilien/](http://www.gewinn.com/immobilien/) ^oid-Nj9MK5Fz
+        - **Mietervereinigung.at** [https://www.mietervereinigung.at/839/Rechneruebersicht](https://www.mietervereinigung.at/839/Rechneruebersicht) ^oid-NVSLsHt9
+        - **WKo.at** [https://www.wko.at/service/k/Immobilienpreisspiegel.html](https://www.wko.at/service/k/Immobilienpreisspiegel.html) ^oid-sclN8Mwg
+        - **Hausgold** [https://www.hausgold.at/](https://www.hausgold.at/) ^oid-qbUiV1Pz
+        - **Miete runter** [http://www.mieterunter.at/](http://www.mieterunter.at/) ^oid-UAYODSve
+        - **Mietfuchs.** [https://www.mietfuchs.at/](https://www.mietfuchs.at/) ^oid-9VhOInzF
+      - **Begriffe** ^oid-19khv6m0
+        - **haus wert berechnen** ^oid-jru5jAp6
+        - **wert immobilie berechnen online kostenlos** ^oid-o30L6jMO
+        - **haus wert schätzen online** ^oid-t3ule3Eg
+        - **haus kaufen kredit berechnen** ^oid-lYMrBsJ5
+        - **wohnung wert berechnen** ^oid-fOrmB9pR
+        - **preis für haus berechnen** ^oid-ujY4QryE
+        - **wert vom haus berechnen** ^oid-JzpJGKYO
+        - **auto wert berechnen online** ^oid-PuH981Rr
+        - **haus kaufen finanzierung berechnen** ^oid-DqWa0pZF
+        - **ermittlung wert haus** ^oid-xzjd8LiZ
+        - **kredit haus berechnen** ^oid-S05zqhAL
+        - **haus verkaufen preis berechnen** ^oid-litzWVnb
+      - **Berichte** ^oid-zWLFJdk7
+      - **Blog** ^oid-qB7kJnVA
+      - **Begriffe** ^oid-lTB3l08k
+        - *(empty)* ^oid-DIvfVNVv
+    - **Mietzinsminderung** [icon:Cellphone] ^oid-oa1zPAYG
+      - **Stammdaten** ^oid-S5rxIovX
+        - **Objekt** ^oid-2pclpERK
+        - **Nettomietzins** ^oid-8mYxhqQT
+        - **Zeitraum** ^oid-BDPhXSeq
+      - **Minderungsgründe** ^oid-PsgGf6Qa
+        - **Wohnung unbewohnbar, Wassereintritt** ^oid-Rptxe6He
+          - **1** ^oid-6Xb4ekHX
+        - **Heizung im Winter defekt** ^oid-Ou2d5qyi
+          - **1** ^oid-t2TEprdf
+        - **Elektroinstallation lebensgefährlich** ^oid-m72M0PYe
+          - **1** ^oid-hIJghxQA
+        - **starker Schimmelbefall** ^oid-1nCR8yzP
+          - **0.75** ^oid-gpBX96hw
+        - **Bad unbenutzbar** ^oid-0hrw2Sxg
+          - **0.5** ^oid-Cmhiq2rr
+        - **Müllgeruch in der halben Wohnung** ^oid-gL7joAlj
+          - **0.3** ^oid-mpUGNWRp
+        - **kein Warmwasser** ^oid-T7R7KrPW
+          - **0.25** ^oid-fxyrobv8
+        - **E-Herd defekt** ^oid-8sUDyShg
+          - **0.2** ^oid-mcONjEOZ
+        - **Terrasse unbenutzbar (wegen streunenden Katzen)** ^oid-vAjbk87o
+          - **0.15** ^oid-kuJFpiSw
+        - **Bleibelastung im Trinkwasser** ^oid-89bMJyFs
+          - **0.1** ^oid-FNIXUIFc
+        - **schwache Heizung (max. 18° C im Winter)** ^oid-uG1hqfeT
+          - **0.1** ^oid-2DXaEJoC
+        - **verwahrlostes Stiegenhaus** ^oid-QQwiLIg9
+          - **0.05** ^oid-7iWVKWhT
+        - **Baulärm** ^oid-rlPuCsdc
+          - **0.05** ^oid-2mJasmT3
+        - **unebener Parkett** ^oid-Ecyd3vrp
+          - **0.05** ^oid-tWfbvYp3
+        - **verbaute Aussicht** ^oid-DXqPKQ6d
+          - **0** ^oid-nBc89IRN
+        - **Kinderlärm** ^oid-LummMGTY
+          - **0** ^oid-FnsNJf3K
+        - **LKW-Verkehr** ^oid-Q1U6dj3G
+          - **0** ^oid-gy4gYuOu
+        - **Mobilfunkanlage** ^oid-Ap9froyQ
+          - **0** ^oid-fO17oVRm
+        - **Zugluft** ^oid-ITNboS3O
+          - **0** ^oid-g12QoCiw
+        - **Dachgeschosswohnung ohne Sonnenschutz** ^oid-yJffoE88
+          - **0** ^oid-BecK59UM
+      - **Gesamt** ^oid-xjg4WPz2
+        - **Nettomietzins neu** ^oid-r9BIvI45
+        - **Abschläge gesamt** ^oid-oCronicZ
+        - **Abschläge in Prozent** ^oid-VtCVSD6p
+  - *(empty)* ^oid-9KmmrkB5
+    - **Manager** ^oid-utSxuCaF
+      - **Office** ^oid-rqKcreCi
+        - **Aktenvermerk** ^oid-s5IkXm9w
+          - **Sender** ^oid-uhyovCrM
+          - **Empfänger** ^oid-FOS2pzRK
+          - **Datum** ^oid-4XUTLvmE
+          - **Ort** ^oid-QgqKFsyx
+          - **Betreff** ^oid-MoBSi8b6
+            - **Projekt** ^oid-XiU7XTSW
+          - **Vermerk** ^oid-btMyQQIC
+          - **Zeitraum** ^oid-vzbJI3ee
+            - **Frist** ^oid-0oK3l9dl
+            - **Dauer** ^oid-4dxL44y7
+          - **Kosten** ^oid-n9HZwcjI
+            - **Gesamt** ^oid-6cOfEtQ3
+              - **netto** ^oid-YlfPni3g
+              - **Steuer** ^oid-vsF1u7Cd
+              - **brutto** ^oid-clQbBZYf
+            - **Zinsen** ^oid-86yUM1Cj
+            - **Zinsessinsen** ^oid-7QfdY9b7
+      - **Projekte** ^oid-36ATdQn2
+      - **Einstellungen** ^oid-yxRnGOD4
+        - **Kategorien** ^oid-6Hnllc82
+          - **Kat_1** ^oid-j0rdVPul
+          - **Kat_2** ^oid-KEQmVGIK
+          - **Kat_3** ^oid-Cdf6IWqQ
+          - **Kat_4** ^oid-gnZT3Mxd
+        - *(empty)* ^oid-lY4vhBMc
+    - **Datenbank** ^oid-CKFeZ3KM
+      - **Spaltennamen** ^oid-cmASiI1Z
+        - **Basic** ^oid-utmqpvYg
+          - **idGEM** ^oid-5m9pYh6t
+          - **name** ^oid-shiGNKPO
+          - **pid** ^oid-VX4W6g0c
+          - **PLZ** ^oid-5YUNHk5q
+          - **Fak** ^oid-hlFEtVnY
+        - **Grundstück** ^oid-Wbvj3rXo
+          - **GSTfl** ^oid-BTuxtIfK
+          - **GST** ^oid-ipzBv15V
+          - **GSTmin** ^oid-fSpkDa2d
+          - **GSTmax** ^oid-ios3meqq
+        - **Einfamilienhaus** ^oid-O3ieQjDK
+          - **EFHfl** ^oid-gUs8LOkq
+          - **EFH** ^oid-gtHErL40
+          - **EFHmin** ^oid-Ppu4LFUy
+          - **EFHmax** ^oid-g8dBXsHw
+        - **Reihenhaus** ^oid-3e6RG73m
+          - **RHfl** ^oid-EVJbB6Ya
+          - **RHgst** ^oid-EbOTYFrl
+          - **RH** ^oid-LEVZiITj
+          - **RHmin** ^oid-UO8ySAwB
+          - **RHmax** ^oid-UCmYn5op
+        - **Wohnung** ^oid-qoqj3WoZ
+          - **WHGfl** ^oid-dYbLnVfd
+          - **WHG** ^oid-9SfJxx4D
+          - **WHGmin** ^oid-Q7CynZ4R
+          - **WHGmax** ^oid-WBHvet8B
+        - **Betriebskosten** ^oid-XW2LFgyQ
+          - **BK** ^oid-eHk6cOad
+          - **BKmin** ^oid-0tVdoDan
+          - **BKmax** ^oid-pEGaSaO2
+        - **Unterhalt** ^oid-4Ha1XHCp
+          - **UNTER** ^oid-DbODltcO
+          - **UNTERmin** ^oid-scm4iewM
+          - **UNTERmax** ^oid-Jl0eVfrb
+        - **Betriebskosten allgemein** ^oid-J3EbAapt
+          - **Steuer** ^oid-xLZUpwbY
+          - **Mull** ^oid-fAybAKTN
+          - **Kanal** ^oid-53KpT8sS
+          - **Wasser** ^oid-FOjv09As
+          - **HausVers** ^oid-vBLjAfGp
+          - **StromAll** ^oid-JpzORQMT
+          - **Verwalt** ^oid-roIydlMU
+          - **Rein** ^oid-vCDC74x0
+          - **Betreu** ^oid-wg1L1eLA
+          - **Aussen** ^oid-GkHOMHOw
+          - **Kampf** ^oid-lUAUAVNE
+          - **RFK** ^oid-pPYUClgz
+          - **Repa** ^oid-xSeWJIfC
+          - **Winter** ^oid-d64UPx6P
+          - **Extern** ^oid-epUANs5F
+        - **Betriebskosten gesondert** ^oid-pBZ5dilz
+          - **Aufwand** ^oid-DAkAk2lZ
+          - **Spesen** ^oid-L5wgiDrC
+          - **Zinsen** ^oid-g6w8ZKMs
+          - **Rück** ^oid-LRUZTNVq
+          - **Gefördert** ^oid-SV78ctvD
+          - **Darlehen** ^oid-jAgSDULI
+          - **Beratung** ^oid-3os1FTKE
+          - **Reise** ^oid-BB8X6xFn
+          - **GESsonst** ^oid-owlZhtPN
+        - **Betriebskosten Aufzug** ^oid-uqwhTyap
+          - **Tel** ^oid-j2wEGMIa
+          - **Wartung** ^oid-rP5Qw3ON
+          - **LIFTstrom** ^oid-18OAPKql
+          - **Störung** ^oid-mV9XgvS0
+          - **LIFTversich** ^oid-NGIc6WF2
+          - **LIFTrepa** ^oid-es0eYKEN
+          - **LIFTaufwand** ^oid-I0bORB8P
+          - **LIFTsonst** ^oid-JS71fe96
+        - **Unterhalt** ^oid-ixzLZuug
+          - **Versicherung** ^oid-wMdr8jmF
+          - **Heizung** ^oid-Nh8fFdkn
+          - **Strom** ^oid-mymSgdQa
+          - **Warmwasser** ^oid-E1jvuanz
+          - **Rundfunk** ^oid-WmgpWPMi
+          - **Internet** ^oid-kLxLt6Nx
+          - **Television** ^oid-BgHwKwDy
+          - **Telefon** ^oid-Bts9Roim
+          - **Reserven** ^oid-DBwQlmok
+      - **Richtwert an Objekt** ^oid-d2F3gWAf
+      - **Data Minning** ^oid-Rc8XyWT3
+        - **Miete** ^oid-JeOo5A7x
+          - **Bludenz** ^oid-KrHdov5W
+          - **Bruck an der Leita** ^oid-2c3GKdOA
+          - **Bruck - Mürzzuschlag** ^oid-RY5MP3Ft
+          - **Deutschlandsberg** ^oid-hK3Nw4fB
+          - **Eisenstadt** ^oid-Sf2AzlYw
+          - **eisenstadt-umgebung** ^oid-3K5D4kTW
+          - **Feldkirch** ^oid-LIKHR0m7
+          - **Graz** ^oid-ixRu5Uz4
+          - **Linz** ^oid-h3lOCf4i
+          - **klagenfurt** ^oid-i6fJR6c2
+          - **wien-1010-innere-stadt** ^oid-eP0TK5wz
+          - **wien-1020-leopoldstadt** ^oid-EN7qSJrE
+          - **wien-1030-landstrasse** ^oid-gpp9x0so
+          - **wien-1040-wieden** ^oid-lBFe9PBT
+          - **wien-1050-margareten** ^oid-JxdVgzCE
+          - **wien-1060-mariahilf** ^oid-tc4WNllo
+          - **wien-1070-neubau** ^oid-dx07YMvH
+          - **wien-1080-josefstadt** ^oid-BklO2uJB
+          - **wien-1090-alsergrund** ^oid-HKAG1ID8
+          - **wien-1100-favoriten** ^oid-6r28BMbr
+          - **wien-1100-favoriten** ^oid-tWkvbP9C
+          - **wien-1110-simmering** ^oid-oaRrWgGV
+          - **wien-1140-penzing** ^oid-bHy6Swhs
+          - **wien-1150-rudolfsheim-fuenfhaus** ^oid-KMbvfsjk
+          - **wien-1160-ottakring** ^oid-ykLTx4OU
+          - **wien-1170-hernals** ^oid-ruC4BL1Y
+          - *(empty)* ^oid-LER6YZ67
+        - **Eigentum** ^oid-Bwlzsahk
+    - **STATISTIK AUSTRIA** ^oid-wVj8tapy
+      - **Durchschnittspreise** ^oid-6JtNXIqk
+        - **Grundstück** [icon:Cellphone] ^oid-YYyvcIi4
+        - **Einfamilienhaus** [icon:Cellphone] ^oid-yhK8n0lk
+        - **Wohnung** [icon:Cellphone] ^oid-N90cNp2x
+    - **GEWINN** ^oid-aiaodPQT
+      - **Durchschnittspreise** ^oid-6obtMhVE
+        - **Grundstück** [icon:Cellphone] ^oid-siw9BNOQ
+    - **WILLHABEN vs IMMOunited** ^oid-OBJjS45y
+      - **Grundstück** [icon:Cellphone] ^oid-dCq7y2aE

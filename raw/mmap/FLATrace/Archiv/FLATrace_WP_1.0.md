@@ -1,0 +1,458 @@
+---
+type: raw-mmap
+map_id: "FLATrace_WP_1.0"
+source: "01_input/FLATrace/Archiv/FLATrace_WP_1.0.mmap"
+imported_at: 2026-04-11
+node_count: 438
+max_depth: 11
+has_custom_props: false
+has_links: true
+has_notes: false
+has_icons: true
+icons:
+  - FlagGreen
+tags:
+  - mmap/raw
+  - mmap/FLATrace
+---
+
+# FLATrace - WP
+
+- **FLATrace - WP** ^oid-uFLC9wa7
+  - *(empty)* ^oid-eXm4Qyzd
+  - **Basics Kalkulatoren** ^oid-svNUpYMQ
+    - **Statistik Austria** ^oid-kfCGAFG2
+      - **Basic** ^oid-imxExfmi
+        - **CFF** ^oid-3cV9HBlR
+          - **CSS** ^oid-zyn6tk9E
+            - **Text addieren** ^oid-xwhoGFOo
+          - **Database** ^oid-h3f1Qg2H
+        - **Beschreibung** ^oid-3W1XoNf6
+          - **Allgemein** ^oid-yVuN6Vpp
+          - **Rechtsgrundlagen** ^oid-EW1ggBYy
+          - **Berechnung** ^oid-Dcc35fqB
+          - **Link** [http://www.statistik.at/web_de/statistiken/wirtschaft/preise/immobilien_durchschnittspreise/index.html](http://www.statistik.at/web_de/statistiken/wirtschaft/preise/immobilien_durchschnittspreise/index.html) ^oid-2POI52Ki
+      - **Durchschnitt** [https://flat-race.eu/wp/kalkulator-statistik-austria/eigentum/durchschnittpreis/](https://flat-race.eu/wp/kalkulator-statistik-austria/eigentum/durchschnittpreis/) [icon:FlagGreen] ^oid-9AQL7gTY
+        - **Grundstück** [https://flat-race.eu/wp/kalkulator-statistik-austria/eigentum/durchschnittpreis/grundstueck-einfamilienhaus/](https://flat-race.eu/wp/kalkulator-statistik-austria/eigentum/durchschnittpreis/grundstueck-einfamilienhaus/) [icon:FlagGreen] ^oid-dkPoSr52
+          - **DURCHSCHNITT Grundstück Einfamilienhaus** ^oid-NPosSIcf
+            - **Lage** ^oid-z2DfSb82
+              - **Bundesland** ^oid-raUJYvhb
+              - **Bezirk** ^oid-2onbM7rJ
+              - **Gemeinde** ^oid-LkR9rdrB
+              - **Postleitzahl** ^oid-M7GKo7WV
+              - **Objektname** ^oid-ewRYxCzH
+            - **Stammdaten** ^oid-3lEKce31
+              - **Fläche** ^oid-B4UE4XFz
+              - **Durchschnittspreis** ^oid-Qdxq1Vue
+              - **Zu- | Abschlag** ^oid-WbMGYI1R
+              - **Preis** ^oid-AExlhRHi
+            - **Gesamt** ^oid-OMAt2rIU
+              - **PREIS** ^oid-vlMrK1el
+              - **Preis - Abweichung** ^oid-LL2P0otL
+              - **Fläche - Abweichung** ^oid-soqW13jr
+        - **Einfamilienhaus** [https://flat-race.eu/wp/kalkulator/eigentum/kaufen/einfamilienhaus/](https://flat-race.eu/wp/kalkulator/eigentum/kaufen/einfamilienhaus/) [icon:FlagGreen] ^oid-ESuiU6jj
+          - **ANKAUFKOSTEN Einfamilienhaus** ^oid-yxXGFxpG
+            - **Base** ^oid-xxZG1xCI
+              - **Session** ^oid-dDFO7Cm1
+              - **CFF** ^oid-evumH4hk
+              - **Print** ^oid-7XN4dIU8
+              - **Print 2** ^oid-vDkdzGlm
+            - **Lage** ^oid-0x1n02r1
+              - **Bundesland** ^oid-hc8bNyav
+              - **Bezirk** ^oid-URMruzP7
+              - **Gemeinde** ^oid-9d07khO9
+              - **Postleitzahl** ^oid-kRmL71zS
+              - **Fläche** ^oid-1u5nwF2i
+              - **Kaufpreis** ^oid-d9DY4xdB
+            - **Nebenkosten** ^oid-I00NXteu
+            - **Gesamt** ^oid-Y71dWx8A
+        - **Wohnung** [https://flat-race.eu/wp/kalkulator/eigentum/kaufen/wohnung/](https://flat-race.eu/wp/kalkulator/eigentum/kaufen/wohnung/) [icon:FlagGreen] ^oid-X8qUnAfM
+          - **ANKAUFKOSTEN Wohnung** ^oid-qvVtKFag
+            - **Base** ^oid-339JxMAK
+              - **Session** ^oid-3DBkrlnx
+              - **CFF** ^oid-CKyvhtoO
+              - **Print** ^oid-Ok1PSR8K
+              - **Print 2** ^oid-5QMnbGJa
+            - **Lage** ^oid-uNAItNdv
+              - **Bundesland** ^oid-QBsDqZ6Z
+              - **Bezirk** ^oid-AgynW0zX
+              - **Gemeinde** ^oid-lcuMprLK
+              - **Postleitzahl** ^oid-bOMokHTU
+              - **Fläche** ^oid-LzkahkDx
+              - **Kaufpreis** ^oid-XlpiuvZQ
+            - **Nebenkosten** ^oid-CY06EZon
+            - **Gesamt** ^oid-T1yS8niX
+      - **Ankaufkosten** [https://flat-race.eu/wp/kalkulator-statistik-austria/eigentum/kaufen/](https://flat-race.eu/wp/kalkulator-statistik-austria/eigentum/kaufen/) [icon:FlagGreen] ^oid-bK5KVl6C
+        - **Grundstück** [https://flat-race.eu/wp/kalkulator/eigentum/kaufen/grundstueck-einfamilienhaus/](https://flat-race.eu/wp/kalkulator/eigentum/kaufen/grundstueck-einfamilienhaus/) [icon:FlagGreen] ^oid-NLoS5pDU
+          - **ANKAUFKOSTEN Grundstück Einfamilienhaus** ^oid-AUdYgyxu
+            - **Base** ^oid-aH2FpMfG
+              - **Session** ^oid-KVNmu4La
+              - **CFF** ^oid-PU2FlNsi
+              - **Print** ^oid-pBkzMCyO
+              - **Print 2** ^oid-MTYBcDCl
+            - **Lage** ^oid-SBx9yoLU
+              - **Bundesland** ^oid-wAqH8bNX
+              - **Bezirk** ^oid-4eK9lyec
+              - **Gemeinde** ^oid-Z4vMGwfE
+              - **Postleitzahl** ^oid-gvoXc6i1
+              - **Fläche** ^oid-kT4LxCDD
+              - **Kaufpreis** ^oid-fFYlCB0s
+            - **Nebenkosten** ^oid-rgGXKGgz
+            - **Gesamt** ^oid-N2H3QRLg
+        - **Einfamilienhaus** [https://flat-race.eu/wp/kalkulator/eigentum/kaufen/einfamilienhaus/](https://flat-race.eu/wp/kalkulator/eigentum/kaufen/einfamilienhaus/) [icon:FlagGreen] ^oid-sFicuJkE
+          - **ANKAUFKOSTEN Einfamilienhaus** ^oid-2TZyOl3i
+            - **Base** ^oid-v7PkRMxg
+              - **Session** ^oid-cVNjGWwN
+              - **CFF** ^oid-tXQUooxr
+              - **Print** ^oid-wrsBqBPd
+              - **Print 2** ^oid-ETg4ibDY
+            - **Lage** ^oid-7SaK8XGW
+              - **Bundesland** ^oid-2FKV06iu
+              - **Bezirk** ^oid-dAgpI1sW
+              - **Gemeinde** ^oid-7rPnT1MZ
+              - **Postleitzahl** ^oid-kQg0w2nC
+              - **Fläche** ^oid-76WdeKRw
+              - **Kaufpreis** ^oid-TVCekVQo
+            - **Nebenkosten** ^oid-9ThsXVKP
+            - **Gesamt** ^oid-4xfMCt7Y
+        - **Wohnung** [https://flat-race.eu/wp/kalkulator/eigentum/kaufen/wohnung/](https://flat-race.eu/wp/kalkulator/eigentum/kaufen/wohnung/) [icon:FlagGreen] ^oid-bkJ5dVba
+          - **ANKAUFKOSTEN Wohnung** ^oid-RueTYLCo
+            - **Base** ^oid-HviiRAxD
+              - **Session** ^oid-8z3YIyqH
+              - **CFF** ^oid-EL3z6fU1
+              - **Print** ^oid-ZS76cDC6
+              - **Print 2** ^oid-p00Q7p2P
+            - **Lage** ^oid-EQ5hcCc8
+              - **Bundesland** ^oid-EWrSongm
+              - **Bezirk** ^oid-fj6mtgoe
+              - **Gemeinde** ^oid-NqiDSMRb
+              - **Postleitzahl** ^oid-lUlO7BZJ
+              - **Fläche** ^oid-Uwsv3inp
+              - **Kaufpreis** ^oid-TPScUEnt
+            - **Nebenkosten** ^oid-fOeHhlkW
+            - **Gesamt** ^oid-6aQKkm59
+      - **Verkaufkosten** [https://flat-race.eu/wp/kalkulator-statistik-austria/eigentum/verkaufen/](https://flat-race.eu/wp/kalkulator-statistik-austria/eigentum/verkaufen/) [icon:FlagGreen] ^oid-UCPXStjL
+        - **Grundstück** [https://flat-race.eu/wp/kalkulator/eigentum/verkaufen/grundstueck-einfamilienhaus/](https://flat-race.eu/wp/kalkulator/eigentum/verkaufen/grundstueck-einfamilienhaus/) [icon:FlagGreen] ^oid-06aOCcWZ
+          - **VERKAUFSKOSTEN Grundstück Einfamilienhaus** ^oid-8EkUHRRX
+            - **Base** ^oid-jtRU6S60
+              - **Backend** ^oid-o3HNlEK0
+                - **Session** ^oid-W8RWLrd2
+                - **CFFcss** ^oid-SxilHNt3
+                - **Database** ^oid-S5uxeQhA
+              - **Style** ^oid-8utcnFXc
+              - **Responsive** ^oid-fmo3BK0g
+              - **Print** ^oid-46ZIx6JH
+                - **Print** ^oid-9qe77qhF
+                - **Print 2** ^oid-wK02lhHM
+              - **Info** ^oid-5DjNsYXm
+                - **Allgemein** ^oid-MBjnDXWl
+                  - **Felder in dieser Farbe sollte ausgefüllt werden um ein realistisches Ergebnis zu erhalten.** ^oid-qKNof6S2
+                - **Durchschnittspreise** ^oid-8TEDQxQH
+                  - **Durchschnittspreise auf Bezirksebene, unterteilt in Kategorien - Flächen** ^oid-WU7bAJC9
+                  - **Grundstück** ^oid-5MnKEIfx
+                    - **klein | mittel | groß je nach Gemeinde** ^oid-Oz3tTPdG
+                  - **Wohnfläche** ^oid-lUXVqy3b
+                    - **kleiner 90m² | 90m² bis145m² | größer146m²** ^oid-NLQ143bA
+                  - **Statistik Austria** ^oid-z9Nni1xb
+                - **Vermessung** ^oid-KzGPl1BU
+                  - **ab und zu notwendig** ^oid-Th2of0gb
+                - **Vermarktung** ^oid-VhRA6TOd
+                  - **ggf. Makler 3,6 %** ^oid-bMifg9oA
+                - **Rechtsberatung** ^oid-ym2N1502
+                  - **ggf. notwendig - 1-2 Stunden Aufwand** ^oid-nuTdkwQ5
+                - **Gutachten** ^oid-sbTlIFJX
+                  - **Bodengutachten, Schätzwertgutachten, ...** ^oid-kzE3evjd
+                - **Berechnung ImmoEst** ^oid-b6yfdZa1
+                  - **grundsätzlich kein Aufwand, Vertragserrichter verrechnen es trotzdem gern** ^oid-C87l4tVX
+                - **Reserven** ^oid-m9Szxicd
+                  - **allfälliges, sonstiges** ^oid-SlBsrDKE
+            - **VERKAUFSKOSTEN** ^oid-XzcCI5VD
+              - **Lage** ^oid-P8saPcmF
+                - **Bundesland** ^oid-1FeXN4HT
+                - **Bezirk** ^oid-Kc6KXGfP
+                - **Gemeinde** ^oid-zLx22BD7
+                - **Postleitzahl** ^oid-3kTe3nlZ
+                - **Fläche** ^oid-3XoZK8bZ
+                - **Kaufpreis** ^oid-uNWu3SHz
+              - **Nebenkosten** ^oid-w6EChJjM
+                - **Vermessung** ^oid-UsKtdEGR
+                  - **anteilig (%)** ^oid-OAk3RfBB
+                    - **0.5** ^oid-o7zCdCNN
+                      - **fieldname301** ^oid-I8HYSWxQ
+                    - **fieldname310** ^oid-YzLTJfLn
+                  - **gesamt** ^oid-Bfz3lEif
+                    - **fieldname295** ^oid-Wel26xtr
+                - **Vermarktung** ^oid-u8KewfNX
+                  - **anteilig (%)** ^oid-gnY3Wpuo
+                    - **3.6** ^oid-noPwGmUn
+                      - **fieldname319** ^oid-LHplAnZc
+                    - **fieldname318** ^oid-AHvD3zXk
+                  - **gesamt** ^oid-iJqZDD9N
+                    - **fieldname315** ^oid-QhtzYvkF
+                - **Rechtsberatung** ^oid-wyaBHfev
+                  - **anteilig (%)** ^oid-qp6EfjAP
+                    - **0.1** ^oid-2kn9QeQ7
+                      - **fieldname327** ^oid-OlTI4loV
+                    - **fieldname326** ^oid-wX4lPAu3
+                  - **gesamt** ^oid-IRBy2bEI
+                    - **fieldname323** ^oid-VRXL5xC8
+                - **Gutachten** ^oid-Y0MWFUOo
+                  - **anteilig (%)** ^oid-0oYFQSyA
+                    - **0.5** ^oid-Dc6PUmet
+                      - **fieldname335** ^oid-GrbWhFkV
+                    - **fieldname334** ^oid-mfDRoUOR
+                  - **gesamt** ^oid-vRXCEyzQ
+                    - **fieldname331** ^oid-bPSeiz51
+                - **Berechnung ImmoEst** ^oid-Da5u2J51
+                  - **anteilig (%)** ^oid-wUtIb9r5
+                    - **0.1** ^oid-eTc5RTCP
+                      - **fieldname343** ^oid-PyMIfcqK
+                    - **fieldname342** ^oid-WeYyMK93
+                  - **gesamt** ^oid-EdHIbZ0j
+                    - **fieldname339** ^oid-FKbuHZCd
+                - **Reserven** ^oid-yJ4O2cw6
+                  - **anteilig (%)** ^oid-iuEQdjnJ
+                    - **0.2** ^oid-pzOtS6dU
+                      - **fieldname351** ^oid-gUtzcOia
+                    - **fieldname350** ^oid-MKIzwF4V
+                  - **gesamt** ^oid-ceLciHpi
+                    - **fieldname347** ^oid-8aH4Qpvy
+              - **Gesamt** ^oid-uSTMETkR
+                - **ANKAUFKOSTEN** ^oid-AMg38uns
+                  - **anteilig (%)** ^oid-vItTuxMn
+                    - **fieldname357** ^oid-154DOgRE
+                  - **gesamt** ^oid-Uyrc5uyG
+                    - **fieldname356** ^oid-Y6Ow8nlZ
+                - **Kaufpreis** ^oid-wsCby7S0
+                  - **anteilig (%)** ^oid-bafjSbJi
+                    - **fieldname368** ^oid-1zvhwXgf
+                  - **gesamt** ^oid-11k7zPpF
+                    - **fieldname275** ^oid-v7SKaJCw
+                - **Nebenkosten** ^oid-Cxj4KEuB
+                  - **anteilig (%)** ^oid-M8ZzDI14
+                    - **fieldname375** ^oid-BlTIg5Wj
+                  - **gesamt** ^oid-Spp71vWL
+                    - **fieldname372** ^oid-TqPBy5T7
+                - **Nebenkostenanteil** ^oid-E1q6tncO
+                  - **anteilig (%)** ^oid-CQ7WxyAH
+                    - **fieldname397** ^oid-ysVqTMrI
+                - **Abweichung vom Durchschnitt** ^oid-i3hMjcKc
+                  - **Fläche** ^oid-W2x0vqYy
+                    - **fieldname455** ^oid-vwIwhGpx
+                  - **Kaufpreis** ^oid-NfogmyJY
+                    - **fieldname456** ^oid-HxTXAvHG
+                  - **Nebenkosten** ^oid-ZjEdftxH
+                    - **fieldname457** ^oid-rVUxc2vs
+        - **Einfamilienhaus** [https://flat-race.eu/wp/kalkulator/eigentum/verkaufen/einfamilienhaus/](https://flat-race.eu/wp/kalkulator/eigentum/verkaufen/einfamilienhaus/) [icon:FlagGreen] ^oid-2zsIWRRF
+          - **VERKAUFSKOSTEN Einfamilienhaus** ^oid-FRpjKr7l
+            - **Base** ^oid-l5xekhFC
+              - **Backend** ^oid-FLaDsR4l
+                - **Session** ^oid-t0JeaAkZ
+                - **CFFcss** ^oid-6JFvALEE
+                - **Database** ^oid-tiRyEi9x
+              - **Style** ^oid-vkRyVxr8
+              - **Responsive** ^oid-AofaAbk0
+              - **Print** ^oid-AlCM3AgW
+                - **Print** ^oid-WVm8b28Q
+                - **Print 2** ^oid-c1gdW1f0
+              - **Info** [#xpointer(/descendant-or-self::ap:Topic[@OId='+5DjNsYXmUS2JUEEHnYkmg=='])](#xpointer(/descendant-or-self::ap:Topic[@OId='+5DjNsYXmUS2JUEEHnYkmg=='])) ^oid-QUnrh9N7
+            - **VERKAUFSKOSTEN** ^oid-p7g5Zu8d
+              - **Lage** ^oid-Nqw7uNud
+                - **Bundesland** ^oid-GUsH8SCL
+                - **Bezirk** ^oid-KvjBgZaU
+                - **Gemeinde** ^oid-1bYkYKvw
+                - **Postleitzahl** ^oid-XePHVz1w
+                - **Grundstückfläche** ^oid-SJM8QHMt
+                  - **saEFHgstA** ^oid-y7KXdBGR
+                  - **saEFHgstB** ^oid-1Vhcg3Qd
+                  - **saEFHgstC** ^oid-g8w6R41S
+                - **Wohnfläche** ^oid-SbniEMIW
+                - **Kaufpreis** ^oid-2gH9qiIG
+                  - **anteilig (%)** ^oid-FvTgbSIw
+                    - **fieldname416** ^oid-r5vTRd4Y
+                  - **gesamt** ^oid-k1tWOqu0
+                    - **fieldname279** ^oid-bVRd0yve
+              - **Nebenkosten** ^oid-NPFcoL43
+                - **Vermessung** ^oid-vYZroFOK
+                  - **anteilig (%)** ^oid-dTxH6OOp
+                    - **0.5** ^oid-5RghE0xB
+                      - **fieldname301** ^oid-HaRbLQRg
+                    - **fieldname310** ^oid-DYm1rtcH
+                  - **gesamt** ^oid-4XsjMTLI
+                    - **fieldname295** ^oid-4z6q6kjQ
+                - **Vermarktung** ^oid-n1IsJRwT
+                  - **anteilig (%)** ^oid-jvsk2Cg6
+                    - **3.6** ^oid-7FVKOs7F
+                      - **fieldname319** ^oid-ISWPPX1g
+                    - **fieldname318** ^oid-nUC3ebSh
+                  - **gesamt** ^oid-MzOKYZMJ
+                    - **fieldname315** ^oid-JndRan22
+                - **Rechtsberatung** ^oid-5vtYHFwF
+                  - **anteilig (%)** ^oid-Ii1ElTtT
+                    - **0.1** ^oid-AMPRSCha
+                      - **fieldname327** ^oid-kD9ivOiw
+                    - **fieldname326** ^oid-4I8aKhQL
+                  - **gesamt** ^oid-pTpHkIO5
+                    - **fieldname323** ^oid-23kmNWkj
+                - **Gutachten** ^oid-ZqO2AHQ9
+                  - **anteilig (%)** ^oid-zgMgf7S7
+                    - **0.5** ^oid-HXjUYRtN
+                      - **fieldname335** ^oid-cKFnZGVU
+                    - **fieldname334** ^oid-TQ2PXTn6
+                  - **gesamt** ^oid-M1wV6DQb
+                    - **fieldname331** ^oid-US5i3KZi
+                - **Berechnung ImmoEst** ^oid-xe5uAmcX
+                  - **anteilig (%)** ^oid-YQ14FStc
+                    - **0.1** ^oid-JKS8Bn9e
+                      - **fieldname343** ^oid-ddLpA39Z
+                    - **fieldname342** ^oid-MYWRjEoY
+                  - **gesamt** ^oid-WI6T5k62
+                    - **fieldname339** ^oid-3zIX5K7a
+                - **Reserven** ^oid-lONZYFq0
+                  - **anteilig (%)** ^oid-r5GpjzPR
+                    - **0.2** ^oid-DsKaVihU
+                      - **fieldname351** ^oid-V9bNXWOM
+                    - **fieldname350** ^oid-GulmWBAa
+                  - **gesamt** ^oid-Ff7k2AaK
+                    - **fieldname347** ^oid-KdMJLpVv
+              - **Gesamt** ^oid-ZBkJluqN
+                - **ANKAUFKOSTEN** ^oid-eahB8rPU
+                  - **anteilig (%)** ^oid-ik34pOze
+                    - **fieldname357** ^oid-nH81CT5A
+                  - **gesamt** ^oid-Y10HrsOk
+                    - **fieldname356** ^oid-k8xL90ub
+                - **Kaufpreis** ^oid-V1ZSbCaa
+                  - **anteilig (%)** ^oid-sUjx4idw
+                    - **fieldname368** ^oid-1hvbng9o
+                  - **gesamt** ^oid-PGwyNqeu
+                    - **fieldname275** ^oid-C7ha0FPt
+                - **Nebenkosten** ^oid-LVyqEHtS
+                  - **anteilig (%)** ^oid-XbnCDhcM
+                    - **fieldname375** ^oid-DvLq4fwA
+                  - **gesamt** ^oid-qHweLUFA
+                    - **fieldname372** ^oid-Xli454qH
+                - **Nebenkostenanteil** ^oid-gEJQFkHH
+                  - **anteilig (%)** ^oid-sA6jJYMs
+                    - **fieldname397** ^oid-gSWbPky9
+                - **Abweichung vom Durchschnitt** ^oid-izMDOco5
+                  - **Fläche** ^oid-euy1rEWV
+                    - **fieldname455** ^oid-997RjHI7
+                  - **Kaufpreis** ^oid-FVsmBzz5
+                    - **fieldname456** ^oid-JK3Mq8c7
+                  - **Nebenkosten** ^oid-5XGWXice
+                    - **fieldname457** ^oid-3IS57Gtl
+        - **Wohnung** [https://flat-race.eu/wp/kalkulator/eigentum/verkaufen/wohnung/](https://flat-race.eu/wp/kalkulator/eigentum/verkaufen/wohnung/) [icon:FlagGreen] ^oid-Ny4EU0Yg
+          - **VERKAUFSKOSTEN Wohnung** ^oid-AfbzT0ME
+            - **Base** ^oid-JduE6MBI
+              - **Backend** ^oid-ESpbiNHm
+                - **Session** ^oid-Guv8j4ge
+                - **CFFcss** ^oid-623mcV0E
+                - **Database** ^oid-oiyhYPhc
+              - **Style** ^oid-StSIhz3w
+              - **Responsive** ^oid-OakdWyrK
+              - **Print** ^oid-VzHiCQS6
+                - **Print** ^oid-lKIMZKzS
+                - **Print 2** ^oid-bOFxhyOf
+              - **Info** [#xpointer(/descendant-or-self::ap:Topic[@OId='+5DjNsYXmUS2JUEEHnYkmg=='])](#xpointer(/descendant-or-self::ap:Topic[@OId='+5DjNsYXmUS2JUEEHnYkmg=='])) ^oid-mVPQTE2S
+            - **VERKAUFSKOSTEN** ^oid-QUADsWK0
+              - **Lage** ^oid-JLqEjG92
+                - **Bundesland** ^oid-VrFGgz5J
+                - **Bezirk** ^oid-WD5E0770
+                - **Gemeinde** ^oid-AFbSmsnh
+                - **Postleitzahl** ^oid-HYcIVEcJ
+                - **Grundstückfläche** ^oid-rUPJ4c1o
+                  - **saEFHgstA** ^oid-5KFHY90j
+                  - **saEFHgstB** ^oid-RNjEHqP9
+                  - **saEFHgstC** ^oid-GMVpLBqy
+                - **Wohnfläche** ^oid-yUNdrTI7
+                - **Kaufpreis** ^oid-rSzB3AEv
+                  - **anteilig (%)** ^oid-zQYqUfZv
+                    - **fieldname416** ^oid-8b9vshKS
+                  - **gesamt** ^oid-jYLMePwA
+                    - **fieldname279** ^oid-UN3TyFgt
+              - **Nebenkosten** ^oid-DnC6Ui6y
+                - **Energieausweis** ^oid-SUEWMW84
+                  - **anteilig (%)** ^oid-J1FUU6RZ
+                    - **0.5** ^oid-gJQRHVux
+                      - **fieldname301** ^oid-x8dprhJy
+                    - **fieldname310** ^oid-1NLlIgKF
+                  - **gesamt** ^oid-uhmBE6tu
+                    - **fieldname295** ^oid-qRKup2oX
+                - **Vermarktung** ^oid-t8MDJGaT
+                  - **anteilig (%)** ^oid-Dvyj9h6e
+                    - **3.6** ^oid-4QVFId8N
+                      - **fieldname319** ^oid-T9xPPkew
+                    - **fieldname318** ^oid-6orCi2JP
+                  - **gesamt** ^oid-coQjAWZQ
+                    - **fieldname315** ^oid-dTIx3cD5
+                - **Rechtsberatung** ^oid-z1nZmMw0
+                  - **anteilig (%)** ^oid-Duz0V5q2
+                    - **0.1** ^oid-HTpCheXJ
+                      - **fieldname327** ^oid-kE3IPlSf
+                    - **fieldname326** ^oid-dYymjm4r
+                  - **gesamt** ^oid-EhDeTsLp
+                    - **fieldname323** ^oid-uIhTEQMN
+                - **Gutachten** ^oid-mfu78eyu
+                  - **anteilig (%)** ^oid-1qVOzMN6
+                    - **0.5** ^oid-aQ0UfPEr
+                      - **fieldname335** ^oid-YJtDWEHT
+                    - **fieldname334** ^oid-ssomC0q6
+                  - **gesamt** ^oid-M2UuKqr8
+                    - **fieldname331** ^oid-nisUP15k
+                - **Berechnung ImmoEst** ^oid-SFNJFj9u
+                  - **anteilig (%)** ^oid-GJ3Rpv9F
+                    - **0.1** ^oid-1gVTjuVk
+                      - **fieldname343** ^oid-zas6cULA
+                    - **fieldname342** ^oid-LcNdZkvz
+                  - **gesamt** ^oid-RiGlnJBb
+                    - **fieldname339** ^oid-aV1VHxsX
+                - **Reserven** ^oid-3cMYZVeK
+                  - **anteilig (%)** ^oid-50i1rqsv
+                    - **0.2** ^oid-52f1ZNGh
+                      - **fieldname351** ^oid-iX4y6PAK
+                    - **fieldname350** ^oid-0gU9aPZp
+                  - **gesamt** ^oid-gdD4AiFo
+                    - **fieldname347** ^oid-BaxVKRk2
+              - **Gesamt** ^oid-GJOtkN5E
+                - **ANKAUFKOSTEN** ^oid-aAxryZYZ
+                  - **anteilig (%)** ^oid-4tK6eQs6
+                    - **fieldname357** ^oid-t765NUNc
+                  - **gesamt** ^oid-pKC1MNly
+                    - **fieldname356** ^oid-BOlonCCg
+                - **Kaufpreis** ^oid-e7UWehre
+                  - **anteilig (%)** ^oid-Tsiacpd7
+                    - **fieldname368** ^oid-Dv1dOaqM
+                  - **gesamt** ^oid-XJDORAwY
+                    - **fieldname275** ^oid-KEZK8tqE
+                - **Nebenkosten** ^oid-6ThuO6Mz
+                  - **anteilig (%)** ^oid-Qlt0Azgq
+                    - **fieldname375** ^oid-vdndCIsz
+                  - **gesamt** ^oid-QwOat28k
+                    - **fieldname372** ^oid-D8xQqyIt
+                - **Nebenkostenanteil** ^oid-xIoCGZ5a
+                  - **anteilig (%)** ^oid-1xQqNoXS
+                    - **fieldname397** ^oid-GIy02SBa
+                - **Abweichung vom Durchschnitt** ^oid-4gNTIuJX
+                  - **Fläche** ^oid-TJzUHkxR
+                    - **fieldname455** ^oid-HAMNid7O
+                  - **Kaufpreis** ^oid-oTA3vqEM
+                    - **fieldname456** ^oid-oGER74JE
+                  - **Nebenkosten** ^oid-kfCfUd42
+                    - **fieldname457** ^oid-2ctEepCM
+    - **GEWINN** ^oid-5qgxhLNZ
+      - **Durchschnitt** ^oid-83OBEPY2
+        - **Grundstück** ^oid-gIxJTuOr
+      - **Ankaufkosten** ^oid-Bfda6zvF
+        - **Grundstück** ^oid-RoLw4q3W
+      - **Verkaufkosten** ^oid-8nM5gzch
+        - **Grundstück** ^oid-NYf0fRjF
+    - **WILLHABEN & IMMOunited** ^oid-Vf3yMtLU
+      - **Durchschnitt** ^oid-LOQUh6wF
+        - **Einfamilienhaus** ^oid-bH60gaLU
+        - **Wohnung** ^oid-TAWy5Dyo
+      - **Kaufen** ^oid-xGlRqb6L
+        - **Einfamilienhaus** ^oid-puIyO0J4
+        - **Wohnung** ^oid-zSe8Qrh0
+      - **Verkaufen** ^oid-sKMVpToM
+        - **Einfamilienhaus** ^oid-tiNrfOYD
+        - **Wohnung** ^oid-SFnY0dGI

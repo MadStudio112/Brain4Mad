@@ -1,0 +1,538 @@
+---
+type: raw-mmap
+map_id: "Bienenschäden"
+source: "01_input/Apps/BEEXSmmap/Bienenschäden.mmap"
+imported_at: 2026-04-11
+node_count: 518
+max_depth: 7
+has_custom_props: false
+has_links: true
+has_notes: false
+has_icons: true
+icons:
+  - QuestionMark
+tags:
+  - mmap/raw
+  - mmap/Apps
+---
+
+# Bienenschäden
+
+- **Bienenschäden** ["..\..\..\..\..\..\MAD Studio\6__MADrix\3_MindManager\Daten\Fragebogen_zur_Erfassung_und_Dokumentation_von_Voelkerverlusten_und_Bienenschaeden_2014_02.pdf"]("..\..\..\..\..\..\MAD Studio\6__MADrix\3_MindManager\Daten\Fragebogen_zur_Erfassung_und_Dokumentation_von_Voelkerverlusten_und_Bienenschaeden_2014_02.pdf") ^oid-Wif6vLMc
+  - **Persönliche Angaben** ^oid-vcO8f3vK
+    - **Geschädigter** ^oid-I64k4Noq
+      - **Name** ^oid-LxEL8851
+      - **Straße** ^oid-voqD31tZ
+      - **Hausnummer** ^oid-ky6zEtxH
+      - **PLZ** ^oid-qcHf5lVJ
+      - **Ort** ^oid-gjiMwZoi
+      - **Tel.** ^oid-bSHP9baS
+      - **Fax** ^oid-6u5iNTZW
+      - **Email** ^oid-D3WWt00Y
+  - **betroffenen Bienenstand** ^oid-plvfVRuO
+    - **Bezeichnung des Bienenstandes** ^oid-aqhhVErR
+      - **txt** ^oid-i4slWawl
+    - **Standgemeinde** ^oid-HcF49XGz
+      - **txt** ^oid-UR0zafuU
+    - **Katastralgemeinde** ^oid-AJTNlY4F
+      - **txt** ^oid-i980IZ3v
+    - **Bezirk** ^oid-LAOpD87x
+      - **txt** ^oid-FcXP3dJE
+    - **Bundesland** ^oid-kdkdhUFc
+      - **txt** ^oid-PI5LVo8p
+    - **Seehöhe [m]** ^oid-MwfwgbPO
+      - **txt** ^oid-miZLt1CR
+    - **Bienenstand ist ein** ^oid-lGttgpR5
+      - **Heimbienenstand** ^oid-aAoXqldk
+      - **Wanderbienenstand** ^oid-0M5D1AV0
+        - **Datum der Aufstellung** ^oid-Dh9aOskJ
+          - **tt.mm.jjjj** ^oid-RkLKlGv4
+    - **Wurde aufgrund von früheren Bienenschäden bereits einmal der Standort gewechselt** ^oid-r1LvkDMM
+      - **ja** ^oid-j2gVZgTJ
+      - **nein** ^oid-qVxkNHju
+    - **Welche Trachten wurden 2013 genutzt?** ^oid-qkkuwDBC
+      - **Obst** ^oid-xdk01gbb
+      - **Raps** ^oid-8STRNtPZ
+      - **Robinie** ^oid-vJDmooMg
+      - **Sonnenblume** ^oid-jz48WAJp
+      - **Mais** ^oid-GbQfbSSM
+      - **Kürbis** ^oid-MTAoVWEL
+      - **Linde** ^oid-BXoqP4Tj
+      - **Senf** ^oid-7dcrN2nc
+      - **Mungo** ^oid-G5GJ8a00
+      - **Waldtracht** ^oid-k7HUsHo0
+      - **Ölrettich** ^oid-piDmGpJ2
+      - **Buchweizen** ^oid-W61ly7y0
+      - **andere** ^oid-9z5AuBPg
+        - **txt** ^oid-26J30ZYx
+    - **Wasserquelle für Bienen** ^oid-QaPonsP7
+      - **Künstliche Tränke** ^oid-R3l3cqHJ
+        - **ja** ^oid-BhWs3rJZ
+        - **nein** ^oid-drwkWeOH
+  - **Angaben zu Bienenschäden** ^oid-Y1dl44Iw
+    - **Erster Bienenschaden (Symptome) festgestellt am** ^oid-3jjc9nXU
+      - **tt.mm.jjjj** ^oid-q0yLfnf9
+    - **Datum Standkontrolle** ^oid-VFfHrHGd
+      - **vor dem Bienenschaden** ^oid-gbjsIbvh
+        - **tt.mm.jjjj** ^oid-Qg3DF7Xo
+      - **nach dem Bienenschaden** ^oid-nUhiTE8v
+        - **tt.mm.jjjj** ^oid-Qh1guIta
+      - **Gesamtzahl Völker am Bienenstand vor dem Bienenschaden** ^oid-QLHNePwz
+        - **txt** ^oid-MdH4Nmll
+      - **Anzahl Völker nach dem Bienenschaden** ^oid-4bzquVIJ
+        - **geschwächt** ^oid-nPnrdRZ0
+          - **txt** ^oid-F0cQH155
+        - **tot** ^oid-GbXGP2TA
+          - **txt** ^oid-QEJx0F6k
+    - **Bienenschädigung (Symptome)** ^oid-FjKBbqY9
+      - **noch andauernd** ^oid-XzLNLPvD
+        - **ja** ^oid-IGmUQfy9
+        - **nein** ^oid-7PEta1sR
+          - **Datum Ende des Bienenschadens** ^oid-jmYzLkYj
+            - **tt.mm.jjjj** ^oid-kilnPvRH
+    - **Welche Symptome wurden beobachtet ?** ^oid-NMuo5Zxx
+      - **krabbelnde flugunfähige Bienen** ^oid-waQYmbqF
+        - **ja** ^oid-il1JPS1J
+      - **Rückgang des Bienenbesatzes_im Honigraum** ^oid-DVbiRhVa
+        - **ja** ^oid-vqalmUam
+      - **erhöhter Bienentotenfall** ^oid-D4Z6aYpW
+        - **ja** ^oid-ioCw72Bu
+      - **tote Bienen mit ausgestrecktem Rüssel** ^oid-0R1Hu1lS
+        - **ja** ^oid-IYyacdOO
+      - **tote Bienen mit verkrampftem Körper** ^oid-vcwI2k9z
+        - **ja** ^oid-pPKR08O8
+      - **Verhaltensstörungen (z.B.: Zittern, Torkeln, Hüpfen)** ^oid-GktmoDh7
+        - **ja** ^oid-6HZLmz8T
+      - **tote Brut, Brutaustrag** ^oid-OQtXMXCY
+        - **ja** ^oid-xADhItaT
+      - **tote Bienen mit Pollenhöschen** ^oid-sxjFvwKW
+        - **ja** ^oid-rLbTgxoC
+      - **Rückgang der Volksstärke** ^oid-UCTXqU11
+        - **ja** ^oid-0yD8J3pV
+      - **Sonstige Auffälligkeiten** ^oid-FGaA35jD
+        - **txt** ^oid-D2QRVeuw
+  - **Vermutete Schadursache** ^oid-jdz6CdZB
+    - **Bienenparasiten/Bienenkrankheit** ^oid-EsiFBwMi
+      - **ja** ^oid-AXNocrve
+        - **Varroa** ^oid-4jDaLYIu
+          - **ja** ^oid-wJNU22NJ
+        - **Amerikanische Faulbrut** ^oid-hEFxF0rs
+          - **ja** ^oid-KnqLGSfP
+        - **Nosema** ^oid-GhVr1cnw
+          - **ja** ^oid-ydQHZlzi
+        - **Sonstige** ^oid-EnSMKa0c
+          - **ja** ^oid-pFvjY0pd
+      - **nein** ^oid-zBcSSFz5
+    - **Futtermangel** ^oid-9LpWGnPU
+      - **ja** ^oid-QSsQdBWe
+      - **nein** ^oid-KytF8KeN
+    - **Vergiftungsverdacht** ^oid-0Lvm0lkd
+      - **ja** ^oid-MsZXFDK6
+        - **Mais** ^oid-64zXD3Ui
+          - **ja** ^oid-vOnpcd7g
+        - **Raps** ^oid-ZXiOI6kd
+          - **ja** ^oid-NDPQX7vr
+        - **Kürbis** ^oid-cXEOouUx
+          - **ja** ^oid-LTGQFbOM
+        - **Obst** ^oid-s8brYAwg
+          - **ja** ^oid-h2fNDbbk
+        - **Getreide** ^oid-UoJ7WPT0
+          - **ja** ^oid-KvtIK0Af
+        - **Wein** ^oid-kDS1Qrwm
+          - **ja** ^oid-XL0SksLE
+        - **Forst** ^oid-ezYWvgnu
+          - **ja** ^oid-ywxvM7jx
+        - **unbekannt** ^oid-rLQmFbaO
+          - **ja** ^oid-msKgAtof
+        - **sonstige** ^oid-6vcYoy9i
+          - **ja** ^oid-QYs1UDYH
+        - **anderer Vergiftungsverdacht (z.B.: Bienenfrevel)** ^oid-3KP8SViN
+          - **txt** ^oid-ZCH0DbA9
+      - **nein** ^oid-pfIvqxtr
+  - **Schadensmeldung** ^oid-ufCiN1CZ
+    - **ja** ^oid-n7Kx9NWu
+      - **BH, Amtstierarzt** ^oid-BiCZhXou
+        - **ja** ^oid-uE4UWmX9
+      - **Polizei** ^oid-u4iJimMO
+        - **ja** ^oid-Q9eXZ6Xi
+      - **Sonstige Institutionen** ^oid-dX76HGnm
+        - **txt** ^oid-HyjrJ5hh
+    - **nein** ^oid-vt0ktYUs
+  - **Schaderregerbekämpfung** ^oid-ROmxroMY
+    - **Varroabekämpfung** ^oid-okHrsuLg
+      - **Frühjahr** [icon:QuestionMark] ^oid-89ELFHPE
+        - **ja** ^oid-66MW5Tfy
+          - **Jahr** ^oid-j0SIebfz
+      - **Sommer** [icon:QuestionMark] ^oid-2pm8B3Yp
+        - **ja** ^oid-q9dpm79q
+          - **Jahr** ^oid-epHiTdOC
+      - **Herbst** [icon:QuestionMark] ^oid-WrEoeC5m
+        - **ja** ^oid-sY6SBk61
+          - **Jahr** ^oid-yjjYjabD
+    - **Maßnahmen/Wirkstoff/Präparat** ^oid-bKShPIjt
+      - **Drohnenbrutentnahme** ^oid-o0I3jtqw
+        - **ja** ^oid-MAv4NRYZ
+          - **erste am** ^oid-ZUmrWurD
+            - **tt.mm.jj** ^oid-azla83dP
+          - **letzte am** ^oid-8oI2ylQG
+            - **tt.mm.jj** ^oid-eXGY9GEG
+          - **Anzahl gesamt** ^oid-wBFz6L6D
+            - **txt** ^oid-sftOUUQt
+      - **Ameisensäure** ^oid-TlNnzKDh
+        - **ja** ^oid-3uEqUUcI
+          - **erste am** ^oid-Stiq7wis
+            - **tt.mm.jj** ^oid-exqG3p97
+          - **letzte am** ^oid-ADxTNGWj
+            - **tt.mm.jj** ^oid-B5nASAWe
+          - **Anzahl gesamt** ^oid-oKi6O6JK
+            - **txt** ^oid-EaZZlUyT
+      - **Oxalsäure geträufelt** ^oid-8b6a5x2a
+        - **ja** ^oid-rIewJCGU
+          - **erste am** ^oid-6Bwpkgq4
+            - **tt.mm.jj** ^oid-s5aiHpVF
+          - **letzte am** ^oid-8DvqR5nN
+            - **tt.mm.jj** ^oid-WgHJU3UP
+          - **Anzahl gesamt** ^oid-yI4woNaI
+            - **txt** ^oid-apk5hpBR
+      - **Oxalsäure verdampft** ^oid-gvzYqW08
+        - **ja** ^oid-CjruOjVV
+          - **erste am** ^oid-XpLDjDUG
+            - **tt.mm.jj** ^oid-g9NkbBSF
+          - **letzte am** ^oid-GvkWw8s5
+            - **tt.mm.jj** ^oid-wKGnoMdc
+          - **Anzahl gesamt** ^oid-dzY2cxCb
+            - **txt** ^oid-pr7myFn5
+      - **Apiguard** ^oid-sGdcxTjX
+        - **ja** ^oid-k0f46XSz
+          - **erste am** ^oid-PoCOQqUm
+            - **tt.mm.jj** ^oid-dBTdIZJZ
+          - **letzte am** ^oid-YnDx96oE
+            - **tt.mm.jj** ^oid-8JsjKzvV
+          - **Anzahl gesamt** ^oid-pO2C6Eop
+            - **txt** ^oid-s6yviIJz
+      - **ApiLive VAR** ^oid-Q8QPRSo5
+        - **ja** ^oid-cfgQrF0E
+          - **erste am** ^oid-tyj2cy9E
+            - **tt.mm.jj** ^oid-uwyFmvoi
+          - **letzte am** ^oid-U6TumAFh
+            - **tt.mm.jj** ^oid-oDPsUA14
+          - **Anzahl gesamt** ^oid-FdTPOOAP
+            - **txt** ^oid-hjlOaUHD
+      - **Thymovar** ^oid-kaWMh0Yc
+        - **ja** ^oid-DPyY1eeY
+          - **erste am** ^oid-SG68bXRx
+            - **tt.mm.jj** ^oid-SCnjOFyx
+          - **letzte am** ^oid-KpVwFZd2
+            - **tt.mm.jj** ^oid-DhlxAFJa
+          - **Anzahl gesamt** ^oid-KaQlZdY2
+            - **txt** ^oid-xIjJOaD7
+      - **Bienenwohl** ^oid-xAZ9O77O
+        - **ja** ^oid-TF6GK9qh
+          - **erste am** ^oid-q5fofT9J
+            - **tt.mm.jj** ^oid-mv6mcOiT
+          - **letzte am** ^oid-P1Cvopee
+            - **tt.mm.jj** ^oid-fUwH9oCa
+          - **Anzahl gesamt** ^oid-Fda3clqX
+            - **txt** ^oid-xGeNFYg8
+      - **Hiveclean** ^oid-eHLQile2
+        - **ja** ^oid-wxjZNYcZ
+          - **erste am** ^oid-tOpD5Xel
+            - **tt.mm.jj** ^oid-Wz9v4nDZ
+          - **letzte am** ^oid-dkVFkmyG
+            - **tt.mm.jj** ^oid-XgN07RNx
+          - **Anzahl gesamt** ^oid-xrXSYgj7
+            - **txt** ^oid-oVVyxTu2
+      - **Apistan** ^oid-2nAFAtQg
+        - **ja** ^oid-27hz8gmy
+          - **erste am** ^oid-d6g6MlyM
+            - **tt.mm.jj** ^oid-KJzpONHc
+          - **letzte am** ^oid-f8k8OIx8
+            - **tt.mm.jj** ^oid-mRfJShj0
+          - **Anzahl gesamt** ^oid-RdVK80lY
+            - **txt** ^oid-NDESPPRf
+      - **andere** ^oid-EgNjwGy4
+        - **ja** ^oid-5eNiyDnK
+          - **txt** ^oid-ZBRmNT4y
+            - **erste am** ^oid-z5cQRO8o
+              - **tt.mm.jj** ^oid-d8jobRBX
+            - **letzte am** ^oid-PSAKxfIW
+              - **tt.mm.jj** ^oid-Q55v9lAF
+            - **Anzahl gesamt** ^oid-DSoS0yjE
+              - **txt** ^oid-WmkZu22T
+      - **andere** ^oid-oMWXq0Ko
+        - **ja** ^oid-Aq2hjZRE
+          - **txt** ^oid-9S2VzUMJ
+            - **erste am** ^oid-3OZSPN6l
+              - **tt.mm.jj** ^oid-D787HXHL
+            - **letzte am** ^oid-BO48PDgk
+              - **tt.mm.jj** ^oid-HNJICpOi
+            - **Anzahl gesamt** ^oid-DLT8aAxd
+              - **txt** ^oid-kphFyxvx
+    - **bei Ameisensäure** ^oid-87YZV1kg
+      - **Konzentration** ^oid-pHZKnKpu
+        - **85%** ^oid-rvU6ULVo
+          - **ja** ^oid-P37Te2pT
+        - **60%** ^oid-t4gTmUHP
+          - **ja** ^oid-FwYrjBn4
+        - **andere** ^oid-4BhNxo9R
+          - **ja** ^oid-jYqYGiVl
+            - **txt** ^oid-sMS1uWIV
+        - **Anwendungsmenge/Volk/Behandlung** ^oid-vTWHAjvt
+          - **ml** ^oid-STEqyU68
+            - **txt** ^oid-Agz2H3GO
+        - **verwendeter Verdunster** ^oid-xb45Z4U2
+          - **txt** ^oid-fXZ9ceE2
+    - **Varroabekämpfung Restentmilbung** ^oid-b3Vcydew
+      - **Oxalsäure geträufelt** ^oid-OcL8P4IL
+        - **ja** ^oid-14O1dHzd
+          - **erste am** ^oid-pP0Zzdcc
+            - **tt.mm.jj** ^oid-tzJ739I7
+          - **letzte am** ^oid-LGigrLMf
+            - **tt.mm.jj** ^oid-Zg24q90n
+          - **Anzahl gesamt** ^oid-HhpB80Gg
+            - **txt** ^oid-GHXcT1PB
+      - **Oxalsäure verdampft** ^oid-pilJlXol
+        - **ja** ^oid-7VmzdmVM
+          - **erste am** ^oid-bzmkAj5R
+            - **tt.mm.jj** ^oid-La8LG9Zu
+          - **letzte am** ^oid-cCB2gUEh
+            - **tt.mm.jj** ^oid-m0XYXxOr
+          - **Anzahl gesamt** ^oid-Wb0SPOHv
+            - **txt** ^oid-t5FJB9Tp
+      - **Apistan** ^oid-OXrwPOze
+        - **ja** ^oid-dX9syRzF
+          - **erste am** ^oid-vyBZ8sLn
+            - **tt.mm.jj** ^oid-lGb6Mryu
+          - **letzte am** ^oid-hzgnJc5f
+            - **tt.mm.jj** ^oid-wAvvjzbK
+          - **Anzahl gesamt** ^oid-r9g83Lfz
+            - **txt** ^oid-gnG1IAdW
+      - **Milchsäure** ^oid-S6vi0cYZ
+        - **ja** ^oid-jzffGIMb
+          - **erste am** ^oid-fxGXCftP
+            - **tt.mm.jj** ^oid-Yhzx5FEK
+          - **letzte am** ^oid-xxkfhZYk
+            - **tt.mm.jj** ^oid-dgjoYnyt
+          - **Anzahl gesamt** ^oid-mklydaYq
+            - **txt** ^oid-H8CvsZfW
+      - **Bienenwohl** ^oid-FFoVWLrr
+        - **ja** ^oid-4JrDeX98
+          - **erste am** ^oid-Gkqv2nYi
+            - **tt.mm.jj** ^oid-Ea81U9Cb
+          - **letzte am** ^oid-heGmGRaG
+            - **tt.mm.jj** ^oid-iKz9TVxL
+          - **Anzahl gesamt** ^oid-IqgtWhVP
+            - **txt** ^oid-zB6sGHnR
+      - **Perizin** ^oid-biZTV45J
+        - **ja** ^oid-26lqyAce
+          - **erste am** ^oid-Mrln1fS2
+            - **tt.mm.jj** ^oid-1UPPeock
+          - **letzte am** ^oid-Z2kIjsLj
+            - **tt.mm.jj** ^oid-oXPMJV8z
+          - **Anzahl gesamt** ^oid-33BxmWa3
+            - **txt** ^oid-KjORvaf8
+      - **Hiveclean** ^oid-v0WZYbO4
+        - **ja** ^oid-gNyR8QKD
+          - **erste am** ^oid-A3XH86kR
+            - **tt.mm.jj** ^oid-RC3g6liP
+          - **letzte am** ^oid-pHC6aVhZ
+            - **tt.mm.jj** ^oid-dycHBdJe
+          - **Anzahl gesamt** ^oid-QIzpe5Jf
+            - **txt** ^oid-RVE0FBHz
+      - **andere** ^oid-aMxoen1H
+        - **ja** ^oid-pIvezqt0
+          - **txt** ^oid-Ac6xeEPs
+            - **erste am** ^oid-az0De86c
+              - **tt.mm.jj** ^oid-riR8GeN5
+            - **letzte am** ^oid-L5Nw4XMg
+              - **tt.mm.jj** ^oid-VuzsLpEy
+            - **Anzahl gesamt** ^oid-j3jWKOVt
+              - **txt** ^oid-hn9fTD8X
+      - **andere** ^oid-i2Kt5JNf
+        - **ja** ^oid-jEM5urkO
+          - **txt** ^oid-Dwq4OgaK
+            - **erste am** ^oid-AzNHopp6
+              - **tt.mm.jj** ^oid-znT6pCoP
+            - **letzte am** ^oid-2qS1FkUw
+              - **tt.mm.jj** ^oid-v3RNSJEm
+            - **Anzahl gesamt** ^oid-uGQnRZSy
+              - **txt** ^oid-KdfjtaOo
+  - **Winterfütterung** ^oid-evtQ1UTX
+    - **Zucker** ^oid-OmJ2cy3J
+      - **ja** ^oid-k0Z261wp
+    - **Honig** ^oid-pfZdzBlK
+      - **ja** ^oid-mL2Ut0FX
+    - **Apiinvert** ^oid-LNl3wXew
+      - **ja** ^oid-C3TvgteV
+    - **sonstige** ^oid-8PI2a35o
+      - **ja** ^oid-87GJxByy
+        - **txt** ^oid-BaU91OxN
+          - **Chargennumme** ^oid-bAmMg68o
+            - **txt** ^oid-jnN0KwoI
+          - **Produktdatenblatt beilegen** ^oid-CAQ3bgcP
+            - **Foto machen** ^oid-ktdfigZw
+            - **aus Galerie importieren** ^oid-4ohgq25T
+            - **.pfd beifügen** ^oid-UKiycsmX
+    - **Zusätze zur Fütterung** ^oid-bqRAfTfh
+      - **txt** ^oid-HsQnfh7o
+  - **Ackerbau im Flugkreis** ^oid-3qrK2iQk
+    - **Mais im Flugradius** ^oid-MGqTLNJr
+      - **ja** ^oid-BiJgAxma
+        - **Datum erste Maisaussaat** ^oid-wTMlN00e
+          - **tt.mm.jjjj** ^oid-wMS9rcl0
+      - **nein** ^oid-ddY96rdJ
+      - **unbekannt** ^oid-VlhpUDiE
+    - **Maiswurzelbohrerkäferbekämpfungen mit Stelzentraktoren** ^oid-kXLDUsWP
+      - **ja** ^oid-e02oKShU
+      - **nein** ^oid-wuzsiqtk
+      - **unbekannt** ^oid-keYkDyzV
+    - **Welche für die Bienen attraktiven Pflanzen haben zur Zeit der Maisaussaat geblüht** ^oid-0P6kwuMf
+      - **Löwenzahn** ^oid-JAUnll7F
+        - **ja** ^oid-pK3WzHgU
+      - **Kirsche** ^oid-f2gQnJWz
+        - **ja** ^oid-hN8L07re
+      - **Apfel/Birne** ^oid-h4pCRZO5
+        - **ja** ^oid-yFbziEiW
+      - **Hecken** ^oid-7zyBgLzD
+        - **ja** ^oid-Uv1FdXSh
+      - **Sonstige** ^oid-JDCofQLc
+        - **txt** ^oid-cyni0K4k
+      - **Unbekannt** ^oid-JmVp73S8
+        - **ja** ^oid-cq1SP6I8
+    - **Welche weiteren Kulturen waren im Flugradius?** ^oid-GA3ikP8M
+      - **Raps** ^oid-PKgMAWXY
+        - **ja** ^oid-qqS4pMdV
+        - **nein** ^oid-cJaJc5kM
+        - **unbekannt** ^oid-2p24Vq3z
+      - **Kürbis** ^oid-6Y6sJH7q
+        - **ja** ^oid-ShBrfeR1
+        - **nein** ^oid-or6BHCyJ
+        - **unbekannt** ^oid-UGOBEqob
+      - **Obst** ^oid-KknYw6Cp
+        - **ja** ^oid-7FDnLTIh
+        - **nein** ^oid-ZDe3QmFS
+        - **unbekannt** ^oid-8GQc7I6k
+      - **Wein** ^oid-cBNdbagN
+        - **ja** ^oid-kW6Rsdaj
+        - **nein** ^oid-SswuiobV
+        - **unbekannt** ^oid-cBrOdVIY
+      - **Getreide** ^oid-LqBpnAUn
+        - **ja** ^oid-C4WZXNzV
+        - **nein** ^oid-DyjzKwsI
+        - **unbekannt** ^oid-pqxLHlAC
+      - **Senf** ^oid-cWOSAwE4
+        - **ja** ^oid-kZJM17Qr
+        - **nein** ^oid-qgClmh3r
+        - **unbekannt** ^oid-rCKKM9Fw
+      - **Buchweizen** ^oid-MJB5VjSm
+        - **ja** ^oid-8Tbjz7Ba
+        - **nein** ^oid-WZpjovLO
+        - **unbekannt** ^oid-ZfJWGtnm
+      - **Mungo** ^oid-eDdkkjeI
+        - **ja** ^oid-HBuBwFJT
+        - **nein** ^oid-ntCimhb3
+        - **unbekannt** ^oid-d6nr1PEB
+      - **Ölrettich** ^oid-BGCTooFB
+        - **ja** ^oid-Lb5EK8O3
+        - **nein** ^oid-d4EeVM0f
+        - **unbekannt** ^oid-bEzIEvo8
+      - **Forstflächen mit Bekämpfungmaßnahmen** ^oid-5AwIAJPQ
+        - **ja** ^oid-nJK4HMTU
+        - **nein** ^oid-Ulh0GjwF
+        - **unbekannt** ^oid-HnV6SM0t
+      - **Sonstige** ^oid-YqcvHc8l
+        - **txt** ^oid-ayAf6bcw
+  - **Beobachtungen bzw. Auffälligkeiten** ^oid-yvdc79O5
+    - **txt** ^oid-2uNKPM73
+  - **vorhandenen Probenmaterial** ^oid-7yCUAuxd
+    - **Bienenprobe** ^oid-ywnNcjTJ
+      - **Haben Sie Bienen für eine Untersuchung gesammelt?** ^oid-rTfPQZn0
+        - **ja** ^oid-af4IfrWZ
+          - **Wenn ja, Probenahme durch:** ^oid-UMXEAWpg
+            - **txt** ^oid-aJF8NIax
+          - **Wenn ja, Probenahme durch:** ^oid-WCY6Kln5
+            - **tt.mm.jjjj** ^oid-hGjZ8Dn1
+          - **Wo wurden die Bienen gesammelt?** ^oid-003ePFFJ
+            - **außerhalb des Stockes** ^oid-CvpPpowK
+              - **ja** ^oid-DCnss616
+            - **im Stockinneren** ^oid-qZQ4tQgW
+              - **ja** ^oid-6LrJBr8F
+          - **Wenn vom Stockinneren, aus welchen Völkern?** ^oid-of8w9Sz9
+            - **txt** ^oid-D3gbe17F
+          - **Zustand der Bienen bei Probenahme:** ^oid-54ZrktQV
+            - **tot** ^oid-GbaPCmWc
+              - **ja** ^oid-nIwnMGAk
+            - **lebend, geschädigt** ^oid-uFQAxzrv
+              - **ja** ^oid-QJEdZMQO
+          - **Waren die Völker zur Zeit der Probenahme:** ^oid-G9XT9ig9
+            - **tot** ^oid-Dlm2qa5J
+              - **ja** ^oid-wt3kqoHS
+            - **geschädigt** ^oid-Ep9kj5VG
+              - **ja** ^oid-6esptdKN
+            - **normal entwickelt** ^oid-Le4tGIEx
+              - **ja** ^oid-BihYx1KD
+        - **nein** ^oid-riEoQMlb
+      - **Was geschah mit den gesammelten Bienenproben?** ^oid-WlJtipIc
+        - **lagern tiefgekühlt am Betrieb** ^oid-4Ywf9fMV
+          - **ja** ^oid-SllBHUlN
+        - **Einsendung / Übergabe an AGES erfolgte am** ^oid-BCu2UAHx
+          - **ja** ^oid-ezrT7kD7
+            - **tt.mm.jjjj** ^oid-7N7tJkuO
+    - **Bienenbrotproben** ^oid-aClwXSXe
+      - **Haben Sie Bienenbrotproben für eine Untersuchung entnommen?** ^oid-RGzbQe1g
+        - **ja** ^oid-sOCErHqH
+          - **Wenn ja, Probenahme durch:** ^oid-2jj2S1az
+            - **txt** ^oid-mrFbNkPR
+          - **Wenn ja, Probenahme durch:** ^oid-jh38z3mg
+            - **tt.mm.jjjj** ^oid-nMa8e89q
+          - **Aus welchen Völkern wurden Proben entnommen?** ^oid-eYycOO19
+            - **txt** ^oid-LZ0NNB1D
+          - **Waren die Völker zur Zeit der Probenahme:** ^oid-zOKJZTLx
+            - **tot** ^oid-D1XcbdHT
+              - **ja** ^oid-wlWg8UyM
+            - **geschädigt** ^oid-EuzMTyc5
+              - **ja** ^oid-h9oSlec3
+            - **normal entwickelt** ^oid-U4EVp1Iv
+              - **ja** ^oid-48jBgQCz
+        - **nein** ^oid-IkUOzLC4
+      - **Was geschah mit den gesammelten Bienenproben?** ^oid-EvovjCZ9
+        - **lagern tiefgekühlt am Betrieb** ^oid-HOr19tdy
+          - **ja** ^oid-YivO7vTJ
+        - **Einsendung / Übergabe an AGES erfolgte am** ^oid-hH51ZcUP
+          - **ja** ^oid-QVGHyVXU
+            - **tt.mm.jjjj** ^oid-wxjh8NHI
+    - **Brutproben** ^oid-Vy6nZBGw
+      - **Haben Sie Brutproben für eine Untersuchung entnommen?** ^oid-rjy4E3Mc
+        - **ja** ^oid-7iyUTqWR
+          - **Wenn ja, Probenahme durch:** ^oid-k1TUIcjA
+            - **txt** ^oid-ETOtTmP0
+          - **Wenn ja, Probenahme durch:** ^oid-U70CS6dE
+            - **tt.mm.jjjj** ^oid-JPcNV9fm
+          - **Aus welchen Völkern wurden Proben entnommen?** ^oid-TkEaPnUH
+            - **txt** ^oid-aWPD8myL
+          - **Waren die Völker zur Zeit der Probenahme:** ^oid-GCdX7uRv
+            - **tot** ^oid-T7ykUNAP
+              - **ja** ^oid-GviP5uem
+            - **geschädigt** ^oid-wMP5ma0X
+              - **ja** ^oid-GXa6oPy5
+            - **normal entwickelt** ^oid-9M4UbSIH
+              - **ja** ^oid-4tXZENpq
+        - **nein** ^oid-8aZV7PF4
+      - **Was geschah mit den gesammelten Bienenproben?** ^oid-qtKpsgib
+        - **lagern tiefgekühlt am Betrieb** ^oid-6dhK9hIU
+          - **ja** ^oid-G4mcd77G
+        - **Einsendung / Übergabe an AGES erfolgte am** ^oid-dr27Md2c
+          - **ja** ^oid-TxW5z42J
+            - **tt.mm.jjjj** ^oid-TRGExwQx
+  - **Anmerkung** ^oid-JXqpQGjb
+    - **Kreuzen Sie bitte an, ob Sie mit der Weitergabe dieser personenbezogenen Daten einverstanden sind oder nicht** ^oid-EsEvLdhk
+      - **An den Imker-Dachverband „Biene Österreich“** ^oid-PYvD7mst
+        - **einverstanden** ^oid-QKzjykTl
+          - **ja** ^oid-UqLkUtKD
+        - **nicht einverstanden** ^oid-2wI7IqQV
+          - **ja** ^oid-3V7OQClt
+      - **An die zuständige Landesregierung** ^oid-VfOoikJm
+        - **einverstanden** ^oid-qMEb5Ugn
+          - **ja** ^oid-64qGyENW
+        - **nicht einverstanden** ^oid-jiZ6SKiF
+          - **ja** ^oid-6AMVEUAJ

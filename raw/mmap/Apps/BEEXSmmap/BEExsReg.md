@@ -1,0 +1,369 @@
+---
+type: raw-mmap
+map_id: "BEExsReg"
+source: "01_input/Apps/BEEXSmmap/BEExsReg.mmap"
+imported_at: 2026-04-11
+node_count: 351
+max_depth: 12
+has_custom_props: false
+has_links: true
+has_notes: false
+has_icons: false
+tags:
+  - mmap/raw
+  - mmap/Apps
+---
+
+# BEExsReg
+
+- **BEExsReg** ^oid-drOQT9p1
+  - **Grundlagen** ^oid-dXLL46l5
+    - **AGBs** ^oid-qs0h6e4F
+    - **FAQs** ^oid-ilxAmKJQ
+    - **Anmelden** ^oid-afN970Jd
+      - **Foto** ^oid-Cg5Bb8Nc
+        - **Foto** ^oid-ji2qPCBr
+          - **Galerie** ^oid-XBu2gIIF
+          - **Foto machen** ^oid-rvuVK4jN
+        - **Vorlagen** ^oid-JPTiv4wd
+          - **1** ^oid-OLlTHdYR
+          - **2** ^oid-5IYf6ovU
+          - **3** ^oid-Ucfh0vcf
+          - **4** ^oid-AaUKleJI
+          - **5** ^oid-UZIJdQD4
+      - **Benutzername** ^oid-VFXqLo52
+      - **Kennwort** ^oid-gb8N7Mw1
+    - **Daten** ^oid-5hLqa1GV
+      - **QMAIN** ^oid-TDuwaNPq
+      - **Foto** ^oid-5nsHIGRo
+        - **Galerie** ^oid-ZYpeRBUq
+        - **Foto machen** ^oid-nBYM9tHS
+      - **LFBIS Nr.** ^oid-t0JMB6tz
+        - **string - 7 stellig** ^oid-jUjjZ5KL
+      - **Unternehmen** ^oid-1eI9BrQ8
+        - **Name** ^oid-ikTAp6jm
+        - **Sitz** ^oid-HFxte3Em
+          - **Straße** ^oid-btAUPf8w
+            - **z.B. von Statistik Austria** ^oid-4Ph3H5tu
+          - **Hausnummer** ^oid-H6m7TErW
+          - **PLZ** ^oid-kDzsfZZm
+          - **Ort** ^oid-6m0W4zAX
+        - **Kontakt** ^oid-PVspvYcj
+          - **Mobil** ^oid-h4o5P5d3
+          - **Telefon** ^oid-pGPsqT2F
+          - **Fax** ^oid-kQd4krji
+          - **E-Mail** ^oid-iZTmpYZw
+        - **Registrierung** ^oid-HLGiWb4K
+        - **Rechtsform** ^oid-CHRIaaD4
+          - **Eingetragener Kaufmann / Eingetragene Kauffrau** ^oid-IehUyaoL
+          - **Nicht eingetragener Verein** ^oid-oeM01LsK
+          - **Gesellschaft bürgerlichen Rechts** ^oid-TRQ6v35R
+          - **Offene Handelsgesellschaft** ^oid-6HlucEwZ
+          - **Partnerschaftsgesellschaft** ^oid-4pb4btlz
+          - **Kommanditgesellschaft** ^oid-qnIDHf7X
+          - **Eingetragener Verein** ^oid-GENbKe7O
+          - **Wirtschaftlicher Verein** ^oid-vZFuiVW5
+          - **Gesellschaft mit beschränkter Haftung** ^oid-M96XaSCQ
+          - **Kommanditgesellschaft auf Aktien** ^oid-bbqsQe6U
+          - **Aktiengesellschaft** ^oid-42PRTek7
+          - **sonstiges** ^oid-FagOhFk0
+      - **Ortsnummer** ^oid-vffeWggS
+        - **string - 9 stellig** ^oid-T7nwSNhL
+      - **Ort** [#xpointer(/descendant-or-self::ap:Topic[@OId='6/m0W4zAX0e4u3hrEHg8LA=='])](#xpointer(/descendant-or-self::ap:Topic[@OId='6/m0W4zAX0e4u3hrEHg8LA=='])) ^oid-1B1rCky8
+      - **Ortsverein** ^oid-QGdO2MED
+      - **Landesverband** ^oid-gsVp4QYv
+        - **Name** ^oid-fFq5MSri
+        - **Nummer** ^oid-wQIbwE3D
+      - **Betreiber** ^oid-fVg1Qliz
+        - **Name** ^oid-EZy9KUiX
+          - **Anrede** ^oid-p1N4QrfO
+          - **Titel** ^oid-bkBOYAKY
+          - **Vorname** ^oid-66Evc5Wv
+          - **Nachname** ^oid-TGalOdfb
+        - **Geburtsdatum** ^oid-cmGJ0Hvm
+        - **Adresse** ^oid-v5tJnUdM
+          - **Straße** ^oid-pY8DoQxs
+            - **Hausnummer** ^oid-lNzlG4XG
+          - **Ort** ^oid-V2Ix4oxn
+            - **PLZ** ^oid-vO2S6xU5
+            - **Ort-Namen** ^oid-atJpprfY
+        - **Kontakt** ^oid-jd5exbzp
+          - **Telefon** ^oid-G20NR2qm
+          - **Fax** ^oid-TogeC8qe
+          - **E-Mail** ^oid-CYNIpx3M
+        - **2. Person (z.B. Mieter)** ^oid-FVtfVPNY
+          - **Name** ^oid-XgtcSF7h
+            - **Anrede** ^oid-HqGFCdIV
+              - **Herr** ^oid-2Gm58zp4
+              - **Frau** ^oid-9r1G2Ry4
+            - **Titel** ^oid-HLNQEJS6
+              - **Ing.** ^oid-tqAIque0
+              - **Mag.** ^oid-igfjuyZd
+              - **Dipl. Ing.** ^oid-g048HcZf
+              - **Dr.** ^oid-oNJUUnGw
+            - **Vorname** ^oid-kNbTM980
+            - **Nachname** ^oid-JNlArNDN
+          - **Geburtsdatum** ^oid-gVEo7qdo
+          - **Adresse** ^oid-yA2s07wv
+            - **Straßennamen** ^oid-JVUIN9dC
+              - **z.B. von Statistik Austria** ^oid-YEeSStNB
+            - **Hausnummer** ^oid-YM0RIRJs
+            - **Ort** ^oid-lDk46ubd
+            - **PLZ** ^oid-KhqvuqHy
+          - **Kontakt** ^oid-2yhOLU2l
+            - **Mobil/Telefonnummer** ^oid-vZfkWXqG
+            - **Fax** ^oid-8hXML438
+            - **E-Mail** ^oid-HRxr7Hw5
+  - **Bienenstände** ^oid-v7PxZgIT
+    - **Q-Stand** ^oid-vvvigNyN
+      - **Registrierung** ^oid-scjnUeLX
+        - **LFBIS Nr** ^oid-BEQ36wio
+        - **VIS Nr** ^oid-nZXZx9RU
+        - **Ordnungsnummer des ERsB** ^oid-u11Vttg8
+        - **Vereinsregisternummer** ^oid-U3A7bHSb
+        - **Ortsgruppe übernimmt Meldung?** ^oid-IjRpa795
+          - **ja** ^oid-E429Mv0S
+          - **nein** ^oid-PwlH04OT
+          - **Anfrage** ^oid-eYR8m4Hl
+      - **Unternehmen** ^oid-NRQGAO87
+        - **Name** ^oid-xFx6B1xl
+        - **Adresse** ^oid-M0nutKop
+          - **PLZ/Ort** ^oid-kJFsSTce
+            - **PLZ** ^oid-ku8Phs02
+              - **Ort** ^oid-n1c9HviH
+          - **Strasse, Nr.** ^oid-yTSTafAr
+            - **Straße** ^oid-UrCxChKs
+              - **Hausnummer** ^oid-A3u67N4R
+        - **Kontakt** ^oid-QSQCdSv8
+          - **Telefon** ^oid-sG0qGwj5
+          - **Email** ^oid-Xwozn1kH
+        - **Firmenbuchnummer** ^oid-Jp4zIo0s
+        - **Rechtsform** ^oid-Bu1nf0tJ
+        - **Datum der Aufnahme** ^oid-mBesUC0M
+        - **Betriebstyp** ^oid-E7NJpXAo
+          - **Betriebstypen 1-n** ^oid-Bis9fz09
+            - **Landwirtschaft** ^oid-bceAejT3
+              - **Datum der Aufnahme** ^oid-yOYHwvOr
+              - **Datum Beendigung Betriebstyps** ^oid-NpCexL25
+            - **Tierhalter** ^oid-UpbJzPzm
+              - **Datum der Aufnahme** ^oid-kjYhMpNk
+              - **Datum Beendigung Betriebstyps** ^oid-qUoADZmH
+            - **Bienen** ^oid-8HWbcoQS
+              - **Datum der Aufnahme** ^oid-T55Lpjpi
+              - **Datum Beendigung Betriebstyps** ^oid-W6aUfCP4
+            - **Bienenstand** ^oid-qngSJpJK
+              - **Datum der Aufnahme** ^oid-t4r8rNBY
+              - **Datum Beendigung Betriebstyps** ^oid-Of8cfztM
+            - **1x Wanderbienenstand** ^oid-DN9VAG77
+              - **Datum der Aufnahme** ^oid-a3Ht2kCE
+              - **Datum Beendigung Betriebstyps** ^oid-jJtSBevF
+      - **Heimstände gesamt** ^oid-nFgbxK03
+        - **Anzahl** ^oid-71TS9yDk
+      - **Wanderstände gesamt** ^oid-1pUHb3i9
+        - **Anzahl** ^oid-RfwVsS4T
+    - **Bienenstand 1-n** ^oid-FfJAEjti
+      - **Stand Art** ^oid-cXOWzWQM
+        - **Heimstände** ^oid-D2l1FQX5
+          - **Heimstand 1-n** ^oid-Ss6MdH9N
+            - **Kennzeichnung** ^oid-URpoOotr
+              - **txt** ^oid-a7XNn9NT
+            - **VIS Nr.** ^oid-4VQiRtbU
+              - **string** ^oid-vcson6Sk
+            - **Adresse** ^oid-HlxZj9gR
+              - **Straße** ^oid-0XQSS6wA
+              - **Hausnummer** ^oid-eoWtuL1x
+              - **PLZ** ^oid-B5fXK41O
+              - **Ort** ^oid-5KwmvS9d
+            - **Koordinaten** ^oid-dGICcZAW
+              - **X** ^oid-xsAFvVn2
+              - **Y** ^oid-4i1BH0h2
+            - **Stöcke gesamt** ^oid-QJvw9NLn
+              - **Stock 1-n** ^oid-FotFdtl5
+                - **Kennzeichnung** ^oid-zrkerXyl
+                - **zuständige BH** ^oid-56gAln6v
+                - **zuständige Gemeinde** ^oid-xMEDaBtQ
+                - **existiert  seit** ^oid-0Jlgepdd
+                - **am Standort seit** ^oid-lRmZ7zIR
+                - **letzter Standort** ^oid-bIVSfvPU
+                - **Schaderreger** ^oid-bMy3CSpN
+                  - **Varroabekämpfung** ^oid-T7WuLAYk
+                    - **Drohnenbrutentnahme** ^oid-6wzRFy56
+                      - **erste am** ^oid-SjAKDGIk
+                        - **tt.mm.jjjj** ^oid-4YftskUn
+                      - **letzte am** ^oid-3ZwMBoHl
+                        - **tt.mm.jjjj** ^oid-oz6Ytfzb
+                      - **Anzahl gesamt** ^oid-f0gqBYl4
+                    - **Ameisensäure** ^oid-CyrBh6PB
+                      - **erste am** ^oid-JUUtg6QW
+                        - **tt.mm.jjjj** ^oid-BeDcEmy0
+                      - **letzte am** ^oid-mZc3TQmT
+                        - **tt.mm.jjjj** ^oid-ptLB3TJD
+                      - **Anzahl gesamt** ^oid-dH6OOXOh
+                    - **Oxalsäure geträufelt** ^oid-3XSyav0I
+                      - **erste am** ^oid-evZ5cXZQ
+                      - **letzte am** ^oid-b5alIjae
+                      - **Anzahl gesamt** ^oid-uYySODtI
+                    - **Oxalsäure verdampft** ^oid-Qlaf2ujP
+                      - **erste am** ^oid-8rgTrY4m
+                      - **letzte am** ^oid-gWmwLrws
+                      - **Anzahl gesamt** ^oid-EeijZtQ2
+                    - **Apiguard** ^oid-hs6R6PPy
+                      - **erste am** ^oid-HJjRyAaq
+                      - **letzte am** ^oid-tkLQxMDq
+                      - **Anzahl gesamt** ^oid-rpFuFU7p
+                    - **ApiLive VAR** ^oid-ZrpOtq2K
+                      - **erste am** ^oid-I9RtIZBr
+                      - **letzte am** ^oid-t37iITm9
+                      - **Anzahl gesamt** ^oid-NQlVaFKD
+                    - **Thymovar** ^oid-LbrPqhPp
+                      - **erste am** ^oid-dIrOoBXY
+                      - **letzte am** ^oid-399GJ7kt
+                      - **Anzahl gesamt** ^oid-L5vmZRPA
+                    - **Bienenwohl** ^oid-7AYflw0H
+                      - **erste am** ^oid-hHZnuTsq
+                      - **letzte am** ^oid-4B7itEnY
+                      - **Anzahl gesamt** ^oid-ynw90lmT
+                    - **Hiveclean** ^oid-22JbiATL
+                      - **erste am** ^oid-JVCHFVzH
+                      - **letzte am** ^oid-XWAwyr7M
+                      - **Anzahl gesamt** ^oid-7iOLV1Ws
+                    - **Apistan** ^oid-IFEaJ1Zl
+                      - **erste am** ^oid-J3pJvpm4
+                      - **letzte am** ^oid-KACckY96
+                      - **Anzahl gesamt** ^oid-J3gWCYEo
+                    - **andere** ^oid-pqkY9fqe
+                      - **erste am** ^oid-e2BLUjlD
+                      - **letzte am** ^oid-8ZB4X6xk
+                      - **Anzahl gesamt** ^oid-NtI0c9FX
+                  - **bei Ameisensäure** ^oid-RP6bVX4w
+                    - **Konzentration** ^oid-svI4UpFi
+                      - **85%** ^oid-COMkaDGE
+                      - **60%** ^oid-gz5qsKH1
+                      - **andere** ^oid-zCClJW8Z
+                    - **Anwendungsmenge/Volk/Behandlung** ^oid-lcNPnXqG
+                    - **verwendeter Verdunster** ^oid-yttJpUEt
+                    - **Bemerkung** ^oid-dMUrd4er
+                  - **Restentmilbung** ^oid-mzctcgnP
+                    - **Oxalsäure geträufelt** ^oid-bXV1W9Tn
+                      - **erste am** ^oid-Jfcl8BUH
+                      - **letzte am** ^oid-MfAGKqev
+                      - **Anzahl gesamt** ^oid-L3SwuGp3
+                    - **Oxalsäure verdampft** ^oid-Ii0NrNTr
+                      - **erste am** ^oid-DKjiAuPm
+                      - **letzte am** ^oid-64m6SEOR
+                      - **Anzahl gesamt** ^oid-NeJ9iuLz
+                    - **Apistan** ^oid-5RPEAJs3
+                      - **erste am** ^oid-1PuTB8vV
+                      - **letzte am** ^oid-BWzxVeyj
+                      - **Anzahl gesamt** ^oid-ARE62r0K
+                    - **Milchsäure** ^oid-09lTiWrk
+                      - **erste am** ^oid-qxVCbsaM
+                      - **letzte am** ^oid-sTISE3ue
+                      - **Anzahl gesamt** ^oid-2fgiPuR3
+                    - **Bienenwohl** ^oid-bXoUvC3T
+                      - **erste am** ^oid-rRLVPfZe
+                      - **letzte am** ^oid-ITR3vx0B
+                      - **Anzahl gesamt** ^oid-racQjp0p
+                    - **Perizin** ^oid-JI3dzvqQ
+                      - **erste am** ^oid-zItKGIUm
+                      - **letzte am** ^oid-mVdTnPFP
+                      - **Anzahl gesamt** ^oid-D7cJIeIT
+                    - **Hiveclean** ^oid-t5jwOkBU
+                      - **erste am** ^oid-SBhcAZZf
+                      - **letzte am** ^oid-cb7UkyA5
+                      - **Anzahl gesamt** ^oid-ikB6WDT3
+                    - **andere** ^oid-UjzWo5go
+                      - **erste am** ^oid-056gLgSG
+                      - **letzte am** ^oid-1NZCVGQX
+                      - **Anzahl gesamt** ^oid-g7BrXCUY
+                - **Winterfütterung** ^oid-pOnuUg1I
+                  - **eingewintert am** ^oid-lqtfAIpk
+                    - **Anzahl** ^oid-Aw96cDHO
+                    - **Datum Einwinterung** ^oid-bIIIIXl7
+                  - **ausgewintert am** ^oid-6Dol52T8
+                    - **Anzahl** ^oid-5zC22DLY
+                    - **Datum Auswinterung** ^oid-e5btdoKQ
+                  - **Zucker** ^oid-c0szj7Af
+                    - **Anzahl** ^oid-DizmmFNE
+                    - **Kaufpreis** ^oid-XpbDYS0l
+                  - **Honig** ^oid-DgPC14zl
+                    - **Anzahl** ^oid-6XLntkY9
+                    - **Kaufpreis** ^oid-Q27Yj9cE
+                  - **Apiinvert** ^oid-9iOxND4r
+                    - **Anzahl** ^oid-yNQLO4iD
+                    - **Kaufpreis** ^oid-cmafpLnS
+                  - **sonstige** ^oid-CXctW205
+                    - **Produktname** ^oid-17WpMZR2
+                      - **Chargennumme** ^oid-9ZBbv1rW
+                      - **Produktdatenblatt beilegen** ^oid-1u8nczto
+                  - **Zusätze zur Fütterung** ^oid-q5X9U1E1
+            - **eingewinterte Völker** ^oid-YYYPJNxI
+              - **Datum** ^oid-e9mP9JT5
+              - **Anzahl** ^oid-mnRWAk5S
+            - **ausgewinterte Völker** ^oid-BGYJFHUr
+              - **Datum** ^oid-zyHagI7Z
+              - **Anzahl** ^oid-lNAaBPf7
+          - **Wetter** ^oid-NQfupeNT
+            - **Prognose** ^oid-Dxjs27GM
+              - **5-tages Prognose** ^oid-uz0MDemI
+                - **Temperatur** ^oid-4cc3kbEH
+                - **Art** ^oid-epVIcjE8
+                  - **Sonnig** ^oid-ZLTeDedM
+                  - **Heiter** ^oid-qDggpU9m
+                  - **Bedeckt** ^oid-AWEYIa7U
+                  - **Regen** ^oid-18kIH8lg
+                - **Produktion** ^oid-5us2wPzU
+                  - **zu kalt** ^oid-MFG90Kho
+                    - **11-20°C** ^oid-T3KDfxEw
+                  - **Optimal** ^oid-FyuG3hXI
+                    - **20-25°C** ^oid-6QlGLmdW
+                  - **zu warm** ^oid-e18h0COo
+                    - **25-36°C** ^oid-yhltXPAU
+                  - **Regen** ^oid-D1y8BHOO
+                - **Warnung** ^oid-fFYMRCRw
+                  - **erstarrt** ^oid-6ivFttrn
+                    - **7 - 10°C** ^oid-DEBUStHH
+                  - **Unwetter** ^oid-YlNYBRpB
+                  - **Hitzefrei** ^oid-yxmXeTfm
+                    - **37°C** ^oid-XFjdpaS3
+        - **Wanderstände** ^oid-uzsCtmNE
+          - **ja** ^oid-qVE3qxhV
+            - **Volk 1-n** ^oid-DYr7tkDV
+              - **von - bis** ^oid-8hpHrsCQ
+                - **tt.mm** ^oid-d5vn0Oyt
+                - **tt.mm** ^oid-AXaLr26U
+              - **Standplatz** ^oid-ZWnSIPNM
+                - **Name** ^oid-Z4oWq5vk
+                - **GPS** ^oid-ln2mH6Ho
+              - **Tracht** ^oid-jkvrP4Ad
+              - **Erntemenge** ^oid-tUtjQPHy
+            - **Anzahl gesamt** ^oid-hM0kYglx
+          - **nein** ^oid-8IGTY47M
+  - **Bestandmeldung** ^oid-swQrTAHm
+    - **Aufenthaltsorte** ^oid-8f36eTmI
+    - **LFBIS-Nummer** ^oid-ssDleYyo
+    - **Behördliche Kontrollorgane** ^oid-iIn9sv0L
+    - **Betreiber des VIS** ^oid-ADU5Nlvn
+    - **Betreiber** ^oid-gCfhNB3b
+      - **Verfügungsberechtigter über einen Bienenstand** ^oid-zBJkJO5R
+    - **Behördliche Kontrollorgane** ^oid-HQxWy4Q8
+    - **Betriebstypen** ^oid-0orGWj8j
+      - **Landwirtschaft / Tierhalter / Bienen / Bienenstand** ^oid-b4sxkNU2
+      - **Landwirtschaft / Tierhalter / Bienen / einmaliger Wanderbienenstand)** ^oid-TO7VyVbc
+      - **Datum der Aufnahme bzw. Beendigung des jeweiligen Betriebstyps** ^oid-PViIar2r
+    - **Bienenstand** ^oid-d7CcbPAF
+      - **Stand 1-n** ^oid-iPSDKYI7
+        - **VIS-Registrierungsnummer** ^oid-BaTD4IIU
+        - **Adresse** ^oid-gMRhLjJJ
+          - **Straße** ^oid-94yPmArJ
+          - **Hausnummer** ^oid-cNPxt8TZ
+          - **PLZ** ^oid-ImG9REcv
+          - **Ort** ^oid-MNdc9cHL
+        - **Koordinaten** ^oid-vo2rt7Oj
+          - **X** ^oid-mxz62AV3
+          - **Y** ^oid-9Mbs6smg
+    - **Jährliche Erhebungen** ^oid-hyZSPvXg
+      - **Anzahl der insgesamt betreuten Bienenstöcke zu den jeweiligen Erhebungsstichtagen (Datumsangabe) jeden Jahres.“** ^oid-xTPFi3bb
+  - **News** ^oid-pzXop2A7
+    - **Verband** ^oid-3Ap7BdB5
+    - **Verein** ^oid-1h2TG4N9

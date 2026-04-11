@@ -1,0 +1,291 @@
+---
+type: raw-mmap
+map_id: "FLATrace Kalk 5.0"
+source: "01_input/FLATrace/Archiv/FLATrace Kalk 5.0.mmap"
+imported_at: 2026-04-11
+node_count: 253
+max_depth: 5
+has_custom_props: true
+has_links: true
+has_notes: false
+has_icons: true
+icons:
+  - ArrowRight
+custom_property_names:
+  - "----------"
+  - "----------------"
+  - "Beschreibung"
+  - "CFF id"
+  - "CFF name"
+  - "Titel"
+tags:
+  - mmap/raw
+  - mmap/FLATrace
+---
+
+# FLATrace Kalk 5.0
+
+- **FLATrace Kalk 5.0** `Titel=Immobilien Kosten Kalkulator auf Basis von Durchschnittspreise` `Beschreibung=Ankaufs-, Bau-, Hypothek-, Verkaufs-, Miet-, Betriebs-, Laufende -, Haushaltskosten | Bau-, Nutzwert | Vorsorgewohnung | Miet-Minderung | Heizkosten` `----------------=` `CFF id=241` `CFF name=MENU_0.0_HOME` ^oid-GcG8FavG
+  - **KALKULATOREN** `Titel=Was ist die Immobilie wert? Welche Immobilien - Nebenkosten gibt es?` `Beschreibung=Egal ob Kauf - Nebenkosten, Verkauf - Nebenkosten, Baukosten, Sanierungskosten hier können Sie die Immobilien - Nebenkosten selbst schätzen.` ^oid-zvxuTPMR
+    - **Ankauf** `Titel=Ankaufkosten: Die beim Kauf einer Immobilie anfallenden Kosten` `Beschreibung=Kaufpreis Nebenkosten Kaufvertragerrichtung Grunderwerbssteuer Eintragungsgebühr Notar- / Gerichtsbebühr Vermittlungskosten Reserven` [icon:ArrowRight] ^oid-E2dp3KcQ
+      - **Grundstück** `Titel=Ankauf Grundstück Nebenkosten Rechner - Online und Gratis` `Beschreibung=GRUNDSTÜCK KAUF NEBENKOSTEN - Kaufvertragerrichtung Grunderwerbssteuer Eintragungsgebühr Notar- / Gerichtsbebühr Vermittlungskosten- Online und Gratis` `----------=` `CFF id=149` `CFF name=1.1_KALK_ANKAUF_GST` [icon:ArrowRight] ^oid-Wli3i5K8
+        - **Design** ^oid-HaeitsXm
+        - **Daten** ^oid-s4uyJXaD
+        - **Drucken** ^oid-uD1d2iW4
+        - **Exposé** ^oid-KPJu5cdf
+      - **Einfamilienhaus** `Titel=Ankauf Haus Nebenkosten Rechner - Online und Gratis` `Beschreibung=HAUS KAUF NEBENKOSTEN - Kaufvertragerrichtung Grunderwerbssteuer Eintragungsgebühr Notar- / Gerichtsbebühr Vermittlungskosten- Online und Gratis` `----------=` `CFF id=150` `CFF name=1.2_KALK_ANKAUF_EFH` [icon:ArrowRight] ^oid-tT3T2bSV
+        - **Design** ^oid-RJKP2I8U
+        - **Daten** ^oid-aRgdlcst
+        - **Drucken** ^oid-tPOUqY2m
+        - **Exposé** ^oid-aGPMlao7
+      - **Wohnung** `Titel=Ankauf Haus Nebenkosten Rechner` `Beschreibung=WOHNUNG KAUF NEBENKOSTEN - Kaufvertragerrichtung Grunderwerbssteuer Eintragungsgebühr Notar- / Gerichtsbebühr Vermittlungskosten- Online und Gratis` `----------=` `CFF id=155` `CFF name=1.3_KALK_ANKAUF_WHG` [icon:ArrowRight] ^oid-1iAASwBa
+        - **Design** ^oid-n20ZArGa
+        - **Daten** ^oid-7i29GbT1
+        - **Drucken** ^oid-nKJXH8ak
+        - **Exposé** ^oid-7iMFI8LL
+    - **Baukosten** `Titel=Kostenrechner für Neubau, Umbau, Sanierung - Häusern / Wohnungen` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` [icon:ArrowRight] ^oid-DoNIEjEg
+      - **Neubau** `Titel=Immobilien Neubau - Kosten - Rechner | Online und gratis` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` `----------=` `CFF id=159` `CFF name=2.1_KALK_NEUBAU` [icon:ArrowRight] ^oid-pMiparE2
+        - **Design** ^oid-tpFjRPA9
+        - **Daten** ^oid-gIOzv98C
+        - **Drucken** ^oid-d52T82Il
+        - **Exposé** ^oid-wU9Wfkyd
+      - **Sanierung** `Titel=Immobilien Umbau / Sanierung - Kosten - Rechner | Online und gratis` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` `----------------=` `CFF id=` `CFF name=` ^oid-I1Uki4jX
+        - **Design** ^oid-trzhOruE
+        - **Daten** ^oid-rNYwq1D4
+        - **Export** ^oid-ENtYURrD
+    - **Finanzierungskosten** `Titel=Immobilien Hypothek - Kosten - Rechner | Online und gratis` `Beschreibung=Finanzierungsbetrag /Hypothek, Laufzeit, Zinssatz, Bearbeitungsgebühr, Pfandrechtsgebühr, Pfandrechtbetrag, Kontogebühren, Gutachter` [icon:ArrowRight] ^oid-2XflY7UL
+      - **Hypothek** `Titel=Immobilien Hypothek - Kosten - Rechner | Online und gratis` `Beschreibung=Finanzierungsbetrag /Hypothek, Laufzeit, Zinssatz, Bearbeitungsgebühr, Pfandrechtsgebühr, Pfandrechtbetrag, Kontogebühren, Gutachter` [icon:ArrowRight] ^oid-5XBr46ah
+        - **Design** ^oid-RKvZE3aN
+        - **Daten** ^oid-GDoUMzus
+        - **Drucken** ^oid-35IDD99D
+        - **Exposé** ^oid-KdnY28X0
+      - **Raten** `Titel=Immobilien Hypothek - Kosten - Rechner | Online und gratis` `Beschreibung=Immobilien Hypothek - Kosten für Zinsen, Tilgung pro Monat ermitteln` [icon:ArrowRight] ^oid-TomSb2kg
+        - **Design** ^oid-NzudTmZM
+        - **Daten** ^oid-GP15gLE0
+        - **Drucken** ^oid-RQckfzzB
+        - **Exposé** ^oid-ACGp3XGw
+      - **Betrag** `Titel=Immobilien Hypothek - Kosten - Rechner Grundlagen | Online und gratis` `Beschreibung=Finanzierungsrechner zur Ermittlung der Rate, Dauer, Betrag` [icon:ArrowRight] ^oid-5oEHUPkp
+        - **Design** ^oid-fjugju7r
+        - **Daten** ^oid-waE9DgDG
+        - **Drucken** ^oid-MJEBWm9J
+        - **Exposé** ^oid-jkNAYEMH
+    - **Verkaufskosten** `Titel=Welche Kosten fallen beim Verkauf einer Immobilie an?` `Beschreibung=VERKAUFSPREIS abzüglich Energieausweis, Vermarktung, Rechtsberatung, Gutachten, Berechnung ImmoEst, Sonstige Spesen` [icon:ArrowRight] ^oid-qj6ZT2xS
+      - **Grundstück** `Titel=Verkauf Grundstück Nebenkosten Rechner - Online und Gratis` `Beschreibung=GRUNDSTÜCK VERKAUFS-NEBENKOSTEN - Energieausweis, Vermarktung, Rechtsberatung, Gutachten, Berechnung ImmoEst, Reserven` ^oid-6RNFUCoj
+        - **Design** ^oid-BPenJ3a2
+        - **Daten** ^oid-dnUtE3g2
+        - **Drucken** ^oid-TdCpjKfC
+        - **Exposé** ^oid-IccJCB2F
+      - **Einfamilienhaus** `Titel=Verkauf Haus Nebenkosten Rechner - Online und Gratis` `Beschreibung=EINFAMILIENHAUS VERKAUFS-NEBENKOSTEN - Energieausweis, Vermarktung, Rechtsberatung, Gutachten, Berechnung ImmoEst, Reserven` ^oid-CSxQx8yh
+        - **Design** ^oid-1yEKqT8h
+        - **Daten** ^oid-K8IEK9L7
+        - **Drucken** ^oid-GGoBOAmG
+        - **Exposé** ^oid-SHZucsCU
+      - **Wohnung** `Titel=Verkauf Wohnung Nebenkosten Rechner - Online und Gratis` `Beschreibung=WOHNUNG VERKAUFS-NEBENKOSTEN - Energieausweis, Vermarktung, Rechtsberatung, Gutachten, Berechnung ImmoEst, Reserven` ^oid-sjvPQA3Z
+        - **Design** ^oid-hVFJr8G4
+        - **Daten** ^oid-byO5cfy2
+        - **Drucken** ^oid-izmO8bFU
+        - **Exposé** ^oid-jRiM5DrY
+    - **Mietkosten** `Titel=Kostenrechner für Neubau, Umbau, Sanierung - Häusern / Wohnungen` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` ^oid-YHbRTETW
+      - **Wohnung** `Titel=Immobilien Wohnung Sanierung - Kosten - Rechner | Online und gratis` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` ^oid-bJy8Dd1C
+        - **Design** ^oid-H1RmLBlM
+        - **Daten** ^oid-KioWcIKa
+        - **Export** ^oid-ctxowVHa
+      - **Haus** `Titel=Immobilien Umbau / Sanierung - Kosten - Rechner | Online und gratis` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` ^oid-lBjyFeT7
+        - **Design** ^oid-gzKvsQqR
+        - **Daten** ^oid-rI6f7s71
+        - **Export** ^oid-k3O0qFOF
+    - **Betriebskosten** `Titel=Kostenrechner für Neubau, Umbau, Sanierung - Häusern / Wohnungen` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` ^oid-KQPDtGZa
+      - **Wohnung** `Titel=Immobilien Wohnung Sanierung - Kosten - Rechner | Online und gratis` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` ^oid-Y5TB8yI2
+        - **Design** ^oid-Q3uB7SNj
+        - **Daten** ^oid-N2ldnDwd
+        - **Export** ^oid-z1uviYpE
+      - **Haus** `Titel=Immobilien Umbau / Sanierung - Kosten - Rechner | Online und gratis` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` ^oid-EnRAQTjA
+        - **Design** ^oid-W0zIpjEn
+        - **Daten** ^oid-MUnNVNOq
+        - **Export** ^oid-U3n0rhhU
+    - **Laufende Kosten** `Titel=Kostenrechner für Neubau, Umbau, Sanierung - Häusern / Wohnungen` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` ^oid-B1rlZ52j
+      - **Wohnung** `Titel=Immobilien Wohnung Sanierung - Kosten - Rechner | Online und gratis` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` ^oid-gGrRF3sg
+        - **Design** ^oid-KlkVJEXE
+        - **Daten** ^oid-zGoM1EaG
+        - **Drucken** ^oid-xit3Wnjf
+        - **Exposé** ^oid-AxiEUnAP
+      - **Haus** `Titel=Immobilien Umbau / Sanierung - Kosten - Rechner | Online und gratis` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` ^oid-IYqJk6KY
+        - **Design** ^oid-MMMFq172
+        - **Daten** ^oid-C9pZcn5n
+        - **Export** ^oid-NVCbythJ
+  - **ALL-IN-ONE** ^oid-xrL74bQq
+    - **All-in-One** `Titel=Was ist die Immobilie wert? Welche Immobilien - Nebenkosten gibt es?` `Beschreibung=Egal ob Kauf - Nebenkosten, Verkauf - Nebenkosten, Baukosten, Sanierungskosten hier können Sie die Immobilien - Nebenkosten selbst schätzen.` ^oid-kEqyL6pr
+      - **Grundstück kaufen** `Titel=Ankauf Grundstück Nebenkosten Rechner - Online und Gratis` `Beschreibung=GRUNDSTÜCK KAUF NEBENKOSTEN - Kaufvertragerrichtung Grunderwerbssteuer Eintragungsgebühr Notar- / Gerichtsbebühr Vermittlungskosten- Online und Gratis` ^oid-J0US3RP5
+        - **Design** ^oid-oTetO2dG
+        - **Daten** ^oid-oNAlm2r1
+        - **Drucken** ^oid-NKIjCNLq
+        - **Exposé** ^oid-oGRnyeGQ
+      - **Einfamilienhaus kaufen** `Titel=Ankauf Haus Nebenkosten Rechner - Online und Gratis` `Beschreibung=HAUS KAUF NEBENKOSTEN - Kaufvertragerrichtung Grunderwerbssteuer Eintragungsgebühr Notar- / Gerichtsbebühr Vermittlungskosten- Online und Gratis` ^oid-iI7Lhhdb
+      - **Wohnung kaufen** `Titel=Ankauf Haus Nebenkosten Rechner` `Beschreibung=WOHNUNG KAUF NEBENKOSTEN - Kaufvertragerrichtung Grunderwerbssteuer Eintragungsgebühr Notar- / Gerichtsbebühr Vermittlungskosten- Online und Gratis` ^oid-ovEW1WtC
+    - **Bauwert** `Titel=Immobilien Durchschnittspreise auf Gemeindeniveau` `Beschreibung=Übersichtliche Darstellung der Immobilien Preise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos` ^oid-BJvvwLBd
+      - **Einfamilienhaus** `Titel=` `Beschreibung=` ^oid-8P4tS1dS
+        - **Design** ^oid-sW5nfzoO
+        - **Daten** ^oid-prh9u1D5
+        - **Export** ^oid-71ZCKz2H
+    - **Haushaltskosten** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-5F6c6xiA
+      - **Design** ^oid-fnq9cPub
+      - **Daten** ^oid-Ct8mHBSw
+      - **Export** ^oid-F6E8N5Jx
+    - **Vorsorgewohnung** `Titel=` `Beschreibung=` ^oid-I8kjRUzb
+      - **Design** ^oid-VCVRUAtY
+      - **Daten** ^oid-Cgj3frkQ
+      - **Export** ^oid-k4YnCrNQ
+    - **Quick Kalkulator** `Titel=Immobilien Durchschnittspreise auf Gemeindeniveau` `Beschreibung=Übersichtliche Darstellung der Immobilien Preise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos` ^oid-ZQrmjQEE
+    - **Heizkosten** `Titel=` `Beschreibung=` ^oid-xjE7pOmW
+    - **Mieten vs Kaufen** `Titel=` `Beschreibung=` ^oid-TnfwHy9b
+  - **HAUSVERSTAND** ^oid-4vcsNoLw
+    - **Zinsen** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-9ubsKuo8
+      - **Valuta vs Buchungsdatum** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-IgTcPYWJ
+        - **Design** ^oid-TWT8qEfe
+        - **Daten** ^oid-almt5Mu6
+        - **Export** ^oid-Iwvml7hF
+    - **Mietzinsminderung** `Titel=Kostenrechner für Neubau, Umbau, Sanierung - Häusern / Wohnungen` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` [http://flat-race.eu/kalkulator/baukosten/](http://flat-race.eu/kalkulator/baukosten/) ^oid-OiAoaMZv
+      - **Haus** `Titel=Immobilien Umbau / Sanierung - Kosten - Rechner | Online und gratis` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` [http://flat-race.eu/kalkulator/baukosten/neubau/](http://flat-race.eu/kalkulator/baukosten/neubau/) ^oid-9kyqk8Cv
+      - **Wohnung** `Titel=Immobilien Wohnung Sanierung - Kosten - Rechner | Online und gratis` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` [http://flat-race.eu/kalkulator/baukosten/wohnung](http://flat-race.eu/kalkulator/baukosten/wohnung) ^oid-2wMDfCnP
+    - **Dienstleistungen** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-8au1xIWA
+      - **Vertragserrichtung** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-OkvrI06W
+        - **Design** ^oid-xyfVMhnb
+        - **Daten** ^oid-MlzpHTkv
+        - **Export** ^oid-obB7RC5k
+      - **Finanzierung** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-DjiHDhDu
+        - **Design** ^oid-BpiWfjBp
+        - **Daten** ^oid-fET37RBf
+        - **Export** ^oid-WlEdSLuP
+      - **Makler** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-DktcUfRj
+        - **Design** ^oid-PU6u8WMz
+        - **Daten** ^oid-pklOT2ub
+        - **Export** ^oid-H6pWljsQ
+      - **Finanzdienstleister** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-AOmH8fFM
+        - **Design** ^oid-tndh966X
+        - **Daten** ^oid-u5bTz4ow
+        - **Export** ^oid-UnMBAqiU
+    - **ÖKOLOGIE** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-7hhug1Hy
+      - **Rohbau** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-PMuD4UFn
+        - **Design** ^oid-P78ZG3Vk
+        - **Daten** ^oid-SWJ2fEYf
+        - **Export** ^oid-HfUjmimd
+      - **Ausbau** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-vkxzODLR
+        - **Design** ^oid-Tq4XElQL
+        - **Daten** ^oid-V84izhvi
+        - **Export** ^oid-kEXH06LL
+  - **FLAT-CHECK** ^oid-Sq4vGIMU
+    - **Mietzinsminderung** `Titel=Kostenrechner für Neubau, Umbau, Sanierung - Häusern / Wohnungen` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` [http://flat-race.eu/kalkulator/baukosten/](http://flat-race.eu/kalkulator/baukosten/) ^oid-Djmbx76U
+      - **Haus** `Titel=Immobilien Umbau / Sanierung - Kosten - Rechner | Online und gratis` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` [http://flat-race.eu/kalkulator/baukosten/neubau/](http://flat-race.eu/kalkulator/baukosten/neubau/) ^oid-DnvP3q3Z
+      - **Wohnung** `Titel=Immobilien Wohnung Sanierung - Kosten - Rechner | Online und gratis` `Beschreibung=Allgemein Baumaßnahmen, Aufschließung, Rohbau, Keller, Rohbauwerk, Ausbau, Innenausbau, Einrichtung, Aussenanlagen, Planung, Baunebenkosten` [http://flat-race.eu/kalkulator/baukosten/wohnung](http://flat-race.eu/kalkulator/baukosten/wohnung) ^oid-yNAqh5W0
+    - **Ø-Preise - Eigentum** `Titel=Immobilien Durchschnittspreise auf Gemeindeniveau` `Beschreibung=Übersichtliche Darstellung der Immobilien Preise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos` ^oid-MS4W6owN
+      - **Grundstück** `Titel=` `Beschreibung=` ^oid-uHhCDVcB
+        - **Grundstückskosten pro m²** `Titel=Durchschnittspreise für Baugrundstücke auf Gemeindeniveau` `Beschreibung=Übersichtliche grafische Darstellung der Immobilien Preise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos [Flatrace Rechner]` ^oid-qUDWJ51S
+          - **Design** ^oid-CtzIIREL
+          - **Daten** ^oid-cPrFUHwL
+          - **Export** ^oid-tcpUKXcG
+        - **Einfamilienhaus pro m²** `Titel=Durchschnittspreise für Einfamilienhäuser auf Gemeindeniveau` `Beschreibung=Übersichtliche grafische Darstellung der Immobilienpreise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos [Flatrace Rechner]` ^oid-F1jPwDxg
+          - **Design** ^oid-Gd8GU2LJ
+          - **Daten** ^oid-TlVWzJge
+          - **Export** ^oid-AQzwvB1Q
+        - **Wohnung pro m²** `Titel=Durchschnittspreise für Wohnungen auf Gemeindeniveau` `Beschreibung=Übersichtliche grafische Darstellung der Immobilienpreise Österreichs auf Gemeindeebene pro m² - Online Kostenlos [Flatrace Rechner]` ^oid-BDkpEdjr
+          - **Design** ^oid-mdUzZGGs
+          - **Daten** ^oid-txc2HZbk
+          - **Export** ^oid-M7vTZgTL
+        - **Design** ^oid-Lqfqv5Ky
+        - **Daten** ^oid-zrayHugT
+      - **Haus** `Titel=` `Beschreibung=` ^oid-Xo3hNezw
+        - **Grundstückskosten pro m²** `Titel=Durchschnittspreise für Baugrundstücke auf Gemeindeniveau` `Beschreibung=Übersichtliche grafische Darstellung der Immobilien Preise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos [Flatrace Rechner]` ^oid-GzvG1odA
+          - **Design** ^oid-zcW0kK4E
+          - **Daten** ^oid-Oo9v7BQb
+          - **Export** ^oid-apvHSwAM
+        - **Einfamilienhaus pro m²** `Titel=Durchschnittspreise für Einfamilienhäuser auf Gemeindeniveau` `Beschreibung=Übersichtliche grafische Darstellung der Immobilienpreise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos [Flatrace Rechner]` ^oid-46tfymuO
+          - **Design** ^oid-WisLQmj1
+          - **Daten** ^oid-lpE1sLA6
+          - **Export** ^oid-NLZlTvMl
+        - **Wohnung pro m²** `Titel=Durchschnittspreise für Wohnungen auf Gemeindeniveau` `Beschreibung=Übersichtliche grafische Darstellung der Immobilienpreise Österreichs auf Gemeindeebene pro m² - Online Kostenlos [Flatrace Rechner]` ^oid-bRC6XUJ3
+          - **Design** ^oid-tHyBhhAF
+          - **Daten** ^oid-Mqt0fdP7
+          - **Export** ^oid-GMlx5RHG
+        - **Design** ^oid-bLlO3r5r
+        - **Daten** ^oid-GvKnoKB9
+      - **Wohnung** `Titel=` `Beschreibung=` ^oid-B5HH1WyU
+        - **Grundstückskosten pro m²** `Titel=Durchschnittspreise für Baugrundstücke auf Gemeindeniveau` `Beschreibung=Übersichtliche grafische Darstellung der Immobilien Preise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos [Flatrace Rechner]` ^oid-CHVfd1cy
+          - **Design** ^oid-kQzOyRYy
+          - **Daten** ^oid-Tbr7BKcu
+          - **Export** ^oid-QoO3bwm0
+        - **Einfamilienhaus pro m²** `Titel=Durchschnittspreise für Einfamilienhäuser auf Gemeindeniveau` `Beschreibung=Übersichtliche grafische Darstellung der Immobilienpreise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos [Flatrace Rechner]` ^oid-VUZVcX7S
+          - **Design** ^oid-AXUyXwfH
+          - **Daten** ^oid-k29xI2vY
+          - **Export** ^oid-pyPtOfak
+        - **Wohnung pro m²** `Titel=Durchschnittspreise für Wohnungen auf Gemeindeniveau` `Beschreibung=Übersichtliche grafische Darstellung der Immobilienpreise Österreichs auf Gemeindeebene pro m² - Online Kostenlos [Flatrace Rechner]` ^oid-jAFsDR6I
+          - **Design** ^oid-ULV5UUSG
+          - **Daten** ^oid-WqLytLbo
+          - **Export** ^oid-nfvs5az2
+        - **Design** ^oid-6NZLTZOV
+        - **Daten** ^oid-PcnazEes
+    - **Miete** `Titel=` `Beschreibung=` ^oid-kBcsWQ6Z
+      - **Miet-Einfamilienhaus pro m²** `Titel=Durchschnittspreise für Miet Hauser auf Gemeindeniveau in Österreich` `Beschreibung=Übersichtliche grafische Darstellung der Immobilienpreise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos [Flatrace Rechner]` [http://flat-race.eu/o-preise/gemeinden/miete/einfamilienhaus/](http://flat-race.eu/o-preise/gemeinden/miete/einfamilienhaus/) ^oid-eaKNl7fS
+        - **Design** ^oid-u3hvS3JA
+        - **Daten** ^oid-HXACe0xY
+        - **Export** ^oid-Tfopkr1J
+      - **Mietwohnung pro m²** `Titel=Durchschnittspreise für Mietwohnungen auf Gemeindeniveau in Österreich` `Beschreibung=Übersichtliche grafische Darstellung der Immobilien Preise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos [Flatrace Rechner]` [http://flat-race.eu/o-preise/gemeinden/eigentum/wohnung/](http://flat-race.eu/o-preise/gemeinden/eigentum/wohnung/) ^oid-HCOrynjv
+        - **Design** ^oid-SahBucNn
+        - **Daten** ^oid-X5l8dOhg
+        - **Export** ^oid-Ec3k3ORD
+    - **FLAT-CHECK** `Titel=` `Beschreibung=` ^oid-qHNRc9Fu
+      - **Einfamilienhaus kaufen vs. mieten** `Titel=Verhältnis zwischen Haus kaufen und Haus mieten` `Beschreibung=Kaufpreis plus Kaufpreis Nebenkosten  dividiert durch Miete pro Jahr ist der FLAT-CHECK` [http://flat-race.eu/o-preise/gemeinden/flat-check/einfamilienhaus/](http://flat-race.eu/o-preise/gemeinden/flat-check/einfamilienhaus/) ^oid-qYSERBbQ
+        - **Design** ^oid-sYmgMWmE
+        - **Daten** ^oid-Ll8M42T0
+        - **Export** ^oid-Lkhe8kxz
+      - **Wohnung kaufen vs. mieten** `Titel=Durchschnittspreise für Mietwohnungen auf Gemeindeniveau in Österreich` `Beschreibung=Kaufpreis + Kaufpreis Nebenkosten  /  Miete pro Jahr = FLAT-CHECK` [http://flat-race.eu/o-preise/gemeinden/flat-check/wohnung/](http://flat-race.eu/o-preise/gemeinden/flat-check/wohnung/) ^oid-451ynvUE
+        - **Design** ^oid-SAI8oPoY
+        - **Daten** ^oid-Fg8jgI0Q
+        - **Export** ^oid-INpyTdFg
+  - **WIKI** ^oid-GDHcfyKU
+    - **FRAGEN & ANTWORTEN** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-l08kSm1z
+      - **Design** ^oid-cJk4KpoX
+      - **Daten** ^oid-Ov3fPcKY
+      - **Export** ^oid-fTYkNcqm
+    - **[R]EVOLUTION** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-newn4Se4
+      - **BLOG** `Titel=Welche Kosten fallen beim Verkauf einer Immobilie an?` `Beschreibung=VERKAUFSPREIS abzüglich Energieausweis, Vermarktung, Rechtsberatung, Gutachten, Berechnung ImmoEst, Sonstige Spesen` ^oid-XFQYCROw
+        - **Design** ^oid-VVKUGUMz
+        - **Daten** ^oid-HmATFDIm
+        - **Export** ^oid-rhbqciV3
+      - **Frag SPARTACUS** `Titel=Immobilien Durchschnittspreise auf Gemeindeniveau` `Beschreibung=Übersichtliche Darstellung der Immobilien Preise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos` ^oid-7CGLdbmc
+        - **Design** ^oid-gIZoBy1M
+        - **Daten** ^oid-KJITQssM
+        - **Export** ^oid-vMOdGMFf
+    - **NEWSLETTER** `Titel=Immobilien Durchschnittspreise auf Gemeindeniveau` `Beschreibung=Übersichtliche Darstellung der Immobilien Preise auf Bezirks- und Gemeinde-Ebene pro m² in Österreich - Online Kostenlos` ^oid-sImenf7F
+      - **Design** ^oid-oYOrtvT7
+      - **Daten** ^oid-W9VbMynK
+      - **Export** ^oid-Zj72z5C5
+  - **HOME** ^oid-HoZEsYQK
+    - **PRÄSENTATION** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-HfNZzKU7
+    - **FAQs** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-XGb3cepB
+    - **FEEDBACK** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-SOjswQ5p
+    - **KONTAKT** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-0S24Lvs1
+    - **TICKET** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-69sXgEgO
+    - **SUPPORT** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-TqPjUYVL
+    - **IMPRESSUM** `Titel=` `Beschreibung= ` ^oid-9wNA8tND
+    - **BESCHREIBUNG** `Titel=` `Beschreibung=` ^oid-WiGlLc8d
+    - **ÜBERSICHT** `Titel=` `Beschreibung=` ^oid-T4vfLJrR
+  - **BASIC** ^oid-0XGzBYwT
+    - **KALKULATOREN** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-C3O0KFqm
+    - **EXPORT.pdf** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-Qs8zzcIu
+    - **KOSTEN** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-uUZFkxnR
+    - **REGISTRIERUNG** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-d0UJFOVU
+    - **DATENSPEICHERUNG** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-sJOOkQ8T
+    - **DOWNLOADS** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-qGvyPSiM
+    - **UPLOADS** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-LLj5FTLf
+    - **TRACKING** `Titel=Flat race Immobilien Nebenkosten hinterlegt mit Durchschnittswerten` `Beschreibung=ab Jänner 2018 - Immobilien Manager mit Onlineportal ` ^oid-bIxqGsuu
+
+## Custom Property Index
+
+| Property | Topic count |
+|---|---|
+| Titel | 94 |
+| Beschreibung | 94 |
+| CFF id | 6 |
+| CFF name | 6 |
+| ---------- | 4 |
+| ---------------- | 2 |

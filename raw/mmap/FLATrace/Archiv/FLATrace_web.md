@@ -1,0 +1,180 @@
+---
+type: raw-mmap
+map_id: "FLATrace_web"
+source: "01_input/FLATrace/Archiv/FLATrace_web.mmap"
+imported_at: 2026-04-11
+node_count: 159
+max_depth: 5
+has_custom_props: false
+has_links: true
+has_notes: false
+has_icons: true
+icons:
+  - FlagGreen
+  - FlagYellow
+tags:
+  - mmap/raw
+  - mmap/FLATrace
+---
+
+# FLATrace_web
+
+- **FLATrace_web** ^oid-HKvhjqYA
+  - **do to** ^oid-MX9hl33S
+    - **power bi** ^oid-v9cHOywn
+      - **"Durchschnittswerte für Gemeinden sind .... verfügbar** ^oid-s3Leq4Ty
+  - **Home** ^oid-x6XSTVrx
+    - **SCREEN** [https://flat-race.eu/](https://flat-race.eu/) ^oid-FZOiB4fa
+      - **Kalkulatoren** ^oid-jACgPp27
+        - **Durchschnittspreis als Kalkulationsgrundlage** ^oid-2OyU7zCj
+        - **Nebenkosten Kalkulatoren** ^oid-eOF8cKhb
+        - **Datengrundlage bis auf Gemeinde-Ebene Minimum - Durchschnitt - Maximum** ^oid-SA0by3ZN
+        - **alle Werte überschreibbar teilweise ausdruckbar** ^oid-bhL24ph5
+        - **dynamische Berichte auf Bezirks-Ebene** ^oid-doQnJNji
+        - **Intension** ^oid-E26u88vt
+          - **Mit dieser Applikation beabsichtigen die Initiatoren  "Licht ins Dunkle"  der Immobilienwirtschaft zu bringen.   Der Benutzer soll auf möglichst  einfache Art und Weise eine Überblick und ein Gespür für Kosten  in Bezug auf das Grundbedürfnis "Wohnen" bekommen.  Alles ist nur so viel Wert wie jemand bereit ist dafür zu bezahlen.  Alle Angaben ohne Gewähr.** ^oid-IwxPxUo4
+      - **Manager** ^oid-uzkxqVTN
+        - **Objekte während des Webseite-Besuches anlegen** ^oid-hzeKQUej
+        - **alles ausdruckbar** ^oid-ZrBp3Z6s
+        - **ausgewählte Berichte bis auf das Gemeinden-Preis-Niveau** ^oid-nXDYd5ec
+        - **Intension** ^oid-RXLkP9AM
+      - **Projekt-Manager** ^oid-qkcXJdyd
+        - **Projekte werden gespeichert** ^oid-29M1FRkO
+        - **Exposés, Kaufvertrag, Mietverträge, Berichte erstellen** ^oid-KikqYT8c
+        - **dynamische Berichte auf Gemeinde-Ebene** ^oid-uOA2wV7r
+        - **Vergleichsplattform mit Kontaktmöglichkeit** ^oid-8gBfBfUp
+        - **Blog** ^oid-XuLb4gpd
+        - **Intension** ^oid-xylckOMp
+      - **Power BI** ^oid-zjRjfzvL
+        - **Eigentum** ^oid-tLv9ss8y
+        - **Miete** ^oid-qkhkuUPq
+        - **Nebenkosten** ^oid-vmqKn5Cc
+        - **Betriebskosten** ^oid-oR10DXn0
+        - **Unterhalt** ^oid-ecsc8dHg
+        - **Baukosten** ^oid-0UK2evs3
+      - **weitere Berichte** ^oid-GKYEnVDd
+        - **Eigentum** ^oid-ZpuL6VTN
+        - **Miete** ^oid-py44NwZt
+        - **Finanzierung** ^oid-s33uzDe0
+        - **Bau** ^oid-Orj8BsXr
+    - **AGBs** [https://flat-race.eu/home/agbs/](https://flat-race.eu/home/agbs/) ^oid-yUuHUCJg
+      - **Allgemeine Geschäftsbedingungen** ^oid-rL6fAkgU
+        - **FLATrace Immobilienplattform** ^oid-n2bF8kQR
+      - **Name** ^oid-V1WUVw2h
+      - **Domain** ^oid-R3vego24
+      - **Logo** ^oid-oZqlPyFH
+      - **Start** ^oid-ncaAOykU
+      - **KALKULATOREN** ^oid-Nbrkx8Ff
+      - **MANAGER** ^oid-sbSBiEiH
+      - **PROJEKT-MANAGER** ^oid-MzJ7ZRk3
+      - **Zweck** ^oid-xI0HreN1
+      - **Basis** ^oid-8cW48ic1
+      - **Funktionsweise** ^oid-CtDT2kME
+      - **Berechnungsgrundlage** ^oid-SAqPUEv4
+      - **Wesentliche Merkmale** ^oid-WQcHp62P
+      - **Rücktrittsrecht** ^oid-gLGMLnxU
+      - **Garantie** ^oid-F8HIyrOr
+      - **Laufzeit** ^oid-KceRRaV3
+      - **Mindestvertragsdauer** ^oid-cna00yVf
+      - **Kontakt** ^oid-M8YuBvDw
+      - **Wünsche, Anregungen, Beschwerden** ^oid-cNk52QYA
+      - **Datengrundlagen** ^oid-PVIedAvL
+      - **Motto** ^oid-P402SYaW
+    - **FAQs** [https://flat-race.eu/home/faqs/](https://flat-race.eu/home/faqs/) ^oid-a5SdXQh0
+      - **Was ist FLATrace?** ^oid-PaxKBGEU
+        - **FLATrace ist eine Applikation die es auch nicht fachkundigen Usern erlaubt Ermittlungen bzw. Überprüfungen von Immobilienpreisen anzustellen und zu erwartende Nebenkosten beim Ankauf, Verkauf, Mieten und Vermieten zu berechnen.** ^oid-WY3Tn0ig
+      - **Wie benutzt man FLATrace?** ^oid-REsdF039
+        - **FLATrace kann je nach Bedarf  zur selbstständig Kalkulation der (Wunsch-) Immobilie dienen, (dies umfasst sowohl Ankaufkosten, Baukosten, Unterhaltskosten etc.) oder aber auch dem Vergleich unterschiedlicher Angebot auf diversen Immobilienplattformen dient. Zusätzlich kann man sich anhand zahlreicher Darstellungen eine Übersicht über sämtliche Grundstücks- und Immobilienpreise österreichweit verschaffen.** ^oid-7Pu0IMiL
+      - **Woher sind die Daten?** ^oid-lvRyG2tQ
+        - **Die Daten basieren auf öffentliche Immobilienpreisspiegel unter besonderer Berücksichtigung der STATISTIK AUSTRIA.  Durch die Eingabe der PROJEKT-MANAGER-USER werden diese immer aktuell gehalten (Schwarmintelligenz und Normalverteilungsmethode helfen dabei)** ^oid-8HXQixKF
+      - **Wie aktuell sind die Daten?** ^oid-XVozmHT6
+        - **Im Bereich KALKULATOR und MANAGER werden die Daten voraussichtlich 1/4jährlich aktuallisiert. Im Bereich PROJEKT-MANAGER sollten es Echtzeitdaten sein.** ^oid-hBrg9KkP
+      - **Warum gibt es FLATrace?** ^oid-0uI9QLcJ
+        - **FLATrace soll mehr Transparenz in die Immobilienbranche bringen, damit auch der Laie mit einem gewissen Basiswissen ausgestattet wird und nicht so leicht übervorteilt werden kann.** ^oid-wnAObkjj
+      - **Warum passt der kalkulierte Wert passt nicht zu meinen Vorstellungen?** ^oid-E8vdDkWk
+        - **Da es sich bei den zur Verfügung gestellten Werten um Durchschnittswerte handelt, ist hier auf jeden Fall festzuhalten: ALLES IST NUR SO VIEL WERT, WIE JEMAND BEREIT IST DAFÜR ZU BEZALHLEN. Wie das bei einer Vielzahl anderer Waren der Fall ist, werden auch Immobilienpreise oft stark von emotionalen Faktoren bestimmt.** ^oid-9urfDwkk
+      - **Was ist der FLAT-CHECK?** ^oid-CC41ULWU
+        - **Der FLAT-CHECK ist eine Verhältniszahl, die darüber Auskunft gibt, inwieweit sich der Erwerb einer im Gegensatz zur Miete einer solchen rentiert. Je höher dieser Wert ist, desto mehr spricht, rein rechnericsch, dafür eine  Immobilie in dieser Gegend zu mieten.** ^oid-tJqix2Po
+    - **How to use** ^oid-QuHbr7mY
+    - **Begriffe** ^oid-X5VyG5MA
+    - **Feedback** [https://flat-race.eu/home/feedback/](https://flat-race.eu/home/feedback/) ^oid-izhY5PrF
+      - **Optik der Webseiten** ^oid-HGdvaJ6s
+      - **Übersicht des gesamten Web-Auftritts** ^oid-YRUWRGoi
+      - **Navigation der Webseiten** ^oid-h5yYB79U
+      - **Gebrauch der Kalkulator** ^oid-pe1Y5kCY
+      - **Gebrauch der Berichte** ^oid-K3fVXN0s
+      - **Nutzen der Kalkulatoren** ^oid-5F2LaNkL
+      - **Nutzen des Managers** ^oid-31Mlehl7
+      - **Nutzen eines möglichen Projekt-Managers** ^oid-iA3bF9ml
+      - **Wieviel würden Sie pro Monat bezahlen** ^oid-UX88aOqn
+      - **Würden Sie das Projekt unterstützen** ^oid-T0qXX8Xm
+      - **Sind Baukosten für Sie relevant** ^oid-uLgRuRz8
+      - **Ihre aktiv Mithilfe ( Vorschläge) zur Weiterentwicklung** ^oid-8Djz1Vtn
+    - **Kontakt** [https://flat-race.eu/home/kontakt/](https://flat-race.eu/home/kontakt/) ^oid-hSws7OSa
+    - **Supporter** ^oid-N96zbejp
+    - **Thank you** ^oid-w0oyjOWh
+  - **Supporter** [https://flat-race.eu/home/supporter/](https://flat-race.eu/home/supporter/) ^oid-ToX7ZDK1
+  - **Kalkulatoren** ^oid-0reTHfnF
+    - **Durchschnittspreise** ^oid-jFSjp1Os
+      - **DURCHSCHNITT** [https://flat-race.eu/kalkulator/preise/flatrace/](https://flat-race.eu/kalkulator/preise/flatrace/) [icon:FlagGreen] ^oid-R8cQII7r
+        - **Eigentum** ^oid-HBaPzduf
+        - **Miete** ^oid-OqmOh1sb
+      - **Übersicht** [https://flat-race.eu/kalkulator/preise/flatrace/uebersicht/](https://flat-race.eu/kalkulator/preise/flatrace/uebersicht/) [icon:FlagGreen] ^oid-oEHCD5xU
+      - **Grundstück** [https://flat-race.eu/kalkulator/preise/flatrace/grundstueck/](https://flat-race.eu/kalkulator/preise/flatrace/grundstueck/) [icon:FlagGreen] ^oid-9nwncXZy
+      - **Haus** [https://flat-race.eu/kalkulator/preise/flatrace/einfamilienhaus/](https://flat-race.eu/kalkulator/preise/flatrace/einfamilienhaus/) [icon:FlagGreen] ^oid-UYh8ihv4
+      - **Wohnung** [https://flat-race.eu/kalkulator/preise/flatrace/wohnung/](https://flat-race.eu/kalkulator/preise/flatrace/wohnung/) [icon:FlagGreen] ^oid-BOBi2YWJ
+    - **Ankaufskosten** ^oid-lMZtOw2k
+      - **ANKAUFKOSTEN** [https://flat-race.eu/kalkulator/ankauf/](https://flat-race.eu/kalkulator/ankauf/) [icon:FlagGreen] ^oid-UqS6wtJU
+        - **Nebenkosten Ankauf** ^oid-0lIyjUkW
+        - **Nebenkosten Miete** ^oid-MYLlhSFL
+        - **Angebot vs Abschläge** ^oid-TLsh2bYt
+      - **Grundstück** ^oid-VfsNpGee
+      - **Haus** ^oid-jTwYnsid
+      - **Wohnung** ^oid-IDSBWzF6
+    - **Baukosten** ^oid-ZYzeB971
+      - **BAUKOSTEN** [icon:FlagGreen] ^oid-SMMsUuXZ
+        - **Neubau** ^oid-azxFSCPm
+        - **Umbau / Sanierung** ^oid-6kAT88CB
+        - **Wohnung** ^oid-iXgFAVw9
+      - **Neubau** ^oid-H4X5Q5b5
+      - **Umbau** ^oid-NFJ3xLVc
+      - **Wohnung** ^oid-HpUfSj8P
+    - **Betriebskosten** ^oid-wz3ITOy0
+      - **BETRIEBSKOSTEN** [icon:FlagGreen] ^oid-V5qSqz8p
+        - **Betriebskosten** ^oid-XFCjJX20
+        - **Unterhaltskosten** ^oid-GK8G0ryF
+        - **Haushaltskosten** ^oid-QA2H3TmO
+      - **Betrieb** ^oid-7d9yig6A
+      - **Unterhalt** ^oid-ITHWAlhx
+      - **Haushalt** ^oid-EZvoICkk
+    - **Finanzierung** ^oid-qdmLeGU5
+      - **FINANZIERUNGSKOSTEN** [icon:FlagGreen] ^oid-v24YgY8N
+        - **Finanzierung Nebenkosten** ^oid-xU64p0rp
+        - **Einkommen vs Hypothek** ^oid-nM2QY34q
+      - **Finanzierung** ^oid-dOgPDQ6Q
+      - **Hypothek** ^oid-KoYdc7PD
+      - **Zinsrechner** ^oid-TSm5v6vf
+    - **Miete** ^oid-DhlJI4pU
+      - **MIETE** [icon:FlagYellow] ^oid-gC7gLP2j
+        - **Mietzins pro m²** ^oid-pKF57lOi
+        - **Miet Nebenkosten** ^oid-uBCrliDU
+        - **Vermiet Nebenkosten** ^oid-JUVzn6Vh
+        - **Minderungs Gründe** ^oid-9To6yjMa
+        - **Richtwert Altbau** ^oid-PkTYj6z3
+      - **Mieten** ^oid-mDv35ibi
+      - **Vermieten** ^oid-48gN2cE8
+      - **Minderung** ^oid-hD4lPDJz
+    - **Verkauf** ^oid-xrf9WRRK
+      - **Mieten** ^oid-BQjYJ5LE
+      - **Vermieten** ^oid-w3WJEfJl
+      - **Minderung** ^oid-rjmpHyqY
+    - **ALL-IN-ONE** ^oid-2Rj1MSAY
+      - **Mieten** ^oid-eVDN8X00
+      - **Vermieten** ^oid-GZuOwOg6
+      - **Minderung** ^oid-biZbCivH
+  - **Manager** ^oid-iu3XFKr9
+  - **Berichte** ^oid-9v5R8zO7
+    - **Bezirke** ^oid-iFQotoi0
+      - **Eigentum** ^oid-R0FIrFuq
+      - **Miete** ^oid-PQP9jbq6
+    - **Gemeinde** ^oid-DZ82Imes

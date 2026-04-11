@@ -1,0 +1,281 @@
+---
+type: raw-mmap
+map_id: "BEEQUIxs"
+source: "01_input/Apps/BEEXSmmap/BEEQUIxs.mmap"
+imported_at: 2026-04-11
+node_count: 263
+max_depth: 5
+has_custom_props: false
+has_links: false
+has_notes: false
+has_icons: false
+tags:
+  - mmap/raw
+  - mmap/Apps
+---
+
+# Lehrsätze der Bienenzucht
+
+- **Lehrsätze der Bienenzucht** ^oid-EY6aPSUa
+  - **BASIC** ^oid-OgTdhCKy
+    - **Ein Bienenschwarm hat wieviel** ^oid-TEidExlA
+      - **Königin** ^oid-3q8gGaKH
+        - **1** ^oid-vJp4iJ4U
+      - **Drohnen** ^oid-zbsH12z1
+        - **0-500** ^oid-KaXqetPb
+      - **Arbeiter** ^oid-4oWsiHAb
+        - **7.000 - 25.000** ^oid-3BtpbRG5
+      - **Gewicht** ^oid-cYVX1IYk
+        - **1-3 kg** ^oid-Nc1Lvs4S
+    - **Die Königin legt von Februar bis August** ^oid-FPQPl2b1
+      - **täglich** ^oid-2UMPmtQd
+        - **300 - 2.000** ^oid-7lT9zIiX
+      - **im Jahr** ^oid-wHXcsrRg
+        - **ca. 130.000** ^oid-u9vReb1p
+      - **im Leben** ^oid-WUGWTjpO
+        - **ca. 500.000** ^oid-duG0OKXL
+    - **Lebensdauer einer** ^oid-5BHFQEEU
+      - **Königin** ^oid-J8sFA3xr
+        - **3-5 Jahre** ^oid-45hcQ0zk
+      - **Drohne** ^oid-ucMXnHjt
+        - **Mai-Juli** ^oid-nhm6lzxG
+      - **Arbeiterin** ^oid-ahhUNkl5
+        - **1,5-9 Monate** ^oid-NoN2L07x
+    - **Temperatur im Bienenstaat** ^oid-RAf3d8no
+      - **im Winter** ^oid-bPQm6Qpk
+        - **20 - 22°C** ^oid-Wlc6cm9S
+      - **im Sommer** ^oid-GXaBkxXj
+        - **25 - 35°C** ^oid-rNFnl5JJ
+    - **Die Biene** ^oid-igwhMSiv
+      - **erstarrt bei** ^oid-Gs1gtYsb
+        - **7 - 10°C** ^oid-NknE4H9U
+      - **hört auf zu arbeiten bei** ^oid-W8hywVeJ
+        - **37°C** ^oid-hnmSKUe8
+      - **fliegt am fleissigsten bei** ^oid-oI9SBKEo
+        - **20-25°C** ^oid-ZAYGCje4
+    - **Eigenbedarf pro Volk und Jahr** ^oid-SOCLysOw
+      - **Honig** ^oid-8JRf3RM2
+        - **ca. 60 kg** ^oid-rwQYLaYj
+      - **Blütenpollen** ^oid-BSm3dlIX
+        - **ca. 20 kg** ^oid-oZXjCX7l
+    - **Flugleistung** ^oid-SzQoOUc8
+      - **Flügelschläge pro Sek** ^oid-TQsSi47r
+        - **75 - 150** ^oid-XRzY9Dmu
+      - **Fluggeschwindigkeit** ^oid-iHWA3Epy
+        - **27 km/h** ^oid-JpQwth3A
+      - **Lebensflugleistung** ^oid-qpn638GM
+        - **ca. 800 km** ^oid-oFAJTTsZ
+    - **Für 1 kg Honig** ^oid-jVeXrtEG
+      - **Nektar** ^oid-cX3S1UWz
+        - **3 kg** ^oid-juGLtA9l
+      - **Ausflüge** ^oid-0De4J1Z3
+        - **100.000** ^oid-628We96Y
+      - **Blüten** ^oid-uTDfEQAk
+        - **150 Mio.** ^oid-SoWck2Ba
+      - **Wegstrecke** ^oid-UCQSylNn
+        - **100.000 km** ^oid-4F6PjpZN
+    - **Für 1 kg Pollen** ^oid-9pDXxoAP
+      - **Höschenpaare** ^oid-6yYxUypJ
+        - **50.000** ^oid-tosMCkyv
+      - **Zellen** ^oid-VahYnUVb
+        - **2.500** ^oid-3zMxho53
+    - **Flugbienen auf Tracht pro Tag** ^oid-3lZvZRUn
+      - **10.000 - 15.000** ^oid-61k59dN3
+  - **Level 1** ^oid-w9VxViq7
+    - **Ein starker Stock enthält zur Schwarmzeit** ^oid-BMpjg8ak
+      - **Königin** ^oid-Q5UaEorn
+        - **1** ^oid-YOi02UFg
+      - **Drohne** ^oid-Fu49Dkhs
+        - **300 - 3.000** ^oid-ksiPpGIC
+      - **Arbeiter** ^oid-8Lvs7rqV
+        - **30.000 - 60.000** ^oid-91QYUgwr
+      - **brutbesetzte Zellen** ^oid-Ye3KAozz
+        - **40.000 - 60.000** ^oid-kHe8t4qk
+      - **königliche Nymphen** ^oid-16jV6fL9
+        - **1 - 18** ^oid-qKT1Z69P
+    - **Tage bis zur Entwicklung der Biene als** ^oid-5FUHAAw5
+      - **Königin** ^oid-rThf4u3t
+        - **Ei** ^oid-PTcHpz5d
+          - **3** ^oid-DE1lj8SB
+        - **Larve** ^oid-bBvJXZgR
+          - **5-5,5** ^oid-QflmmQwp
+        - **Nymphe** ^oid-QeEVssMv
+          - **7-8,5** ^oid-iN5AywnK
+        - **Total** ^oid-siaTJeOt
+          - **16** ^oid-e7jbT4oO
+      - **Drohne** ^oid-xxrZB5x3
+        - **Ei** ^oid-pwuRDj60
+          - **3** ^oid-cukuTuiC
+        - **Larve** ^oid-wKyGWNzz
+          - **6-7** ^oid-3Ybh8wpg
+        - **Nymphe** ^oid-rqghn49d
+          - **14-15** ^oid-lZxur9ZA
+        - **Total** ^oid-7dwE1nui
+          - **24** ^oid-TZRQcDNp
+      - **Arbeiter** ^oid-BXLqVyVM
+        - **Ei** ^oid-6vr8E7KL
+          - **3** ^oid-RVgG88qf
+        - **Larve** ^oid-6OjT6B1Q
+          - **6** ^oid-S6HMHlVX
+        - **Nymphe** ^oid-c2aF85CG
+          - **12** ^oid-qbQsQfBu
+        - **Total** ^oid-VvtJgCdW
+          - **21** ^oid-8fk6Mr1e
+    - **Länge einer** ^oid-qcn2aPso
+      - **Königin** ^oid-h44CapLQ
+        - **16-18 mm** ^oid-fz22sFqe
+      - **Drohne** ^oid-P3fTiet3
+        - **15 mm** ^oid-ISyFffVs
+      - **Arbeiterin** ^oid-WrDMDpfR
+        - **12-13 mm** ^oid-xu9wov34
+    - **Flügelweite einer** ^oid-oR820mdT
+      - **Königin** ^oid-6wEfE51g
+        - **24 mm** ^oid-fEJMX8Yi
+      - **Drohne** ^oid-2Tw59aER
+        - **28 mm** ^oid-4sJ3S8dS
+      - **Arbeiterin** ^oid-PsxIEfUb
+        - **23 mm** ^oid-pF008MkO
+    - **Gewicht einer** ^oid-42Cmgj9V
+      - **Königin** ^oid-lxf0OlZb
+        - **0,16-0,21 g** ^oid-clEwBY86
+      - **Drohne** ^oid-D1DT94Lw
+        - **0,23 g** ^oid-GSYQsoBF
+      - **Arbeiterin** ^oid-Iqf3Zjxm
+        - **0,11 g** ^oid-Y7NM4ch5
+    - **Facetten pro Auge einer** ^oid-Hvce79CZ
+      - **Königin** ^oid-fHHkLdge
+        - **5.000** ^oid-uBgbSiKW
+      - **Drohne** ^oid-atRj2gIQ
+        - **8.000** ^oid-ZCgafhPE
+      - **Arbeiterin** ^oid-AtrsR9AB
+        - **6.000** ^oid-EYADFdDs
+    - **Vom Ei zur Puppe** ^oid-ZF3PTNqQ
+      - **Eilänge** ^oid-ahCjwOlQ
+        - **1,3-1,8 mm** ^oid-Dzr9Shc0
+      - **Gewicht** ^oid-k0aWTv1v
+        - **ca. 0,132 mg** ^oid-eX6A78WG
+      - **Gewichtszunahme in 6 Tagen** ^oid-xekeKRaz
+        - **500fache** ^oid-GSnibXnW
+      - **Pollenbedarf** ^oid-IhWJ3ucV
+        - **4,5 mg** ^oid-ffFRDKLp
+    - **Samenblase** ^oid-K66cD7KP
+      - **Grössen** ^oid-mMIXVLlp
+        - **wie Stecknadelkopf** ^oid-J5SZ0tHy
+      - **Anzahl Eischläuche** ^oid-reJgbxp0
+        - **260 - 360** ^oid-YOsVYWSB
+      - **Samenfädenlänge** ^oid-gUcbxDQ0
+        - **0,7-0,9 mm** ^oid-XEkB5ev1
+    - **auf 1 cm² Wabe befinden sich auf beide Seiten** ^oid-TBim4uB8
+      - **Arbeitszellen** ^oid-xIzulwTM
+        - **830 - 850** ^oid-Snhk6Uvh
+      - **Drohnenzellen** ^oid-RoDQZOpX
+        - **ca. 510** ^oid-qZwFCa8o
+      - **Wachs** ^oid-P2IISnLb
+        - **12 g** ^oid-LP7s7ygY
+    - **Wachs** ^oid-rSEMKE3p
+      - **wird geschmeidig bei** ^oid-WQ5gmAZc
+        - **30°C** ^oid-Zvz6qQIR
+      - **schmilzt bei** ^oid-Q09R85eG
+        - **63°C** ^oid-bbdZYPbV
+      - **für 1 kg Wachs brauchen die Bienen** ^oid-2J2gz8TX
+        - **10 kg Honig** ^oid-TTKiTvb6
+        - **1 kg Blütenstaub** ^oid-ORUbqrJL
+  - **Level 2** ^oid-fGWaUU39
+    - **Die Trachtbiene** ^oid-rawuOKfV
+      - **bringt** ^oid-fIxTeXxy
+        - **Nektar** ^oid-AWEvlhxN
+          - **40 mg** ^oid-WKSbOEDI
+        - **Pollen** ^oid-BBIwJEk4
+          - **20 mg** ^oid-9GAtXJM6
+        - **befliegt Blüten** ^oid-ET8dOlCx
+          - **200 - 300** ^oid-I4NR1SgL
+      - **macht** ^oid-y9gUbRq0
+        - **pro Tag (je nach Witterung) Ausflüge** ^oid-7ZPxUyCl
+          - **ca. 6** ^oid-ksbpsvyo
+        - **Dauer** ^oid-r1pVWmzd
+          - **15 - 30 Min.** ^oid-vHA1xfdu
+    - **Ein Bienenvolk von 20.000 Arbeiterinnen** ^oid-N7ufcazX
+      - **sammelt zur Volltracht täglich** ^oid-EKE0UpEx
+        - **0,25 - 1 kg** ^oid-Zso6iEYk
+      - **Honigernte** ^oid-2Vq9iFnf
+        - **0 kg** ^oid-6Ca8GVJ4
+      - **Wachs** ^oid-RJzdyYEY
+        - **0 kg** ^oid-vk3vVSUQ
+      - **braucht im Winter** ^oid-8IsvBu2l
+        - **7 kg Honig** ^oid-m6uf71fG
+    - **Ein Bienenvolk von 30.000 Arbeiterinnen** ^oid-DEPNdeB0
+      - **sammelt zur Volltracht täglich** ^oid-lMhqDtCH
+        - **0,75 - 1,5 kg** ^oid-b5CSDy4f
+      - **Honigernte** ^oid-EoKLn1it
+        - **4 kg** ^oid-6Kbjymq8
+      - **Wachs** ^oid-Vj4TK0wr
+        - **0 kg** ^oid-BDpawyDd
+      - **braucht im Winter** ^oid-uIfEOJPZ
+        - **8 kg Honig** ^oid-mnHU527i
+      - **Schwärme** ^oid-bxfLXccR
+        - **2** ^oid-2osntMIC
+    - **Ein Bienenvolk von 40.000 Arbeiterinnen** ^oid-2A2uUcFB
+      - **sammelt zur Volltracht täglich** ^oid-Y0GEA22N
+        - **2 - 3 kg** ^oid-RwBksVdB
+      - **Honigernte** ^oid-ekbGUOnF
+        - **10 kg** ^oid-Pe62e0fp
+      - **Wachs** ^oid-9audQuuO
+        - **0,25-0,5 kg** ^oid-zRZv8ZQG
+      - **braucht im Winter** ^oid-XV8sRLZR
+        - **9 kg Honig** ^oid-RVDlYj7E
+    - **Ein Bienenvolk von 50.000 Arbeiterinnen** ^oid-NRhMSLLY
+      - **sammelt zur Volltracht täglich** ^oid-kif2sB42
+        - **3 - 5 kg** ^oid-qkK3ZvVw
+      - **Honigernte** ^oid-8EzIgiCm
+        - **25-65 kg** ^oid-2leQJ4Si
+      - **Wachs** ^oid-NG3cGXwq
+        - **0,25-0,5 kg** ^oid-xxeOwJH4
+      - **braucht im Winter** ^oid-cWwSjF1r
+        - **10 kg Honig** ^oid-8r4Qkh6L
+    - **Schwärme** ^oid-ei3RL885
+      - **20.000** ^oid-QZO6MJrD
+        - **0** ^oid-Ftvev2Cw
+      - **30.000** ^oid-y0AGbPJL
+        - **1** ^oid-nIHPVVYM
+      - **40.000** ^oid-iBbsXQ3H
+        - **2** ^oid-NMbEKg2z
+      - **50.000** ^oid-keRnVCPf
+        - **3** ^oid-rqc98RY5
+    - **Spezifisches Gewicht** ^oid-bYKCcEns
+      - **Honig** ^oid-VBg787gR
+        - **1,39 - 1,45** ^oid-na46gLrt
+      - **Wachs** ^oid-QY7hl5Xt
+        - **0,96 - 0,97** ^oid-9F1yPZ9Q
+    - **Bauwerte** ^oid-UW46NkAM
+      - **Zellenwandtoleranzgrenze** ^oid-iqQrw3z1
+        - **1/2.000 mm** ^oid-bUZBZoHp
+      - **Verpackung für 1kg Honig** ^oid-jBd32Pkn
+        - **20 g Wachs** ^oid-GW25fA4C
+    - **Zellen** ^oid-1BITz4H5
+      - **Die Arbeiterzelle** ^oid-pDtPZ87R
+        - **ist tief** ^oid-F33bbrWE
+          - **11 - 12 mm** ^oid-vL4VLvI9
+        - **ist weit** ^oid-cyggyj0p
+          - **5,5 - 6 mm** ^oid-LU6dMVwI
+      - **Die Drohnenzelle** ^oid-3p7SuYSZ
+        - **ist tief** ^oid-SMdbxWoT
+          - **15 mm** ^oid-sad2ds3g
+        - **ist weit** ^oid-qYgH3CAE
+          - **6,6 - 7 mm** ^oid-K1syVDNe
+      - **Die Königinzelle** ^oid-2DB1Suff
+        - **ist tief** ^oid-rDe6Q8rX
+          - **20 - 24 mm** ^oid-Y2jmFaPs
+        - **ist weit** ^oid-GclGqASy
+          - **9 mm** ^oid-hgmO4z2Y
+      - **Die Honigzelle** ^oid-P7tMBwpv
+        - **Inhalt** ^oid-a4uACsEG
+          - **0,3 cm³** ^oid-EHep0Iqy
+        - **fasst Honig** ^oid-18v1vyXB
+          - **0,4 - 0,5 g** ^oid-SLbTlhd9
+        - **1 kg Honig entspricht** ^oid-dp2BV9PC
+          - **3 dm² Fläche** ^oid-slKCssUs
+      - **Die Pollenzelle** ^oid-ZvCFAXGl
+        - **fasst Pollen** ^oid-27XiyWEZ
+          - **0,4 g** ^oid-zJ8he5VY
+        - **Höschenpaare** ^oid-R3lbGy6l
+          - **20** ^oid-hmK6On5E

@@ -1,0 +1,245 @@
+---
+type: raw-mmap
+map_id: "FLATrace_Basic"
+source: "01_input/FLATrace/Archiv/FLATrace_Basic.mmap"
+imported_at: 2026-04-11
+node_count: 227
+max_depth: 5
+has_custom_props: false
+has_links: false
+has_notes: false
+has_icons: false
+tags:
+  - mmap/raw
+  - mmap/FLATrace
+---
+
+# FLATrace.eu
+
+- **FLATrace.eu** ^oid-aafWnd7P
+  - **Kostenrechner** ^oid-lvlswDZY
+    - **Objekt** ^oid-nDmfdgA3
+      - **Adresse** ^oid-RoZkcETW
+        - **Bundesland** ^oid-s0ORkUx6
+        - **Bezirk** ^oid-4YqUbBRh
+        - **Gemeinde** ^oid-hFKwVBVZ
+        - **PLZ** ^oid-5wKYmz9h
+        - **Strasse** ^oid-d2DOcefE
+        - **Hausnummer** ^oid-sDK577si
+      - **Objektdaten** ^oid-E5r9RRio
+        - **Objektname** ^oid-iOTXkezI
+        - **Besitzverhältnis** ^oid-p2NcZI8h
+        - **Objektkategorie** ^oid-sKbK7ba1
+        - **Objektlage** ^oid-IeEDIWpe
+        - **Fläche** ^oid-KuEfXEIZ
+      - **Richtwerte** ^oid-DzDRxEaQ
+        - **Richtwert gesamt** ^oid-AC7wBlTY
+        - **Richtwert / m²** ^oid-nQY42sF0
+        - **Betriebskosten / Monat** ^oid-FfE5eaAV
+        - **Heizkosten / Monat** ^oid-bO9ZHiN3
+        - **Warmwasserkosten / Monat** ^oid-kOugsxNr
+        - **Laufende Kosten / Monat** ^oid-vwL7GJBD
+        - **Kosten pro Monat gesamt** ^oid-wyhIIWcB
+    - **Ankaufkosten** ^oid-dhuOsThF
+      - **Stammdaten** ^oid-rsrtLCRk
+        - **Objekt** ^oid-EhpH368v
+        - **Kaufpreis** ^oid-ntCfzybr
+        - **Differenz zum Richtwert** ^oid-gPHUWGz0
+        - **Fläche** ^oid-UULGBcco
+        - **idGEM DS** ^oid-FU2V1OQy
+        - **Fak DS** ^oid-o38osKhC
+      - **Nebenkosten** ^oid-Hz8cd7GC
+        - **Vertragerrichtung** ^oid-6qkUajeH
+        - **Grunderwerbssteuer** ^oid-wWXMniWl
+        - **Eintragungsgebühr** ^oid-8CW5d7l9
+        - **Notariatsgebühr** ^oid-nHpZm5nx
+        - **Gerichtsgebühren** ^oid-LCLO5yyk
+        - **Makler** ^oid-e4T8iHck
+        - **Wertermittlung** ^oid-xhOko4Jc
+        - **Abfindungen** ^oid-hcaOWKOK
+        - **Ablöse** ^oid-xlNJTXrG
+        - **Servitute** ^oid-zrsx1Nhq
+        - **Baurechtserwerb** ^oid-ds43R5O2
+        - **Sonstiges** ^oid-uET4mHMO
+      - **Gesamt** ^oid-nGp7AfsI
+        - **Ankaufkosten** ^oid-NnERZURT
+        - **pro m²** ^oid-iAWMaGuE
+        - **Nebenkosten gesamt** ^oid-VfXuzSxD
+        - **Nebenkosten pro m²** ^oid-lXFFvkfu
+        - **Nebenkostenanteil** ^oid-DVJLZuIK
+    - **Baukosten** ^oid-WgnvQp1O
+      - **Stammdaten** ^oid-ckxX3kEQ
+        - **Objekt** ^oid-fRmkyaIj
+        - **Fläche** ^oid-fFDw8Wdf
+      - **Nebenkosten** ^oid-IRVJDgSx
+        - **Allgemeine Kosten** ^oid-svU12Wlg
+        - **Aufschließung** ^oid-MGr0Y45E
+        - **Rohbau** ^oid-C6Ygtg7Z
+        - **Sanitärinstallation** ^oid-x8DuHzoq
+        - **Elektroinstallation** ^oid-Rj6BYt72
+        - **Heizung / Kühlung** ^oid-Q3fILMSJ
+        - **Ausbau** ^oid-TGr9RSEQ
+        - **Ausstattung** ^oid-flQTRTfN
+        - **Einrichtung** ^oid-fojB0VgY
+        - **Aussenanlagen** ^oid-EGDCviRc
+        - **Technische Honorare** ^oid-kCRhqqd2
+        - **Reserven** ^oid-o0AUoxx3
+      - **Gesamt** ^oid-MIXz4QXJ
+        - **Baukosten** ^oid-WiHmwmZu
+        - **pro m²** ^oid-yfvnILWC
+    - **Betriebskosten** ^oid-IVy2MkJZ
+      - **Stammdaten** ^oid-RPROt6fp
+        - **Objekt** ^oid-tsnFl7bQ
+        - **Fläche** ^oid-26MepvTs
+      - **Position** ^oid-n4r3Xo14
+        - **Grundsteuer** ^oid-aShXHcd4
+        - **Müllabfuhr** ^oid-xsxAGTmF
+        - **Kanalbenützung** ^oid-fMQlLM8N
+        - **Wasser** ^oid-eKFlOvON
+        - **Versicherung** ^oid-Lp7es0te
+        - **Strom** ^oid-hfRxrG3M
+        - **Verwaltung** ^oid-whTXU36f
+        - **Personalaufwand** ^oid-TzXjwwag
+        - **Schädlingsbekämpfung** ^oid-7adLyvNT
+        - **Rauchfangkehrer** ^oid-GEsAIoWG
+        - **Dienstleistungen** ^oid-ON7fULtE
+        - **Bankspesen** ^oid-KS6Kwnlr
+      - **Gesamt** ^oid-Ryk8WMHt
+        - **Betriebskosten p.M.** ^oid-BO63slpH
+        - **Steuer** ^oid-tOAGEBo9
+        - **Instandhaltung / Rücklagen** ^oid-vXZDl67C
+        - **Darlehen** ^oid-RT3XEtAA
+        - **Gesamt pro Monat** ^oid-WIpxxfbh
+        - **Gesamt pro Jahr** ^oid-xERswxkY
+    - **Laufende Kosten** ^oid-vG7bThb9
+      - **Stammdaten** ^oid-LkIRTynO
+        - **Objekt** ^oid-juJxUxw0
+        - **Fläche** ^oid-Y9ew0vel
+      - **Position** ^oid-wfg3WveN
+        - **Versicherung** ^oid-Gh7ig4iB
+        - **Heizung** ^oid-jm8cedml
+        - **Strom** ^oid-ecUaiF32
+        - **Television** ^oid-xwtBX6qr
+        - **Rundfunkgebühren** ^oid-vdpd6oZZ
+        - **Internet** ^oid-3kTPUPOU
+        - **Telefon** ^oid-7iml8fcI
+        - **Reinigung** ^oid-zlXFIOKQ
+        - **Kleinreparaturen** ^oid-IzitnzMT
+        - **Einrichtung** ^oid-arGztJ2v
+        - **Reserven Unerwartetes** ^oid-4oQ1xS3C
+        - **Sonstiges** ^oid-xfLNiPXf
+      - **Gesamt** ^oid-EWcqT1dl
+        - **Betriebskosten p.M.** ^oid-lR4NsjA7
+        - **Steuer** ^oid-TistmNYY
+        - **Instandhaltung / Rücklagen** ^oid-04bZiqjt
+        - **Darlehen** ^oid-BL0Ls1cx
+        - **Gesamt pro Monat** ^oid-33v3RzE1
+        - **Gesamt pro Jahr** ^oid-S3iKku0q
+    - **Lebenshaltung** ^oid-UajWHjKP
+    - **Finanzierung** ^oid-6wErDDOf
+      - **Stammdaten** ^oid-pehd6Nr6
+        - **Objekt** ^oid-p0YCLRKW
+        - **Projektkosten** ^oid-bD6S6CC3
+        - **Darlehensanteil** ^oid-UA3NI0gK
+        - **Darlehensbetrag** ^oid-pQIH0Bx0
+        - **Zinssatz** ^oid-nUffA8H4
+        - **Laufzeit** ^oid-8jEKSn20
+      - **Nebenkosten** ^oid-5hnOA3M2
+        - **Pfandrechtsbetrag** ^oid-oU473KcD
+        - **Pfandrechtsgebühr** ^oid-gne2boRf
+        - **Bearbeitungsgebühr** ^oid-y0fKCxPB
+        - **Kontogebühr** ^oid-T7vkjYfK
+        - **Gutachter** ^oid-u1gQ2aqr
+        - **Sonstiges** ^oid-J8LAkz2S
+      - **Gesamt** ^oid-5sAU2ura
+        - **Nettodarlehensbetrag** ^oid-kJS42s9D
+        - **Monatliche Zahlung** ^oid-NH04QI3Z
+        - **Zinsen gesamt** ^oid-odTCKhC5
+        - **Kreditkosten** ^oid-7h0bYV9j
+        - **Rückzahlung gesamt** ^oid-LeJ5bzJX
+        - **effektiver Jahreszins** ^oid-IiEhV1F7
+    - **Vermietung** ^oid-NLdP7hR1
+      - **Stammdaten** ^oid-C3nAaImR
+        - **Objekt** ^oid-nbkXEhHZ
+        - **Fläche** ^oid-ICiGzrul
+      - **Position** ^oid-EgisOZNX
+        - **Nettomiete** ^oid-DVwLURit
+        - **Inventar** ^oid-QoTII38I
+        - **Betriebskosten** ^oid-T059iDmp
+        - **Heizung / Kühlung** ^oid-8pLjP74m
+        - **Laufende Kosten** ^oid-vhpkUHv1
+        - **Sonstiges** ^oid-3hBIl7b6
+    - **Verkauf** ^oid-HQcl7C4X
+      - **Stammdaten** ^oid-xajGYksT
+        - **Objekt** ^oid-c6q4lmcg
+        - **Ankaufkosten** ^oid-2jjrFM2k
+        - **Baukosten** ^oid-eoFvvqXf
+        - **Projektkosten** ^oid-at0xK7qK
+        - **Verkaufspreis** ^oid-KahnPepr
+      - **Nebenkosten** ^oid-l3OyS5ak
+        - **Energieausweis** ^oid-KgfTGhAX
+        - **Makler** ^oid-HifLBeMi
+        - **Berechnung ImmoEst** ^oid-Iwl63D8F
+        - **Sonstige Spesen** ^oid-Aer8PJvt
+        - **Verkaufszeitraum** ^oid-GKPJLV6o
+        - **Laufende Kosten** ^oid-pnG7EDoX
+        - **Rechtsberatung** ^oid-heYxPRfz
+        - **Gutachten** ^oid-fOu8EZ0t
+      - **Gesamt** ^oid-vADyI5zO
+        - **Verkaufspreis** ^oid-xCBjCFav
+        - **Nebenkosten** ^oid-yblIY3Ld
+        - **Überhang vor Steuern** ^oid-8f0nu5bJ
+    - **Aufstellung** ^oid-vM0GEk0k
+      - **Stammdaten** ^oid-lCdtp0wP
+        - **Objekt** ^oid-reIeZeal
+        - **Fläche** ^oid-PlKHJa0M
+      - **Position** ^oid-PqRgJZfS
+        - **Objekt** ^oid-lR8VLbJj
+        - **Ankaufkosten** ^oid-7WofmIIi
+        - **Baukosten** ^oid-SqqJ5GiE
+        - **Betriebskosten** ^oid-Juwxschy
+        - **Laufende Kosten** ^oid-oWYQ7bqy
+        - **Lebenshaltung** ^oid-6yPxKPdr
+        - **Finanzierung** ^oid-JMWE0C27
+        - **Vermietung** ^oid-UaxW6kNN
+        - **Verkauf** ^oid-EJJGktmE
+  - **Datenerfassung** ^oid-hIkou5IA
+    - **Stammdaten** ^oid-WfUd5A4W
+      - **Objektname** ^oid-3Rnq4xXf
+      - **Nutzfläche** ^oid-mzAWYzhQ
+      - **Ort** ^oid-yqdo5Yar
+      - **Gemeinde** ^oid-CXkEPlLA
+      - **Bundesland** ^oid-UKOwj1xF
+    - **Stromkosten** ^oid-SvRvtk3y
+      - **Objektname** ^oid-YL3jGt3P
+      - **Stromkosten pro Jahr** ^oid-al0wJyib
+      - **Kilowattstunden pro Jahr** ^oid-2VsjanwR
+    - **Heizung** ^oid-WbVs8w5u
+      - **Objektname** ^oid-xi9m6IIa
+      - **Heizsystem** ^oid-uylmrDbm
+        - **Heizungssystem** ^oid-2oWjav1J
+          - **Fernwärme** ^oid-lt8i6zin
+          - **Gasheizung** ^oid-Dp9TUdID
+          - **Ölbrenner** ^oid-4XOlfSDu
+          - **Scheitholz** ^oid-lRTcJpJP
+          - **Pellets** ^oid-ofnoJGRO
+          - **Infrarotheizung** ^oid-RSbPzvoK
+          - **Solarthermie** ^oid-ZQwka9fi
+          - **Wärmepumpe Luft** ^oid-0PZpjOPp
+          - **Wärmepumpe Erdkollektor** ^oid-gTtjpDaV
+          - **Wärmepumpe Erdsonde** ^oid-fOurQsrx
+          - **Wärmepumpe Grundwasser** ^oid-1NLCDBvk
+          - **Lüftungsanlage mit Wärmerückgew.** ^oid-PYA8UxhJ
+          - **Nachtspeicheröfen** ^oid-ylSx92da
+          - **Klimaanlage** ^oid-iqbaxHs4
+      - **HWB-Wert** ^oid-C8qPoaiV
+      - **Menge** ^oid-HIdeC8OK
+      - **Preis gesamt** ^oid-yND4tAKO
+    - **Photovoltaik** ^oid-a1DhsMUT
+      - **Objektname** ^oid-iln1RCmu
+      - **PV - Fläche** ^oid-THp80ABm
+      - **Datum** ^oid-NYZKJlHH
+      - **Tagesertrag** ^oid-WmMMmkYq
+      - **Wetter** ^oid-RpPZY9DN
+      - **Bundesland** ^oid-crRixmLd
+  - **Exposé** ^oid-aeSSFVmf

@@ -1,0 +1,370 @@
+---
+type: raw-mmap
+map_id: "SKF"
+source: "01_input/Apps/FISCHmmap/SKF.mmap"
+imported_at: 2026-04-11
+node_count: 330
+max_depth: 6
+has_custom_props: true
+has_links: true
+has_notes: false
+has_icons: false
+custom_property_names:
+  - "FF bef gesamt (m²)  ~"
+  - "FF bef. (m²)  ~"
+  - "FF begr (m²)  ~"
+  - "FF begr gesamt (m²)  ~"
+  - "HNF (m²)  ~"
+  - "HNF gesamt (m²)  ~"
+  - "NNF (m²)  ~"
+  - "NNF gesamt (m²) ~"
+tags:
+  - mmap/raw
+  - mmap/Apps
+---
+
+# SKF
+
+- **SKF** ^oid-HfGD85Sh
+  - **BKFV** ^oid-mTqM69Pj
+    - **Geschäftsführung** ^oid-shs2A1iY
+    - **Buchhaltung** ^oid-KwlJbDzo
+    - **Ausbildung** ^oid-HoltDSvo
+    - **Stiftung PF+W** ^oid-My7H3WOO
+  - **SFV** ^oid-OJVZbcUg
+    - **Geschäftsführung** ^oid-dNvTc0Yg
+    - **Gewässerschutzspezialist** ^oid-bTcMy4N9
+    - **Buchhaltung** ^oid-juvswr4u
+  - **SaNa** ^oid-CpwSMtAQ
+  - **Betriebsstätte** ^oid-1bCrlK3H
+    - **Allgemeine Vorgaben** ^oid-1y1TLjDz
+      - **Anbindung an öffent. Verkehr** ^oid-QffqoKM5
+      - **Autobahn Nähe** ^oid-9rxNSGEv
+      - **mind. auf 10 Jahre befristet** ^oid-TL21glYQ
+      - **bezugesfertig Anfang ???** ^oid-TGiyzRfx
+      - **Baustoffe schadstoffarm** ^oid-tgruOpcb
+    - **Raumprogramm Betrieb** `HNF gesamt (m²)  ~=186` `NNF gesamt (m²) ~=40` `FF bef gesamt (m²)  ~=70` `FF begr gesamt (m²)  ~=100` ^oid-mc8vXFmB
+      - **Seminarraum 1** `HNF (m²)  ~=40` ^oid-3t8elvGh
+        - **max. 30 Personen** ^oid-ACasICKd
+        - **Mobiliar** ^oid-5Srrwd5d
+          - **Tische** ^oid-WMRbohLp
+          - **Stühle** ^oid-4XxuSLtS
+        - **MultiMedia Ausstattung** ^oid-pnBupWdM
+          - **Beamer** ^oid-egIRBfZk
+          - **Leinwand** ^oid-6g8suC3l
+          - **HiFi** ^oid-z8Lb3iUL
+          - **Fipchart** ^oid-oeeNJ3zh
+          - **Whiteboard** ^oid-qpoerY6t
+        - **Klimaanlage** ^oid-XqU1fOzd
+        - **Beleuchtung dimmbar / RGB-Farben** ^oid-77OgAf89
+        - **Telefon** ^oid-WlZ8sMPO
+      - **Seminarraum 2** `HNF (m²)  ~=30` ^oid-hkcROTfi
+        - **max. 30 Personen** ^oid-WOXK2GOF
+        - **Mobiliar** ^oid-1wJEJM9N
+          - **Tische** ^oid-92Y49Nbx
+          - **Stühle** ^oid-iaG6t2iO
+        - **MultiMedia Ausstattung** ^oid-akJST441
+          - **Beamer** ^oid-6Y7NxORb
+          - **Leinwand** ^oid-jQzcHzlc
+          - **HiFi** ^oid-lRFt6clb
+          - **Fipchart** ^oid-5XRJqhmy
+          - **Whiteboard** ^oid-fEdBuSbL
+        - **Klimaanlage** ^oid-najY9sKl
+        - **Beleuchtung dimmbar / RGB-Farben** ^oid-xdzxW1f4
+        - **Telefon** ^oid-RgOkjWfJ
+      - **Sitzungszimmer** `HNF (m²)  ~=10` ^oid-5s6iYe0z
+        - **max. 10 Personen** ^oid-Gf9zTKBK
+        - **Tische - Stühle** ^oid-rKNtdzsg
+      - **Büro Leitung / Verbände** `HNF (m²)  ~=50` ^oid-A4995MN3
+        - **4 Schreibtische** ^oid-mZT9gsDy
+        - **8 Schränke 100x200cm** ^oid-rJftlTz0
+        - **Telefone** ^oid-Ut1PjJ3o
+        - **Zentraldrucker** ^oid-czlBFGVG
+        - **PC / Laptop mit Dockingstation** ^oid-mBggIiAR
+      - **Empfang / Post / Handlager** `HNF (m²)  ~=15` ^oid-WkXrTNqR
+        - **1 Tisch in L-Form** ^oid-aShWnw1V
+        - **kleiner Tisch** ^oid-pvcKheV6
+        - **2 Regale  100x200 cm** ^oid-NMbI5WBQ
+        - **2 Schrank 100x200 cm** ^oid-CujSqk6K
+        - **Telefonanlage** ^oid-zxibc0FH
+        - **Server** ^oid-WXB8Sytw
+      - **WC Besucher** `HNF (m²)  ~=3` ^oid-EZleAx5X
+        - **WC m. Handwaschbecken** ^oid-A8I4HAIY
+        - **Fenster bzw. Lüftung** ^oid-s7LfFy5q
+        - **Tür von aussen leicht öffenbar** ^oid-00Q564ft
+        - **vom Warteraum aus begehbar** ^oid-z89UiD57
+      - **WC/Dusche Personal** `HNF (m²)  ~=5` ^oid-SuiSuBkg
+        - **WC** ^oid-RU5mS9oj
+        - **Waschtisch** ^oid-kTmd0aH5
+        - **Dusche** ^oid-ekCCPQoq
+        - **Spiegelschrank** ^oid-824JE3y9
+        - **Wäscheschrank** ^oid-DpAR9ng3
+        - **Waschmaschine** ^oid-hrqNgmpa
+      - **Warteraum** `HNF (m²)  ~=15` ^oid-8QJpPsPy
+        - **Sitzmöglichkeiten für ca. 10 Personen** ^oid-nABmJFm5
+        - **1 Tisch mit 4 Sessel** ^oid-DZSnzMcq
+        - **TV - Anschluss** ^oid-H95hZHf1
+      - **Küche** `HNF (m²)  ~=15` ^oid-UPDnvxnD
+        - **1 Tisch mit 4-6 Sessel** ^oid-r2Nd36fD
+        - **neben Seminarraum** ^oid-n4PRR8aU
+        - **Kochen mit Klienten** ^oid-KCJt8lEO
+        - **Küchenausstattung** ^oid-bb5QrEUs
+          - **Herd m. 4 Kochfelder** ^oid-1rzKEgoL
+          - **Backofen** ^oid-qeADEwdD
+          - **Mikrowelle** ^oid-TjP793VZ
+          - **Dunstabzug** ^oid-sW5SnAt2
+          - **Kühl- u. Gefrierschrank** ^oid-UC9rmqyp
+          - **Spüle** ^oid-vJMRKWxj
+          - **Geschirrspüler** ^oid-RaUHvmLy
+          - **Kaffeeautomat** ^oid-GITJ5TdE
+      - **Abstellraum** `HNF (m²)  ~=3` ^oid-5Yr8Nt5E
+        - **ggf. Serverraum** ^oid-GjNrr1SY
+        - **Reinigungsutensilien** ^oid-uFau1ltW
+        - **Verbrauchsgüter (WC-Papier,...)** ^oid-VKNoKo7D
+      - **Akten-Lager/Keller** `NNF (m²)  ~=20` ^oid-bdLAk7gd
+        - **trocken** ^oid-bQXHnz6p
+        - **Regale f. Akten** ^oid-nGpumvV3
+      - **Material-Lager/Keller** `NNF (m²)  ~=20` ^oid-nDujasZ5
+        - **trocken** ^oid-TDLemBMl
+        - **Materialaufbewahrung** ^oid-lYb9jVmx
+      - **5x Parkplätze** `FF bef. (m²)  ~=70` ^oid-HMcnQKle
+      - **Garten** `FF begr (m²)  ~=100` ^oid-NdfVeAXZ
+        - **optional** ^oid-pdsJp4oP
+        - **Spielturm** ^oid-7nZN0R9I
+        - **Gartenpflege?** ^oid-itBKwMCd
+    - **Raumprogramm Besucherpark** `HNF gesamt (m²)  ~=317` `NNF gesamt (m²) ~=60` `FF bef gesamt (m²)  ~=140` `FF begr gesamt (m²)  ~=200` ^oid-nJSil6lc
+      - **Ausstellungsraum 1** `HNF (m²)  ~=40` ^oid-7el2bHPv
+        - **max. 30 Personen** ^oid-kfChJMaI
+        - **Mobiliar** ^oid-unM7cwhV
+          - **Tische** ^oid-B82iMJuD
+          - **Stühle** ^oid-bagiNGAe
+        - **MultiMedia Ausstattung** ^oid-8TU7VsMH
+          - **Beamer** ^oid-CBaSSeHP
+          - **Leinwand** ^oid-tT53ww40
+          - **HiFi** ^oid-i6ZzCbi2
+          - **Fipchart** ^oid-bwdQ5aMU
+          - **Whiteboard** ^oid-VNQDiTe2
+        - **Klimaanlage** ^oid-4xngDrUC
+        - **Beleuchtung dimmbar / RGB-Farben** ^oid-SjAIJtBx
+        - **Telefon** ^oid-tWwy7jHj
+      - **Ausstellungsraum 2 2** `HNF (m²)  ~=30` ^oid-R27RW8Ma
+        - **max. 30 Personen** ^oid-Yfg5lhTJ
+        - **Mobiliar** ^oid-5j9sRttu
+          - **Tische** ^oid-u6SZuxAj
+          - **Stühle** ^oid-xtTfgrUh
+        - **MultiMedia Ausstattung** ^oid-edbgQskQ
+          - **Beamer** ^oid-IsJ0vCS3
+          - **Leinwand** ^oid-8y5UbBeh
+          - **HiFi** ^oid-x0pgLB2X
+          - **Fipchart** ^oid-82WP8YzC
+          - **Whiteboard** ^oid-bIj38FxM
+        - **Klimaanlage** ^oid-GZv7LiEe
+        - **Beleuchtung dimmbar / RGB-Farben** ^oid-fMh9S3hf
+        - **Telefon** ^oid-JZkBv2dJ
+      - **Ausstellungsraum 3** `HNF (m²)  ~=10` ^oid-Tft9sNxr
+        - **max. 10 Personen** ^oid-8fExJjP6
+        - **Tische - Stühle** ^oid-RZKv83hF
+      - **Empfang / Kassa** `HNF (m²)  ~=15` ^oid-fMjQiUwC
+        - **1 Tisch in L-Form** ^oid-au1FLXFI
+        - **kleiner Tisch** ^oid-bRR1QRmj
+        - **2 Regale  100x200 cm** ^oid-8MCWI7Qy
+        - **2 Schrank 100x200 cm** ^oid-qAIQaElD
+        - **Telefonanlage** ^oid-StvMEaK4
+        - **Server** ^oid-T7njNILK
+      - **WC Besucher** `HNF (m²)  ~=3` ^oid-yFKo3WJ8
+        - **WC m. Handwaschbecken** ^oid-tC00uVY8
+        - **Fenster bzw. Lüftung** ^oid-zZowztEP
+        - **Tür von aussen leicht öffenbar** ^oid-PS1I6QWl
+        - **vom Warteraum aus begehbar** ^oid-SuepYmdN
+      - **"Restaurant"** `HNF (m²)  ~=15` ^oid-hwG8vSkZ
+        - **Sitzmöglichkeiten für ca. 10 Personen** ^oid-NUmYxaic
+        - **1 Tisch mit 4 Sessel** ^oid-ZTxAYvdb
+        - **TV - Anschluss** ^oid-pI5B4lC7
+      - **Küche** `HNF (m²)  ~=15` ^oid-1qGRj3R5
+        - **1 Tisch mit 4-6 Sessel** ^oid-oAH5Bx5A
+        - **neben Seminarraum** ^oid-uiU9CA7m
+        - **Kochen mit Klienten** ^oid-ETXbsdN8
+        - **Küchenausstattung** ^oid-aacnxMt4
+          - **Herd m. 4 Kochfelder** ^oid-nMslmDlT
+          - **Backofen** ^oid-osEH3Ecm
+          - **Mikrowelle** ^oid-bXSNedCP
+          - **Dunstabzug** ^oid-si9DkMXs
+          - **Kühl- u. Gefrierschrank** ^oid-0q1Xs8zv
+          - **Spüle** ^oid-dQzCI65E
+          - **Geschirrspüler** ^oid-IrRwi8u0
+          - **Kaffeeautomat** ^oid-PBiCaoK4
+      - **Abstellraum** `HNF (m²)  ~=3` ^oid-iKQgV4cp
+        - **ggf. Serverraum** ^oid-LpjC7AFM
+        - **Reinigungsutensilien** ^oid-Hyj7tgh2
+        - **Verbrauchsgüter (WC-Papier,...)** ^oid-FhtHBwYX
+      - **Material-Lager/Keller** `NNF (m²)  ~=20` ^oid-0q44VADx
+        - **trocken** ^oid-fF8NsUkA
+        - **Materialaufbewahrung** ^oid-QmFDg2kd
+      - **5x Parkplätze** `FF bef. (m²)  ~=70` ^oid-A23Yur44
+      - **Garten** `FF begr (m²)  ~=100` ^oid-fvA87p7E
+        - **optional** ^oid-WXkhlwgV
+        - **Spielturm** ^oid-OWZHAL0e
+        - **Gartenpflege?** ^oid-xI0wFRpm
+      - **Raumprogramm Betrieb** `HNF gesamt (m²)  ~=186` `NNF gesamt (m²) ~=40` `FF bef gesamt (m²)  ~=70` `FF begr gesamt (m²)  ~=100` ^oid-H010hx1n
+        - **Seminarraum 1** `HNF (m²)  ~=40` ^oid-q9VnmK9H
+          - **max. 30 Personen** ^oid-5AJJFSmF
+          - **Mobiliar** ^oid-s7A8Vbcr
+            - **Tische** ^oid-MjLrMfgJ
+            - **Stühle** ^oid-7znN8yr7
+          - **MultiMedia Ausstattung** ^oid-8DdxM3aB
+            - **Beamer** ^oid-5KaWhdkH
+            - **Leinwand** ^oid-tfUfxddU
+            - **HiFi** ^oid-XT0LjRIq
+            - **Fipchart** ^oid-xNeZzzBU
+            - **Whiteboard** ^oid-RvvUW943
+          - **Klimaanlage** ^oid-B3IPR4fZ
+          - **Beleuchtung dimmbar / RGB-Farben** ^oid-mNhpHdlD
+          - **Telefon** ^oid-jzsZwN1L
+        - **Seminarraum 2** `HNF (m²)  ~=30` ^oid-UQKcAclK
+          - **max. 30 Personen** ^oid-lGrCPUQ2
+          - **Mobiliar** ^oid-bpKZPcDO
+            - **Tische** ^oid-PdkXLX3m
+            - **Stühle** ^oid-G0oRFbrk
+          - **MultiMedia Ausstattung** ^oid-EqncB8I6
+            - **Beamer** ^oid-XDvLcVle
+            - **Leinwand** ^oid-HeW042RO
+            - **HiFi** ^oid-U6bFyksb
+            - **Fipchart** ^oid-QClhBzrm
+            - **Whiteboard** ^oid-nsOZITE6
+          - **Klimaanlage** ^oid-hnhWNzmt
+          - **Beleuchtung dimmbar / RGB-Farben** ^oid-8jRxFPDZ
+          - **Telefon** ^oid-JO45VGTs
+        - **Sitzungszimmer** `HNF (m²)  ~=10` ^oid-mIWAIMG5
+          - **max. 10 Personen** ^oid-69xzoYal
+          - **Tische - Stühle** ^oid-yi5NqAHd
+        - **Büro Leitung / Verbände** `HNF (m²)  ~=50` ^oid-iE7ypy3H
+          - **4 Schreibtische** ^oid-xWCpOSSg
+          - **8 Schränke 100x200cm** ^oid-5EUE2ZvA
+          - **Telefone** ^oid-JKqS5lXe
+          - **Zentraldrucker** ^oid-8g4kbfzt
+          - **PC / Laptop mit Dockingstation** ^oid-Wsckn34z
+        - **Empfang / Post / Handlager** `HNF (m²)  ~=15` ^oid-5CuNpqFM
+          - **1 Tisch in L-Form** ^oid-Y54vHlyf
+          - **kleiner Tisch** ^oid-UNVAnY1v
+          - **2 Regale  100x200 cm** ^oid-NTm7rboE
+          - **2 Schrank 100x200 cm** ^oid-4RowUv6I
+          - **Telefonanlage** ^oid-GlvI7uN7
+          - **Server** ^oid-kV6RGr2v
+        - **WC Besucher** `HNF (m²)  ~=3` ^oid-en1YwypI
+          - **WC m. Handwaschbecken** ^oid-k7Wn2647
+          - **Fenster bzw. Lüftung** ^oid-do8QmkjZ
+          - **Tür von aussen leicht öffenbar** ^oid-O9PqhqXh
+          - **vom Warteraum aus begehbar** ^oid-bCvnFtrp
+        - **WC/Dusche Personal** `HNF (m²)  ~=5` ^oid-Jn0Cj2yI
+          - **WC** ^oid-Ul9c2sGJ
+          - **Waschtisch** ^oid-G7Xl52L2
+          - **Dusche** ^oid-jcNygkqX
+          - **Spiegelschrank** ^oid-kN89lZ0k
+          - **Wäscheschrank** ^oid-xtYdfjuU
+          - **Waschmaschine** ^oid-usoH1Su0
+        - **Warteraum** `HNF (m²)  ~=15` ^oid-14jVNgHp
+          - **Sitzmöglichkeiten für ca. 10 Personen** ^oid-AvtgL1wI
+          - **1 Tisch mit 4 Sessel** ^oid-tuA1Cr76
+          - **TV - Anschluss** ^oid-NXnLlsmh
+        - **Küche** `HNF (m²)  ~=15` ^oid-PtysyKBJ
+          - **1 Tisch mit 4-6 Sessel** ^oid-9TT9PNsa
+          - **neben Seminarraum** ^oid-ub15hfd3
+          - **Kochen mit Klienten** ^oid-bU4ksJ8L
+          - **Küchenausstattung** ^oid-q7SgJNws
+            - **Herd m. 4 Kochfelder** ^oid-4YbUHZcM
+            - **Backofen** ^oid-UEEn8V1X
+            - **Mikrowelle** ^oid-EFLz1Bgc
+            - **Dunstabzug** ^oid-NUQA07FO
+            - **Kühl- u. Gefrierschrank** ^oid-tFVgIq1U
+            - **Spüle** ^oid-2UTzPVUx
+            - **Geschirrspüler** ^oid-kKeTwXrc
+            - **Kaffeeautomat** ^oid-6YnS49If
+        - **Abstellraum** `HNF (m²)  ~=3` ^oid-gCSZOxH6
+          - **ggf. Serverraum** ^oid-n7Lstdgj
+          - **Reinigungsutensilien** ^oid-icfusFFV
+          - **Verbrauchsgüter (WC-Papier,...)** ^oid-8JCnhH0j
+        - **Akten-Lager/Keller** `NNF (m²)  ~=20` ^oid-bAEhFQyW
+          - **trocken** ^oid-rlyr3cO9
+          - **Regale f. Akten** ^oid-jg3H0BI4
+        - **Material-Lager/Keller** `NNF (m²)  ~=20` ^oid-kz8sdWhQ
+          - **trocken** ^oid-GApGmJxd
+          - **Materialaufbewahrung** ^oid-meyLDG9P
+        - **5x Parkplätze** `FF bef. (m²)  ~=70` ^oid-s9Tijxun
+        - **Garten** `FF begr (m²)  ~=100` ^oid-JWOSpDmH
+          - **optional** ^oid-uyxVFYNg
+          - **Spielturm** ^oid-G1pbtpsB
+          - **Gartenpflege?** ^oid-mselrnh0
+  - **Projektidee** ^oid-2il1JJep
+  - **Offene Punkte UH** ^oid-mXcO2mxH
+    - **„Betriebskosten“ zur Zeit** ^oid-yGK5iYRn
+      - **Miete** ^oid-lbKMKyJe
+      - **Betriebskosten** ^oid-uTY5qtd4
+      - **Stom** ^oid-V01ofVsK
+      - **Heizung** ^oid-x8bJ55HJ
+  - **Machbarkeitsstudie** ^oid-eqdbn8oR
+    - **Machbarkeitsprüfung** [http://nte.unifr.ch/misc/evalguide/program_evaluation/eval_instr/concept_level_progr/feasibility/index/index.html](http://nte.unifr.ch/misc/evalguide/program_evaluation/eval_instr/concept_level_progr/feasibility/index/index.html) ^oid-xHKZni56
+      - **Ressourcen** ^oid-Uln3OnIW
+        - **Verfügbarkeit** ^oid-HSHCLWe7
+        - **Quantität** ^oid-AbYGeB3T
+        - **Qualität** ^oid-KH1CieXE
+      - **rechtlich** ^oid-KlJvd7fb
+      - **wirtschaftlich** ^oid-T9uHRLRu
+      - **technisch** ^oid-uRdWZhKN
+      - **organisatorisch** ^oid-20N1XL0U
+      - **zeitlich** ^oid-yqWZboMZ
+    - **Fragestellungen** ^oid-U0Vt75SI
+    - **Projektidee** ^oid-Uuu4Qn9X
+      - **Angewandte Forschung** ^oid-nZRaLinT
+      - **Ausbildung** ^oid-t5qKbvpy
+        - **Schulen** ^oid-MFfjJAfT
+        - **Wasserbau** ^oid-eN7sExJD
+        - **SaNa Instr.** ^oid-QyVcA5mX
+        - **Aufseher** ^oid-3GvWxq6L
+      - **Geschäftsstelle** ^oid-BcWuRzgU
+        - **Mandate** ^oid-7n1KcUL0
+        - **Leitung/Admin.** ^oid-Ue2Netta
+        - **Betreuung Besucherpark** ^oid-aec7EifE
+      - **Besucherpark** ^oid-5wneuuJN
+        - **Dauerausstellung Fische und ihr Lebensraum** ^oid-BcAby5Cg
+          - **Fischarten** ^oid-gE5HE0Cn
+          - **Fliessgewässer** ^oid-EpJnaqU9
+          - **Seen** ^oid-q2N6hWER
+          - **Renat. / Revit.** ^oid-EAnEpIbd
+          - **Bewirtschaftung** ^oid-IauUAPer
+            - **Bestandesförderung** ^oid-EPIZsR4A
+            - **Fischzucht** ^oid-2W00Ho1k
+          - **Angelfischerei** ^oid-gTslvoEs
+            - **Techniken** ^oid-MskPeFCt
+            - **Organisation** ^oid-N6Om6Ppu
+          - **Berufsfischerei** ^oid-XRscKmVF
+          - **Meerfischerei** ^oid-FHsWK3Bv
+        - **Wechselausstellung** ^oid-hhb8xrOk
+          - **Fisch d. Jahres** ^oid-r3hdq7GB
+          - **Andere** ^oid-0oxPn3ku
+        - **Grossaquarien** ^oid-j3t1RzcO
+        - **Teiche** ^oid-Nqad4IxI
+        - **Ich bin ein Fisch** ^oid-eUMVQUau
+        - **Shop** ^oid-NWowW3Uj
+        - **Restaurant** ^oid-fSqycxXd
+      - **Fischzucht** ^oid-Ku0IQkNT
+    - **Rechtsform** ^oid-Xei7VcXH
+      - **Stiftung** ^oid-0ttSWGwa
+      - **Genossenschaft** ^oid-JHhNah4o
+    - **Kosten** ^oid-5xHqqwW3
+    - **Finanzierung** ^oid-8cyGoyrw
+      - **Stiftungskapital** ^oid-aUYGfcUe
+      - **Zuwendungen** ^oid-vjM8MBsy
+      - **Bankkredit** ^oid-JXxlsMzE
+
+## Custom Property Index
+
+| Property | Topic count |
+|---|---|
+| HNF (m²)  ~ | 28 |
+| NNF (m²)  ~ | 5 |
+| HNF gesamt (m²)  ~ | 3 |
+| NNF gesamt (m²) ~ | 3 |
+| FF bef gesamt (m²)  ~ | 3 |
+| FF begr gesamt (m²)  ~ | 3 |
+| FF bef. (m²)  ~ | 3 |
+| FF begr (m²)  ~ | 3 |
