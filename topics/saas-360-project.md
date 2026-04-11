@@ -14,4 +14,4 @@ Interne Portfolio- und Showcase-Plattform für MadStudio-Projekte.
 
 ## Projektanker
 
-- [[SaaS-360]]
+- [[mocs/projects/webdev/saas-360/overview|SaaS-360 Projektordner]]

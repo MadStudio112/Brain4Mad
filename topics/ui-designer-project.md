@@ -14,4 +14,4 @@ Internes UI- und Design-to-Code-Projekt.
 
 ## Projektanker
 
-- [[ui_designer]]
+- [[mocs/projects/webdev/ui-designer/overview|MAD UI Designer Projektordner]]

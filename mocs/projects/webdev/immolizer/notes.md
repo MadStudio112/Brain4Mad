@@ -1,3 +1,13 @@
+---
+title: "Immolizer — Notes"
+type: project
+status: active
+created: 2026-04-09
+updated: 2026-04-09
+tags: [immolizer, project, webdev, notes]
+confidence: medium
+---
+
 # Notes
 
 ## Migration

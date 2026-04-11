@@ -3,7 +3,7 @@ title: "ImmoSkill"
 type: topic
 status: draft
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-11
 tags: [immoskill, immolizer, proptech, photo-first, ai, inventar, product]
 confidence: low
 ---
@@ -83,11 +83,7 @@ Beide adressieren denselben Eigentümer und könnten konvergieren — ImmoSkills
 
 ## Offene Fragen
 
-- [[immoskill-product-positioning]] — eigenständig, Modul oder Sub-Marke?
-- [[immoskill-mvp-scope]] — was gehört in Version 1?
-- [[immoskill-ai-scope]] — welche Erkennungen sind realistisch und MVP-relevant?
-- [[immoskill-data-model]] — Foto als Beziehungs-Knoten, Konfliktauflösung bei Mehrfachzuordnung
-- Monetarisierung, Zielgruppe (Eigentümer / Vermieter / Versicherer / Verwalter), Wettbewerber (Versicherer-Hausrat-Apps)
+Produkt-Positionierung, MVP-Scope, AI-Scope, Datenmodell, Monetarisierung und Zielgruppen-Abgrenzung — gesammelt in [[immoskill-open-questions]].
 
 ## Confidence
 

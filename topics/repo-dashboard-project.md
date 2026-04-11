@@ -14,4 +14,4 @@ Internes Monitoring- und Übersichtstool für MadStudio-Repositories.
 
 ## Projektanker
 
-- [[Repo Dashboard]]
+- [[mocs/projects/webdev/repo-dashboard/overview|Repo Dashboard Projektordner]]

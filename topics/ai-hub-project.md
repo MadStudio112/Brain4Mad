@@ -14,4 +14,4 @@ Zentrale AI-SSoT und Sync-Infrastruktur für MadStudio-Repositories.
 
 ## Projektanker
 
-- [[AI-HUB]]
+- [[mocs/projects/webdev/ai-hub/overview|AI-HUB Projektordner]]

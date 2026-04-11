@@ -3,7 +3,7 @@ title: "WORKxs"
 type: topic
 status: draft
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-11
 tags: [workxs, marketplace, jobs, matching]
 confidence: medium
 ---
@@ -41,11 +41,7 @@ Ein relevanter Teil klassischer Recruiting-Reibung und Verzerrung entsteht durch
 
 ## Nächste sinnvolle Arbeitsfragen
 
-- [[workxs-target-segment]]
-- [[workxs-skill-system]]
-- [[workxs-rating-model]]
-- [[workxs-go-to-market]]
-- [[workxs-monetization]]
+Zielsegment, Skill-System, Bewertungsmodell, Go-to-Market und Monetarisierung — gesammelt und nach Dimensionen gruppiert in [[workxs-open-questions]].
 
 ## Relevante Quellen
 

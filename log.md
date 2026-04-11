@@ -3,7 +3,7 @@ title: "Änderungsprotokoll"
 type: topic
 status: active
 created: 2026-04-09
-updated: 2026-04-10
+updated: 2026-04-11
 tags: [meta, log]
 confidence: high
 ---
@@ -182,3 +182,27 @@ Index aktualisiert.
 - `[[immolizer]]` um Naming-Spannung (`Immolizer` / `FlatRace` / `LandingPay` / `Flatpress`) und neue Quelle ergänzt
 - Index um LegalTech- und FlatRace-Quellen sowie Topic `[[anwaltsliebling]]` erweitert
 - Noch offen: physisches Verschieben der neuen Rohdateien aus `raw/_inbox/` in passende `raw/notes/`-Ziele und anschließender Git-Commit/Push
+
+## [2026-04-11] cleanup | Vault-Audit: kaputte Wikilinks gefixt, Frontmatter nachgezogen, ImmoSkill-Fragen konsolidiert
+
+Audit über alle Nicht-`raw/`-Seiten gelaufen:
+
+**Kaputte Wikilinks (0 verbleibend):**
+- Acht Projekt-Topic-Seiten hatten einen "Projektanker"-Selbstlink `[[Projektname]]`, der ins Leere zeigte (AI-HUB, Lawrank, mad-agent, Repo Dashboard, SaaS-360, teamradar, ui_designer, Warren) — auf Pfad-Form `[[mocs/projects/webdev/.../overview|Anzeigename]]` umgestellt
+- Forward-Refs aus `[[workxs]]` (5 Stubs) und `[[immoskill]]` (4 Stubs) zeigten auf nie existierende Seiten — ersetzt durch je einen Link auf die konsolidierte Open-Questions-Seite
+- `questions/immoskill-open-questions.md` neu angelegt (Positionierung, MVP-Scope, AI-Scope, Datenmodell, Monetarisierung)
+- `questions/workxs-open-questions.md` um Monetarisierungs-Sektion erweitert
+
+**Frontmatter nachgezogen:**
+- Projekt-Sub-Seiten `mocs/projects/webdev/{immolizer,teamchef}/{notes,tasks}.md` — `overview.md` hatte bereits FM, die Geschwister nicht
+- Template `mocs/projects/_template-project/{notes,tasks,decisions}.md`
+- Folder-READMEs `decisions/`, `questions/`, `mocs/projects/` — als `type: topic` Navigations-Landings
+- Verbleibend ohne FM: nur `CLAUDE.md` und `AGENTS.md` (Instruktionsdateien, keine Wiki-Seiten — bewusst so)
+
+**Index:** `[[immoskill-open-questions]]` ergänzt; Source-Eintrag `[[wc2026-matches-dewiki]]` aus vorherigem Run ebenfalls drin.
+
+## [2026-04-11] ingest | Source Note für WM-2026-Spielplan nachgezogen
+
+- `raw/data/wc2026_matches_dewiki.json` (104 Spiele, neues 48-Team-Format, dewiki-Scrape) hatte bisher nur eine beiläufige Erwähnung in `[[eu-football-clubs-research]]` und keine eigene Source Note
+- Neue Source Note `[[wc2026-matches-dewiki]]` angelegt: Turnierstruktur (12 Gruppen + Sechzehntelfinale), Zeitraum, Feldschema, Einschränkungen (Platzhalter-Matches, leere Scores, kein Master), Verwendung als Mock-Datensatz für `[[teamchef]]`-UI/Bewertungs-Prototypen
+- Index um neuen Source-Eintrag erweitert

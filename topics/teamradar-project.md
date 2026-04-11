@@ -14,4 +14,4 @@ Interne Operations-App mit Dashboard- und Prozessflüssen.
 
 ## Projektanker
 
-- [[teamradar]]
+- [[mocs/projects/webdev/teamradar/overview|teamradar Projektordner]]

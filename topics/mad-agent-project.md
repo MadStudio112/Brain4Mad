@@ -14,4 +14,4 @@ Internes Agenten- und Automatisierungsprojekt im MAD-Kontext.
 
 ## Projektanker
 
-- [[mad-agent]]
+- [[mocs/projects/webdev/mad-agent/overview|mad-agent Projektordner]]

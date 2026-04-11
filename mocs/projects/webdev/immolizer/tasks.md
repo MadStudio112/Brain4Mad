@@ -1,3 +1,13 @@
+---
+title: "Immolizer — Tasks"
+type: project
+status: active
+created: 2026-04-09
+updated: 2026-04-09
+tags: [immolizer, project, webdev, tasks]
+confidence: medium
+---
+
 # Tasks
 
 - [ ] Rohstruktur des migrierten Immolizer-Materials vollständig sichten

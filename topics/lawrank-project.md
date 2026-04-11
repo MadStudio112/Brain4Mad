@@ -14,4 +14,4 @@ Eigenständiges Legal-Produkt für den österreichischen Markt mit Tarifrechner,
 
 ## Projektanker
 
-- [[Lawrank]]
+- [[mocs/projects/webdev/lawrank/overview|Lawrank Projektordner]]

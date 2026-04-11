@@ -3,7 +3,7 @@ title: "Index"
 type: topic
 status: active
 created: 2026-04-09
-updated: 2026-04-10
+updated: 2026-04-11
 tags: [meta, navigation]
 confidence: high
 ---
@@ -47,6 +47,7 @@ Zentraler Katalog des Wikis.
 - [[eu-immobilienplattformen-deep]] — vertiefender Research-Dump EU-Portal-Landschaft
 - [[open-source-finance-apps]] — UX-Referenz-Research (Actual, Spliit, Firefly III u. a.) für Immolizer-Dashboard
 - [[eu-football-clubs-research]] — Größenordnungsschätzung Fußballvereine in der EU
+- [[wc2026-matches-dewiki]] — Spielplan der FIFA-WM 2026 (104 Matches, dewiki-Scrape) als JSON-Referenzdatensatz
 - [[teamchef-mvp-dialog]] — MVP-Plan WordPress + Calculated Fields Form inkl. Datenmodell
 - [[jmail-umsetzung-dialog]] — externe Architektur-Referenz (Next.js/Vercel/Cloudflare, PDF→JSON→Index)
 
@@ -93,6 +94,7 @@ _Nocht keine Synthese-Seiten vorhanden._
 - [[workxs-open-questions]] — strategische und produktseitige offene Punkte
 - [[immolizer-open-questions]] — offene Produkt-, Daten- und Positionierungsfragen
 - [[teamchef-open-questions]] — offene Produkt-, Naming-, Incentive- und Technikfragen
+- [[immoskill-open-questions]] — Positionierung, MVP-Scope, AI-Scope, Datenmodell, Monetarisierung
 
 ### Zeitachsen
 

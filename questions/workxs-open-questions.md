@@ -3,7 +3,7 @@ title: "WORKxs offene Fragen"
 type: question
 status: active
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-11
 tags: [workxs, questions]
 confidence: medium
 ---
@@ -32,6 +32,12 @@ confidence: medium
 
 - Wie kommen die ersten 100 Nutzer in das System?
 - Welche Nische hat genug Schmerz und genug Liquidität?
+
+## Monetarisierung
+
+- Wer zahlt: Arbeitgeber, Kandidat oder beide?
+- Pay-per-Match, Abo oder Erfolgsmodell?
+- Verhältnis Monetarisierung ↔ Anonymitäts-Versprechen (kein Marktplatz-Druck auf Kandidaten)?
 
 ## Relevante Seiten
 
