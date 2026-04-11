@@ -246,6 +246,13 @@ Audit über alle Nicht-`raw/`-Seiten gelaufen:
 - Neue Source Note `[[wc2026-matches-dewiki]]` angelegt: Turnierstruktur (12 Gruppen + Sechzehntelfinale), Zeitraum, Feldschema, Einschränkungen (Platzhalter-Matches, leere Scores, kein Master), Verwendung als Mock-Datensatz für `[[teamchef]]`-UI/Bewertungs-Prototypen
 - Index um neuen Source-Eintrag erweitert
 
+## [2026-04-11] restructure | Commit 7/9 — research/ + personal/ migriert
+
+- `topics/aphantasie.md` → `projects/research/aphantasie/overview.md` (alias `aphantasie`)
+- `sources/aphantasie-dossier.md` → `projects/research/aphantasie/aphantasie-dossier.md`
+- `entities/aprilia-rsv-tuono-1000.md` → `projects/personal/aprilia-rsv-tuono-1000/overview.md` (alias `aprilia-rsv-tuono-1000`)
+- `sources/aprilia-rsv-tuono-1000-elektrik.md` → `projects/personal/aprilia-rsv-tuono-1000/aprilia-rsv-tuono-1000-elektrik.md`
+
 ## [2026-04-11] restructure | Commit 6/9 — restliche webdev-Projekte migriert
 
 - immoskill, anwaltsliebling, lawrank, mad-agent, repo-dashboard, saas-360, teamradar, ui-designer, ai-hub → je `projects/webdev/<name>/overview.md` (merge aus topics/ + mocs/, aliases gesetzt)
