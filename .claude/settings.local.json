@@ -33,7 +33,8 @@
       "Bash(mv \"raw/_inbox/Fußballvereine in den EU.md\" \"raw/articles/eu-football-clubs-research.md\")",
       "Bash(mv \"raw/_inbox/Immobilien-Kategorien.md\" \"raw/notes/immobilien-kategorien.md\")",
       "Bash(mv \"raw/_inbox/Immolizer - ImmoScout Datenintegration.md\" \"raw/articles/immoscout-datenintegration.md\")",
-      "Bash(mv \"raw/_inbox/Immolizer - Immobilienplattformen in EU.md\" \"raw/articles/eu-immobilienplattformen-deep.md\")"
+      "Bash(mv \"raw/_inbox/Immolizer - Immobilienplattformen in EU.md\" \"raw/articles/eu-immobilienplattformen-deep.md\")",
+      "Bash(python -c ':*)"
     ]
   }
 }
