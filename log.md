@@ -201,6 +201,15 @@ Audit über alle Nicht-`raw/`-Seiten gelaufen:
 
 **Index:** `[[immoskill-open-questions]]` ergänzt; Source-Eintrag `[[wc2026-matches-dewiki]]` aus vorherigem Run ebenfalls drin.
 
+## [2026-04-11] restructure | Commit 8/9 — mocs/ aufgelöst, overview.md + _overview.md aktualisiert
+
+- `mocs/webdev-overview.md` → `projects/webdev/_overview.md` (alias `webdev-overview`) — neu geschrieben mit aktueller Projektliste
+- `mocs/home.md` → gelöscht, Inhalt in `overview.md` am Root integriert (alias `home`)
+- `overview.md` auf neue Struktur (projects/ statt topics/sources/entities/) aktualisiert
+- `mocs/projects/_template-project/{overview,notes,decisions}.md` → `projects/_template/` — `tasks.md` weggelassen
+- `mocs/projects/README.md`, `decisions/README.md`, `questions/README.md` entfernt
+- Alle alten Ordner (topics/, sources/, entities/, concepts/, comparisons/, questions/, decisions/, synthesis/, timelines/, mocs/) sind jetzt leer
+
 ## [2026-04-11] restructure | Projekt-First-Migration gestartet — Commit 1: workxs
 
 - `projects/webdev/workxs/` angelegt als erster Pilot der Projekt-First-Struktur

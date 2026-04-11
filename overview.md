@@ -1,56 +1,55 @@
 ---
 title: "Überblick"
-type: topic
+type: meta
 status: active
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-11
 tags: [meta, overview]
 confidence: high
+aliases: [home]
 ---
 
-# Überblick
+# Brain4Mad — Überblick
 
-Brain4Mad ist ein persistentes, von LLMs gepflegtes Wissenssystem.
+Persistentes, von LLMs gepflegtes Wissenssystem für aktive Projekte und Recherchen.
 
 ## Zweck
 
 - Wissen dauerhaft speichern statt es immer neu herzuleiten
-- Quellen in kompilierte, verlinkte Wissensseiten überführen
+- Quellen in kompilierte, verlinkte Projektseiten überführen
 - Widersprüche, Unsicherheiten und offene Fragen sichtbar machen
-- Recherchen, Entscheidungen und laufende Arbeit in einem gemeinsamen Gehirn bündeln
 
-## Schichten
-
-| Ebene | Rolle |
-|---|---|
-| `raw/` | Unveränderte Rohquellen, Attachments, Imports |
-| `sources/` | Quellnotizen und strukturierte Zusammenfassungen |
-| Wiki-Ordner | Verdichtetes, verlinktes Wissen |
-
-## Kernstruktur
+## Struktur
 
 | Verzeichnis | Inhalt |
 |---|---|
-| `raw/` | Rohmaterial als Source of Truth (Eingang: `raw/_inbox/`) |
-| `projects/` | Aktive Vorhaben und laufende Arbeit |
-| `decisions/` | Entscheidungen mit Kontext und Begründung |
-| `mocs/` | Maps of Content, Navigation, Themen-Hubs |
-| `sources/` | Dokumentation einzelner Quellen |
-| `entities/` | Personen, Firmen, Produkte, Orte, Systeme |
-| `concepts/` | Begriffe, Modelle, Methoden, Ideen |
-| `topics/` | Thematische Zusammenfassungen und Dossiers |
-| `comparisons/` | Strukturierte Vergleiche |
-| `synthesis/` | Übergreifende Einordnungen und Meta-Analysen |
-| `questions/` | Offene Fragen, Lücken, Unsicherheiten |
-| `timelines/` | Chronologien und Ereignisketten |
+| `raw/` | Unveränderte Rohquellen (Eingang: `raw/_inbox/`) |
+| `projects/webdev/` | Web- und Software-Projekte |
+| `projects/research/` | Themen ohne Code |
+| `projects/personal/` | Persönliche Projekte |
+| `reference/` | Echtes Cross-Project-Wissen (klein, wächst bei Bedarf) |
+| `agent-mad/` | Arbeitsgedächtnis des Agents |
+
+## Schnellzugriff
+
+- [[index]] — globaler Katalog aller Seiten
+- [[log]] — Änderungsprotokoll
+- [[projects/webdev/_overview|Webdev-Projekte]] — Portfolio-Übersicht
+
+## Webdev-Projekte (aktiv)
+
+| Projekt | Status |
+|---|---|
+| [[immolizer/overview\|Immolizer]] | aktiv |
+| [[teamchef/overview\|TeamChef]] | aktiv |
+| [[workxs/overview\|WORKxs]] | aktiv |
+| [[warren/overview\|Warren]] | aktiv |
+| [[jmail/overview\|JMail]] | aktiv |
+
+Alle Projekte: [[projects/webdev/_overview|Webdev Overview]]
 
 ## Arbeitsweise
 
-- Rohquellen bleiben unverändert in `raw/`
-- Das Wiki wird inkrementell gepflegt und verdichtet
-- Antworten, Analysen und Vergleiche können als neue Seiten zurück ins Wiki fließen
-- `index.md` dient als globaler Katalog, `log.md` als Verlauf
-
----
-
-Siehe auch: [[index]] | [[log]]
+- Rohquellen landen in `raw/_inbox/`, werden in `raw/` einsortiert
+- Wissen wird als verlinktes Markdown in `projects/` verdichtet
+- `index.md` = globaler Katalog, `log.md` = Verlauf
