@@ -201,6 +201,16 @@ Audit über alle Nicht-`raw/`-Seiten gelaufen:
 
 **Index:** `[[immoskill-open-questions]]` ergänzt; Source-Eintrag `[[wc2026-matches-dewiki]]` aus vorherigem Run ebenfalls drin.
 
+## [2026-04-11] restructure | Commit 9/9 — Meta-Update, Index-Rebuild, CLAUDE.md/AGENTS.md aktualisiert
+
+- `CLAUDE.md`: Schichten-Modell auf 2 Schichten (raw/ + projects/), Pflicht-Workflow aktualisiert (kein Inline-Tag, kein tasks.md), Frontmatter-Konvention um `aliases:` + `family:` erweitert, Dateinamen-Konvention um `_`-Prefix-Regel ergänzt, Ordnerliste auf neue Struktur
+- `AGENTS.md`: Schichten, Arbeitsregeln, Bevorzugte Struktur, Projekte-Abschnitt auf Projekt-First aktualisiert
+- `index.md`: vollständig neu aufgebaut — projektzentriert, alle 9 Commits reflektiert
+- `overview.md`: neue Struktur, alias `home`
+- `agent-mad/broken-links-report.md`: neu generiert — 0 echte broken links, Aliases-Abdeckung dokumentiert
+- Inline-Tags: keine vorhanden in Wiki-Dateien (waren nie gesetzt außerhalb raw/)
+- **Projekt-First-Migration abgeschlossen.** Alte Ordner (topics/, sources/, entities/, concepts/, comparisons/, questions/, decisions/, synthesis/, timelines/, mocs/) vollständig aufgelöst.
+
 ## [2026-04-11] restructure | Commit 8/9 — mocs/ aufgelöst, overview.md + _overview.md aktualisiert
 
 - `mocs/webdev-overview.md` → `projects/webdev/_overview.md` (alias `webdev-overview`) — neu geschrieben mit aktueller Projektliste

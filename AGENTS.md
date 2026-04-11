@@ -9,29 +9,35 @@ Brain4Mad ist ein persistent gepflegtes Markdown-Wiki.
 
 ## Schichten
 - `raw/` = unveränderte Quellen, nie umschreiben
-- `sources/` = Quellzusammenfassungen und Source Notes
-- übrige Ordner = kompilierte Wissensseiten
+- `projects/<domain>/<projekt>/` = Hauptarbeitsbereich, fraktal nach Projekten
+- `reference/` = echtes Cross-Project-Wissen (initial leer, nur bei Bedarf befüllen)
+- `agent-mad/` = Arbeitsgedächtnis des Agents
 
 ## Arbeitsregeln
-- Erst Quellen lesen, dann Wiki ändern
+- Erst relevante Quellen in `raw/` lesen, dann Wiki ändern
 - `raw/_inbox/` als primären Eingang für Rohquellen behandeln und möglichst leer halten
 - Neue Rohquellen aus `raw/_inbox/` in die passenden `raw/`-Unterordner verteilen
-- Neue Erkenntnisse in bestehende Seiten integrieren statt Duplikate anzulegen
+- Neue Erkenntnisse in bestehende Projektseiten integrieren statt Duplikate anzulegen
 - Widersprüche explizit notieren
 - `index.md` nach relevanten neuen Seiten aktualisieren
 - `log.md` append-only halten
-- Aussagekräftige Wikilinks pflegen
-- YAML-Frontmatter kurz und konsistent halten
+- Wikilinks pflegen, YAML-Frontmatter kurz und konsistent halten
+- **Kein Inline-Tag** (`#tag`) im Fließtext — nur `tags: [...]` im Frontmatter
+- **Kein `tasks.md`** in Projektordnern — Aufgaben gehören nicht ins Wiki
 - Halbfertige Wiki-Seiten direkt am Zielort mit `status: draft` markieren, kein Staging-Ordner
+- **Fraktaler Default:** neuer Inhalt geht in `projects/<p>/`, nicht in `reference/`. Erst nach Bedarf aus ≥2 Projekten nach `reference/` promoten
 - **Nach jedem Aufräumen von `raw/_inbox/` zwingend committen und pushen** — Inbox-Leerung ist ein atomarer Schritt, der nicht halb im Working Tree liegen bleiben darf (Multi-PC-Sync)
-- **Dedup-Check vor jedem Verschieben aus `raw/_inbox/`:** per Grep nach `source:`-URL und Titel-Slug in bestehendem `raw/` prüfen. Bei inhaltlichem Treffer: identische Datei löschen (+ `log.md`-Eintrag `dedup`), aktualisierte Version als `<slug>-v1.md` archivieren, echte Konflikte in `sources/` notieren
-- `raw/` wird **vollständig mit committet** (inkl. Unterordner wie `articles/`, `notes/`, `transcripts/`): dient als Provenance-Layer für `sources/` und als Basis für späteres Re-Processing. Binaries (große PDFs, Bilder, Daten-Dumps) erst dann aus Git ausschließen, wenn das Repo dadurch real aufgeht
+- **Dedup-Check vor jedem Verschieben aus `raw/_inbox/`:** per Grep nach `source:`-URL und Titel-Slug in bestehendem `raw/` prüfen. Bei inhaltlichem Treffer: identische Datei löschen (+ `log.md`-Eintrag `dedup`), aktualisierte Version als `<slug>-v1.md` archivieren, echte Konflikte in Projektseite notieren
+- `raw/` wird **vollständig mit committet** (inkl. Unterordner wie `articles/`, `notes/`, `transcripts/`): dient als Provenance-Layer und Basis für späteres Re-Processing. Binaries erst dann aus Git ausschließen, wenn das Repo dadurch real aufgeht
 
 ## Bevorzugte Struktur
-- `raw/` mit `raw/_inbox/`, `articles/`, `documents/`, `transcripts/`, `notes/`, `images/`, `data/`
-- `projects/` als `Domain/Projektordner/` aufbauen
-- `decisions/`, `mocs/`, `agent-mad/`
-- `sources/`, `entities/`, `concepts/`, `topics/`, `comparisons/`, `synthesis/`, `questions/`, `timelines/`
+- `raw/` mit `raw/_inbox/`, `articles/`, `documents/`, `transcripts/`, `notes/`, `images/`, `data/`, `mmap/`
+- `projects/webdev/` — Web-/Software-Projekte; `projects/research/` — Themen ohne Code; `projects/personal/` — Privates
+- Projektordner: `overview.md`, optional `notes.md`, `questions.md`, `brief.md`, `decisions.md`, `_raw-structure.md`
+- Familien-Klammer: `projects/webdev/_familienname.md` (Underscore-Prefix, Obsidian sortiert oben)
+- `reference/` — initial leer
+- `agent-mad/`
+- Root: `index.md`, `log.md`, `overview.md`, `CLAUDE.md`, `AGENTS.md`
 
 ## Dateinamen-Konvention (Wiki-Ebene)
 Gilt für alle `.md` in `sources/`, `topics/`, `entities/`, `concepts/`, `comparisons/`, `synthesis/`, `questions/`, `timelines/`, `decisions/`, `mocs/` und für Projektseiten unter `projects/<domain>/<projekt>/`. **Nicht** für `raw/` — dort ist die Benennung egal, der Ordnerpfad liefert den Kontext.
@@ -45,10 +51,11 @@ Gilt für alle `.md` in `sources/`, `topics/`, `entities/`, `concepts/`, `compar
 - **Nicht umbenennen ohne Wikilink-Migration** — jede Umbenennung verlangt Grep über alle `[[...]]`-Referenzen und Update in `index.md`
 
 ## Projekte
-- Projekte standardmäßig als Ordner anlegen, nicht als Einzeldatei
-- Empfohlene Form: `projects/<domain>/<projekt>/`
-- Kleine Projektordner starten mit `overview.md`, `notes.md`, `decisions.md`, `tasks.md`
-- Nur bei Bedarf weitere Unterseiten oder `assets/`, `sources/` ergänzen
+- Projekte als Ordner anlegen: `projects/<domain>/<projekt>/`
+- Standard-Dateien: `overview.md`, optional `notes.md`, `questions.md`, `brief.md`, `decisions.md`, `_raw-structure.md`
+- **Kein `tasks.md`** — Aufgaben gehören nicht ins Wiki
+- Familien-Klammer als `_familienname.md` im Parent-Ordner (Underscore-Prefix)
+- Geschwister-Varianten als Geschwisterordner: `immolizer/`, `immolizer-v0/`, `immolizer-public/`
 
 ## Agent-Arbeitsbereich `agent-mad/`
 - Zwei Rollen, klar getrennt:

@@ -1,6 +1,6 @@
 ---
 title: "Index"
-type: topic
+type: meta
 status: active
 created: 2026-04-09
 updated: 2026-04-11
@@ -10,92 +10,122 @@ confidence: high
 
 # Brain4Mad Index
 
-Zentraler Katalog des Wikis.
+Globaler Katalog. Alle Wiki-Seiten, gruppenweise nach Projekt.
 
 ## Meta
 
-- [[overview]] — Zweck, Schichten und Struktur des Systems
-- [[log]] — Chronologisches Änderungsprotokoll
+- [[overview]] — Struktur und Zweck
+- [[log]] — Änderungsprotokoll
+- [[projects/webdev/_overview|Webdev-Portfolio]] — alle webdev-Projekte im Überblick
 
-## Eingänge und Arbeit
+---
 
-- `raw/` — Rohquellen und Imports (Eingang: `raw/_inbox/`)
-- `projects/` — Aktive Vorhaben
-- `decisions/` — Entscheidungen mit Begründung
-- `mocs/` — Navigationsseiten und Themen-Hubs
-- `agent-mad/` — privater Agent-Arbeitsbereich
-- [[webdev-overview]] — Portfolio-Übersicht für Webdev und interne Softwareprojekte
+## projects/webdev/
 
-## Wissensbereiche
+### Immolizer-Familie — [[projects/webdev/_immolizer-family|Klammer]]
 
-### Quellen
+- [[immolizer/overview|Immolizer]] — standardisierter Immobilien-Check
+- [[immolizer/brief|brief]] — PRD-Kern (Onboarding, Dashboard, Widgets, Free/Paid)
+- [[immolizer/questions|questions]] — offene Produkt-, Daten- und Positionierungsfragen
+- [[immolizer/flatrace-brainstorming|flatrace-brainstorming]] — PropTech-Ideencluster FlatRace/Immolizer
+- [[immolizer/immobilien-kategorien|immobilien-kategorien]] — Feldkatalog Wohnung/Haus/Grundstück
+- [[immolizer/immoscout-datenintegration-source|immoscout-datenintegration-source]] — ImmoScout24 API, Canonical Listing Schema
+- [[immolizer/_source-migration|_source-migration]] — Migration der früheren Projektdoku
+- [[immolizer/_raw-structure|_raw-structure]] — Struktur des Nextra-Wiki-Rohmaterials
+- [[immolizer-v0/overview|Immolizer v0]] — Brownfield-Monorepo
+- [[immolizer-public/overview|Immolizer Public]] — Landingpage-Repo
 
-- [[workxs-brainstorming]] — Source Note zum WORKxs-Ideenpapier aus `raw/notes/`
-- [[immolizer-source-migration]] — Migration der früheren Immolizer-Projektdoku ins Brain
-- [[teamchef-source-migration]] — Migration des früheren TeamChef-Brainstormings ins Brain
-- [[teamchef-skiller-dialogs]] — späterer Dialog-Ingest zu SKILLER/TeamChef, inkl. Statistik- und Positionierungspräzisierungen
-- [[anwaltsliebling-legaltech-brainstorm]] — LegalTech-Ideencluster zu KI-Rechtsauskunft und RATG/AHK-Kostenrechner
-- [[flatrace-brainstorming]] — PropTech-Ideencluster zu FlatRace als Engine und Immolizer als Marke
-- [[eu-real-estate-platforms-research]] — Research-Ingest: führende RE-Portale in 27 EU-Ländern
-- [[aphantasie-dossier]] — Dossier zu Aphantasie (Neurowissenschaft, Alltag, Kreativität, Geschichte)
-- [[aprilia-rsv-tuono-1000-elektrik]] — Werkstatt-Referenz Kraftstoff- und Killkreis-Elektrik
-- [[immoskill-brainstorming]] — Foto-First Immobilien- und Inventarakte, Brainstorming-Runde 1
-- [[polymarket-vs-wettanbieter]] — Dialog-Clipping zu Prediction Markets, Whale-Wallets und Trading-Engine-Architektur
-- [[immolizer-prd]] — kompakte Immolizer-Produktanforderungen (Onboarding, Dashboard, Widgets, Free/Paid)
-- [[immobilien-kategorien]] — Feldkatalog Wohnung / Haus / Grundstück inkl. Querschnittsfeldern
-- [[immoscout-datenintegration-source]] — ImmoScout24 API-Integration, Canonical Listing Schema, Mapping apartmentRent
-- [[eu-immobilienplattformen-deep]] — vertiefender Research-Dump EU-Portal-Landschaft
-- [[open-source-finance-apps]] — UX-Referenz-Research (Actual, Spliit, Firefly III u. a.) für Immolizer-Dashboard
-- [[eu-football-clubs-research]] — Größenordnungsschätzung Fußballvereine in der EU
-- [[wc2026-matches-dewiki]] — Spielplan der FIFA-WM 2026 (104 Matches, dewiki-Scrape) als JSON-Referenzdatensatz
-- [[teamchef-mvp-dialog]] — MVP-Plan WordPress + Calculated Fields Form inkl. Datenmodell
-- [[jmail-umsetzung-dialog]] — externe Architektur-Referenz (Next.js/Vercel/Cloudflare, PDF→JSON→Index)
+**Market:**
+- [[immolizer/market/eu-real-estate-platform-landscape|eu-real-estate-platform-landscape]] — Marktüberblick EU-Portale
+- [[immolizer/market/eu-immobilienplattformen-deep|eu-immobilienplattformen-deep]] — vertiefender EU-Portal-Research
+- [[immolizer/market/eu-real-estate-platforms-research|eu-real-estate-platforms-research]] — Research-Ingest 27 EU-Länder
+- [[immolizer/market/eu-real-estate-platforms-western|eu-real-estate-platforms-western]] — DE, AT, FR, NL, BE, LU, IE
+- [[immolizer/market/eu-real-estate-platforms-southern|eu-real-estate-platforms-southern]] — ES, PT, IT, GR, MT, CY
+- [[immolizer/market/eu-real-estate-platforms-northern|eu-real-estate-platforms-northern]] — SE, DK, FI
+- [[immolizer/market/eu-real-estate-platforms-eastern|eu-real-estate-platforms-eastern]] — PL, CZ, HU, RO, BG, HR, SK, SI, EE, LV, LT
 
-### Entitäten
+### TeamChef-Familie — [[projects/webdev/_teamchef-skiller|Kern: Skiller]]
 
-- [[eightfold-ai]] — KI-Talent-Marketplace als Technologie-Referenz
-- [[gloat]] — interner Talent-Marktplatz
-- [[magnetme]] — Matching-Plattform ohne radikale Anonymität
-- [[switch-job-matching]] — anonymer Matching-Referenzfall
-- [[testgorilla]] — Skill-Assessment-Referenz
-- [[aprilia-rsv-tuono-1000]] — Naked-Bike, technische Referenz Kraftstoff- und Killkreis-Elektrik
-- [[jmail-world]] — externe Plattform, hier als Architektur-Referenz geführt
+- [[teamchef/overview|TeamChef]] — Community-Sportbewertung mit Gamification
+- [[teamchef/questions|questions]] — offene Produkt-, Naming-, Incentive- und Technikfragen
+- [[teamchef/teamchef-mvp-dialog|teamchef-mvp-dialog]] — MVP-Plan WordPress + Calculated Fields Form
+- [[teamchef/teamchef-skiller-dialogs|teamchef-skiller-dialogs]] — SKILLER-Dialog-Ingest
+- [[teamchef/eu-football-clubs-research|eu-football-clubs-research]] — Vereinsbasis EU
+- [[teamchef/wc2026-matches-dewiki|wc2026-matches-dewiki]] — WM-2026-Spielplan (104 Matches)
+- [[teamchef/_source-migration|_source-migration]] — Migration des Brainstorming-Materials
+- [[teamchef/_raw-structure|_raw-structure]] — Rohstruktur TeamChef-Material
+- [[teamchef-v0/overview|TeamChef v0]] — zweite Variante
 
-### Konzepte
+### WORKxs
 
-- [[prediction-markets]] — Outcome-Shares, Orderbook-Preisbildung, Abgrenzung zu Buchmachern
+- [[workxs/overview|WORKxs]] — anonymes, skill-basiertes Job-Matching
+- [[workxs/questions|questions]] — strategische und produktseitige offene Punkte
+- [[workxs/workxs-brainstorming|workxs-brainstorming]] — Ideenpapier aus raw/notes/
+- [[workxs/competitors/_overview|competitors/_overview]] — Wettbewerbslandschaft
+- [[workxs/competitors/gloat|gloat]] — interner Talent-Marktplatz
+- [[workxs/competitors/eightfold-ai|eightfold-ai]] — KI-Talent-Marketplace
+- [[workxs/competitors/testgorilla|testgorilla]] — Skill-Assessment
+- [[workxs/competitors/magnetme|magnetme]] — Matching ohne Anonymität
+- [[workxs/competitors/switch-job-matching|switch-job-matching]] — anonymer Matching-Referenzfall
 
-### Themen
+### Warren
 
-- [[workxs]] — anonymes, skill-basiertes Job-Matching-Konzept
-- [[immolizer]] — standardisierter, datenbasierter Immobilien-Check
-- [[immoskill]] — fotozentrierte, AI-gestützte Immobilien- und Inventarakte
-- [[teamchef]] — Community-basierte Fußballbewertung mit Gamification-Logik
-- [[anwaltsliebling]] — LegalTech-Plattform für juristische Ersteinschätzung und Fallstrukturierung
-- [[eu-real-estate-platform-landscape]] — Marktüberblick EU-weite Wohnimmobilien-Portale
-- [[aphantasie]] — fehlende mentale Bilder, Neurodiversität und kognitive Varianz
-- [[polymarket-trading-engine]] — Architekturplan für autonome Trading-Engine auf Polymarket
-- [[open-source-finance-ux]] — Open-Source Finance Apps als UX-Referenz für Immolizer
+- [[warren/overview|Warren]] — Finance-App / Polymarket-Konzept
+- [[warren/polymarket-trading-engine|polymarket-trading-engine]] — Architekturplan autonome Trading-Engine
+- [[warren/open-source-finance-ux|open-source-finance-ux]] — UX-Referenz Open-Source Finance Apps
+- [[warren/open-source-finance-apps|open-source-finance-apps]] — Research-Ingest Finance-App-Auswahl
+- [[warren/polymarket-vs-wettanbieter|polymarket-vs-wettanbieter]] — Prediction Markets vs. Buchmacher
+- [[warren/prediction-markets|prediction-markets]] — Outcome-Shares, Orderbook-Preisbildung
 
-### Vergleiche
+### JMail
 
-- [[workxs-competitor-landscape]] — erste Einordnung relevanter Wettbewerber
-- [[eu-real-estate-platforms-western]] — RE-Portale Westeuropa (DE, AT, FR, NL, BE, LU, IE)
-- [[eu-real-estate-platforms-southern]] — RE-Portale Südeuropa (ES, PT, IT, GR, MT, CY)
-- [[eu-real-estate-platforms-northern]] — RE-Portale Nordeuropa (SE, DK, FI)
-- [[eu-real-estate-platforms-eastern]] — RE-Portale Osteuropa (PL, CZ, HU, RO, BG, HR, SK, SI, EE, LV, LT)
+- [[jmail/overview|JMail]] — Mail-Projekt
+- [[jmail/jmail-umsetzung-dialog|jmail-umsetzung-dialog]] — Architektur-Referenz (Next.js/Vercel/Cloudflare)
 
-### Synthesen
+### Weitere webdev-Projekte
 
-_Nocht keine Synthese-Seiten vorhanden._
+- [[immoskill/overview|ImmoSkill]] — fotozentrierte Immobilien- und Inventarakte
+- [[immoskill/questions|questions]] — Positionierung, MVP-Scope, AI, Datenmodell
+- [[immoskill/immoskill-brainstorming|immoskill-brainstorming]] — Brainstorming Runde 1
+- [[anwaltsliebling/overview|Anwaltsliebling]] — LegalTech-Plattform juristische Ersteinschätzung
+- [[anwaltsliebling/anwaltsliebling-legaltech-brainstorm|anwaltsliebling-legaltech-brainstorm]] — LegalTech-Ideencluster
+- [[lawrank/overview|Lawrank]] — Legaltech
+- [[mad-agent/overview|Mad Agent]] — Agent-Stack
+- [[repo-dashboard/overview|Repo Dashboard]] — Repository-Übersicht
+- [[saas-360/overview|SaaS 360]] — SaaS-Plattform
+- [[teamradar/overview|Teamradar]] — Team-Tracking
+- [[ui-designer/overview|UI Designer]] — Design-Tool
+- [[ai-hub/overview|AI Hub]] — interne AI-Infrastruktur
 
-### Fragen
+**Portfolio-Meta:**
+- [[webdev-priority-map]] — Priorisierungsmatrix
+- [[webdev-project-families]] — Repo-Gruppen und Zuordnungen
 
-- [[workxs-open-questions]] — strategische und produktseitige offene Punkte
-- [[immolizer-open-questions]] — offene Produkt-, Daten- und Positionierungsfragen
-- [[teamchef-open-questions]] — offene Produkt-, Naming-, Incentive- und Technikfragen
-- [[immoskill-open-questions]] — Positionierung, MVP-Scope, AI-Scope, Datenmodell, Monetarisierung
+---
 
-### Zeitachsen
+## projects/research/
 
-_Nocht keine Zeitachsen vorhanden._
+- [[research/aphantasie/overview|Aphantasie]] — fehlende mentale Bilder, Neurodiversität
+- [[research/aphantasie/aphantasie-dossier|aphantasie-dossier]] — Neurowissenschaft, Alltag, Kreativität
+
+---
+
+## projects/personal/
+
+- [[personal/aprilia-rsv-tuono-1000/overview|Aprilia RSV Tuono 1000]] — Naked-Bike, technische Referenz
+- [[personal/aprilia-rsv-tuono-1000/aprilia-rsv-tuono-1000-elektrik|aprilia-rsv-tuono-1000-elektrik]] — Werkstatt-Referenz Kraftstoff- und Killkreis-Elektrik
+
+---
+
+## reference/
+
+_Leer — wird befüllt, wenn Inhalte aus ≥2 Projekten gebraucht werden._
+
+---
+
+## agent-mad/
+
+- [[agent-mad/working-context|working-context]] — aktueller Arbeitskontext
+- [[agent-mad/project-radar|project-radar]] — Projektstatus-Überblick
+- [[agent-mad/decision-rules|decision-rules]] — Entscheidungsregeln
+- [[agent-mad/mistakes|mistakes]] — dokumentierte Fehler

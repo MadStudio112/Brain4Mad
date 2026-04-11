@@ -10,13 +10,18 @@ Teil von MadStudio112 → `git pull` vor der Arbeit, Änderungen sofort pushen (
 
 ## Schichten-Modell (wichtig für jeden Edit)
 
-Das Wiki hat drei klar getrennte Schichten. Änderungen nie über die Schichtgrenze hinweg vermischen:
+Das Wiki hat zwei klar getrennte Schichten. Änderungen nie über die Schichtgrenze hinweg vermischen:
 
 1. **`raw/`** — unveränderte Rohquellen (Artikel, Transcripts, Notes, Bilder, Daten). **Nie umschreiben.** Neue Quellen landen in `raw/_inbox/` und werden von dort in die passenden Unterordner (`articles/`, `documents/`, `transcripts/`, `notes/`, `images/`, `data/`) verteilt.
-2. **`sources/`** — Source Notes: strukturierte Zusammenfassungen einzelner Rohquellen. Brücke zwischen `raw/` und Wiki.
-3. **Wiki-Ordner** (`entities/`, `concepts/`, `topics/`, `comparisons/`, `synthesis/`, `questions/`, `timelines/`, `decisions/`, `mocs/`) — verdichtetes, verlinktes Wissen. Hier werden Erkenntnisse aus mehreren Quellen integriert, **nicht** dupliziert.
+2. **Wiki-Ordner** — verdichtetes, verlinktes Wissen, fraktal nach Projekten organisiert:
+   - `projects/<domain>/<projekt>/` — Hauptarbeitsbereich. Pro Projekt: `overview.md`, optional `notes.md`, `questions.md`, `brief.md`, `decisions.md`, `_raw-structure.md`. **Kein `tasks.md`.**
+   - `reference/` — echtes Cross-Project-Wissen (klein; nur promoten, wenn Inhalt aus ≥2 Projekten gebraucht wird)
+   - `agent-mad/` — Arbeitsgedächtnis des Agents
+   - Root: `index.md`, `log.md`, `overview.md`
 
-`projects/` = aktive Vorhaben als `projects/<domain>/<projekt>/` mit `overview.md`, `notes.md`, `decisions.md`, `tasks.md`.
+**Projekt-Struktur:** `projects/webdev/` für Web-/Software-Projekte, `projects/research/` für Themen ohne Code, `projects/personal/` für private Themen. Projektfamilien bekommen eine `_familienname.md`-Klammer-Datei im Parent-Ordner (z.B. `projects/webdev/_immolizer-family.md`).
+
+**Fraktaler Ansatz:** Alles zu einem Projekt gehört in den Projektordner. Erst wenn Inhalt wirklich für ≥2 Projekte gebraucht wird, zieht er nach `reference/` um. Wikilinks funktionieren über Ordner hinweg — Querverweise sind kostenlos.
 
 **Kein `inbox/`** auf Wiki-Ebene. Für rohe Quellen-Captures gibt es `raw/_inbox/`. Halbfertige Wiki-Seiten bekommen direkt am Zielort `status: draft` im Frontmatter — kein separater Staging-Ordner.
 
@@ -40,20 +45,20 @@ Brain4Mad ist git-synchronisiert. **Niemals** in `agent-mad/` oder sonstwo in Br
 
 ## Pflicht-Workflow bei Änderungen
 
-1. Erst relevante Quellen in `raw/`/`sources/` lesen, dann Wiki ändern.
+1. Erst relevante Quellen in `raw/` lesen, dann Wiki ändern.
 2. `raw/_inbox/` möglichst leer halten — neue Rohquellen sofort einsortieren.
-3. Neue Erkenntnisse **in bestehende Seiten integrieren** statt Duplikate anzulegen. Widersprüche explizit notieren (nicht stillschweigend überschreiben).
+3. Neue Erkenntnisse **in bestehende Projektseiten integrieren** statt Duplikate anzulegen. Widersprüche explizit notieren (nicht stillschweigend überschreiben).
 4. Nach relevanten neuen/geänderten Seiten: `index.md` aktualisieren (globaler Katalog).
 5. `log.md` ist **append-only** — jeder nennenswerte Change bekommt dort einen Eintrag mit Datum, Art (`init` / `ingest` / `restructure` / `openclaw` / …) und Kurzbegründung.
-6. Wikilinks (`[[seitenname]]`) konsistent pflegen, YAML-Frontmatter kurz halten.
+6. Wikilinks (`[[seitenname]]`) konsistent pflegen, YAML-Frontmatter kurz halten. **Kein Inline-Tag** (`#tag`) im Fließtext — nur `tags: [...]` im Frontmatter.
 7. **Nach jedem Aufräumen von `raw/_inbox/` zwingend `git commit` + `git push`.** Inbox-Leerung ist ein atomarer Schritt und darf nicht halb im Working Tree liegen bleiben — sonst bricht der Multi-PC-Sync (siehe `C:\Users\Mad\CLAUDE.md`). Commit-Typ: `ingest`.
 8. **Dedup-Check beim Verarbeiten jeder Inbox-Datei** — bevor eine `raw/_inbox/*`-Datei in ihren Ziel-Unterordner verschoben wird, prüfen ob inhaltlich schon vorhanden:
    - Match nach `source:`-URL im Frontmatter (Grep über `raw/`)
    - Match nach Titel-Slug / ähnlichem Dateinamen in `raw/articles|notes|transcripts|documents/`
    - Bei Treffer Inhalt vergleichen:
      - **Identisch** → neue Datei löschen, `log.md`-Eintrag Typ `dedup` mit Pfad der behaltenen Version
-     - **Aktualisierte Version derselben Quelle** → alte zu `<slug>-v1.md` (oder `-YYYY-MM-DD`) umbenennen, neue als aktuelle Version ablegen, in der zugehörigen `sources/`-Note beide Versionen verlinken
-     - **Echter Konflikt** (gleiche Quelle, widersprüchlicher Inhalt) → beide behalten, Widerspruch in `sources/` explizit notieren
+     - **Aktualisierte Version derselben Quelle** → alte zu `<slug>-v1.md` (oder `-YYYY-MM-DD`) umbenennen, neue als aktuelle Version ablegen, in der zugehörigen Projektseite beide Versionen verlinken
+     - **Echter Konflikt** (gleiche Quelle, widersprüchlicher Inhalt) → beide behalten, Widerspruch in Projektseite explizit notieren
 
 ## `raw/` und Git
 
@@ -71,12 +76,14 @@ Jede Wissensseite beginnt mit YAML-Frontmatter, siehe `overview.md`/`index.md` a
 ```yaml
 ---
 title: "…"
-type: topic | entity | concept | comparison | synthesis | question | timeline | source
+type: project | source | concept | comparison | question | meta
 status: active | draft | archived
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 tags: [...]
 confidence: high | medium | low
+aliases: [alter-basename]         # optional — nur wenn Basename geändert wurde
+family: _familienname             # optional — für Projekt-Familien
 ---
 ```
 
@@ -84,13 +91,14 @@ confidence: high | medium | low
 
 ## Dateinamen-Konvention (Wiki-Ebene)
 
-Gilt für alle `.md` in `sources/`, `topics/`, `entities/`, `concepts/`, `comparisons/`, `synthesis/`, `questions/`, `timelines/`, `decisions/`, `mocs/` und für Projektseiten unter `projects/<domain>/<projekt>/`. **Nicht** für `raw/` — dort ist die Benennung egal, der Ordnerpfad liefert den Kontext.
+Gilt für alle `.md` in `projects/`, `reference/`, `agent-mad/` und am Root. **Nicht** für `raw/` — dort ist die Benennung egal, der Ordnerpfad liefert den Kontext.
 
 - **kebab-case, lowercase, ASCII:** `eu-real-estate-platform-landscape.md`. Umlaute transliterieren (`ä/ö/ü` → `ae/oe/ue`, `ß` → `ss`), keine Leerzeichen, keine Sonderzeichen außer `-`.
 - **Basename muss ohne Pfad eindeutig sein.** Obsidian zeigt im Graph und in Wikilinks nur den Basename — der Dateiname muss allein lesbar machen, worum es geht.
 - **Kein Nummern-Prefix** (`01-`, `02-`). Das ist `raw/notes/`-Stil und gehört nicht ins Wiki.
-- **Projekt-Prefix bei Kollisionsgefahr.** Generische Begriffe (`open-questions`, `overview`, `notes`, `tasks`) werden mit Projektname qualifiziert: `immolizer-open-questions.md`, nicht `open-questions.md`. Ausnahme: innerhalb eines Projektordners (`projects/webdev/immolizer/overview.md`) ist der Ordner bereits der Namespace — dort bleiben `overview.md`/`notes.md`/`tasks.md`/`decisions.md` ohne Prefix.
-- **Typ-Suffix nur zur Disambiguierung, wenn mehrere Seiten denselben Gegenstand aus verschiedenen Winkeln beschreiben.** Beispiel: `teamchef.md` (topic) vs. `teamchef-source-migration.md` (source) vs. `teamchef-open-questions.md` (question). Ohne Kollision kein Suffix.
+- **Projekt-Prefix bei Kollisionsgefahr.** Generische Begriffe (`questions`, `overview`, `notes`) werden mit Projektname qualifiziert, wenn sie außerhalb eines Projektordners stehen. Innerhalb eines Projektordners (`projects/webdev/immolizer/overview.md`) ist der Ordner bereits der Namespace — dort bleiben `overview.md`/`notes.md`/`questions.md`/`decisions.md` ohne Prefix.
+- **`_`-Prefix für Meta-/Klammer-Dateien** im Ordner: `_immolizer-family.md`, `_teamchef-skiller.md`, `_overview.md`, `_raw-structure.md`, `_source-migration.md`. Obsidian sortiert sie oben, erkennbar als Meta.
+- **Typ-Suffix nur zur Disambiguierung, wenn mehrere Seiten denselben Gegenstand aus verschiedenen Winkeln beschreiben.** Ohne Kollision kein Suffix.
 - **Versionierung:** archivierte Vorversionen als `<slug>-v1.md`, datumsgebundene Snapshots als `<slug>-YYYY-MM-DD.md`. Siehe auch Dedup-Regel oben.
 - **Nicht umbenennen ohne Wikilink-Migration.** Jede Umbenennung erfordert Grep über alle `[[...]]`-Referenzen und Update in `index.md`. Bei Zweifel: neuen Namen als zusätzliche Datei anlegen und alte per Redirect-Stub (`Siehe [[neuer-name]]`) ersetzen, erst dann migrieren.
 
