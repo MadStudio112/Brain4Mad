@@ -56,10 +56,10 @@ Systematische Erfassung der jeweils führenden Wohnimmobilien-Plattformen in all
 ## Verarbeitete Seiten
 
 - [[eu-real-estate-platform-landscape]] — Themen-Übersicht
-- [[eu-re-platforms-western]] — DE, AT, FR, NL, BE, LU, IE
-- [[eu-re-platforms-southern]] — ES, PT, IT, GR, MT, CY
-- [[eu-re-platforms-northern]] — SE, DK, FI
-- [[eu-re-platforms-eastern]] — PL, CZ, HU, RO, BG, HR, SK, SI, EE, LV, LT
+- [[eu-real-estate-platforms-western]] — DE, AT, FR, NL, BE, LU, IE
+- [[eu-real-estate-platforms-southern]] — ES, PT, IT, GR, MT, CY
+- [[eu-real-estate-platforms-northern]] — SE, DK, FI
+- [[eu-real-estate-platforms-eastern]] — PL, CZ, HU, RO, BG, HR, SK, SI, EE, LV, LT
 
 ## Letzte Überarbeitung
 

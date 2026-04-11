@@ -80,10 +80,10 @@ Zentraler Katalog des Wikis.
 ### Vergleiche
 
 - [[workxs-competitor-landscape]] — erste Einordnung relevanter Wettbewerber
-- [[eu-re-platforms-western]] — RE-Portale Westeuropa (DE, AT, FR, NL, BE, LU, IE)
-- [[eu-re-platforms-southern]] — RE-Portale Südeuropa (ES, PT, IT, GR, MT, CY)
-- [[eu-re-platforms-northern]] — RE-Portale Nordeuropa (SE, DK, FI)
-- [[eu-re-platforms-eastern]] — RE-Portale Osteuropa (PL, CZ, HU, RO, BG, HR, SK, SI, EE, LV, LT)
+- [[eu-real-estate-platforms-western]] — RE-Portale Westeuropa (DE, AT, FR, NL, BE, LU, IE)
+- [[eu-real-estate-platforms-southern]] — RE-Portale Südeuropa (ES, PT, IT, GR, MT, CY)
+- [[eu-real-estate-platforms-northern]] — RE-Portale Nordeuropa (SE, DK, FI)
+- [[eu-real-estate-platforms-eastern]] — RE-Portale Osteuropa (PL, CZ, HU, RO, BG, HR, SK, SI, EE, LV, LT)
 
 ### Synthesen
 

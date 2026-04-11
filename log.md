@@ -80,10 +80,10 @@ Append-only-Verlauf relevanter Wiki-Änderungen.
 - Source Note `[[eu-real-estate-platforms-research]]` angelegt (Methodik, Konfidenz-Hinweise, Konzernstruktur-Übersicht)
 - Topic `[[eu-real-estate-platform-landscape]]` angelegt (strukturelle Muster, pan-europäische Akteure, Relevanz für Immolizer)
 - Vier regionale Vergleichsseiten angelegt:
-  - `[[eu-re-platforms-western]]` — DE, AT, FR, NL, BE, LU, IE
-  - `[[eu-re-platforms-southern]]` — ES, PT, IT, GR, MT, CY
-  - `[[eu-re-platforms-northern]]` — SE, DK, FI
-  - `[[eu-re-platforms-eastern]]` — PL, CZ, HU, RO, BG, HR, SK, SI, EE, LV, LT
+  - `[[eu-real-estate-platforms-western]]` — DE, AT, FR, NL, BE, LU, IE
+  - `[[eu-real-estate-platforms-southern]]` — ES, PT, IT, GR, MT, CY
+  - `[[eu-real-estate-platforms-northern]]` — SE, DK, FI
+  - `[[eu-real-estate-platforms-eastern]]` — PL, CZ, HU, RO, BG, HR, SK, SI, EE, LV, LT
 - Abdeckung: alle 27 EU-Mitgliedstaaten; je bis zu 3 Plattformen pro Land
 - Datenbasis: LLM-Wissen ~2024 + vereinzelte Web-Fetches (Scout24.com, Funda.nl, Wikipedia/Daft.ie, Wikipedia/LeBonCoin)
 - Konfidenz: mittel für Westeuropa, niedrig für Osteuropa; Traffic-Zahlen Schätzwerte; Ownership CEE oft unsicher
@@ -200,6 +200,13 @@ Audit über alle Nicht-`raw/`-Seiten gelaufen:
 - Verbleibend ohne FM: nur `CLAUDE.md` und `AGENTS.md` (Instruktionsdateien, keine Wiki-Seiten — bewusst so)
 
 **Index:** `[[immoskill-open-questions]]` ergänzt; Source-Eintrag `[[wc2026-matches-dewiki]]` aus vorherigem Run ebenfalls drin.
+
+## [2026-04-11] restructure | Wiki-Dateinamen-Audit — eu-re-platforms umbenannt
+
+- `comparisons/eu-re-platforms-{eastern,northern,southern,western}.md` → `eu-real-estate-platforms-{...}.md`
+- Grund: Abkürzung `re` im Graph-Basename ohne Pfadkontext nicht eindeutig lesbar
+- Wikilinks in `index.md`, `log.md`, `sources/eu-real-estate-platforms-research.md`, `topics/eu-real-estate-platform-landscape.md` migriert
+- Alle anderen Wiki-Dateien konform mit Naming-Konvention (kebab-case, lowercase, kein Nummern-Prefix, Basename eindeutig)
 
 ## [2026-04-11] meta | Dateinamen-Konvention für Wiki-Ebene in CLAUDE.md + AGENTS.md verankert
 

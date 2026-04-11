@@ -14,7 +14,7 @@ confidence: medium
 
 Der europäische Wohnimmobilien-Portalmarkt ist stark fragmentiert entlang nationaler Grenzen, aber strukturell konsolidiert durch wenige pan-europäische Konzerne. Jedes Land hat typischerweise 1–3 dominante Portale, oft gebunden an lokale Maklerverbände oder klassischen Medienkonzerne.
 
-Detaillierte Länder-Tabellen: → [[eu-re-platforms-western]] | [[eu-re-platforms-southern]] | [[eu-re-platforms-northern]] | [[eu-re-platforms-eastern]]
+Detaillierte Länder-Tabellen: → [[eu-real-estate-platforms-western]] | [[eu-real-estate-platforms-southern]] | [[eu-real-estate-platforms-northern]] | [[eu-real-estate-platforms-eastern]]
 
 ---
 
@@ -110,9 +110,9 @@ Detaillierte Länder-Tabellen: → [[eu-re-platforms-western]] | [[eu-re-platfor
 
 ## Verweise
 
-- [[eu-re-platforms-western]]
-- [[eu-re-platforms-southern]]
-- [[eu-re-platforms-northern]]
-- [[eu-re-platforms-eastern]]
+- [[eu-real-estate-platforms-western]]
+- [[eu-real-estate-platforms-southern]]
+- [[eu-real-estate-platforms-northern]]
+- [[eu-real-estate-platforms-eastern]]
 - [[immolizer]]
 - [[eu-real-estate-platforms-research]] (Quellen-Note)
