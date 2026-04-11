@@ -246,6 +246,14 @@ Audit über alle Nicht-`raw/`-Seiten gelaufen:
 - Neue Source Note `[[wc2026-matches-dewiki]]` angelegt: Turnierstruktur (12 Gruppen + Sechzehntelfinale), Zeitraum, Feldschema, Einschränkungen (Platzhalter-Matches, leere Scores, kein Master), Verwendung als Mock-Datensatz für `[[teamchef]]`-UI/Bewertungs-Prototypen
 - Index um neuen Source-Eintrag erweitert
 
+## [2026-04-11] restructure | Commit 4/9 — warren + prediction-markets migriert
+
+- `projects/webdev/warren/overview.md` neu (merge aus `topics/warren-project.md` + `mocs/projects/webdev/warren/overview.md`)
+- `topics/polymarket-trading-engine.md`, `topics/open-source-finance-ux.md` → `projects/webdev/warren/`
+- `sources/open-source-finance-apps.md`, `sources/polymarket-vs-wettanbieter.md` → `projects/webdev/warren/`
+- `concepts/prediction-markets.md` → `projects/webdev/warren/prediction-markets.md`
+- `topics/warren-project.md`, `mocs/projects/webdev/warren/overview.md` entfernt
+
 ## [2026-04-11] restructure | Commit 3/9 — TeamChef + Skiller-Familie migriert
 
 - `projects/webdev/_teamchef-skiller.md` neu (Bewertungsmodell, QCard-Flow, Normalverteilungs-Logik, Naming-Instabilität)
