@@ -6,6 +6,7 @@ created: 2026-04-10
 updated: 2026-04-10
 tags: [immolizer, prd, proptech]
 confidence: high
+aliases: [immolizer-prd]
 ---
 
 # Immolizer PRD (Kurzfassung)

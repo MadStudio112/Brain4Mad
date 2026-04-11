@@ -6,6 +6,7 @@ created: 2026-04-09
 updated: 2026-04-09
 tags: [immolizer, moc, raw]
 confidence: high
+aliases: [immolizer-raw-structure]
 ---
 
 # Immolizer Raw Structure
